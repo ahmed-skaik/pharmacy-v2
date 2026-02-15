@@ -1,0 +1,15 @@
+- i have added SASS
+- i have added React Router 
+
+
+next : 
+
+font awesome
+bootstrap
+miraj for backend 
+
+
+i have downlaoded bootstrap using the command: 
+npm i bootstrap , so not sure about how right this is , 
+
+see you later .. 

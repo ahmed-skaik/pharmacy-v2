@@ -1,0 +1,26 @@
+//Bootstrap:
+@use "bootstrap/scss/bootstrap";
+
+//Helpers:
+@forward "SASS/helpers/animation";
+
+//Layout:
+@forward "SASS/layout/header";
+@forward "SASS/layout/loading";
+@forward "SASS/layout/content";
+@forward "SASS/layout/footer";
+
+//Shared Components
+@forward "SASS/components/btns";
+@forward "SASS/components/headings";
+
+//Global styls
+@forward "SASS/pages/global-page";
+
+//Pages:
+@forward "SASS/pages/home";
+@forward "SASS/pages/about";
+@forward "SASS/pages/contact";
+@forward "SASS/pages/levels";
+@forward "SASS/pages/courses";
+@forward "SASS/pages/error";

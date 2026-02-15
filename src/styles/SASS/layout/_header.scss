@@ -1,0 +1,320 @@
+@use "../helpers" as *;
+@use "sass:math";
+
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Bad+Script&family=Poiret+One&family=Vibes&display=swap");
+
+// header start
+header {
+  position: relative;
+  box-shadow: 0 0 10px #ddd;
+  @include breakpoint-down(md) {
+    min-height: $header-height;
+  }
+  &::before {
+    content: '" Once you stop learning, you start dying. "';
+    font-family: "Poiret One", cursive;
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: $id_color;
+    color: #fff;
+    font: {
+      size: 14px;
+      weight: bold;
+      style: italic;
+    }
+    letter-spacing: 0.3px;
+    @include breakpoint-down(xs) {
+      letter-spacing: 0;
+    }
+    padding: 5px 0;
+    border-bottom: 1px dashed $border_color;
+  }
+  .full-screen {
+    position: absolute;
+    // top: 0;
+    left: 0;
+    z-index: 1;
+    border: 1px solid $border_color;
+    background-color: $id_color;
+    color: #fff;
+    transition: $main-transition;
+    &:focus {
+      outline: none;
+    }
+    &:hover {
+      background-color: $hover_blue;
+    }
+  }
+  .navbar {
+    .container {
+      min-height: 85px;
+      &::after {
+        $dimensions: 65px;
+        $border-width: 3px;
+        position: fixed;
+        @include fontawesome("\f254 \f501");
+        color: $border_color;
+        // for RAMADAN
+        // @include fontawesome("\f699");
+        // color: #E0E722;
+        font-size: 26px;
+        text-align: center;
+        background-color: $id_color;
+        top: $header-height + $subheader-height;
+        @include circle($dimensions);
+        line-height: $dimensions - $border-width;
+        border: $border-width dashed $border_color;
+        margin: 10px 5px;
+        @include breakpoint-down(sm) {
+          $dimensions: 50px;
+          $border-width: 2px;
+          font-size: 19px;
+          border: $border-width dashed $border_color;
+          @include circle($dimensions);
+          line-height: $dimensions - $border-width * 3;
+          margin: 10px 8px;
+        }
+        box-shadow: 0 14px 94px 0 rgb(15 15 182 / 9%);
+        opacity: 0.3;
+        transition: $main-transition;
+        z-index: 999;
+        cursor: not-allowed;
+      }
+      .navbar-brand {
+        img {
+          width: 75px;
+          transition: $main_transition;
+          &:hover {
+            transform: scale(1.2);
+          }
+          @include breakpoint-down(sm) {
+            width: 65px;
+          }
+        }
+      }
+      .navbar-collapse {
+        @include breakpoint-down(md) {
+          background-color: $black;
+          min-height: calc(100dvh - $header-height - $subheader-height);
+          box-shadow: 0 4px 10px 0 rgb(74 58 255 / 18%);
+          position: absolute;
+          left: 0;
+          width: 100%;
+          z-index: 99999;
+          top: 101px;
+          transition: calc($main_transition * 2);
+          transform: translateY(-725px);
+          opacity: 0.01;
+        }
+        .dropdown-menu {
+          @include breakpoint-down(md) {
+            background-color: $black;
+            margin-left: 0;
+          }
+          a {
+            @include breakpoint-down(md) {
+              width: fit-content;
+            }
+            &:hover {
+              @include breakpoint-down(md) {
+                width: fit-content;
+              }
+            }
+          }
+        }
+      }
+      .dropdown {
+        .dropdown-toggle {
+          &::after {
+            @include breakpoint-up(lg) {
+              @include fontawesome("\f107");
+              font-size: 17px;
+              color: $id_color;
+              border: none;
+              vertical-align: baseline;
+            }
+          }
+        }
+        .dropdown-toggle[aria-expanded="true"] {
+          &::after {
+            transition: $main_transition;
+            transform: rotate(-180deg);
+          }
+        }
+      }
+      .navbar-toggler {
+        border-color: $id_color;
+        min-height: 41px;
+        @include breakpoint-down(md) {
+          padding: 4px 8px;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+          overflow: hidden;
+          position: relative;
+          width: 55.5px;
+          height: 40px;
+        }
+        &:focus {
+          box-shadow: none;
+        }
+        svg {
+          font-size: 30px;
+          color: $icon_dark_blue;
+          position: absolute;
+          transition: $main_transition;
+          @include breakpoint-down(sm) {
+            font-size: 28px;
+          }
+          &:last-child {
+            transform: translateY(35px);
+            font-size: 36px;
+          }
+        }
+        &[aria-expanded="true"] {
+          border-color: $hover_blue;
+          svg {
+            &:first-child {
+              transform: translateY(-35px);
+            }
+            &:last-child {
+              transform: translateY(0);
+            }
+          }
+          + .navbar-collapse {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      }
+      svg:not(button > svg) {
+        font-size: 30px;
+        margin-right: 6px;
+        color: $icon_dark_blue;
+        transform: translateY(7px);
+        @include breakpoint-down(sm) {
+          font-size: 25px;
+          transform: translateY(2px);
+        }
+      }
+      .main-btn {
+        background-color: $id_color;
+        color: #fff;
+        padding: 18px 24px;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+        border-radius: 8px;
+        transition: $main_transition;
+        border: none;
+        &:hover {
+          background-color: $hover_blue;
+          transform: translateY(-2px);
+        }
+      }
+      a > img {
+        transition: $main_transition;
+        &[alt="moodle"] {
+          width: 55px;
+        }
+        &[alt="gate"] {
+          width: 44px;
+        }
+        &:hover {
+          transform: translateY(-2px);
+        }
+      }
+      ul {
+        margin-left: 40px;
+        li {
+          &:nth-child(6) {
+            a {
+              @include breakpoint-down(md) {
+                animation: link-mobile calc($main-transition * 5)
+                  cubic-bezier(0, 0, 0.2, 1) infinite;
+                animation-delay: 0.6s;
+              }
+              @include breakpoint-up(lg) {
+                animation: link calc($main-transition * 6)
+                  cubic-bezier(0, 0, 0.2, 1) 5;
+                animation-delay: 3s;
+              }
+            }
+          }
+          a {
+            color: $black;
+            font-size: 18px;
+            margin: 10px;
+            width: auto;
+            transition: $main_transition;
+            position: relative;
+            @include breakpoint-down(md) {
+              color: hsla(0, 0%, 100%, 0.52);
+              font-size: 32px;
+            }
+            &:focus {
+              border: none;
+            }
+            &.active,
+            &:hover,
+            &:focus {
+              color: $id_color;
+              @include breakpoint-down(md) {
+                color: #fff;
+                background-color: transparent;
+              }
+            }
+            @include breakpoint-down(xs) {
+              font-size: 28px;
+            }
+          }
+          a {
+            &:not(.dropdown-item) {
+              @include breakpoint-up(lg) {
+                margin: 0 10px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                &::before {
+                  position: absolute;
+                  content: "";
+                  background-color: $id_color;
+                  width: 0;
+                  height: 2px;
+                  left: 0;
+                  bottom: 0;
+                  transition: $main_transition;
+                }
+                &:hover {
+                  &::before {
+                    width: 100%;
+                  }
+                }
+                &.active {
+                  &::before {
+                    width: 100%;
+                  }
+                }
+              }
+            }
+          }
+          .dropdown-divider {
+            background-color: $id_color;
+            @include breakpoint-down(md) {
+              background-color: hsla(0deg, 0%, 100%, 0.52);
+            }
+          }
+        }
+      }
+      .dropdown {
+        .dropdown-toggle[aria-expanded="true"] {
+          &::before {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+// header end

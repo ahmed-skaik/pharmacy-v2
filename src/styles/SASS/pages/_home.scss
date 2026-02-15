@@ -1,0 +1,483 @@
+@use "../helpers" as *;
+@use "sass:math";
+
+//landing start
+.landing {
+  @media (max-height: 1200px) {
+    min-height: calc(100dvh - $subheader-height - $header-height);
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  position: relative;
+  .container {
+    @media (max-height: 1000px) {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+    }
+    .main-btn {
+      background-color: $id_color;
+      color: #fff;
+      padding: 22px 32px;
+      font-size: 16px;
+      text-transform: uppercase;
+      border-radius: 8px;
+      font-weight: 500;
+      transition: $main_transition;
+      border: none;
+      border: 1px solid;
+      @include breakpoint-down(xs) {
+        padding: 18px 32px;
+        font-size: 15px;
+      }
+      &:hover {
+        background-color: $hover_blue;
+        transform: translateY(-2px);
+      }
+      &.revers {
+        background-color: #fff;
+        transition: $main_transition;
+        color: $id_color;
+        border-color: $id_color;
+        &:hover {
+          color: $hover_blue;
+          border-color: $hover_blue;
+        }
+      }
+    }
+    .txt {
+      line-height: 1.6;
+      @include breakpoint-down(md) {
+        text-align: center;
+      }
+      h1 {
+        color: $dark_blue;
+        font-size: 70px;
+        font-weight: 600;
+        margin: 0 0 24px;
+        span.faculty {
+          color: $id_color;
+        }
+        span.univ {
+          position: relative;
+          // letter-spacing: 1px;
+          &::before {
+            content: "- An Unofficial Website -";
+            position: absolute;
+            top: -13px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            width: 100%;
+            font-size: 14px;
+            font-weight: 400;
+            color: $red;
+            letter-spacing: 5px;
+            @include breakpoint-up(xl) {
+              top: -17px;
+            }
+            @include breakpoint-down(sm) {
+              font-size: 12px;
+            }
+            @include breakpoint-down(fold) {
+              font-size: 6px;
+              top: -8px;
+            }
+          }
+          &::after {
+            content: "of Gaza";
+            position: absolute;
+            top: -13px;
+            right: -35px;
+            color: $dark_blue;
+            font-size: 30px;
+            @include breakpoint-up(xl) {
+              top: -16px;
+              right: -60px;
+            }
+            @include breakpoint(lg) {
+              font-size: 26px;
+            }
+            @include breakpoint(md) {
+              right: -45px;
+            }
+            @include breakpoint-down(sm) {
+              font-size: 20px;
+            }
+            @include breakpoint-down(xs) {
+              font-size: 16px;
+              top: -7px;
+              right: -28px;
+            }
+            @include breakpoint-down(fold) {
+              display: none;
+            }
+          }
+        }
+        @include breakpoint(lg) {
+          font-size: 65px;
+        }
+        @include breakpoint(md) {
+          font-size: 68px;
+        }
+        @include breakpoint-down(sm) {
+          font-size: 46px;
+        }
+        @include breakpoint(sm) {
+          font-size: 53px;
+        }
+        @include breakpoint-down(xs) {
+          font-size: 36px;
+        }
+        @include breakpoint-down(fold) {
+          font-size: 31px;
+        }
+      }
+      p {
+        color: $gray;
+        font-size: 18px;
+        margin: 24px 0 48px;
+        @include breakpoint(lg) {
+          font-size: 16px;
+        }
+        @include breakpoint(md) {
+          font-size: 16px;
+        }
+        @include breakpoint-down(xs) {
+          font-size: 14px;
+        }
+        a {
+          animation: wiggle calc($main_transition * 6) linear infinite;
+          display: inline-block;
+          font-weight: 500;
+        }
+        span {
+          color: $red;
+          font-size: 11px;
+          font-weight: 400;
+          @include breakpoint-up(md) {
+            letter-spacing: 1px;
+          }
+        }
+      }
+    }
+    .img {
+      img {
+        border-radius: $img-border-radius;
+        box-shadow: 0 14px 94px 0 rgb(15 15 182 / 9%);
+        max-width: 100%;
+        overflow: hidden;
+        transition: $main_transition;
+      }
+      &:hover {
+        img {
+          transform: scale(0.98);
+        }
+      }
+    }
+  }
+  > a {
+    color: $id_color;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: $main_transition;
+    &:hover {
+      color: $hover_blue;
+    }
+    svg {
+      animation: bouncing calc($main_transition * 6)
+        cubic-bezier(0.39, 0.58, 0.57, 1) infinite;
+      font-weight: 700;
+    }
+  }
+}
+//landing end
+
+// stats start
+.stats {
+  background-color: $section_background;
+  color: $black;
+  border: {
+    top: 1px solid $border_color;
+    bottom: $border-bottom;
+  }
+  .container {
+    .box {
+      .h4 {
+        font-size: 54px;
+        display: block;
+        margin-bottom: 8px;
+        span {
+          &.plus {
+            color: $id_color;
+            font-weight: 400;
+          }
+        }
+      }
+      p {
+        font-size: 20px;
+        font-weight: 500;
+        color: $id_color;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+// stats end
+
+//plans start
+.plans {
+  background-color: #fff;
+  .container {
+    .plan {
+      counter-increment: services;
+      a {
+        text-decoration: none;
+        .box {
+          display: block;
+          background-color: #fff;
+          border-radius: $border-radius;
+          border: 1px solid $border_color;
+          box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%),
+            0 2px 4px 0 rgb(0 0 0 / 12%);
+          transition: $main_transition;
+          position: relative;
+          &::before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -3px;
+            background-color: $id_color;
+            width: 0;
+            height: 4px;
+            transition: $main_transition;
+            border-radius: $border-radius;
+          }
+          &:hover {
+            transform: translateY(-10px);
+            .info {
+              color: $hover_blue;
+            }
+            &::before {
+              width: 100%;
+            }
+          }
+          svg {
+            margin: 35px auto;
+            color: $border_color;
+            text-align: center;
+          }
+          h3 {
+            margin: 15px 0 20px;
+            text-align: center;
+            font-size: 25px;
+            color: $id_color;
+          }
+          .info {
+            background-color: $img-background;
+            border: {
+              radius: 0 0 $border-radius $border-radius;
+              top: 1px solid $border_color;
+            }
+            text-align: right;
+            position: relative;
+            color: $id_color;
+            display: block;
+            padding: 15px;
+            text-decoration: none;
+            transition: $main_transition;
+            &::before {
+              content: "0" counter(services);
+              position: absolute;
+              background-color: $id_color;
+              border-radius: 0 0 0 $border-radius;
+              color: #fff;
+              top: 0;
+              left: 0;
+              height: 100%;
+              width: 80px;
+              font-size: 30px;
+              font-weight: bold;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding-right: 15px;
+            }
+            &::after {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 63px;
+              width: 50px;
+              height: 100%;
+              background-color: $border_color;
+              transform: skewx(-30deg);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+//plans end
+
+//courses start
+.courses {
+  background-color: $section_background;
+  position: relative;
+  border: {
+    top: 1px solid $border_color;
+    bottom: $border-bottom;
+  }
+  .container {
+    .row {
+      a {
+        text-decoration: none;
+      }
+      .article-box {
+        box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+        background-color: #fff;
+        border-radius: $border-radius;
+        overflow: hidden;
+        transition: transform $main_transition, box-shadow $main_transition;
+        &:hover {
+          transform: translateY(-10px);
+          box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+          .more {
+            transition: $main_transition;
+            svg {
+              animation: arrow-right calc($main_transition * 2) linear infinite;
+            }
+            span {
+              color: $hover_blue;
+            }
+          }
+        }
+        .img {
+          overflow: hidden;
+          img {
+            scale: 1.1;
+          }
+        }
+        .text {
+          padding: 20px;
+          h3 {
+            margin: 0;
+            color: $black;
+            &.graduation {
+              position: relative;
+              &::after {
+                @include fontawesome("\f19d");
+                position: absolute;
+                font-size: 22px;
+                margin-left: 5px;
+                top: -6px;
+                color: $icon_dark_blue;
+              }
+            }
+          }
+          p {
+            margin: 10px 0 0;
+            color: $gray;
+            line-height: 1.6;
+          }
+        }
+        .more {
+          border-top: 1px solid $border_color;
+          > span {
+            padding: 20px;
+            color: $id_color;
+            font-weight: bold;
+            text-decoration: none;
+            transition: $main_transition;
+          }
+          svg {
+            color: $icon_dark_blue;
+          }
+        }
+      }
+    }
+  }
+}
+//courses end
+
+// event start
+.events {
+  background-color: #fff;
+  .container {
+    .sub-heading {
+      color: $black;
+      font-weight: bold;
+      @include breakpoint-down(sm) {
+        text-align: center;
+      }
+      p {
+        span {
+          color: $id-color;
+        }
+      }
+    }
+    .card {
+      transition: $main_transition;
+      border-radius: $border-radius;
+      overflow: hidden;
+      background-color: #fff;
+      box-shadow: 0 20px 34px 0 rgb(11 11 44 / 4%),
+        0 4px 8px 0 rgb(11 11 44 / 2%), 0 10px 34px 0 rgb(52 52 255 / 5%);
+      &:hover {
+        transform: scale(0.98);
+      }
+      .card-body {
+        padding: 42px 47px 42px 48px;
+        @include breakpoint-down(sm) {
+          padding: 35px 30px;
+          text-align: center;
+        }
+        .h5 {
+          color: $black;
+          font-size: 25px;
+          margin-bottom: 8px;
+          display: block;
+        }
+        > p {
+          color: $gray;
+          font-size: 17px;
+          margin-bottom: 10px;
+        }
+        hr {
+          margin: 30px 0 17px;
+        }
+        ul {
+          li {
+            margin: 0 0 22px 15px;
+            font-size: 18px;
+            color: $black;
+            @include breakpoint-down(fold) {
+              font-size: 14px;
+            }
+            a {
+              color: $black;
+              text-decoration: none;
+              transition: $main_transition;
+              &:hover {
+                text-decoration: underline;
+                color: $id_color;
+              }
+            }
+            svg {
+              color: $id_color;
+              margin-right: 3px;
+              font-size: 21px;
+              @include breakpoint-down(fold) {
+                font-size: 17px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// event end

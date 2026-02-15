@@ -1,0 +1,31 @@
+@use "../helpers" as *;
+@use "sass:math";
+
+// loading start
+.loading {
+  background-color: #fff;
+  z-index: 999999999;
+  user-select: none;
+  p {
+    color: $id_color;
+    font: {
+      size: 35px;
+      weight: bold;
+    }
+    animation: {
+      name: loader;
+      duration: 1.5s;
+      play-state: running;
+      timing-function: linear;
+      iteration-count: infinite;
+    }
+  }
+  &.hidden {
+    animation: {
+      name: fadeout;
+      duration: 1s;
+      fill-mode: forwards;
+    }
+  }
+}
+// loading end
