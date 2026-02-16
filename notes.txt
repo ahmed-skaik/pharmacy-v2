@@ -1,15 +1,10 @@
 - i have added SASS
-- i have added React Router 
+- i have added React Router
+- i have added bootstrap
+- i have added fontawesome
 
 
 next : 
-
-font awesome
-bootstrap
 miraj for backend 
 
-
-i have downlaoded bootstrap using the command: 
-npm i bootstrap , so not sure about how right this is , 
-
-see you later .. 
+not that the icon in the header isn't static, it changes based onm the page , keep that in mind 

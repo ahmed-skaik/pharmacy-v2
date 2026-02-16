@@ -239,7 +239,8 @@
           background-color: #fff;
           border-radius: $border-radius;
           border: 1px solid $border_color;
-          box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%),
+          box-shadow:
+            0 12px 20px 0 rgb(0 0 0 / 13%),
             0 2px 4px 0 rgb(0 0 0 / 12%);
           transition: $main_transition;
           position: relative;
@@ -341,17 +342,20 @@
         background-color: #fff;
         border-radius: $border-radius;
         overflow: hidden;
-        transition: transform $main_transition, box-shadow $main_transition;
+        transition:
+          transform $main_transition,
+          box-shadow $main_transition;
         &:hover {
           transform: translateY(-10px);
           box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
           .more {
             transition: $main_transition;
+            span,
+            svg {
+              color: $hover_blue;
+            }
             svg {
               animation: arrow-right calc($main_transition * 2) linear infinite;
-            }
-            span {
-              color: $hover_blue;
             }
           }
         }
@@ -388,13 +392,12 @@
           border-top: 1px solid $border_color;
           > span {
             padding: 20px;
-            color: $id_color;
             font-weight: bold;
             text-decoration: none;
             transition: $main_transition;
           }
-          svg {
-            color: $icon_dark_blue;
+          svg, span {
+            color: $id_color;
           }
         }
       }
@@ -424,8 +427,10 @@
       border-radius: $border-radius;
       overflow: hidden;
       background-color: #fff;
-      box-shadow: 0 20px 34px 0 rgb(11 11 44 / 4%),
-        0 4px 8px 0 rgb(11 11 44 / 2%), 0 10px 34px 0 rgb(52 52 255 / 5%);
+      box-shadow:
+        0 20px 34px 0 rgb(11 11 44 / 4%),
+        0 4px 8px 0 rgb(11 11 44 / 2%),
+        0 10px 34px 0 rgb(52 52 255 / 5%);
       &:hover {
         transform: scale(0.98);
       }

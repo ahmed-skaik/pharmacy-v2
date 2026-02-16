@@ -81,7 +81,7 @@ export default function Header() {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <NavLink className="dropdown-item" to="/level-1">
+                    <NavLink className="dropdown-item" to="/level">
                       Level 1
                     </NavLink>
                   </li>

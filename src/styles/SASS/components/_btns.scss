@@ -12,9 +12,12 @@
     border: none;
     background-color: transparent;
     svg {
+      $dimention: 45px;
       font-size: 35px;
       color: $id_color;
       background-color: #fff;
+      width: $dimention;
+      height: $dimention;
       border-radius: 50%;
       cursor: pointer;
       transition: $main_transition;

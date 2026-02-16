@@ -97,7 +97,8 @@
               left: 68px;
             }
             .card {
-              box-shadow: 0 20px 34px 0 rgb(11 11 44 / 4%),
+              box-shadow:
+                0 20px 34px 0 rgb(11 11 44 / 4%),
                 0 4px 8px 0 rgb(11 11 44 / 2%),
                 0 10px 34px 0 rgb(52 52 255 / 5%);
               border-radius: $border-radius;
@@ -392,8 +393,10 @@
             border: 1px solid $border_separator;
             border-radius: $border-radius;
             box-shadow: 0 6px 14px 0 rgb(52 52 255 / 4%);
-            box-shadow: 0 20px 34px 0 rgb(11 11 44 / 4%),
-              0 4px 8px 0 rgb(11 11 44 / 2%), 0 10px 34px 0 rgb(52 52 255 / 5%);
+            box-shadow:
+              0 20px 34px 0 rgb(11 11 44 / 4%),
+              0 4px 8px 0 rgb(11 11 44 / 2%),
+              0 10px 34px 0 rgb(52 52 255 / 5%);
             background-color: #fff;
             &:hover {
               transform: scale(0.98);
@@ -482,8 +485,10 @@
             border-radius: $border-radius;
             border: 1px solid $border_separator;
             padding: 32px;
-            box-shadow: 0 20px 34px 0 rgb(11 11 44 / 4%),
-              0 4px 8px 0 rgb(11 11 44 / 2%), 0 10px 34px 0 rgb(52 52 255 / 5%);
+            box-shadow:
+              0 20px 34px 0 rgb(11 11 44 / 4%),
+              0 4px 8px 0 rgb(11 11 44 / 2%),
+              0 10px 34px 0 rgb(52 52 255 / 5%);
             @extend %scroll-bar;
             &::-webkit-scrollbar-track {
               border: {
@@ -505,6 +510,10 @@
                   }
                   &:hover {
                     background-color: $hover_blue-fade;
+                  }
+                  th,
+                  td {
+                    background: transparent;
                   }
                   td {
                     &.must {
@@ -541,7 +550,8 @@
         .semester {
           .collapse {
             .card {
-              box-shadow: 0 20px 34px 0 rgb(11 11 44 / 4%),
+              box-shadow:
+                0 20px 34px 0 rgb(11 11 44 / 4%),
                 0 4px 8px 0 rgb(11 11 44 / 2%),
                 0 10px 34px 0 rgb(52 52 255 / 5%);
               border-radius: $border-radius;
