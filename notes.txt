@@ -8,3 +8,10 @@ next :
 miraj for backend 
 
 not that the icon in the header isn't static, it changes based onm the page , keep that in mind 
+also , don't forget the tooltips settings 
+
+don't forget to deal with spikes between each section
+
+last thing i did is the course sections setup 
+
+enhance responsivness of the tech stack used 

@@ -11,7 +11,7 @@
       @include breakpoint-up(lg) {
         margin: 0 45px 0 0;
       }
-      .content {
+      .text-start {
         div,
         p {
           color: $gray;
@@ -60,7 +60,7 @@
       @include breakpoint-up(lg) {
         margin: 0 0 0 45px;
       }
-      .content {
+      .text-start {
         color: $gray;
         font-size: 18px;
         margin-bottom: 10px;
@@ -77,6 +77,7 @@
             }
             span {
               color: $id-color;
+              margin-left: 5px;
             }
           }
         }
@@ -88,15 +89,20 @@
 
 //this website start
 .about {
-  ul {
-    li {
-      ul {
-        padding-left: 25px;
-        li {
-          &::marker {
-            color: $id-color;
-          }
+  div {
+    ul {
+      padding-left: 25px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); // 4 equal columns
+      gap: 8px 18px; // row gap / column gap
+      li {
+        color: $black;
+        &::marker {
+          color: $id-color;
         }
+      }
+      @media (max-width: 992px) {
+        grid-template-columns: repeat(2, 1fr); // tablet
       }
     }
   }
@@ -167,8 +173,10 @@
         border: 1px solid $border_color;
         padding: 0 25px 32px;
         border-radius: $img-border-radius;
-        box-shadow: 0 20px 34px 0 rgb(11 11 44 / 4%),
-          0 4px 8px 0 rgb(11 11 44 / 2%), 0 10px 34px 0 rgb(52 52 255 / 5%);
+        box-shadow:
+          0 20px 34px 0 rgb(11 11 44 / 4%),
+          0 4px 8px 0 rgb(11 11 44 / 2%),
+          0 10px 34px 0 rgb(52 52 255 / 5%);
         .box-wrap {
           margin-top: -65px;
           position: relative;

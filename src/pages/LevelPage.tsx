@@ -73,7 +73,7 @@ export default function LevelPage() {
                       <FontAwesomeIcon icon={faPrescription} fixedWidth />
                     </div>
                     <div className="txt">
-                      <h2>Computer Science &lpar;I&rpar;</h2>
+                      <h2>Computer Science (I)</h2>
                       <p>
                         <span className="id">ITCS1301</span> College Need
                       </p>
@@ -201,7 +201,7 @@ export default function LevelPage() {
                       <FontAwesomeIcon icon={faPrescription} fixedWidth />
                     </div>
                     <div className="txt">
-                      <h2>Analytical Chemistry &lpar;I&rpar;</h2>
+                      <h2>Analytical Chemistry (I)</h2>
                       <p>
                         <span className="id">PHCH1201</span> Major Need
                       </p>
@@ -252,7 +252,7 @@ export default function LevelPage() {
                       <FontAwesomeIcon icon={faPrescription} fixedWidth />
                     </div>
                     <div className="txt">
-                      <h2>Organic Chemistry &lpar;I&rpar;</h2>
+                      <h2>Organic Chemistry (I)</h2>
                       <p>
                         <span className="id">PHCH1303</span> Major Need
                       </p>
@@ -279,7 +279,7 @@ export default function LevelPage() {
                       <FontAwesomeIcon icon={faPrescription} fixedWidth />
                     </div>
                     <div className="txt">
-                      <h2>Physical Pharmacy &lpar;I&rpar;</h2>
+                      <h2>Physical Pharmacy (I)</h2>
                       <p>
                         <span className="id">PHTC1201</span> College Need
                       </p>

@@ -1,6 +1,6 @@
-import Logo from "../assets/images/logo.png";
-import Moodle from "../assets/images/moodle-logo.png";
-import Gate from "../assets/images/gate.png";
+import WebsiteLogo from "../assets/images/logo.png";
+import MoodleLogo from "../assets/images/moodle-logo.png";
+import GateLogo from "../assets/images/gate.png";
 import { NavLink, Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -23,7 +23,7 @@ export default function Header() {
       <nav className="navbar navbar-expand-lg pt-lg-2 pb-lg-2">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            <img src={Logo} alt="Logo" />
+            <img src={WebsiteLogo} alt="Logo" />
           </Link>
           <div className="d-block d-lg-none ms-auto">
             <NavLink
@@ -164,13 +164,13 @@ export default function Header() {
                 to="https://moodle.alazhar.edu.ps/login/"
                 target="_blank"
               >
-                <img src={Moodle} alt="moodle" />
+                <img src={MoodleLogo} alt="moodle" />
               </NavLink>
               <NavLink
                 to="http://gate.alazhar.edu.ps/students/"
                 target="_blank"
               >
-                <img src={Gate} alt="gate" />
+                <img src={GateLogo} alt="gate" />
               </NavLink>
               <FontAwesomeIcon icon={faPrescription} fixedWidth />
               <NavLink to="#courses" className="btn main-btn">
