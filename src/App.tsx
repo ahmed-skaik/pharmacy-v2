@@ -5,9 +5,10 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
-import LevelPage from "./pages/LevelPage";
+import LevelDetails from "./pages/LevelDetails";
 import CoursePage from "./pages/Course";
 import UniversityNeeds from "./pages/UniversityNeeds";
+import Levels from "./pages/Level";
 
 function App() {
   return (
@@ -17,9 +18,10 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="level" element={<LevelPage />} />
-          <Route path="course" element={<CoursePage />} />
+          <Route path="levels" element={<Levels />} />
+          <Route path="levels/:levelId" element={<LevelDetails />} />
           <Route path="uni-needs" element={<UniversityNeeds />} />
+          <Route path="course" element={<CoursePage />} />
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>

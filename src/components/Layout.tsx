@@ -7,7 +7,9 @@ export default function Layout() {
   return (
     <>
       <Header />
-      <Outlet />
+      <div className="fill-content">
+        <Outlet />
+      </div>
       <Footer />
       <ScrollToTopButton />
     </>
