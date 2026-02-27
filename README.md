@@ -1,73 +1,44 @@
-# React + TypeScript + Vite
+# Al-Azhar Pharmacy Portal (Version 2)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚧 **This project is currently under active development.**
 
-Currently, two official plugins are available:
+Version 2 is a frontend re-architecture of the original Al-Azhar Pharmacy Academic Portal (V1), transitioning from a static multi-page structure to a component-driven React application.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🔗 Released Version (Al-Azhar Pharmacy Portal - Version 1)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The original static production release remains publicly available:
 
-## Expanding the ESLint configuration
+🌐 Live Website (V1):
+https://alazharpharmacy.com  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+💻 Source Code (V1):  
+https://github.com/ahmed-skaik/Pharmacy
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🔄 About This Version
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+This iteration restructures the platform using a modern frontend stack focused on scalability, maintainability, and long-term extensibility.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+The application is currently frontend-focused, with academic data abstracted into structured TypeScript modules (`data.ts`) to simulate structured dynamic content while the backend layer is not yet implemented.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🏗 Tech Stack
+
+- React  
+- TypeScript  
+- Vite  
+- SASS  
+- Bootstrap  
+
+---
+
+## 🎯 Objectives
+
+- Transition from static HTML architecture to a component-based system  
+- Improve code modularity and reusability  
+- Prepare the platform for future backend/API integration  
+- Enhance maintainability and long-term scalability  
