@@ -8,13 +8,11 @@ Version 2 is a frontend re-architecture of the original Al-Azhar Pharmacy Academ
 
 ## 🔗 Released Version (Al-Azhar Pharmacy Portal - Version 1)
 
-The original static production release remains publicly available:
+The original static production release was publicly launched in 2022 and has remained accessible since.
 
-🌐 Live Website (V1):
-https://alazharpharmacy.com  
+🌐 Live Website (V1): https://alazharpharmacy.com  
 
-💻 Source Code (V1):  
-https://github.com/ahmed-skaik/Pharmacy
+💻 Source Code (V1): https://github.com/ahmed-skaik/Pharmacy
 
 ---
 

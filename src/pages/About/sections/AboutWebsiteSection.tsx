@@ -1,5 +1,5 @@
 import QrCodeImg from "../../../assets/images/qr-code.png";
-import viteLogo from "../../../../public/vite.svg";
+import viteLogo from "../../../assets/images/vite.svg";
 import NetlifyLogo from "../../../assets/images/netlify-logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFontAwesome } from "@fortawesome/free-solid-svg-icons";

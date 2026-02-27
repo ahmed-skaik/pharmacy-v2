@@ -1,4 +1,4 @@
-import type { Subject } from "./types";
+import type { Subject } from "../types";
 
 export const subjects: Record<string, Subject> = {
   "cell-biology": {

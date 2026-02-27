@@ -1,5 +1,5 @@
-import { faFile, faFilePen, faFolder } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { plansData } from "../../../data/PlansData";
 
 export default function PlansSection() {
   return (
@@ -15,45 +15,17 @@ export default function PlansSection() {
           </p>
         </div>
         <div className="row mt-5 mb-5">
-          <div className="col-md-6 col-lg-4 p-3 plan">
-            <a
-              href="documents/other/plans/plan-detailed.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="box">
-                <FontAwesomeIcon icon={faFolder} size="4x" />
-                <h3>Detailed Plan</h3>
-                <div className="info">Download</div>
-              </div>
-            </a>
-          </div>
-          <div className="col-md-6 col-lg-4 p-3 plan">
-            <a
-              href="documents/other/plans/plan-2012.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="box">
-                <FontAwesomeIcon icon={faFile} size="4x" />
-                <h3>&le; 2019 Plan</h3>
-                <div className="info">Download</div>
-              </div>
-            </a>
-          </div>
-          <div className="col-md-6 col-lg-4 p-3 plan">
-            <a
-              href="documents/other/plans/plan-2020.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="box">
-                <FontAwesomeIcon icon={faFilePen} size="4x" />
-                <h3>2020 Plan</h3>
-                <div className="info">Download</div>
-              </div>
-            </a>
-          </div>
+          {plansData.map((plan) => (
+            <div className="col-md-6 col-lg-4 p-3 plan" key={plan.id}>
+              <a href={plan.pdfPath} target="_blank" rel="noopener noreferrer">
+                <div className="box">
+                  <FontAwesomeIcon icon={plan.icon} size="4x" />
+                  <h3>{plan.title}</h3>
+                  <div className="info">Download</div>
+                </div>
+              </a>
+            </div>
+          ))}
         </div>
       </div>
     </div>

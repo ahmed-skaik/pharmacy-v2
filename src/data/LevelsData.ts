@@ -1,4 +1,4 @@
-import type { LevelStructure } from "./types";
+import type { LevelStructure } from "../types";
 
 export const levels: LevelStructure[] = [
   {

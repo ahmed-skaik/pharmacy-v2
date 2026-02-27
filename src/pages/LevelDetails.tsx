@@ -7,7 +7,9 @@ import {
 
 import { useParams } from "react-router-dom";
 import { levels } from "../data/LevelsData";
-import type { LevelStructure } from "../data/types";
+import type { LevelStructure } from "../types";
+import OopsMessage from "../components/OopsMessage";
+import DotsDecoration from "../components/DotsDecoration";
 
 export default function LevelPage() {
   const { levelId } = useParams();
@@ -20,13 +22,15 @@ export default function LevelPage() {
   // If no level found
   if (!level) {
     return (
-      <div style={{ padding: "2rem" }}>
-        <h2>Level not found</h2>
-      </div>
+      <>
+        <DotsDecoration />
+        <OopsMessage />
+      </>
     );
   }
   return (
     <div className="content">
+      <DotsDecoration />
       <div className="container">
         <div className="main-title-2">
           <h1 className="mb-3">
@@ -56,47 +60,38 @@ export default function LevelPage() {
 
               {semesterSection.courses.length === 0 ? (
                 <div id={semesterSection.semester} className="collapse">
-                  <p>No courses available.</p>
+                  <OopsMessage />
                 </div>
               ) : (
-                <div style={{ display: "grid", gap: "1rem" }}>
+                <div className="collapse" id={semesterSection.semester}>
                   {semesterSection.courses.map((course) => (
-                    <div
-                      className="collapse"
-                      id={semesterSection.semester}
-                      key={course.id}
-                    >
-                      <a href={course.link} className="a-parent">
-                        <div className="card card-body mb-3 flex-column flex-md-row justify-content-between dep pt-dep">
-                          <div className="box d-flex align-items-start flex-column flex-md-row text-center text-md-start ms-auto me-auto ms-md-0 me-md-0">
-                            <div className="img ms-auto me-auto ms-md-0 me-md-3 mb-3 mb-md-0">
-                              <FontAwesomeIcon
-                                icon={faPrescription}
-                                fixedWidth
-                              />
-                            </div>
-                            <div className="txt">
-                              <h2>{course.name}</h2>
-                              <p>
-                                <span className="id">
-                                  {course.code || "PHPX"}
-                                </span>{" "}
-                                {course.classification}
-                              </p>
-                            </div>
+                    <a href={course.link} className="a-parent" key={course.id}>
+                      <div className="card card-body mb-3 flex-column flex-md-row justify-content-between dep pt-dep">
+                        <div className="box d-flex align-items-start flex-column flex-md-row text-center text-md-start ms-auto me-auto ms-md-0 me-md-0">
+                          <div className="img ms-auto me-auto ms-md-0 me-md-3 mb-3 mb-md-0">
+                            <FontAwesomeIcon icon={faPrescription} fixedWidth />
                           </div>
-                          <div className="link align-self-center align-self-md-end">
-                            <span>
-                              Visit
-                              <FontAwesomeIcon
-                                icon={faArrowRightToBracket}
-                                fixedWidth
-                              />
-                            </span>
+                          <div className="txt">
+                            <h2>{course.name}</h2>
+                            <p>
+                              <span className="id">
+                                {course.code || "PHPX"}
+                              </span>{" "}
+                              {course.classification}
+                            </p>
                           </div>
                         </div>
-                      </a>
-                    </div>
+                        <div className="link align-self-center align-self-md-end">
+                          <span>
+                            Visit
+                            <FontAwesomeIcon
+                              icon={faArrowRightToBracket}
+                              fixedWidth
+                            />
+                          </span>
+                        </div>
+                      </div>
+                    </a>
                   ))}
                 </div>
               )}

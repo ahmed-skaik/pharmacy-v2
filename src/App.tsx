@@ -8,9 +8,14 @@ import NotFound from "./pages/NotFound";
 import LevelDetails from "./pages/LevelDetails";
 import CoursePage from "./pages/Course";
 import UniversityNeeds from "./pages/UniversityNeeds";
-import Levels from "./pages/Level";
 
-function App() {
+export default function App() {
+  const welcomeMsg = `Hello from Console my fellow Pharmacy Students !`;
+  console.log(
+    `%c${welcomeMsg} %cit's Ahmed-Skaîk typing..`,
+    `color: #3434ff; font-size: 25px; background-color: #fff; text-decoration: underline wavy #08082c;`,
+    `color: red; font-size: 25px; padding-top: 25px`,
+  );
   return (
     <>
       <Routes>
@@ -18,7 +23,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="levels" element={<Levels />} />
+          <Route path="levels" element={<h3>Test for Levels page </h3>} />
           <Route path="levels/:levelId" element={<LevelDetails />} />
           <Route path="uni-needs" element={<UniversityNeeds />} />
           <Route path="course" element={<CoursePage />} />
@@ -28,5 +33,3 @@ function App() {
     </>
   );
 }
-
-export default App;

@@ -1,21 +1,15 @@
 @use "../helpers" as *;
 @use "sass:math";
 
-.content {
-  .container {
-    .year {
-      .oops {
-        font-size: 22px;
-        font-weight: 500;
-        color: $dark_blue;
-        span {
-          color: $id-color;
-          font-weight: 700;
-        }
-        @include breakpoint-down(xs) {
-          font-size: 17px;
-        }
-      }
-    }
+.oops {
+  font-size: 22px;
+  font-weight: 500;
+  color: $dark_blue;
+  span {
+    color: $id-color;
+    font-weight: 700;
+  }
+  @include breakpoint-down(xs) {
+    font-size: 17px;
   }
 }

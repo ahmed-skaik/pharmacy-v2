@@ -90,11 +90,11 @@ a {
 }
 
 .dots {
-  @include breakpoint-down(xs) {
+  @include breakpoint-down(md) {
     display: none;
   }
   @include breakpoint-up(sm) {
-    background-image: url("../../../images/dots.png");
+    background-image: url("../../../assets/images/dots.png");
     width: 200px;
     height: 200px;
     background-repeat: no-repeat;
