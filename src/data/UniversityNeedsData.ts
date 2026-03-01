@@ -6,7 +6,7 @@ export const uniNeeds: UniSubject[] = [
     title: "Arabic Language (1)",
     books: [
       {
-        title: "Book\n                        (الأدب والبلاغة)",
+        title: "Book (الأدب والبلاغة)",
         url: "../documents/univ-needs/arabic-language-1/ادب-بلاغة.pdf",
       },
       {
@@ -19,7 +19,7 @@ export const uniNeeds: UniSubject[] = [
         name: "Nahed Al-qayed",
         parts: [
           {
-            title: "Part I :\n                            (الأدب والبلاغة)",
+            title: "Part I : (الأدب والبلاغة)",
             lectures: [
               {
                 title: "Lecture (01)",
@@ -84,7 +84,7 @@ export const uniNeeds: UniSubject[] = [
             ],
           },
           {
-            title: "Part II :\n                            (النحو)",
+            title: "Part II : (النحو)",
             lectures: [
               {
                 title: "Lecture (01)",
@@ -653,8 +653,7 @@ export const uniNeeds: UniSubject[] = [
   },
   {
     id: "interpretation-of-quran-تفسير-دراسات-في-التفسير-وعلوم-القرآن",
-    title:
-      "Interpretation of\n                  Quran\n                  (تفسير)\n                دراسات في التفسير وعلوم القرآن",
+    title: "Interpretation of Quran (دراسات في التفسير وعلوم القرآن)",
     books: [],
     lecturers: [
       {
@@ -921,8 +920,7 @@ export const uniNeeds: UniSubject[] = [
   },
   {
     id: "jurisprudence-فقه-دراسات-في-الفقه-الإسلامي",
-    title:
-      "Jurisprudence\n                  (فقه)\n                دراسات في الفقه الإسلامي",
+    title: "Jurisprudence (دراسات في الفقه الإسلامي)",
     books: [
       {
         title: "Book (All Lecturers)",
@@ -1369,8 +1367,7 @@ export const uniNeeds: UniSubject[] = [
   },
   {
     id: "studies-in-islamic-faith-عقيدة-دراسات-في-العقيدة-الإسلامية",
-    title:
-      "Studies in Islamic\n                  Faith\n                  (عقيدة)\n                دراسات في العقيدة الإسلامية",
+    title: "Studies in Islamic Faith (دراسات في العقيدة الإسلامية)",
     books: [
       {
         title: "Book (All Lecturers)",
@@ -1497,8 +1494,7 @@ export const uniNeeds: UniSubject[] = [
   },
   {
     id: "studies-in-prophetic-tradition-حديث-دراسات-في-الحديث-وعلومه",
-    title:
-      "Studies in Prophetic\n                  Tradition\n                  (حديث)\n                دراسات في الحديث وعلومه",
+    title: "Studies in Prophetic Tradition (دراسات في الحديث وعلومه)",
     books: [],
     lecturers: [
       {

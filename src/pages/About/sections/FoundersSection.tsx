@@ -9,7 +9,7 @@ export default function FoundersSection() {
           <div className="col-lg-6">
             <div className="box text-center mt-5">
               <div className="box-wrap code">
-                <img src={AhmedSkaik} alt="Ahmed" className="img-fluid" />
+                <img src={AhmedSkaik} alt="ahmed-skaik" className="img-fluid" />
                 <h3 className="mt-3 mb-2 mb-0">Ahmed J. Skaik</h3>
                 <span className="mb-2 d-block">- Idea &#38; Coding -</span>
                 <blockquote className="cutoff-text mb-4 text-start english">
@@ -45,7 +45,11 @@ export default function FoundersSection() {
           <div className="col-lg-6">
             <div className="box text-center mt-5">
               <div className="box-wrap data">
-                <img src={AhmedYounis} alt="Ahmed" className="img-fluid" />
+                <img
+                  src={AhmedYounis}
+                  alt="ahmed-younis"
+                  className="img-fluid"
+                />
                 <h3 className="mt-3 mb-2 mb-0">Ahmed Y. Shaheen</h3>
                 <span className="mb-2 d-block">- Data Provider -</span>
                 <blockquote

@@ -6,10 +6,12 @@ import {
   // faPaperclip,
 } from "@fortawesome/free-solid-svg-icons";
 import { uniNeeds } from "../data/UniversityNeedsData";
+import DotsDecoration from "../components/DotsDecoration";
 
 export default function UniversityNeeds() {
   return (
-    <div className="content univ-needs">
+    <div className="content univ-needs position-relative">
+      <DotsDecoration />
       <div className="container">
         <div className="main-title-2">
           <h1 className="mb-3">

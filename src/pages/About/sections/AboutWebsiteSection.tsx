@@ -184,7 +184,7 @@ export default function AboutWebsiteSection() {
           </div>
           <div className="col-lg-6">
             <div className="img website">
-              <img src={QrCodeImg} alt="about" className="img-fluid" />
+              <img src={QrCodeImg} alt="qr-code" className="img-fluid" />
             </div>
           </div>
         </div>

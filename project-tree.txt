@@ -1,0 +1,112 @@
+pharmacy-v2
+├── README.md
+├── eslint.config.js
+├── index.html
+├── notes.txt
+├── package-lock.json
+├── package.json
+├── project-tree.md
+├── project-tree.txt
+├── public
+│   └── vite.svg
+├── src
+│   ├── App.tsx
+│   ├── assets
+│   │   ├── images
+│   │   │   ├── about-1.jpg
+│   │   │   ├── ahmed-skaik.jpg
+│   │   │   ├── ahmed-younis.jpeg
+│   │   │   ├── dots copy.png
+│   │   │   ├── dots.png
+│   │   │   ├── drug-landing.jpg
+│   │   │   ├── event-01.jpg
+│   │   │   ├── event-02.jpg
+│   │   │   ├── event.png
+│   │   │   ├── gate.png
+│   │   │   ├── level-img.jpg
+│   │   │   ├── logo.png
+│   │   │   ├── mail.svg
+│   │   │   ├── moodle-logo.png
+│   │   │   ├── netlify-logo.svg
+│   │   │   ├── photo.png
+│   │   │   ├── qr-code.png
+│   │   │   └── vite.svg
+│   │   └── react.svg
+│   ├── components
+│   │   ├── DotsDecoration.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Header.tsx
+│   │   ├── Layout.tsx
+│   │   ├── LoadingPage.tsx
+│   │   ├── OopsMessage.tsx
+│   │   ├── ScrollToTopButton.tsx
+│   │   └── SpikesSeperator.tsx
+│   ├── data
+│   │   ├── CardsData.ts
+│   │   ├── EventsData.ts
+│   │   ├── LevelsData.ts
+│   │   ├── PlansData.ts
+│   │   └── UniversityNeedsData.ts
+│   ├── hooks
+│   │   └── useDocumentTitle.tsx
+│   ├── main.tsx
+│   ├── pages
+│   │   ├── About
+│   │   │   ├── index.tsx
+│   │   │   └── sections
+│   │   │       ├── AboutUsSection.tsx
+│   │   │       ├── AboutWebsiteSection.tsx
+│   │   │       ├── DepartmentsSection.tsx
+│   │   │       └── FoundersSection.tsx
+│   │   ├── Contact
+│   │   │   ├── index.tsx
+│   │   │   └── sections
+│   │   │       ├── ContactUsSection.tsx
+│   │   │       └── FaqsSection.tsx
+│   │   ├── Course
+│   │   │   ├── index.tsx
+│   │   │   └── sections
+│   │   │       ├── CourseContentSection.tsx
+│   │   │       └── CourseHeadingSection.tsx
+│   │   ├── Home
+│   │   │   ├── index.tsx
+│   │   │   └── sections
+│   │   │       ├── CoursesSection.tsx
+│   │   │       ├── EventsSection.tsx
+│   │   │       ├── LandingSection.tsx
+│   │   │       ├── PlansSection.tsx
+│   │   │       └── StatisticsSection.tsx
+│   │   ├── LevelDetails.tsx
+│   │   ├── NotFound.tsx
+│   │   └── UniversityNeeds.tsx
+│   ├── styles
+│   │   ├── SASS
+│   │   │   ├── components
+│   │   │   │   ├── _btns.scss
+│   │   │   │   └── _headings.scss
+│   │   │   ├── helpers
+│   │   │   │   ├── _animation.scss
+│   │   │   │   ├── _index.scss
+│   │   │   │   ├── mixins.scss
+│   │   │   │   ├── placeholders.scss
+│   │   │   │   └── variables.scss
+│   │   │   ├── layout
+│   │   │   │   ├── _content.scss
+│   │   │   │   ├── _footer.scss
+│   │   │   │   ├── _header.scss
+│   │   │   │   └── _loading.scss
+│   │   │   └── pages
+│   │   │       ├── _about.scss
+│   │   │       ├── _contact.scss
+│   │   │       ├── _courses.scss
+│   │   │       ├── _error.scss
+│   │   │       ├── _global-page.scss
+│   │   │       ├── _home.scss
+│   │   │       └── _levels.scss
+│   │   └── main.scss
+│   └── types
+│       └── index.ts
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts

@@ -15,3 +15,16 @@ don't forget to deal with spikes between each section
 last thing i did is the course sections setup 
 
 enhance responsivness of the tech stack used 
+
+
+🧠 3️⃣ What I Would Improve
+✅ A) Convert JPG/PNG to WebP
+
+Example:
+
+drug-landing.jpg → drug-landing.webp
+about-1.jpg → about-1.webp
+
+WebP reduces size by 25–70%.
+
+Huge performance improvement

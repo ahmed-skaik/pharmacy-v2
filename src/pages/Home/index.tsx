@@ -3,15 +3,16 @@ import StatisticsSection from "./sections/StatisticsSection";
 import PlansSection from "./sections/PlansSection";
 import CoursesSection from "./sections/CoursesSection";
 import EventsSection from "./sections/EventsSection";
+import SpikesSeperator from "../../components/SpikesSeperator";
 
 export default function Home() {
   return (
     <>
       <LandingSection />
-      <div className="spikes-seperator"></div>
+      <SpikesSeperator />
       <StatisticsSection />
       <PlansSection />
-      <div className="spikes-seperator"></div>
+      <SpikesSeperator />
       <CoursesSection />
       <EventsSection />
     </>

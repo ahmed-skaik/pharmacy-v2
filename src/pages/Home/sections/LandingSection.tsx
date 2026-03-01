@@ -51,7 +51,11 @@ export default function LandingSection() {
           </div>
           <div className="col-lg-4">
             <div className="img d-none d-md-block text-center">
-              <img src={DrugLanding} alt="drug" className="img-fluid" />
+              <img
+                src={DrugLanding}
+                alt="landing-drug-img"
+                className="img-fluid"
+              />
             </div>
           </div>
         </div>

@@ -7,6 +7,7 @@ import {
   faInfo,
   faNoteSticky,
 } from "@fortawesome/free-solid-svg-icons";
+import SpikesSeperator from "../../../components/SpikesSeperator";
 
 export default function CourseHeadingSection() {
   return (
@@ -23,7 +24,7 @@ export default function CourseHeadingSection() {
         </div>
       </div>
       <div className="sub-container">
-        <div className="spikes-seperator" style={{ zIndex: "0" }}></div>
+        <SpikesSeperator />
         <div className="container">
           <div className="about">
             <ul className="list-unstyled d-flex flex-column flex-md-row justify-content-md-around">

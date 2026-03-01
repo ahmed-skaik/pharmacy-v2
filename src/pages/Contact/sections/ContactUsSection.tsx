@@ -19,7 +19,7 @@ export default function ContactUsSection() {
           <div className="img">
             <div className="img-background d-flex justify-content-center align-items-center">
               <a href="mailto:alazharpharmacy.contact@gmail.com">
-                <img src={MailIcon} alt="mail" />
+                <img src={MailIcon} alt="mail-icon" />
               </a>
             </div>
           </div>

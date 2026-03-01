@@ -83,3 +83,47 @@ export interface UniSubject {
   books: UniBook[];
   lecturers: UniLecturer[];
 }
+
+//for course data file :
+
+export interface CourseData {
+  slug: string;
+  title: string;
+  description: string;
+  lecturers: {
+    title?: string;
+    name: string;
+    altLink?: string;
+  }[];
+
+  stats: {
+    videosCount: number;
+    chaptersCount: number;
+  };
+
+  lectures: {
+    chapterTitle: string;
+    documents: {
+      title: string;
+      url: string;
+      type: "slides" | "answers" | "file";
+    }[];
+    videos: {
+      title: string;
+      description: string;
+      url: string;
+    }[];
+  }[];
+
+  resources: {
+    referenceBook?: { title: string; url: string };
+    summaries?: { title: string; url: string };
+    exams: { title: string; url: string }[];
+  };
+
+  about: {
+    description: string;
+    infoTable: Record<string, string>;
+    preRequirements: string[]; // ← ADD THIS
+  };
+}
