@@ -52,9 +52,7 @@ export default function FaqsSection() {
                   <li className="mb-2">
                     2 Credit Hours of
                     <span>
-                      <a href="level-4/summer/pharmacy-training.html">
-                        Pharmacy Training
-                      </a>
+                      <a href="/courses/pharmacy-training">Pharmacy Training</a>
                     </span>
                     (4<sup>th</sup> Level Summer Semester)
                   </li>
@@ -113,9 +111,7 @@ export default function FaqsSection() {
                 <p>
                   A Course Code ex: the Code of
                   <span>
-                    <a href="level-3/semester-2/pathophysiology-2.html">
-                      Pathophysiology II
-                    </a>
+                    <a href="/courses/pathophysiology-2">Pathophysiology II</a>
                   </span>
                   Course (<span style={{ color: "#08082c" }}>PHPT</span>
                   <span style={{ color: "#3434ff" }}>3207</span>) Gives

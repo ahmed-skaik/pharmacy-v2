@@ -38,9 +38,9 @@ export default function CourseContentSection({ course }: Props) {
                     className="d-flex btn pt-3 pb-3"
                     type="button"
                     data-bs-toggle="collapse"
-                    data-bs-target="#collapseExample-1"
+                    data-bs-target={`#collapseExample-${i}`}
                     aria-expanded="false"
-                    aria-controls="collapseExample-1"
+                    aria-controls={`collapseExample-${i}`}
                   >
                     <div>
                       <FontAwesomeIcon icon={faAngleRight} />
@@ -50,7 +50,7 @@ export default function CourseContentSection({ course }: Props) {
                     </div>
                   </button>
                 </p>
-                <div className="collapse" id="collapseExample-1">
+                <div className="collapse" id={`collapseExample-${i}`}>
                   {lecture.documents.map((document, i) => (
                     <a
                       className="a-parent"

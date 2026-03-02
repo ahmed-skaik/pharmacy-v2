@@ -65,7 +65,11 @@ export default function LevelPage() {
               ) : (
                 <div className="collapse" id={semesterSection.semester}>
                   {semesterSection.courses.map((course) => (
-                    <a href={course.link} className="a-parent" key={course.id}>
+                    <a
+                      href={`/courses/${course.link}`}
+                      className="a-parent"
+                      key={course.id}
+                    >
                       <div className="card card-body mb-3 flex-column flex-md-row justify-content-between dep pt-dep">
                         <div className="box d-flex align-items-start flex-column flex-md-row text-center text-md-start ms-auto me-auto ms-md-0 me-md-0">
                           <div className="img ms-auto me-auto ms-md-0 me-md-3 mb-3 mb-md-0">

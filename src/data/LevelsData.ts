@@ -15,7 +15,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "College Need",
             departmentPrefix: "",
-            link: "level-1/semester-1/cell-biology.html",
+            link: "cell-biology",
           },
           {
             id: "computer-science-1",
@@ -23,7 +23,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "College Need",
             departmentPrefix: "",
-            link: "level-1/semester-1/computer-science-1.html",
+            link: "computer-science-1",
           },
           {
             id: "general-chemistry",
@@ -31,7 +31,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "College Need",
             departmentPrefix: "",
-            link: "level-1/semester-1/general-chemistry.html",
+            link: "general-chemistry",
           },
           {
             id: "mathematics",
@@ -39,7 +39,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "College Need",
             departmentPrefix: "",
-            link: "level-1/semester-1/mathematics.html",
+            link: "mathematics",
           },
           {
             id: "terminology",
@@ -47,7 +47,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "College Need",
             departmentPrefix: "",
-            link: "level-1/semester-1/terminology.html",
+            link: "terminology",
           },
         ],
       },
@@ -60,7 +60,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-1/semester-2/analytical-chemistry-1.html",
+            link: "analytical-chemistry-1",
           },
           {
             id: "anatomy",
@@ -68,7 +68,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-1/semester-2/anatomy.html",
+            link: "anatomy",
           },
           {
             id: "organic-chemistry-1",
@@ -76,7 +76,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-1/semester-2/organic-chemistry-1.html",
+            link: "organic-chemistry-1",
           },
           {
             id: "physical-pharamcy-1",
@@ -84,7 +84,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "College Need",
             departmentPrefix: "",
-            link: "level-1/semester-2/physical-pharamcy-1.html",
+            link: "physical-pharamcy-1",
           },
         ],
       },
@@ -108,7 +108,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-2/semester-1/analytical-chemistry-2.html",
+            link: "analytical-chemistry-2",
           },
           {
             id: "physiology-1",
@@ -116,7 +116,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-2/semester-1/physiology-1.html",
+            link: "physiology-1",
           },
           {
             id: "organic-chemistry-2",
@@ -124,7 +124,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-2/semester-1/organic-chemistry-2.html",
+            link: "organic-chemistry-2",
           },
           {
             id: "microbiology",
@@ -132,7 +132,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-2/semester-1/microbiology.html",
+            link: "microbiology",
           },
           {
             id: "physical-pharmacy-2-ibtihal",
@@ -140,7 +140,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-2/semester-1/physical-pharmacy-2-ibtihal.html",
+            link: "physical-pharmacy-2-ibtihal",
           },
         ],
       },
@@ -153,7 +153,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-2/semester-2/biochemistry-1.html",
+            link: "biochemistry-1",
           },
           {
             id: "physiology-2",
@@ -161,7 +161,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-2/semester-2/physiology-2.html",
+            link: "physiology-2",
           },
           {
             id: "botany",
@@ -169,7 +169,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-2/semester-2/botany.html",
+            link: "botany",
           },
           {
             id: "pharmaceutics-1",
@@ -177,7 +177,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-2/semester-2/pharmaceutics-1.html",
+            link: "pharmaceutics-1",
           },
         ],
       },
@@ -201,7 +201,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-3/semester-1/biochemistry-2.html",
+            link: "biochemistry-2",
           },
           {
             id: "biostatestics",
@@ -209,7 +209,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-3/semester-1/biostatestics.html",
+            link: "biostatestics",
           },
           {
             id: "pathophysiology-1",
@@ -217,7 +217,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-3/semester-1/pathophysiology-1.html",
+            link: "pathophysiology-1",
           },
           {
             id: "pharmaceutics-2",
@@ -225,7 +225,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-3/semester-1/pharmaceutics-2.html",
+            link: "pharmaceutics-2",
           },
           {
             id: "pharmacognosy",
@@ -233,7 +233,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-3/semester-1/pharmacognosy.html",
+            link: "pharmacognosy",
           },
         ],
       },
@@ -246,7 +246,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-3/semester-2/pharmacokinetics-1.html",
+            link: "pharmacokinetics-1",
           },
           {
             id: "pathophysiology-2",
@@ -254,7 +254,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-3/semester-2/pathophysiology-2.html",
+            link: "pathophysiology-2",
           },
           {
             id: "pharmaceutics-3",
@@ -262,7 +262,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-3/semester-2/pharmaceutics-3.html",
+            link: "pharmaceutics-3",
           },
           {
             id: "pharmacology-1",
@@ -270,7 +270,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-3/semester-2/pharmacology-1.html",
+            link: "pharmacology-1",
           },
           {
             id: "phytochemistry-1",
@@ -278,7 +278,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-3/semester-2/phytochemistry-1.html",
+            link: "phytochemistry-1",
           },
           {
             id: "technical-instruments",
@@ -286,7 +286,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-3/semester-2/technical-instruments.html",
+            link: "technical-instruments",
           },
         ],
       },
@@ -310,7 +310,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-4/semester-1/pharmacokinetics-2.html",
+            link: "pharmacokinetics-2",
           },
           {
             id: "first-aid",
@@ -318,7 +318,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "College Need",
             departmentPrefix: "",
-            link: "level-4/semester-1/first-aid.html",
+            link: "first-aid",
           },
           {
             id: "pharmaceutical-chem-1",
@@ -326,7 +326,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-4/semester-1/pharmaceutical-chem-1.html",
+            link: "pharmaceutical-chem-1",
           },
           {
             id: "pharmacology-2",
@@ -334,7 +334,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-4/semester-1/pharmacology-2.html",
+            link: "pharmacology-2",
           },
           {
             id: "pharmaceutical-law",
@@ -342,7 +342,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-4/semester-1/pharmaceutical-law.html",
+            link: "pharmaceutical-law",
           },
           {
             id: "phytochemistry-2",
@@ -350,7 +350,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-4/semester-1/phytochemistry-2.html",
+            link: "phytochemistry-2",
           },
         ],
       },
@@ -363,7 +363,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-4/semester-2/industrial-pharmacy-1.html",
+            link: "industrial-pharmacy-1",
           },
           {
             id: "404",
@@ -371,7 +371,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "../404.html",
+            link: "../404",
           },
           {
             id: "pharmaceutical-chemistry-2",
@@ -379,7 +379,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-4/semester-2/pharmaceutical-chemistry-2.html",
+            link: "pharmaceutical-chemistry-2",
           },
           {
             id: "pharmacology-3",
@@ -387,7 +387,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-4/semester-2/pharmacology-3.html",
+            link: "pharmacology-3",
           },
           {
             id: "phytochemistry-3",
@@ -395,7 +395,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-4/semester-2/phytochemistry-3.html",
+            link: "phytochemistry-3",
           },
           {
             id: "public-health",
@@ -403,7 +403,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-4/semester-2/public-health.html",
+            link: "public-health",
           },
         ],
       },
@@ -420,7 +420,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "College Need",
             departmentPrefix: "",
-            link: "level-4/summer/pharmacy-training.html",
+            link: "pharmacy-training",
           },
         ],
       },
@@ -441,7 +441,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-5/semester-1/clinical-pharmacy.html",
+            link: "clinical-pharmacy",
           },
           {
             id: "industrial-pharmacy-2",
@@ -449,7 +449,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-5/semester-1/industrial-pharmacy-2.html",
+            link: "industrial-pharmacy-2",
           },
           {
             id: "pharmaceutical-chemistry-3",
@@ -457,7 +457,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-5/semester-1/pharmaceutical-chemistry-3.html",
+            link: "pharmaceutical-chemistry-3",
           },
           {
             id: "pharmacotherapeutics-1",
@@ -465,7 +465,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-5/semester-1/pharmacotherapeutics-1.html",
+            link: "pharmacotherapeutics-1",
           },
         ],
       },
@@ -478,7 +478,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-5/semester-2/clinical-biochemistry.html",
+            link: "clinical-biochemistry",
           },
           {
             id: "human-nutrition",
@@ -486,7 +486,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-5/semester-2/human-nutrition.html",
+            link: "human-nutrition",
           },
           {
             id: "pharmaceutical-chemistry-4",
@@ -494,7 +494,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-5/semester-2/pharmaceutical-chemistry-4.html",
+            link: "pharmaceutical-chemistry-4",
           },
           {
             id: "pharmacotherapeutics-2",
@@ -502,7 +502,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-5/semester-2/pharmacotherapeutics-2.html",
+            link: "pharmacotherapeutics-2",
           },
           {
             id: "toxicology",
@@ -510,7 +510,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-5/semester-2/toxicology.html",
+            link: "toxicology",
           },
         ],
       },
@@ -523,7 +523,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-5/optional/drug-interactions.html",
+            link: "drug-interactions",
           },
           {
             id: "hospital-pharmacy",
@@ -531,7 +531,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-5/optional/hospital-pharmacy.html",
+            link: "hospital-pharmacy",
           },
           {
             id: "food-supplements",
@@ -539,7 +539,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-5/optional/food-supplements.html",
+            link: "food-supplements",
           },
           {
             id: "phytotherapy",
@@ -547,7 +547,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-5/optional/phytotherapy.html",
+            link: "phytotherapy",
           },
           {
             id: "cosmetics",
@@ -555,7 +555,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-5/optional/cosmetics.html",
+            link: "cosmetics",
           },
           {
             id: "technology",
@@ -563,7 +563,7 @@ export const levels: LevelStructure[] = [
             code: "",
             classification: "Major Need",
             departmentPrefix: "",
-            link: "level-5/optional/technology.html",
+            link: "technology",
           },
         ],
       },
