@@ -4,12 +4,12 @@ import {
   faArrowRightToBracket,
   faPrescription,
 } from "@fortawesome/free-solid-svg-icons";
+import OopsMessage from "../components/OopsMessage";
+import DotsDecoration from "../components/DotsDecoration";
 
 import { useParams } from "react-router-dom";
 import { levels } from "../data/LevelsData";
 import type { LevelStructure } from "../types";
-import OopsMessage from "../components/OopsMessage";
-import DotsDecoration from "../components/DotsDecoration";
 
 export default function LevelPage() {
   const { levelId } = useParams();

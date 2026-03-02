@@ -7,40 +7,53 @@ import {
   faInfo,
   faNoteSticky,
 } from "@fortawesome/free-solid-svg-icons";
-import SpikesSeperator from "../../../components/SpikesSeperator";
+// import SpikesSeperator from "../../../components/SpikesSeperator";
+import type { CourseData } from "../../../types";
 
-export default function CourseHeadingSection() {
+type Props = {
+  course: CourseData;
+};
+
+export default function CourseHeadingSection({ course }: Props) {
+  const cleanTitle = course.title.endsWith(".")
+    ? course.title.slice(0, -1)
+    : course.title;
+
+  const words = cleanTitle.split(" ");
+  const lastWord = words.pop();
+  const firstPart = words.join(" ");
   return (
     <>
       <div className="container">
         <div className="main-title-2">
           <h1 className="mb-3">
-            Pharmacology <span>One</span>.
+            {firstPart} <span>{lastWord}</span>.
           </h1>
-          <p className="mb-4">
-            Introduction to Pharmacology, Pharmacodynamics || Drugs affecting
-            the ANS & Drugs affecting the CNS
-          </p>
+          <p className="mb-4">{course.description}</p>
         </div>
       </div>
       <div className="sub-container">
-        <SpikesSeperator />
+        {/* <SpikesSeperator /> */}
         <div className="container">
           <div className="about">
             <ul className="list-unstyled d-flex flex-column flex-md-row justify-content-md-around">
               <li>
                 <FontAwesomeIcon icon={faChalkboardUser} fixedWidth />
                 Lecturer:
-                <span>Rasha Bseiso</span>
+                {course.lecturers.map((lecturer, i) => (
+                  <span key={i}>
+                    {lecturer.title} {lecturer.name}
+                  </span>
+                ))}
               </li>
               <li>
                 <FontAwesomeIcon icon={faCirclePlay} fixedWidth />
                 Videos:
-                <span>23</span>
+                <span>{course.stats.videosCount}</span>
               </li>
               <li>
                 <FontAwesomeIcon icon={faBook} fixedWidth />
-                Chapters: <span>13</span>
+                Chapters: <span>{course.stats.chaptersCount}</span>
               </li>
             </ul>
           </div>

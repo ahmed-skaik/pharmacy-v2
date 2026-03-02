@@ -26,7 +26,8 @@ export default function App() {
           <Route path="levels" element={<h3>Test for Levels page </h3>} />
           <Route path="levels/:levelId" element={<LevelDetails />} />
           <Route path="uni-needs" element={<UniversityNeeds />} />
-          <Route path="course" element={<CoursePage />} />
+          <Route path="courses" element={<h3>Test For Courses Page</h3>} />
+          <Route path="courses/:courseName" element={<CoursePage />} />
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
