@@ -9,8 +9,8 @@ export default function StatisticsSection() {
     <div className="stats pt-5 pb-5 text-center" id="stats">
       <div className="container">
         <div className="row justify-content-center">
-          {STATS_DATA.map((stat) => (
-            <div className="col-lg-3 col-md-4 col-sm-6">
+          {STATS_DATA.map((stat, i) => (
+            <div className="col-lg-3 col-md-4 col-sm-6" key={i}>
               <div className="box pb-3 pt-3">
                 <span className="h4">
                   <span className="number" data-goal="350">

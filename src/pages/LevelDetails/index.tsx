@@ -12,6 +12,7 @@ import { levels } from "../../data/LevelsData";
 import type { LevelStructure } from "../../types";
 import ProgressSection from "./sections/ProgressSection";
 import SpikesSeperator from "../../components/SpikesSeperator";
+import Seo from "../../meta/Seo";
 
 export default function LevelPage() {
   const { levelId } = useParams();
@@ -32,6 +33,10 @@ export default function LevelPage() {
   }
   return (
     <>
+      <Seo
+        title={`Level ${level.title}`}
+        description={`Level ${level.title}`}
+      />
       <div className="content">
         <DotsDecoration />
         <div className="container">

@@ -3,6 +3,7 @@ import CourseHeadingSection from "./sections/CourseHeadingSection";
 import OopsMessage from "../../components/OopsMessage";
 import { useParams } from "react-router-dom";
 import { courses } from "../../data/CoursesData";
+import Seo from "../../meta/Seo";
 
 export default function CoursePage() {
   const { courseName } = useParams();
@@ -15,9 +16,12 @@ export default function CoursePage() {
 
   // console.log(courseName);
   return (
-    <div className="content">
-      <CourseHeadingSection course={course} />
-      <CourseContentSection course={course} />
-    </div>
+    <>
+      <Seo title={course.title} description={course.title} />
+      <div className="content">
+        <CourseHeadingSection course={course} />
+        <CourseContentSection course={course} />
+      </div>
+    </>
   );
 }

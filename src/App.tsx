@@ -8,6 +8,7 @@ import NotFound from "./pages/NotFound";
 import LevelDetails from "./pages/LevelDetails";
 import CoursePage from "./pages/Course";
 import UniversityNeeds from "./pages/UniversityNeeds";
+import AnalyticsTracker from "./analytics/AnalyticsTracker";
 
 export default function App() {
   const welcomeMsg = `Hello from Console my fellow Pharmacy Students !`;
@@ -18,6 +19,7 @@ export default function App() {
   );
   return (
     <>
+      <AnalyticsTracker />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
