@@ -6,7 +6,7 @@ import Seo from "../../meta/Seo";
 export default function Contact() {
   return (
     <>
-      <Seo title="Contact" description="Contact Us" />
+      <Seo title="Contact Us" description="Contact Us" />
       <ContactUsSection />
       <SpikesSeperator />
       <FaqsSection />

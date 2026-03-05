@@ -17,7 +17,10 @@ export default function CoursePage() {
   // console.log(courseName);
   return (
     <>
-      <Seo title={course.title} description={course.title} />
+      <Seo
+        title={course.title}
+        description={`${course.title} Faculty of Pharmacy - Alazhar University of Gaza`}
+      />
       <div className="content">
         <CourseHeadingSection course={course} />
         <CourseContentSection course={course} />

@@ -2,7 +2,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import {
   faAngleRight,
+  faCirclePlay,
   faDownload,
+  faFile,
   // faPaperclip,
 } from "@fortawesome/free-solid-svg-icons";
 import { uniNeeds } from "../data/UniversityNeedsData";
@@ -12,7 +14,10 @@ import Seo from "../meta/Seo";
 export default function UniversityNeeds() {
   return (
     <>
-      <Seo title="University Needs" description="University Needs" />
+      <Seo
+        title="University Needs"
+        description="University Needs for all Levels &#38; Faculties at Alazhar University of Gaza"
+      />
       <div className="content univ-needs position-relative">
         <DotsDecoration />
         <div className="container">
@@ -67,19 +72,35 @@ export default function UniversityNeeds() {
                         id={`collapseExample-${nIndex}11`}
                       >
                         {need.books.map((book, bIndex) => (
-                          <div
-                            className="card card-body mb-3 slides"
+                          <a
+                            href={`${book.url}`}
+                            className="a-parent"
                             key={bIndex}
                           >
-                            <h2>
-                              Book
-                              <span className="note">({book.title})</span>
-                            </h2>
-                            <p>The Recommended Reference Book</p>
-                            <a href={book.url} target="_blank">
-                              <FontAwesomeIcon icon={faDownload} />
-                            </a>
-                          </div>
+                            <div className="card card-body mb-3 flex-column flex-md-row justify-content-between dep pt-dep">
+                              <div className="box d-flex align-items-start flex-column flex-md-row text-center text-md-start ms-auto me-auto ms-md-0 me-md-0">
+                                <div className="img ms-auto me-auto ms-md-0 me-md-3 mb-3 mb-md-0">
+                                  <FontAwesomeIcon icon={faFile} fixedWidth />
+                                </div>
+                                <div className="txt">
+                                  <h2>{book.title}</h2>
+                                  <p>
+                                    <span className="id"></span> The Recommended
+                                    Reference Book
+                                  </p>
+                                </div>
+                              </div>
+                              <div className="link align-self-center align-self-md-end">
+                                <span>
+                                  Download
+                                  <FontAwesomeIcon
+                                    icon={faDownload}
+                                    fixedWidth
+                                  />
+                                </span>
+                              </div>
+                            </div>
+                          </a>
                         ))}
                       </div>
                     </div>
@@ -128,16 +149,38 @@ export default function UniversityNeeds() {
                                   id={`collapse-${nIndex}-${lIndex}-${pIndex}`}
                                 >
                                   {part.lectures.map((lecture, i) => (
-                                    <div
-                                      className="card card-body mb-3"
+                                    <a
+                                      href={`${lecture.url}`}
+                                      className="a-parent"
                                       key={i}
                                     >
-                                      <h2>{lecture.title}</h2>
-                                      <p>{lecture.description}</p>
-                                      <a href={lecture.url} target="_blank">
-                                        <FontAwesomeIcon icon={faYoutube} />
-                                      </a>
-                                    </div>
+                                      <div className="card card-body mb-3 flex-column flex-md-row justify-content-between dep pt-dep">
+                                        <div className="box d-flex align-items-start flex-column flex-md-row text-center text-md-start ms-auto me-auto ms-md-0 me-md-0">
+                                          <div className="img ms-auto me-auto ms-md-0 me-md-3 mb-3 mb-md-0">
+                                            <FontAwesomeIcon
+                                              icon={faCirclePlay}
+                                              fixedWidth
+                                            />
+                                          </div>
+                                          <div className="txt">
+                                            <h2>{lecture.title}</h2>
+                                            <p>
+                                              <span className="id"></span>{" "}
+                                              {lecture.description}
+                                            </p>
+                                          </div>
+                                        </div>
+                                        <div className="link align-self-center align-self-md-end">
+                                          <span>
+                                            Watch
+                                            <FontAwesomeIcon
+                                              icon={faYoutube}
+                                              fixedWidth
+                                            />
+                                          </span>
+                                        </div>
+                                      </div>
+                                    </a>
                                   ))}
                                 </div>
                               </div>

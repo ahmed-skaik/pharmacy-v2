@@ -4,7 +4,10 @@ import Seo from "../meta/Seo";
 export default function NotFound() {
   return (
     <>
-      <Seo title="404 - Not Found" description="404 - Not Found" />
+      <Seo
+        title="404 - Not Found"
+        description="Error 404 Page - Faculty of Pharmacy - Alazhar University of Gaza"
+      />
       <div className="error d-flex justify-content-center align-items-center text-white">
         <div className="container text-center">
           <div className="title">404</div>

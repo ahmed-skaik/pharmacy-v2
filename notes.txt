@@ -1,21 +1,15 @@
-- i have added SASS
-- i have added React Router
-- i have added bootstrap
-- i have added fontawesome
-
-
 next : 
-miraj for backend 
 
 not that the icon in the header isn't static, it changes based onm the page , keep that in mind 
 also , don't forget the tooltips settings 
 
-don't forget to deal with spikes between each section
-
 last thing i did is the course sections setup 
 
-enhance responsivness of the tech stack used 
+tooltip thing !
 
+full screen button !
+
+right documents in place !
 
 🧠 3️⃣ What I Would Improve
 ✅ A) Convert JPG/PNG to WebP

@@ -34,8 +34,8 @@ export default function LevelPage() {
   return (
     <>
       <Seo
-        title={`Level ${level.title}`}
-        description={`Level ${level.title}`}
+        title={`Level ${level.title} Courses`}
+        description={`Level ${level.title} Courses`}
       />
       <div className="content">
         <DotsDecoration />

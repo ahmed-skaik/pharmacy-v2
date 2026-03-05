@@ -6,10 +6,38 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import GraducationImg from "../../../assets/images/graduation-img.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useEffect, useRef, useState } from "react";
 
 export default function ProgressSection() {
+  const progressData = [
+    { title: "Labs (21/21)", value: 100, icon: faVialVirus },
+    { title: "UNIV Needs (12/12)", value: 100, icon: faBuildingColumns },
+    { title: "Graduation (10/10) Semesters", value: 100, icon: faUserGraduate },
+    { title: "Certificate", value: 100, icon: faCertificate },
+  ];
+  const sectionRef = useRef<HTMLDivElement>(null);
+  const [animate, setAnimate] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!sectionRef.current) return;
+
+      const sectionTop = sectionRef.current.offsetTop;
+
+      if (window.scrollY >= sectionTop - 250) {
+        setAnimate(true);
+      } else {
+        setAnimate(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <div className="my-progress pt-5 pb-5" id="progress">
+    <div className="my-progress pt-5 pb-5" id="progress" ref={sectionRef}>
       <div className="container">
         <div className="main-title left mt-5 mb-5 text-center text-lg-start">
           <h2 className="mb-3">
@@ -28,59 +56,21 @@ export default function ProgressSection() {
           </div>
           <div className="col-lg-6">
             <div className="progress-stat">
-              <div className="prog-holder">
-                <h4>
-                  <FontAwesomeIcon icon={faVialVirus} fixedWidth />
-                  Labs (21/21)
-                </h4>
-                <div className="prog">
-                  <span
-                    style={{ width: 0 }}
-                    data-prog="100%"
-                    data-width="100%"
-                  ></span>
+              {progressData.map((item, i) => (
+                <div className="prog-holder" key={i}>
+                  <h4>
+                    <FontAwesomeIcon icon={item.icon} fixedWidth />
+                    {item.title}
+                  </h4>
+                  <div className="prog">
+                    <span
+                      style={{ width: animate ? `${item.value}%` : "0%" }}
+                      data-prog={`${item.value}%`}
+                      data-width="100%"
+                    ></span>
+                  </div>
                 </div>
-              </div>
-              <div className="prog-holder">
-                <h4>
-                  <FontAwesomeIcon icon={faBuildingColumns} fixedWidth /> UNIV
-                  Needs (12/12)
-                </h4>
-                <div className="prog">
-                  <span
-                    style={{ width: 0 }}
-                    data-prog="100%"
-                    data-width="100%"
-                  ></span>
-                </div>
-              </div>
-              <div className="prog-holder">
-                <h4>
-                  <FontAwesomeIcon icon={faUserGraduate} fixedWidth />
-                  Graduation (10/10) Semesters
-                </h4>
-                <div className="prog">
-                  <span
-                    style={{ width: 0 }}
-                    data-prog="100%"
-                    data-width="100%"
-                  ></span>
-                </div>
-              </div>
-              <div className="prog-holder">
-                <h4 className="eng">
-                  <i className="fa-solid  fa-fw"></i>
-                  <FontAwesomeIcon icon={faCertificate} fixedWidth />
-                  Certificate
-                </h4>
-                <div className="prog">
-                  <span
-                    style={{ width: 0 }}
-                    data-prog="100%"
-                    data-width="100%"
-                  ></span>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </div>

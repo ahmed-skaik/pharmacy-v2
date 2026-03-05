@@ -17,6 +17,14 @@ export default function App() {
     `color: #3434ff; font-size: 25px; background-color: #fff; text-decoration: underline wavy #08082c;`,
     `color: red; font-size: 25px; padding-top: 25px`,
   );
+  // tooltip start
+  const tooltipTriggerList = [].slice.call(
+    document.querySelectorAll('[data-bs-toggle="tooltip"]'),
+  );
+  const tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl);
+  });
+  // tooltip end
   return (
     <>
       <AnalyticsTracker />
