@@ -1,19 +1,18 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { plansData } from "../../../data/PlansData";
+import SectionHeading from "../../../components/SectionHeading";
 
 export default function PlansSection() {
   return (
     <div className="plans pt-5 pb-5 text-center" id="plans">
       <div className="container">
-        <div className="main-title mt-5 mb-5">
-          <h2 className="mb-3">
-            Studying <span>Plan</span>.
-          </h2>
-          <p className="mb-4">
-            Studying Plans for the Bachelor's Degree Program in Pharmacy at the
-            Faculty of Pharmacy - Alazhar University of Gaza
-          </p>
-        </div>
+        <SectionHeading
+          titleStart="Studying"
+          titleHighlight="Plan"
+          description="Studying Plans for the Bachelor's Degree Program in Pharmacy at the Faculty of Pharmacy - Alazhar University of Gaza"
+          as="h2"
+          className="main-title mt-5 mb-5"
+        />
         <div className="row mt-5 mb-5">
           {plansData.map((plan) => (
             <div className="col-md-6 col-lg-4 p-3 plan" key={plan.id}>

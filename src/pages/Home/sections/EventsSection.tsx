@@ -6,20 +6,19 @@ import {
   faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
 import { eventsData } from "../../../data/EventsData";
+import SectionHeading from "../../../components/SectionHeading";
 
 export default function EventsSection() {
   return (
     <div className="events pt-5 pb-5">
       <div className="container">
-        <div className="main-title mt-5 mb-5">
-          <h2 className="mb-3">
-            Upcoming <span>Events</span> !
-          </h2>
-          <p className="mb-4">
-            Upcoming Events Related to Faculty of Pharmacy - Alazhar University
-            of Gaza
-          </p>
-        </div>
+        <SectionHeading
+          titleStart="Upcoming"
+          titleHighlight="Events"
+          description="Upcoming Events Related to Faculty of Pharmacy - Alazhar University of Gaza"
+          as="h2"
+          className="main-title mt-5 mb-5"
+        />
         {eventsData.map((event) => (
           <div className="card mb-3 mt-3" key={event.id}>
             <div className="row align-items-center justify-content-between">

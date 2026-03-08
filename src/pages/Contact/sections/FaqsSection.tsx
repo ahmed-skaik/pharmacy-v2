@@ -1,19 +1,20 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import SectionHeading from "../../../components/SectionHeading";
 
 export default function FaqsSection() {
   return (
     <div className="faq pt-5 pb-5">
       <div className="container">
-        <div className="main-title mt-5 mb-5">
-          <h2 className="mb-3" style={{ fontSize: "60px" }}>
-            FA<span>Qs</span>
-          </h2>
-          <p className="mb-4">
-            Frequently Asked Questions about Faculty of Pharmacy - Alazhar
-            University of Gaza
-          </p>
-        </div>
+        <SectionHeading
+          titleStart="FA"
+          titleHighlight="Qs"
+          description="Frequently Asked Questions about Faculty of Pharmacy - Alazhar University of Gaza"
+          as="h2"
+          className="main-title mt-5 mb-5"
+          headingStyle={{ fontSize: "60px" }}
+          noSpace
+        />
         <div className="questions mt-5 mb-5">
           <div className="question">
             <p>

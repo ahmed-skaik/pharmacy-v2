@@ -4,21 +4,21 @@ import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import { cardsData } from "../../../data/CardsData";
 import DotsDecoration from "../../../components/DotsDecoration";
+import SectionHeading from "../../../components/SectionHeading";
 
 export default function CoursesSection() {
   return (
     <div className="courses pt-5 pb-5" id="courses">
       <DotsDecoration />
       <div className="container">
-        <div className="main-title mt-5 mb-5">
-          <h2 className="mb-3">
-            E-learning <span>Courses</span>.
-          </h2>
-          <p className="mb-4">
-            You can Reach all the E-learning Lectures for all Levels - Faculty
-            of Pharmacy
-          </p>
-        </div>
+        <SectionHeading
+          titleStart="E-learning"
+          titleHighlight="Courses"
+          description="You can Reach all the E-learning Lectures for all Levels - Faculty
+            of Pharmacy"
+          as="h2"
+          className="main-title mt-5 mb-5"
+        />
         <div className="row mt-5 mb-5">
           {cardsData.map((card) => (
             <div

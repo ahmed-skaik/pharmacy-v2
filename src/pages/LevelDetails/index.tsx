@@ -13,6 +13,8 @@ import type { LevelStructure } from "../../types";
 import ProgressSection from "./sections/ProgressSection";
 import SpikesSeperator from "../../components/SpikesSeperator";
 import Seo from "../../meta/Seo";
+import LinkCard from "../../components/CollapseCard";
+import SectionHeading from "../../components/SectionHeading";
 
 export default function LevelPage() {
   const { levelId } = useParams();
@@ -40,12 +42,11 @@ export default function LevelPage() {
       <div className="content">
         <DotsDecoration />
         <div className="container">
-          <div className="main-title-2">
-            <h1 className="mb-3">
-              Level <span>{level.title}</span>.
-            </h1>
-            <p className="mb-4">{level.description}</p>
-          </div>
+          <SectionHeading
+            titleStart="Level"
+            titleHighlight={level.title}
+            description={level.description}
+          />
           <div className="year mt-5 pb-4">
             {level.semesters.map((semesterSection) => (
               <div
@@ -76,40 +77,21 @@ export default function LevelPage() {
                 ) : (
                   <div className="collapse" id={semesterSection.semester}>
                     {semesterSection.courses.map((course) => (
-                      <a
-                        href={`/courses/${course.link}`}
-                        className="a-parent"
+                      <LinkCard
                         key={course.id}
-                      >
-                        <div className="card card-body mb-3 flex-column flex-md-row justify-content-between dep pt-dep">
-                          <div className="box d-flex align-items-start flex-column flex-md-row text-center text-md-start ms-auto me-auto ms-md-0 me-md-0">
-                            <div className="img ms-auto me-auto ms-md-0 me-md-3 mb-3 mb-md-0">
-                              <FontAwesomeIcon
-                                icon={faPrescription}
-                                fixedWidth
-                              />
-                            </div>
-                            <div className="txt">
-                              <h2>{course.name}</h2>
-                              <p>
-                                <span className="id">
-                                  {course.code || "PHPX"}
-                                </span>{" "}
-                                {course.classification}
-                              </p>
-                            </div>
-                          </div>
-                          <div className="link align-self-center align-self-md-end">
-                            <span>
-                              Visit
-                              <FontAwesomeIcon
-                                icon={faArrowRightToBracket}
-                                fixedWidth
-                              />
-                            </span>
-                          </div>
-                        </div>
-                      </a>
+                        href={`/courses/${course.link}`}
+                        title={course.name}
+                        subtitle={
+                          <>
+                            <span className="id">{course.code || "PHPX"}</span>{" "}
+                            {course.classification}
+                          </>
+                        }
+                        icon={faPrescription}
+                        actionText="Visit"
+                        actionIcon={faArrowRightToBracket}
+                        cardClassName="dep pt-dep"
+                      />
                     ))}
                   </div>
                 )}

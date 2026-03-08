@@ -10,6 +10,8 @@ import {
 import { uniNeeds } from "../data/UniversityNeedsData";
 import DotsDecoration from "../components/DotsDecoration";
 import Seo from "../meta/Seo";
+import LinkCard from "../components/CollapseCard";
+import SectionHeading from "../components/SectionHeading";
 
 export default function UniversityNeeds() {
   return (
@@ -21,15 +23,11 @@ export default function UniversityNeeds() {
       <div className="content univ-needs position-relative">
         <DotsDecoration />
         <div className="container">
-          <div className="main-title-2">
-            <h1 className="mb-3">
-              University <span>Needs</span>.
-            </h1>
-            <p className="mb-4">
-              University Needs for all Levels &#38; Faculties at Alazhar
-              University of Gaza
-            </p>
-          </div>
+          <SectionHeading
+            titleStart="University"
+            titleHighlight="Needs"
+            description="University Needs for all Levels & Faculties at Alazhar University of Gaza"
+          />
           <div className="year mt-5 mb-5">
             {uniNeeds.map((need, nIndex) => (
               <div className="semester" key={nIndex}>
@@ -72,35 +70,16 @@ export default function UniversityNeeds() {
                         id={`collapseExample-${nIndex}11`}
                       >
                         {need.books.map((book, bIndex) => (
-                          <a
-                            href={`${book.url}`}
-                            className="a-parent"
+                          <LinkCard
                             key={bIndex}
-                          >
-                            <div className="card card-body mb-3 flex-column flex-md-row justify-content-between dep pt-dep">
-                              <div className="box d-flex align-items-start flex-column flex-md-row text-center text-md-start ms-auto me-auto ms-md-0 me-md-0">
-                                <div className="img ms-auto me-auto ms-md-0 me-md-3 mb-3 mb-md-0">
-                                  <FontAwesomeIcon icon={faFile} fixedWidth />
-                                </div>
-                                <div className="txt">
-                                  <h2>{book.title}</h2>
-                                  <p>
-                                    <span className="id"></span> The Recommended
-                                    Reference Book
-                                  </p>
-                                </div>
-                              </div>
-                              <div className="link align-self-center align-self-md-end">
-                                <span>
-                                  Download
-                                  <FontAwesomeIcon
-                                    icon={faDownload}
-                                    fixedWidth
-                                  />
-                                </span>
-                              </div>
-                            </div>
-                          </a>
+                            href={book.url}
+                            title={book.title}
+                            subtitle="The Recommended Reference Book"
+                            icon={faFile}
+                            actionText="Download"
+                            actionIcon={faDownload}
+                            cardClassName="dep pt-dep"
+                          />
                         ))}
                       </div>
                     </div>
@@ -149,38 +128,21 @@ export default function UniversityNeeds() {
                                   id={`collapse-${nIndex}-${lIndex}-${pIndex}`}
                                 >
                                   {part.lectures.map((lecture, i) => (
-                                    <a
-                                      href={`${lecture.url}`}
-                                      className="a-parent"
+                                    <LinkCard
                                       key={i}
-                                    >
-                                      <div className="card card-body mb-3 flex-column flex-md-row justify-content-between dep pt-dep">
-                                        <div className="box d-flex align-items-start flex-column flex-md-row text-center text-md-start ms-auto me-auto ms-md-0 me-md-0">
-                                          <div className="img ms-auto me-auto ms-md-0 me-md-3 mb-3 mb-md-0">
-                                            <FontAwesomeIcon
-                                              icon={faCirclePlay}
-                                              fixedWidth
-                                            />
-                                          </div>
-                                          <div className="txt">
-                                            <h2>{lecture.title}</h2>
-                                            <p>
-                                              <span className="id"></span>{" "}
-                                              {lecture.description}
-                                            </p>
-                                          </div>
-                                        </div>
-                                        <div className="link align-self-center align-self-md-end">
-                                          <span>
-                                            Watch
-                                            <FontAwesomeIcon
-                                              icon={faYoutube}
-                                              fixedWidth
-                                            />
-                                          </span>
-                                        </div>
-                                      </div>
-                                    </a>
+                                      href={lecture.url}
+                                      title={lecture.title}
+                                      subtitle={
+                                        <>
+                                          <span className="id"></span>{" "}
+                                          {lecture.description}
+                                        </>
+                                      }
+                                      icon={faCirclePlay}
+                                      actionText="Watch"
+                                      actionIcon={faYoutube}
+                                      cardClassName="dep pt-dep"
+                                    />
                                   ))}
                                 </div>
                               </div>

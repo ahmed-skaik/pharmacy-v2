@@ -9,6 +9,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 // import SpikesSeperator from "../../../components/SpikesSeperator";
 import type { CourseData } from "../../../types";
+import SectionHeading from "../../../components/SectionHeading";
 
 type Props = {
   course: CourseData;
@@ -25,12 +26,11 @@ export default function CourseHeadingSection({ course }: Props) {
   return (
     <>
       <div className="container">
-        <div className="main-title-2">
-          <h1 className="mb-3">
-            {firstPart} <span>{lastWord}</span>.
-          </h1>
-          <p className="mb-4">{course.description}</p>
-        </div>
+        <SectionHeading
+          titleStart={firstPart}
+          titleHighlight={lastWord}
+          description={course.description}
+        />
       </div>
       <div className="sub-container">
         {/* <SpikesSeperator /> */}

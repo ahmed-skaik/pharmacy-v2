@@ -3,7 +3,6 @@ next :
 not that the icon in the header isn't static, it changes based onm the page , keep that in mind 
 also , don't forget the tooltips settings 
 
-last thing i did is the course sections setup 
 
 tooltip thing !
 
@@ -22,3 +21,5 @@ about-1.jpg → about-1.webp
 WebP reduces size by 25–70%.
 
 Huge performance improvement
+
+you have missing laps in the levels section !

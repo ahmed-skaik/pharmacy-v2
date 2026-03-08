@@ -9,6 +9,7 @@ import {
   faFileLines,
 } from "@fortawesome/free-solid-svg-icons";
 import type { CourseData } from "../../../types";
+import LinkCard from "../../../components/CollapseCard";
 
 type Props = {
   course: CourseData;
@@ -52,60 +53,36 @@ export default function CourseContentSection({ course }: Props) {
                 </p>
                 <div className="collapse" id={`collapseExample-${i}`}>
                   {lecture.documents.map((document, i) => (
-                    <a
-                      className="a-parent"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    <LinkCard
                       key={i}
                       href={document.url}
-                    >
-                      <div className="card card-body mb-3 slides flex-column flex-md-row justify-content-between">
-                        <div className="box d-flex align-items-start flex-column flex-md-row text-center text-md-start ms-auto me-auto ms-md-0 me-md-0">
-                          <div className="img ms-auto me-auto ms-md-0 me-md-3 mb-3 mb-md-0">
-                            <FontAwesomeIcon icon={faFile} fixedWidth />
-                          </div>
-                          <div className="txt">
-                            <h2>{document.title}</h2>
-                            <p>
-                              {document.type} (;<span>404 - Not Found</span>)
-                            </p>
-                          </div>
-                        </div>
-                        <div className="link align-self-center align-self-md-end">
-                          <span style={{ visibility: "hidden" }}>
-                            Download
-                            <FontAwesomeIcon icon={faDownload} fixedWidth />
-                          </span>
-                        </div>
-                      </div>
-                    </a>
-                  ))}
-                  {lecture.videos.map((video, i) => (
-                    <a
-                      href={video.url}
-                      className="a-parent"
+                      title={document.title}
+                      subtitle={
+                        <>
+                          {document.type} (;<span>404 - Not Found</span>)
+                        </>
+                      }
+                      icon={faFile}
+                      actionText="Download"
+                      actionIcon={faDownload}
+                      cardClassName="slides"
                       target="_blank"
                       rel="noopener noreferrer"
+                      hideAction={true}
+                    />
+                  ))}
+                  {lecture.videos.map((video, i) => (
+                    <LinkCard
                       key={i}
-                    >
-                      <div className="card card-body mb-3 flex-column flex-md-row justify-content-between">
-                        <div className="box d-flex align-items-start flex-column flex-md-row text-center text-md-start ms-auto me-auto ms-md-0 me-md-0">
-                          <div className="img ms-auto me-auto ms-md-0 me-md-3 mb-3 mb-md-0">
-                            <FontAwesomeIcon icon={faCirclePlay} fixedWidth />
-                          </div>
-                          <div className="txt">
-                            <h2>{video.title}</h2>
-                            <p>{video.description}</p>
-                          </div>
-                        </div>
-                        <div className="link align-self-center align-self-md-end">
-                          <span>
-                            Watch
-                            <FontAwesomeIcon icon={faYoutube} fixedWidth />
-                          </span>
-                        </div>
-                      </div>
-                    </a>
+                      href={video.url}
+                      title={video.title}
+                      subtitle={video.description}
+                      icon={faCirclePlay}
+                      actionText="Watch"
+                      actionIcon={faYoutube}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    />
                   ))}
                 </div>
               </div>
