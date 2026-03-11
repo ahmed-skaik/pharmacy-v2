@@ -23,3 +23,11 @@ WebP reduces size by 25–70%.
 Huge performance improvement
 
 you have missing laps in the levels section !
+
+
+
+npm run build
+
+rm -rf dist
+
+npm run preview 
