@@ -5,21 +5,6 @@
 .content {
   $max-about-width: 963px;
   $max-content-width: 821px;
-  &:not(.content.level-5) {
-    min-height: calc(
-      100dvh - $subheader-height - $header-height - $levels-heading-mt - 84px
-    );
-    @include breakpoint-down(sm) {
-      min-height: calc(
-        100dvh - $subheader-height - $header-height - $levels-heading-mt - 81px
-      );
-    }
-    @include breakpoint-down(fold) {
-      min-height: calc(
-        100dvh - $subheader-height - $header-height - $levels-heading-mt - 75px
-      );
-    }
-  }
   .collapsing {
     visibility: hidden;
   }

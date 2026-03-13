@@ -27,10 +27,14 @@
       }
     }
     .home {
-      a {
+      a,
+      button {
         color: $id_color;
         padding: 16px 24px;
         font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         &:hover {
           background-color: $id_color;
           color: #fff;

@@ -9,7 +9,8 @@ import {
   faFileLines,
 } from "@fortawesome/free-solid-svg-icons";
 import type { CourseData } from "../../../types";
-import LinkCard from "../../../components/CollapseCard";
+import LinkCard from "../../../components/LinkCard";
+import OopsMessage from "../../../components/OopsMessage";
 
 type Props = {
   course: CourseData;
@@ -32,61 +33,69 @@ export default function CourseContentSection({ course }: Props) {
             <p>Recorded E-Learning Lectures</p>
           </div>
           <div className="year mt-4 mb-5">
-            {course.lectures.map((lecture, i) => (
-              <div className="semester" key={i}>
-                <p>
-                  <button
-                    className="d-flex btn pt-3 pb-3"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target={`#collapseExample-${i}`}
-                    aria-expanded="false"
-                    aria-controls={`collapseExample-${i}`}
-                  >
-                    <div>
-                      <FontAwesomeIcon icon={faAngleRight} />
-                    </div>
-                    <div>
-                      <span>{lecture.chapterTitle}</span>
-                    </div>
-                  </button>
-                </p>
-                <div className="collapse" id={`collapseExample-${i}`}>
-                  {lecture.documents.map((document, i) => (
-                    <LinkCard
-                      key={i}
-                      href={document.url}
-                      title={document.title}
-                      subtitle={
-                        <>
-                          {document.type} (;<span>404 - Not Found</span>)
-                        </>
-                      }
-                      icon={faFile}
-                      actionText="Download"
-                      actionIcon={faDownload}
-                      cardClassName="slides"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      hideAction={true}
-                    />
-                  ))}
-                  {lecture.videos.map((video, i) => (
-                    <LinkCard
-                      key={i}
-                      href={video.url}
-                      title={video.title}
-                      subtitle={video.description}
-                      icon={faCirclePlay}
-                      actionText="Watch"
-                      actionIcon={faYoutube}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    />
-                  ))}
+            {course.lectures.length > 0 ? (
+              course.lectures.map((lecture, i) => (
+                <div className="semester" key={i}>
+                  <p>
+                    <button
+                      className="d-flex btn pt-3 pb-3"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target={`#collapseExample-${i}`}
+                      aria-expanded="false"
+                      aria-controls={`collapseExample-${i}`}
+                    >
+                      <div>
+                        <FontAwesomeIcon icon={faAngleRight} />
+                      </div>
+                      <div>
+                        <span>{lecture.chapterTitle}</span>
+                      </div>
+                    </button>
+                  </p>
+                  <div className="collapse" id={`collapseExample-${i}`}>
+                    {lecture.documents.map((document, i) => (
+                      <LinkCard
+                        key={i}
+                        href={document.url}
+                        title={document.title}
+                        subtitle={
+                          <>
+                            {document.type} (<span>404 - Not Found</span>)
+                          </>
+                        }
+                        icon={faFile}
+                        actionText="Download"
+                        actionIcon={faDownload}
+                        cardClassName="slides"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        hideAction={true}
+                      />
+                    ))}
+                    {lecture.videos.length > 0 ? (
+                      lecture.videos.map((video, i) => (
+                        <LinkCard
+                          key={i}
+                          href={video.url}
+                          title={video.title}
+                          subtitle={video.description}
+                          icon={faCirclePlay}
+                          actionText="Watch"
+                          actionIcon={faYoutube}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        />
+                      ))
+                    ) : (
+                      <OopsMessage />
+                    )}
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))
+            ) : (
+              <OopsMessage />
+            )}
           </div>
         </div>
         <div
@@ -118,7 +127,7 @@ export default function CourseContentSection({ course }: Props) {
                     <p className="mb-3 mb-md-0">
                       The Recommended Reference Book
                       <br className="d-block d-lg-none" />
-                      {course.resources.referenceBook?.title}
+                      <span> {course.resources.referenceBook?.title}</span>
                     </p>
                   </div>
                 </div>
@@ -144,7 +153,7 @@ export default function CourseContentSection({ course }: Props) {
                     <p className="mb-3 mb-md-0">
                       Selected summary of the course by other students
                       <br className="d-block d-lg-none" />
-                      {course.resources.summaries?.title}
+                      <span> {course.resources.summaries?.title}</span>
                     </p>
                   </div>
                 </div>

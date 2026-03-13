@@ -10,8 +10,9 @@ import {
 import { uniNeeds } from "../data/UniversityNeedsData";
 import DotsDecoration from "../components/DotsDecoration";
 import Seo from "../meta/Seo";
-import LinkCard from "../components/CollapseCard";
+import LinkCard from "../components/LinkCard";
 import SectionHeading from "../components/SectionHeading";
+import OopsMessage from "../components/OopsMessage";
 
 export default function UniversityNeeds() {
   return (
@@ -30,8 +31,21 @@ export default function UniversityNeeds() {
           />
           <div className="year mt-5 mb-5">
             {uniNeeds.map((need, nIndex) => (
-              <div className="semester" key={nIndex}>
-                <p>
+              <div
+                className={`semester ${need.isOptional ? "optional" : ""}`}
+                key={nIndex}
+              >
+                <p
+                  {...(need.isOptional
+                    ? {
+                        "data-bs-toggle": "tooltip",
+                        "data-bs-placement": "top",
+                        "data-bs-delay": "100",
+                        title:
+                          "This course and all the marked courses are optional; as a Pharmacy student, you only need to pass one of the three courses.",
+                      }
+                    : {})}
+                >
                   <button
                     className="d-flex btn pt-3 pb-3"
                     type="button"
@@ -69,18 +83,23 @@ export default function UniversityNeeds() {
                         className="collapse"
                         id={`collapseExample-${nIndex}11`}
                       >
-                        {need.books.map((book, bIndex) => (
-                          <LinkCard
-                            key={bIndex}
-                            href={book.url}
-                            title={book.title}
-                            subtitle="The Recommended Reference Book"
-                            icon={faFile}
-                            actionText="Download"
-                            actionIcon={faDownload}
-                            cardClassName="dep pt-dep"
-                          />
-                        ))}
+                        {need.books.length > 0 ? (
+                          need.books.map((book, bIndex) => (
+                            <LinkCard
+                              key={bIndex}
+                              href={book.url}
+                              target="_blank"
+                              title={book.title}
+                              subtitle="The Recommended Reference Book"
+                              icon={faFile}
+                              actionText="Download"
+                              actionIcon={faDownload}
+                              cardClassName="dep"
+                            />
+                          ))
+                        ) : (
+                          <OopsMessage />
+                        )}
                       </div>
                     </div>
                     {need.lecturers.map((lecturer, lIndex) => (
@@ -127,23 +146,40 @@ export default function UniversityNeeds() {
                                   className="collapse"
                                   id={`collapse-${nIndex}-${lIndex}-${pIndex}`}
                                 >
-                                  {part.lectures.map((lecture, i) => (
-                                    <LinkCard
-                                      key={i}
-                                      href={lecture.url}
-                                      title={lecture.title}
-                                      subtitle={
-                                        <>
-                                          <span className="id"></span>{" "}
-                                          {lecture.description}
-                                        </>
-                                      }
-                                      icon={faCirclePlay}
-                                      actionText="Watch"
-                                      actionIcon={faYoutube}
-                                      cardClassName="dep pt-dep"
-                                    />
-                                  ))}
+                                  {part.lectures.length > 0 ? (
+                                    part.lectures.map((lecture, i) => (
+                                      <LinkCard
+                                        key={i}
+                                        href={lecture.url}
+                                        target="_blank"
+                                        title={lecture.title}
+                                        subtitle={
+                                          <>
+                                            <span className="id"></span>{" "}
+                                            {lecture.description}
+                                          </>
+                                        }
+                                        icon={
+                                          lecture.title === "Course Summary"
+                                            ? faFile
+                                            : faCirclePlay
+                                        }
+                                        actionText={
+                                          lecture.title === "Course Summary"
+                                            ? "Download"
+                                            : "Watch"
+                                        }
+                                        actionIcon={
+                                          lecture.title === "Course Summary"
+                                            ? faDownload
+                                            : faYoutube
+                                        }
+                                        cardClassName="dep"
+                                      />
+                                    ))
+                                  ) : (
+                                    <OopsMessage />
+                                  )}
                                 </div>
                               </div>
                             ))}

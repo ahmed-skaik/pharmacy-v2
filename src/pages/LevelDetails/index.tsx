@@ -13,8 +13,9 @@ import type { LevelStructure } from "../../types";
 import ProgressSection from "./sections/ProgressSection";
 import SpikesSeperator from "../../components/SpikesSeperator";
 import Seo from "../../meta/Seo";
-import LinkCard from "../../components/CollapseCard";
+import LinkCard from "../../components/LinkCard";
 import SectionHeading from "../../components/SectionHeading";
+import { getDepartmentClass } from "../../utils/getDepartmentClass ";
 
 export default function LevelPage() {
   const { levelId } = useParams();
@@ -50,10 +51,20 @@ export default function LevelPage() {
           <div className="year mt-5 pb-4">
             {level.semesters.map((semesterSection) => (
               <div
-                className="semester-1 semester"
+                className={`semester ${semesterSection.isOptional ? "optional" : ""}`}
                 key={semesterSection.semester}
               >
-                <p>
+                <p
+                  {...(semesterSection.isOptional
+                    ? {
+                        "data-bs-toggle": "tooltip",
+                        "data-bs-placement": "top",
+                        "data-bs-delay": "100",
+                        title:
+                          "These Courses are Optional; you only need to Pass Four of them.",
+                      }
+                    : {})}
+                >
                   <button
                     className="d-flex btn pt-3 pb-3"
                     type="button"
@@ -66,7 +77,7 @@ export default function LevelPage() {
                     <div>
                       <FontAwesomeIcon icon={faAngleRight} />
                     </div>
-                    <div> {semesterSection.semester.replace("-", " ")}</div>
+                    <div> {semesterSection.title}</div>
                   </button>
                 </p>
 
@@ -90,7 +101,7 @@ export default function LevelPage() {
                         icon={faPrescription}
                         actionText="Visit"
                         actionIcon={faArrowRightToBracket}
-                        cardClassName="dep pt-dep"
+                        cardClassName={`dep ${getDepartmentClass(course.code)}`}
                       />
                     ))}
                   </div>

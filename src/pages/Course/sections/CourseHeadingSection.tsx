@@ -37,15 +37,51 @@ export default function CourseHeadingSection({ course }: Props) {
         <div className="container">
           <div className="about">
             <ul className="list-unstyled d-flex flex-column flex-md-row justify-content-md-around">
-              <li>
-                <FontAwesomeIcon icon={faChalkboardUser} fixedWidth />
-                Lecturer:
-                {course.lecturers.map((lecturer, i) => (
-                  <span key={i}>
-                    {lecturer.title} {lecturer.name}
+              {course.lecturers.length === 0 ? (
+                <li>
+                  <FontAwesomeIcon icon={faChalkboardUser} fixedWidth />
+                  Lecturer: <span>-</span>
+                </li>
+              ) : course.lecturers.length === 1 ? (
+                <li>
+                  <FontAwesomeIcon icon={faChalkboardUser} fixedWidth />
+                  Lecturer:
+                  {course.lecturers.map((lecturer, i) => (
+                    <span key={i}>
+                      {lecturer.title} {lecturer.name}
+                    </span>
+                  ))}
+                </li>
+              ) : (
+                <li className="dropdown d-flex align-items-center flex-wrap">
+                  <FontAwesomeIcon icon={faChalkboardUser} fixedWidth />
+                  Lecturer:
+                  <span className="ms-1">
+                    <a
+                      className="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      {course.lecturers[0].title} {course.lecturers[0].name}
+                    </a>
+
+                    <ul className="dropdown-menu p-0">
+                      {course.lecturers.slice(1).map((lecturer, i) => (
+                        <li key={i}>
+                          <a
+                            className="dropdown-item"
+                            href={lecturer.altLink ?? "#"}
+                          >
+                            {lecturer.title} {lecturer.name}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
                   </span>
-                ))}
-              </li>
+                </li>
+              )}
               <li>
                 <FontAwesomeIcon icon={faCirclePlay} fixedWidth />
                 Videos:

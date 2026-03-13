@@ -26,17 +26,17 @@ export default function Header() {
             <img src={WebsiteLogo} alt="Logo" />
           </Link>
           <div className="d-block d-lg-none ms-auto">
-            <NavLink
+            <a
               className="btn main-btn mid d-none d-md-inline-block"
               style={{
                 fontSize: "14px",
                 padding: "10px 20px",
                 marginRight: "2px",
               }}
-              to="#courses"
+              href="#courses"
             >
               Courses
-            </NavLink>
+            </a>
             <FontAwesomeIcon icon={faPrescription} fixedWidth />
           </div>
           <button
@@ -116,9 +116,9 @@ export default function Header() {
                 </ul>
               </li>
               <li className="nav-item d-block d-md-none">
-                <NavLink className="nav-link" to="#courses">
+                <a className="nav-link" href="/#courses">
                   Courses
-                </NavLink>
+                </a>
               </li>
               <li className="nav-item">
                 <NavLink
@@ -173,9 +173,9 @@ export default function Header() {
                 <img src={GateLogo} alt="gate" />
               </NavLink>
               <FontAwesomeIcon icon={faPrescription} fixedWidth />
-              <NavLink to="#courses" className="btn main-btn">
+              <a href="/#courses" className="btn main-btn">
                 Courses
-              </NavLink>
+              </a>
             </div>
           </div>
         </div>

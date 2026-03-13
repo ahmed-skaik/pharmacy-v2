@@ -37,7 +37,7 @@ body {
   flex: 1; /* grow to fill space between header and footer */
 }
 
-//for debuging
+// for debugings
 // * {
 //   border: 1px solid #f00;
 // }
@@ -120,5 +120,5 @@ $dots_dimentions: 180px;
 }
 
 abbr {
-  text-decoration: underline dotted $id_color;
+  text-decoration: underline dotted $id_color !important;
 }

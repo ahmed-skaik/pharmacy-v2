@@ -5,7 +5,7 @@ export const courses: CourseData[] = [
     slug: "cell-biology",
     title: "Cell Biology.",
     description:
-      "Understanding the Structures of Basic Components of Prokaryotic\n            & Eukaryotic Cells and How These Components are used to Generate\n            and Utilize Energy",
+      "Understanding the Structures of Basic Components of Prokaryotic\n & Eukaryotic Cells and How These Components are used to Generate\n and Utilize Energy",
     lecturers: [
       {
         title: "Dr.",
@@ -20,11 +20,11 @@ export const courses: CourseData[] = [
     resources: {
       referenceBook: {
         title: "Reference Book",
-        url: "../../../404.html",
+        url: "404",
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -73,7 +73,7 @@ export const courses: CourseData[] = [
       {
         title: "Eng.",
         name: "Mohammed Abu-shaban",
-        altLink: "computer-science-1.html",
+        altLink: "computer-science-1",
       },
     ],
     stats: {
@@ -344,7 +344,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -396,7 +396,7 @@ export const courses: CourseData[] = [
       {
         title: "Eng.",
         name: "Omar Al-naha",
-        altLink: "computer-science-1-omar.html",
+        altLink: "computer-science-1-omar",
       },
     ],
     stats: {
@@ -657,7 +657,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -948,7 +948,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -986,7 +986,7 @@ export const courses: CourseData[] = [
       {
         title: "Dr.",
         name: "Mohammed Iqelan",
-        altLink: "mathematics.html",
+        altLink: "mathematics",
       },
     ],
     stats: {
@@ -1159,12 +1159,12 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
           title: "404 - Not Found !",
-          url: "../../../404.html",
+          url: "404",
         },
       ],
     },
@@ -1196,7 +1196,7 @@ export const courses: CourseData[] = [
       {
         title: "Prof.",
         name: "Mohammed Matar",
-        altLink: "mathematics-matar.html",
+        altLink: "mathematics-matar",
       },
     ],
     stats: {
@@ -1348,12 +1348,12 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
           title: "404 - Not Found !",
-          url: "../../../404.html",
+          url: "404",
         },
       ],
     },
@@ -1494,7 +1494,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -1535,7 +1535,7 @@ export const courses: CourseData[] = [
       {
         title: "Dr.",
         name: "Mai Ramadan",
-        altLink: "analytical-chemistry-1.html",
+        altLink: "analytical-chemistry-1",
       },
     ],
     stats: {
@@ -1606,7 +1606,7 @@ export const courses: CourseData[] = [
             title: "Lecture (5)",
             description:
               "unknown\n                            couldn't find the Lecture",
-            url: "../../../404.html",
+            url: "404",
           },
           {
             title: "Lecture (6)",
@@ -1707,7 +1707,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -1744,7 +1744,7 @@ export const courses: CourseData[] = [
       },
       {
         name: "Maha Al-khateeb",
-        altLink: "analytical-chemistry-1-maha.html",
+        altLink: "analytical-chemistry-1-maha",
       },
     ],
     stats: {
@@ -1927,7 +1927,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -2117,11 +2117,11 @@ export const courses: CourseData[] = [
     resources: {
       referenceBook: {
         title: "Reference Book",
-        url: "../../../404.html",
+        url: "404",
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -2472,7 +2472,7 @@ export const courses: CourseData[] = [
             title: "Lecture (8)",
             description:
               "Unknown\n                            (couldn't find the lecture)",
-            url: "../../../404.html",
+            url: "404",
           },
           {
             title: "Lecture (9)",
@@ -2602,7 +2602,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -2897,11 +2897,11 @@ export const courses: CourseData[] = [
     resources: {
       referenceBook: {
         title: "Reference Book",
-        url: "../../../404.html",
+        url: "404",
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -3163,7 +3163,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -3487,7 +3487,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -3531,12 +3531,12 @@ export const courses: CourseData[] = [
       },
       {
         name: "Manal Zourab",
-        altLink: "physical-pharmacy-2-manal.html",
+        altLink: "physical-pharmacy-2-manal",
       },
       {
         title: "Dr.",
         name: "Hend Abu-amara",
-        altLink: "physical-pharmacy-2.html",
+        altLink: "physical-pharmacy-2",
       },
     ],
     stats: {
@@ -3672,7 +3672,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -3712,12 +3712,12 @@ export const courses: CourseData[] = [
       },
       {
         name: "Ibtihal Al-astal",
-        altLink: "physical-pharmacy-2-ibtihal.html",
+        altLink: "physical-pharmacy-2-ibtihal",
       },
       {
         title: "Dr.",
         name: "Hend Abu-amara",
-        altLink: "physical-pharmacy-2.html",
+        altLink: "physical-pharmacy-2",
       },
     ],
     stats: {
@@ -3870,7 +3870,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -3911,11 +3911,11 @@ export const courses: CourseData[] = [
       },
       {
         name: "Ibtihal Al-astal",
-        altLink: "physical-pharmacy-2-ibtihal.html",
+        altLink: "physical-pharmacy-2-ibtihal",
       },
       {
         name: "Manal Zourab",
-        altLink: "physical-pharmacy-2-manal.html",
+        altLink: "physical-pharmacy-2-manal",
       },
     ],
     stats: {
@@ -3994,7 +3994,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -4237,7 +4237,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -4508,7 +4508,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -4555,16 +4555,16 @@ export const courses: CourseData[] = [
     resources: {
       referenceBook: {
         title: "Reference Book",
-        url: "../../../404.html",
+        url: "404",
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
           title: "(404 - Not Found)",
-          url: "../../../404.html",
+          url: "404",
         },
       ],
     },
@@ -4822,7 +4822,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -4861,7 +4861,7 @@ export const courses: CourseData[] = [
       },
       {
         name: "Jamil Mohanna",
-        altLink: "physiology-2.html",
+        altLink: "physiology-2",
       },
     ],
     stats: {
@@ -5045,7 +5045,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -5088,7 +5088,7 @@ export const courses: CourseData[] = [
       },
       {
         name: "Manal Zourab",
-        altLink: "physiology-2-manal.html",
+        altLink: "physiology-2-manal",
       },
     ],
     stats: {
@@ -5296,7 +5296,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -5748,7 +5748,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -5975,7 +5975,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -6201,12 +6201,12 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
           title: "(404 - Not Found)",
-          url: "../../../404.html",
+          url: "404",
         },
       ],
     },
@@ -6245,16 +6245,16 @@ export const courses: CourseData[] = [
     resources: {
       referenceBook: {
         title: "Reference Book",
-        url: "../../../404.html",
+        url: "404",
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
           title: "(404 - Not Found)",
-          url: "../../../404.html",
+          url: "404",
         },
       ],
     },
@@ -6490,7 +6490,7 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "(404 - Not Found)",
-          url: "../../../404.html",
+          url: "404",
         },
       ],
     },
@@ -6731,7 +6731,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -6994,7 +6994,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -7250,7 +7250,7 @@ export const courses: CourseData[] = [
     resources: {
       referenceBook: {
         title: "Reference Book",
-        url: "../../../404.html",
+        url: "404",
       },
       summaries: {
         title: "Summaries",
@@ -7432,7 +7432,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -7745,11 +7745,11 @@ export const courses: CourseData[] = [
     resources: {
       referenceBook: {
         title: "Reference Book",
-        url: "../../../404.html",
+        url: "404",
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -7911,12 +7911,12 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
           title: "(404 - Not Found)",
-          url: "../../../404.html",
+          url: "404",
         },
       ],
     },
@@ -8303,7 +8303,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -8798,11 +8798,11 @@ export const courses: CourseData[] = [
     resources: {
       referenceBook: {
         title: "Reference Book",
-        url: "../../../404.html",
+        url: "404",
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -9013,11 +9013,11 @@ export const courses: CourseData[] = [
     resources: {
       referenceBook: {
         title: "Reference Book",
-        url: "../../../404.html",
+        url: "404",
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -9231,7 +9231,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -9475,7 +9475,7 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "(404 - Not Found)",
-          url: "../../../404.html",
+          url: "404",
         },
       ],
     },
@@ -9671,7 +9671,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -9827,7 +9827,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -10011,7 +10011,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -10307,16 +10307,16 @@ export const courses: CourseData[] = [
     resources: {
       referenceBook: {
         title: "Reference Book",
-        url: "../../../404.html",
+        url: "404",
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
           title: "(404 - Not Found)",
-          url: "../../../404.html",
+          url: "404",
         },
       ],
     },
@@ -10358,7 +10358,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -10569,12 +10569,12 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
           title: "(404 - Not Found)",
-          url: "../../../404.html",
+          url: "404",
         },
       ],
     },
@@ -10747,16 +10747,16 @@ export const courses: CourseData[] = [
     resources: {
       referenceBook: {
         title: "Reference Book",
-        url: "../../../404.html",
+        url: "404",
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
           title: "(404 - Not Found)",
-          url: "../../../404.html",
+          url: "404",
         },
       ],
     },
@@ -10972,7 +10972,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -11027,16 +11027,16 @@ export const courses: CourseData[] = [
     resources: {
       referenceBook: {
         title: "Reference Book",
-        url: "../../../404.html",
+        url: "404",
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
           title: "(404 - Not Found)",
-          url: "../../../404.html",
+          url: "404",
         },
       ],
     },
@@ -11425,12 +11425,12 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
           title: "(404 - Not Found)",
-          url: "../../../404.html",
+          url: "404",
         },
       ],
     },
@@ -11711,7 +11711,7 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "(404 - Not Found)",
-          url: "../../../404.html",
+          url: "404",
         },
       ],
     },
@@ -11743,7 +11743,7 @@ export const courses: CourseData[] = [
       {
         title: "Dr.",
         name: "Mahmoud Taleb",
-        altLink: "pharmacotherapeutics-1.html",
+        altLink: "pharmacotherapeutics-1",
       },
     ],
     stats: {
@@ -12039,7 +12039,7 @@ export const courses: CourseData[] = [
       },
       {
         name: "Samar Abu-rkhaya",
-        altLink: "pharmacotherapeutics-1-samar.html",
+        altLink: "pharmacotherapeutics-1-samar",
       },
     ],
     stats: {
@@ -12470,7 +12470,7 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "(404 - Not Found)",
-          url: "../../../404.html",
+          url: "404",
         },
       ],
     },
@@ -12508,11 +12508,11 @@ export const courses: CourseData[] = [
     resources: {
       referenceBook: {
         title: "Reference Book",
-        url: "../../../404.html",
+        url: "404",
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -12759,12 +12759,12 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
           title: "(404 - Not Found)",
-          url: "../../../404.html",
+          url: "404",
         },
       ],
     },
@@ -12875,7 +12875,7 @@ export const courses: CourseData[] = [
             title: "Lecture (4)",
             description:
               "Stable Angina pt.A\n                            (couldn't find the lecture)",
-            url: "../../../404.html",
+            url: "404",
           },
           {
             title: "Lecture (5)",
@@ -12982,7 +12982,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {
@@ -13169,7 +13169,7 @@ export const courses: CourseData[] = [
       },
       summaries: {
         title: "Summaries",
-        url: "../../../404.html",
+        url: "404",
       },
       exams: [
         {

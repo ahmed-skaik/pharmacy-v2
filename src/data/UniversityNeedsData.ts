@@ -4,6 +4,7 @@ export const uniNeeds: UniSubject[] = [
   {
     id: "arabic-language-1",
     title: "Arabic Language (1)",
+    isOptional: false,
     books: [
       {
         title: "Book (الأدب والبلاغة)",
@@ -130,6 +131,7 @@ export const uniNeeds: UniSubject[] = [
   {
     id: "english-language-1",
     title: "English Language (1)",
+    isOptional: false,
     books: [
       {
         title: "Book (All Lecturers)",
@@ -151,6 +153,7 @@ export const uniNeeds: UniSubject[] = [
   {
     id: "holy-quran-1",
     title: "Holy Quran (1)",
+    isOptional: false,
     books: [
       {
         title: "Book (All Lecturers)",
@@ -318,6 +321,7 @@ export const uniNeeds: UniSubject[] = [
   {
     id: "holy-quran-2",
     title: "Holy Quran (2)",
+    isOptional: false,
     books: [
       {
         title: "Book (All Lecturers)",
@@ -475,6 +479,7 @@ export const uniNeeds: UniSubject[] = [
   {
     id: "holy-quran-3",
     title: "Holy Quran (3)",
+    isOptional: false,
     books: [
       {
         title: "Book",
@@ -572,6 +577,7 @@ export const uniNeeds: UniSubject[] = [
   {
     id: "holy-quran-4",
     title: "Holy Quran (4)",
+    isOptional: false,
     books: [
       {
         title: "Book",
@@ -654,6 +660,7 @@ export const uniNeeds: UniSubject[] = [
   {
     id: "interpretation-of-quran-تفسير-دراسات-في-التفسير-وعلوم-القرآن",
     title: "Interpretation of Quran (دراسات في التفسير وعلوم القرآن)",
+    isOptional: false,
     books: [],
     lecturers: [
       {
@@ -921,6 +928,7 @@ export const uniNeeds: UniSubject[] = [
   {
     id: "jurisprudence-فقه-دراسات-في-الفقه-الإسلامي",
     title: "Jurisprudence (دراسات في الفقه الإسلامي)",
+    isOptional: false,
     books: [
       {
         title: "Book (All Lecturers)",
@@ -1280,6 +1288,11 @@ export const uniNeeds: UniSubject[] = [
                 url: "https://youtu.be/wnWB5xxA6qU",
               },
               {
+                title: "Lecture (02) External Link",
+                description: "Lecture Title",
+                url: "https://www.youtube.com/watch?v=HMERx-0_Koo",
+              },
+              {
                 title: "Lecture (03)",
                 description: "Lecture Title",
                 url: "https://youtu.be/ucvN1dUQAok",
@@ -1368,6 +1381,7 @@ export const uniNeeds: UniSubject[] = [
   {
     id: "studies-in-islamic-faith-عقيدة-دراسات-في-العقيدة-الإسلامية",
     title: "Studies in Islamic Faith (دراسات في العقيدة الإسلامية)",
+    isOptional: false,
     books: [
       {
         title: "Book (All Lecturers)",
@@ -1495,6 +1509,7 @@ export const uniNeeds: UniSubject[] = [
   {
     id: "studies-in-prophetic-tradition-حديث-دراسات-في-الحديث-وعلومه",
     title: "Studies in Prophetic Tradition (دراسات في الحديث وعلومه)",
+    isOptional: false,
     books: [],
     lecturers: [
       {
@@ -1701,7 +1716,7 @@ export const uniNeeds: UniSubject[] = [
               {
                 title: "Lecture (12)",
                 description: "Unknown, couldn't find the lecture",
-                url: "../404.html",
+                url: "404",
               },
               {
                 title: "Lecture (13)",
@@ -1711,7 +1726,7 @@ export const uniNeeds: UniSubject[] = [
               {
                 title: "Lecture (14)",
                 description: "Unknown, couldn't find the lecture",
-                url: "../404.html",
+                url: "404",
               },
               {
                 title: "Lecture (15)",
@@ -1787,6 +1802,7 @@ export const uniNeeds: UniSubject[] = [
   {
     id: "environmental-sciences",
     title: "Environmental Sciences",
+    isOptional: true,
     books: [
       {
         title: "Book\n                        (Prof. Khalid's)",
@@ -2038,12 +2054,14 @@ export const uniNeeds: UniSubject[] = [
   {
     id: "human-rights",
     title: "Human Rights",
+    isOptional: true,
     books: [],
     lecturers: [],
   },
   {
     id: "palestinian-studies",
     title: "Palestinian Studies",
+    isOptional: true,
     books: [
       {
         title: "Book (All Lecturers)",

@@ -33,8 +33,12 @@ export default function CoursesSection() {
                   <div className="text">
                     <h3>{card.title}</h3>
                     <p>
-                      {card.id}
-                      <sup>{card.sup}</sup> {card.description}
+                      {card.id <= 5 ? (
+                        <>
+                          {card.id} <sup>{card.sup}</sup>
+                        </>
+                      ) : null}{" "}
+                      {card.description}
                       <span style={{ visibility: "hidden" }}>
                         {card.hiddenText}
                       </span>

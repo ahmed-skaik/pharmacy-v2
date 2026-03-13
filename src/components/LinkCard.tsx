@@ -40,7 +40,6 @@ export default function LinkCard({
             {subtitle && <p>{subtitle}</p>}
           </div>
         </div>
-
         {(actionText || actionIcon) && (
           <div className="link align-self-center align-self-md-end">
             <span style={hideAction ? { visibility: "hidden" } : undefined}>

@@ -8,12 +8,13 @@ export interface Course {
   name: string;
   code: string;
   classification: CourseClassification;
-  departmentPrefix: string;
   link: string;
 }
 
 export interface Semester {
   semester: string;
+  title: string;
+  isOptional: boolean;
   courses: Course[];
 }
 
@@ -80,6 +81,7 @@ export interface UniBook {
 export interface UniSubject {
   id: string;
   title: string;
+  isOptional: boolean;
   books: UniBook[];
   lecturers: UniLecturer[];
 }
