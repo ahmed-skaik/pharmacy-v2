@@ -15,7 +15,7 @@ import SpikesSeperator from "../../components/SpikesSeperator";
 import Seo from "../../meta/Seo";
 import LinkCard from "../../components/LinkCard";
 import SectionHeading from "../../components/SectionHeading";
-import { getDepartmentClass } from "../../utils/getDepartmentClass ";
+import { GetDepartmentClass } from "../../utils/GetDepartmentClass";
 
 export default function LevelPage() {
   const { levelId } = useParams();
@@ -101,7 +101,7 @@ export default function LevelPage() {
                         icon={faPrescription}
                         actionText="Visit"
                         actionIcon={faArrowRightToBracket}
-                        cardClassName={`dep ${getDepartmentClass(course.code)}`}
+                        cardClassName={`dep ${GetDepartmentClass(course.code)}`}
                       />
                     ))}
                   </div>

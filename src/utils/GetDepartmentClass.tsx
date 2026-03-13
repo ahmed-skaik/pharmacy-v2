@@ -1,4 +1,4 @@
-export function getDepartmentClass(code?: string): string {
+export function GetDepartmentClass(code?: string): string {
   if (!code) return "";
 
   const prefix = code.slice(0, 4).toUpperCase();

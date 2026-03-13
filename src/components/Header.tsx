@@ -9,8 +9,11 @@ import {
   faXmark,
   faExpand,
 } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 
 export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <header>
       <button
@@ -34,6 +37,7 @@ export default function Header() {
                 marginRight: "2px",
               }}
               href="#courses"
+              onClick={() => setMenuOpen(false)}
             >
               Courses
             </a>
@@ -42,16 +46,18 @@ export default function Header() {
           <button
             className="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#main"
-            aria-controls="main"
-            aria-expanded="false"
             aria-label="Toggle navigation"
+            aria-expanded={menuOpen}
+            onClick={() => setMenuOpen((prev) => !prev)}
           >
             <FontAwesomeIcon icon={faBarsStaggered} fixedWidth />
             <FontAwesomeIcon icon={faXmark} fixedWidth />
           </button>
-          <div className="collapse navbar-collapse" id="main">
+
+          <div
+            className={`navbar-collapse collapse ${menuOpen ? "show" : ""}`}
+            id="main"
+          >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <NavLink
@@ -60,12 +66,17 @@ export default function Header() {
                   }
                   aria-current="page"
                   to="/"
+                  onClick={() => setMenuOpen(false)}
                 >
                   Home
                 </NavLink>
               </li>
               <li className="nav-item">
-                <a className={`nav-link`} href="/#plans">
+                <a
+                  className={`nav-link`}
+                  href="/#plans"
+                  onClick={() => setMenuOpen(false)}
+                >
                   Plans
                 </a>
               </li>
@@ -81,27 +92,47 @@ export default function Header() {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <NavLink className="dropdown-item" to="/levels/1">
+                    <NavLink
+                      className="dropdown-item"
+                      to="/levels/1"
+                      onClick={() => setMenuOpen(false)}
+                    >
                       Level 1
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="/levels/2">
+                    <NavLink
+                      className="dropdown-item"
+                      to="/levels/2"
+                      onClick={() => setMenuOpen(false)}
+                    >
                       Level 2
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="/levels/3">
+                    <NavLink
+                      className="dropdown-item"
+                      to="/levels/3"
+                      onClick={() => setMenuOpen(false)}
+                    >
                       Level 3
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="/levels/4">
+                    <NavLink
+                      className="dropdown-item"
+                      to="/levels/4"
+                      onClick={() => setMenuOpen(false)}
+                    >
                       Level 4
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="/levels/5">
+                    <NavLink
+                      className="dropdown-item"
+                      to="/levels/5"
+                      onClick={() => setMenuOpen(false)}
+                    >
                       Level 5
                     </NavLink>
                   </li>
@@ -109,14 +140,22 @@ export default function Header() {
                     <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="uni-needs">
+                    <NavLink
+                      className="dropdown-item"
+                      to="uni-needs"
+                      onClick={() => setMenuOpen(false)}
+                    >
                       UNIV Needs
                     </NavLink>
                   </li>
                 </ul>
               </li>
               <li className="nav-item d-block d-md-none">
-                <a className="nav-link" href="/#courses">
+                <a
+                  className="nav-link"
+                  href="/#courses"
+                  onClick={() => setMenuOpen(false)}
+                >
                   Courses
                 </a>
               </li>
@@ -126,6 +165,7 @@ export default function Header() {
                     `nav-link ${isActive ? "active" : ""}`
                   }
                   to="/contact"
+                  onClick={() => setMenuOpen(false)}
                 >
                   Contact
                 </NavLink>
@@ -136,27 +176,32 @@ export default function Header() {
                     `nav-link ${isActive ? "active" : ""}`
                   }
                   to="/about"
+                  onClick={() => setMenuOpen(false)}
                 >
                   About
                 </NavLink>
               </li>
               <li className="nav-item d-block d-lg-none">
-                <NavLink
+                <a
                   className="nav-link"
-                  to="https://moodle.alazhar.edu.ps/login/"
+                  href="https://moodle.alazhar.edu.ps/login/"
                   target="_blank"
+                  rel="noopener"
+                  onClick={() => setMenuOpen(false)}
                 >
                   Moodle
-                </NavLink>
+                </a>
               </li>
               <li className="nav-item d-block d-lg-none">
-                <NavLink
+                <a
                   className="nav-link"
-                  to="http://gate.alazhar.edu.ps/students/"
+                  href="http://gate.alazhar.edu.ps/students/"
                   target="_blank"
+                  rel="noopener"
+                  onClick={() => setMenuOpen(false)}
                 >
                   Student Gate
-                </NavLink>
+                </a>
               </li>
             </ul>
             <div className="d-none d-lg-block">
@@ -169,11 +214,16 @@ export default function Header() {
               <NavLink
                 to="http://gate.alazhar.edu.ps/students/"
                 target="_blank"
+                onClick={() => setMenuOpen(false)}
               >
                 <img src={GateLogo} alt="gate" />
               </NavLink>
               <FontAwesomeIcon icon={faPrescription} fixedWidth />
-              <a href="/#courses" className="btn main-btn">
+              <a
+                href="/#courses"
+                className="btn main-btn"
+                onClick={() => setMenuOpen(false)}
+              >
                 Courses
               </a>
             </div>
