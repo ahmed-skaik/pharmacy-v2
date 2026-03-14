@@ -10,6 +10,9 @@ import CoursePage from "./pages/Course";
 import UniversityNeeds from "./pages/UniversityNeeds";
 import AnalyticsTracker from "./analytics/AnalyticsTracker";
 import ScrollToHash from "./utils/ScrollToHash";
+import * as bootstrap from "bootstrap";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 export default function App() {
   const welcomeMsg = `Hello from Console my fellow Pharmacy Students !`;
@@ -18,6 +21,23 @@ export default function App() {
     `color: #3434ff; font-size: 25px; background-color: #fff; text-decoration: underline wavy #08082c;`,
     `color: red; font-size: 25px; padding-top: 25px`,
   );
+
+  //Tooltip
+  const location = useLocation();
+  useEffect(() => {
+    const tooltipTriggerList = document.querySelectorAll(
+      '[data-bs-toggle="tooltip"]',
+    );
+
+    tooltipTriggerList.forEach((el) => {
+      bootstrap.Tooltip.getOrCreateInstance(el);
+    });
+  }, [location]);
+
+  document.addEventListener("fullscreenchange", () =>
+    console.log("fullscreen:", !!document.fullscreenElement),
+  );
+
   return (
     <>
       <AnalyticsTracker />

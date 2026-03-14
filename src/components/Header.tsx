@@ -8,11 +8,30 @@ import {
   faBarsStaggered,
   faXmark,
   faExpand,
+  faCompress,
 } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const [isFullscreen, setIsFullscreen] = useState(false);
+
+  const toggleFullscreen = () => {
+    const doc = document.documentElement;
+
+    if (!document.fullscreenElement) {
+      if (doc.requestFullscreen) {
+        doc.requestFullscreen();
+      }
+      setIsFullscreen(true);
+    } else {
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      }
+      setIsFullscreen(false);
+    }
+  };
 
   return (
     <header>
@@ -20,8 +39,12 @@ export default function Header() {
         className="full-screen d-none d-md-block"
         id="full-screen"
         aria-label="full Screen"
+        onClick={toggleFullscreen}
       >
-        <FontAwesomeIcon icon={faExpand} fixedWidth />
+        <FontAwesomeIcon
+          icon={isFullscreen ? faCompress : faExpand}
+          fixedWidth
+        />
       </button>
       <nav className="navbar navbar-expand-lg pt-lg-2 pb-lg-2">
         <div className="container">
@@ -86,7 +109,7 @@ export default function Header() {
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
-                  href="."
+                  href="#"
                 >
                   Levels
                 </a>

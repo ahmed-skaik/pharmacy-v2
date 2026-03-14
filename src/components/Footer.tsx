@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   const currentDate = new Date();
   const currentYear = currentDate.getFullYear();
+
   return (
     <footer className="p-3" id="footer">
       <div className="container d-flex justify-content-center align-items-center">
@@ -14,7 +15,7 @@ export default function Footer() {
         >
           Made with ❤️, by
           <span>
-            <Link to="/about">Ahmed-Skaîk</Link>
+            <Link to="/about#founders">Ahmed-Skaîk</Link>
           </span>
           &copy; {currentYear}
         </p>

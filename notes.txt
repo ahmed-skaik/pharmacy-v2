@@ -1,12 +1,8 @@
-next : 
-
 not that the icon in the header isn't static, it changes based on the page , keep that in mind 
 
-tooltip thing !
-
-full screen button !
-
 right documents in place !
+
+course mandatory pre reqs thing 
 
 🧠 3️⃣ What I Would Improve
 ✅ A) Convert JPG/PNG to WebP
@@ -19,9 +15,6 @@ about-1.jpg → about-1.webp
 WebP reduces size by 25–70%.
 
 Huge performance improvement
-
-you have missing laps in the levels section !
-
 
 
 npm run build
