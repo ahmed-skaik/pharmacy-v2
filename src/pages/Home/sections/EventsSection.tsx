@@ -5,7 +5,7 @@ import {
   faLink,
   faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
-import { eventsData } from "../../../data/EventsData";
+import { eventsData } from "../../../data/HomeData";
 import SectionHeading from "../../../components/SectionHeading";
 
 export default function EventsSection() {
@@ -23,10 +23,7 @@ export default function EventsSection() {
           <div className="card mb-3 mt-3" key={event.id}>
             <div className="row align-items-center justify-content-between">
               <div className="col-md-4 text-center">
-                <a
-                  href="documents/other/exam-table/midterm-exams.pdf"
-                  target="_blank"
-                >
+                <a href={event.pdfPath || event.websiteUrl} target="_blank">
                   <img
                     src={event.image}
                     className="img-fluid rounded-start"
@@ -64,7 +61,7 @@ export default function EventsSection() {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            Official Website
+                            Event Website
                           </a>
                         </>
                       )}

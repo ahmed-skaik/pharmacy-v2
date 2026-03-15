@@ -301,14 +301,14 @@ export default function CourseContentSection({ course }: Props) {
                     <tr>
                       <th scope="row">Pre-requirements:</th>
                       {course.about.preRequirements.map((pre, i) => (
-                        <td className="mustt" key={i}>
+                        <td className={pre.required ? "must" : ""} key={i}>
                           <abbr
                             data-bs-toggle="tooltip"
                             data-bs-placement="top"
                             data-bs-delay="100"
-                            title="Human Physiology I"
+                            title={pre.title}
                           >
-                            {pre}
+                            {pre.code || "-"}
                           </abbr>
                         </td>
                       ))}

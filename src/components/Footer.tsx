@@ -11,7 +11,7 @@ export default function Footer() {
           data-bs-toggle="tooltip"
           data-bs-placement="top"
           data-bs-delay="100"
-          title="This Project was made by me Ahmed-Skaik, a 5th-year Pharmacy student using HTML, CSS, SASS, BOOTSTRAP & JS. ///////// Credit to Mr. Ahmed-Younis for providing all the data needed for the Project."
+          title="This Project was made by me Ahmed-Skaik, a Pharmacist & a Web Developer using Reactjs, TS, SASS & Bootstrap | Credit to Mr. Ahmed-Younis for providing project's data."
         >
           Made with ❤️, by
           <span>

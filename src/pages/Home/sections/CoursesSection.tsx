@@ -2,7 +2,7 @@ import LevelImg from "../../../assets/images/level-img.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-import { cardsData } from "../../../data/CardsData";
+import { cardsData } from "../../../data/HomeData";
 import DotsDecoration from "../../../components/DotsDecoration";
 import SectionHeading from "../../../components/SectionHeading";
 

@@ -1,16 +1,17 @@
 import WebsiteLogo from "../assets/images/logo.png";
 import MoodleLogo from "../assets/images/moodle-logo.png";
 import GateLogo from "../assets/images/gate.png";
-import { NavLink, Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faPrescription,
   faBarsStaggered,
   faXmark,
   faExpand,
   faCompress,
 } from "@fortawesome/free-solid-svg-icons";
+import { NavLink, Link, useLocation } from "react-router-dom";
 import { useState } from "react";
+
+import { GetPageIcon } from "../utils/GetPageIcon";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -32,6 +33,8 @@ export default function Header() {
       setIsFullscreen(false);
     }
   };
+
+  const location = useLocation();
 
   return (
     <header>
@@ -64,7 +67,7 @@ export default function Header() {
             >
               Courses
             </a>
-            <FontAwesomeIcon icon={faPrescription} fixedWidth />
+            <FontAwesomeIcon icon={GetPageIcon(location.pathname)} fixedWidth />
           </div>
           <button
             className="navbar-toggler"
@@ -241,7 +244,10 @@ export default function Header() {
               >
                 <img src={GateLogo} alt="gate" />
               </NavLink>
-              <FontAwesomeIcon icon={faPrescription} fixedWidth />
+              <FontAwesomeIcon
+                icon={GetPageIcon(location.pathname)}
+                fixedWidth
+              />
               <a
                 href="/#courses"
                 className="btn main-btn"

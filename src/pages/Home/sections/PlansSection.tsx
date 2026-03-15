@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { plansData } from "../../../data/PlansData";
+import { plansData } from "../../../data/HomeData";
 import SectionHeading from "../../../components/SectionHeading";
-
 export default function PlansSection() {
   return (
     <div className="plans pt-5 pb-5 text-center" id="plans">

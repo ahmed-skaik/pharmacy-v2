@@ -126,6 +126,10 @@ export interface CourseData {
   about: {
     description: string;
     infoTable: Record<string, string>;
-    preRequirements: string[]; // ← ADD THIS
+    preRequirements: {
+      code?: string;
+      title?: string;
+      required?: boolean;
+    }[]; // ← ADD THIS
   };
 }

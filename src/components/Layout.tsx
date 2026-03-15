@@ -20,9 +20,9 @@ export default function Layout() {
     <>
       {loading && <LoadingPage />}
       <Header />
-      <div className="fill-content">
+      <main className="fill-content">
         <Outlet />
-      </div>
+      </main>
       <Footer />
       <ScrollToTopButton />
     </>

@@ -58,7 +58,7 @@ export const courses: CourseData[] = [
         "Total Credits:": "3 Credit Hours",
         "Notes:": "-",
       },
-      preRequirements: ["---"],
+      preRequirements: [{}],
     },
   },
   {
@@ -381,7 +381,7 @@ export const courses: CourseData[] = [
         "Total Credits:": "3 Credit Hours",
         "Notes:": "-",
       },
-      preRequirements: ["---"],
+      preRequirements: [{}],
     },
   },
   {
@@ -694,7 +694,7 @@ export const courses: CourseData[] = [
         "Total Credits:": "3 Credit Hours",
         "Notes:": "-",
       },
-      preRequirements: ["---"],
+      preRequirements: [{}],
     },
   },
   {
@@ -970,7 +970,7 @@ export const courses: CourseData[] = [
         "Total Credits:": "3 Credit Hours",
         "Notes:": "-",
       },
-      preRequirements: ["---"],
+      preRequirements: [{}],
     },
   },
   {
@@ -1180,7 +1180,7 @@ export const courses: CourseData[] = [
         "Total Credits:": "3 Credit Hours",
         "Notes:": "-",
       },
-      preRequirements: ["---"],
+      preRequirements: [{}],
     },
   },
   {
@@ -1369,7 +1369,7 @@ export const courses: CourseData[] = [
         "Total Credits:": "3 Credit Hours",
         "Notes:": "-",
       },
-      preRequirements: ["---"],
+      preRequirements: [{}],
     },
   },
   {
@@ -1520,7 +1520,7 @@ export const courses: CourseData[] = [
         "Total Credits:": "1 Credit Hour",
         "Notes:": "-",
       },
-      preRequirements: ["---"],
+      preRequirements: [{}],
     },
   },
   {
@@ -1729,7 +1729,9 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHCH1301"],
+      preRequirements: [
+        { code: "PHCH1301", title: "General Chemistry 1", required: true },
+      ],
     },
   },
   {
@@ -1949,7 +1951,9 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHCH1301"],
+      preRequirements: [
+        { code: "PHCH1301", title: "General Chemistry 1", required: true },
+      ],
     },
   },
   {
@@ -2147,7 +2151,9 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHPT1301"],
+      preRequirements: [
+        { code: "PHPT1301", title: "Cell Biology", required: true },
+      ],
     },
   },
   {
@@ -2383,7 +2389,9 @@ export const courses: CourseData[] = [
         "Total Credits:": "3 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["CHEM1301"],
+      preRequirements: [
+        { code: "CHEM1301", title: "General Chemistry 1", required: true },
+      ],
     },
   },
   {
@@ -2624,7 +2632,9 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["CHEM1301"],
+      preRequirements: [
+        { code: "CHEM1301", title: "General Chemistry", required: true },
+      ],
     },
   },
   {
@@ -2927,7 +2937,10 @@ export const courses: CourseData[] = [
         "Total Credits:": "3 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["CHEM1301", "PHCH1201"],
+      preRequirements: [
+        { code: "CHEM1301", title: "General Chemistry", required: true },
+        { code: "PHCH1201", title: "Analytical Chemistry I", required: false },
+      ],
     },
   },
   {
@@ -3193,7 +3206,9 @@ export const courses: CourseData[] = [
         "Total Credits:": "3 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHPT1301"],
+      preRequirements: [
+        { code: "PHPT1301", title: "Cell Biology", required: true },
+      ],
     },
   },
   {
@@ -3517,7 +3532,10 @@ export const courses: CourseData[] = [
         "Total Credits:": "3 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["CHEM1301", "PHCH1303"],
+      preRequirements: [
+        { code: "CHEM1301", title: "General Chemistry", required: false },
+        { code: "PHCH1303", title: "Organic Chemistry I", required: true },
+      ],
     },
   },
   {
@@ -3698,7 +3716,10 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["CHEM1301", "PHTC1201"],
+      preRequirements: [
+        { code: "CHEM1301", title: "General Chemistry 1", required: true },
+        { code: "PHTC1201", title: "Physical Pharmacy I", required: false },
+      ],
     },
   },
   {
@@ -3896,7 +3917,10 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["CHEM1301", "PHTC1201"],
+      preRequirements: [
+        { code: "CHEM1301", title: "General Chemistry 1", required: true },
+        { code: "PHTC1201", title: "Physical Pharmacy I", required: false },
+      ],
     },
   },
   {
@@ -4020,7 +4044,10 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["CHEM1301", "PHTC1201"],
+      preRequirements: [
+        { code: "CHEM1301", title: "General Chemistry 1", required: true },
+        { code: "PHTC1201", title: "Physical Pharmacy I", required: false },
+      ],
     },
   },
   {
@@ -4259,7 +4286,14 @@ export const courses: CourseData[] = [
         "Total Credits:": "3 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHPT1301", "PHPT1203"],
+      preRequirements: [
+        { code: "PHPT1301", title: "Cell Biology", required: false },
+        {
+          code: "PHPT1203",
+          title: "Human Anatomy & Histology",
+          required: true,
+        },
+      ],
     },
   },
   {
@@ -4534,7 +4568,10 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["CHEM1301", "PHCH2306"],
+      preRequirements: [
+        { code: "CHEM1301", title: "General Chemistry 1", required: false },
+        { code: "PHCH2306", title: "Organic Chemistry II", required: true },
+      ],
     },
   },
   {
@@ -4581,7 +4618,7 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "-",
       },
-      preRequirements: ["---"],
+      preRequirements: [{}],
     },
   },
   {
@@ -4848,7 +4885,10 @@ export const courses: CourseData[] = [
         "Total Credits:": "3 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHTC1201", "PHTC2203"],
+      preRequirements: [
+        { code: "PHTC1201", title: "Physical Pharmacy I", required: true },
+        { code: "PHTC2203", title: "Physical Pharmacy II", required: false },
+      ],
     },
   },
   {
@@ -5075,7 +5115,14 @@ export const courses: CourseData[] = [
         "Total Credits:": "3 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHPT1203", "PHPT2306"],
+      preRequirements: [
+        {
+          code: "PHPT1203",
+          title: "Human Anatomy & Histology",
+          required: true,
+        },
+        { code: "PHPT2306", title: "Human Physiology I", required: false },
+      ],
     },
   },
   {
@@ -5326,7 +5373,14 @@ export const courses: CourseData[] = [
         "Total Credits:": "3 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHPT1203", "PHPT2306"],
+      preRequirements: [
+        {
+          code: "PHPT1203",
+          title: "Human Anatomy & Histology",
+          required: true,
+        },
+        { code: "PHPT2306", title: "Human Physiology I", required: false },
+      ],
     },
   },
   {
@@ -5564,7 +5618,10 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHCH2306", "PHCH2306"],
+      preRequirements: [
+        { code: "PHCH2306", title: "Organic Chemistry II", required: true },
+        { code: "PHCH2306", title: "Biochemistry I", required: false },
+      ],
     },
   },
   {
@@ -5770,7 +5827,7 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "-",
       },
-      preRequirements: ["--"],
+      preRequirements: [{}],
     },
   },
   {
@@ -6005,7 +6062,10 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHPT2306", "PHPT3307"],
+      preRequirements: [
+        { code: "PHPT2306", title: "Human Physiology I", required: true },
+        { code: "PHPT3307", title: "Human Physiology II", required: false },
+      ],
     },
   },
   {
@@ -6223,7 +6283,11 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHTC1201", "PHTC2203", "PHTC2307"],
+      preRequirements: [
+        { code: "PHTC1201", title: "Physical Pharmacy I", required: true },
+        { code: "PHTC2203", title: "Physical Pharmacy II", required: false },
+        { code: "PHTC2307", title: "Pharmaceutics I", required: false },
+      ],
     },
   },
   {
@@ -6271,7 +6335,9 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "-",
       },
-      preRequirements: ["PHCG2201"],
+      preRequirements: [
+        { code: "PHCG2201", title: "Pharmaceutical Botany", required: true },
+      ],
     },
   },
   {
@@ -6507,7 +6573,11 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHPT2306", "PHPT3307", "PHPT3204"],
+      preRequirements: [
+        { code: "PHPT2306", title: "Human Physiology I", required: false },
+        { code: "PHPT3307", title: "Human Physiology II", required: false },
+        { code: "PHPT3204", title: "Pathophysiology II", required: true },
+      ],
     },
   },
   {
@@ -6757,7 +6827,11 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHTC1201", "PHTC2203", "PHTC2307"],
+      preRequirements: [
+        { code: "PHTC1201", title: "Physical Pharmacy I", required: true },
+        { code: "PHTC2203", title: "Physical Pharmacy II", required: false },
+        { code: "PHTC2307", title: "Pharmaceutics I", required: false },
+      ],
     },
   },
   {
@@ -7020,7 +7094,11 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHTC1201", "PHTC2307", "PHTC3209"],
+      preRequirements: [
+        { code: "PHTC1201", title: "Physical Pharmacy I", required: true },
+        { code: "PHTC2307", title: "Pharmaceutics I", required: false },
+        { code: "PHTC3209", title: "Pharmaceutics II", required: false },
+      ],
     },
   },
   {
@@ -7280,7 +7358,11 @@ export const courses: CourseData[] = [
         "Total Credits:": "3 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHPT2306", "PHPT3307", "PHPT3204"],
+      preRequirements: [
+        { code: "PHPT2306", title: "Human Physiology I", required: true },
+        { code: "PHPT3307", title: "Human Physiology II", required: false },
+        { code: "PHPT3204", title: "Pathophysiology I", required: false },
+      ],
     },
   },
   {
@@ -7462,7 +7544,10 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHCG2201", "PHCG3204"],
+      preRequirements: [
+        { code: "PHCG2201", title: "Pharmaceutical Botany", required: false },
+        { code: "PHCG3204", title: "Pharmacognosy", required: true },
+      ],
     },
   },
   {
@@ -7779,7 +7864,11 @@ export const courses: CourseData[] = [
         "Total Credits:": "3 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHCH1303", "PHCH2306"],
+      preRequirements: [
+        { code: "PHCH1303", title: "Organic Chemistry I", required: false },
+        { code: "PHCH2306", title: "Organic Chemistry II", required: true },
+        { code: "PHTC3209", title: "Pharmaceutics II", required: false },
+      ],
     },
   },
   {
@@ -7933,7 +8022,7 @@ export const courses: CourseData[] = [
         "Total Credits:": "1 Credit Hour",
         "Notes:": "-",
       },
-      preRequirements: [],
+      preRequirements: [{}],
     },
   },
   {
@@ -8169,7 +8258,10 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHCH1303", "PHCH2306"],
+      preRequirements: [
+        { code: "PHCH1303", title: "Organic Chemistry I", required: false },
+        { code: "PHCH2306", title: "Organic Chemistry II", required: true },
+      ],
     },
   },
   {
@@ -8325,7 +8417,7 @@ export const courses: CourseData[] = [
         "Total Credits:": "1 Credit Hour",
         "Notes:": "-",
       },
-      preRequirements: [],
+      preRequirements: [{}],
     },
   },
   {
@@ -8607,7 +8699,15 @@ export const courses: CourseData[] = [
         "Total Credits:": "3 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHTC1201", "PHTC2307", "PHTC3213"],
+      preRequirements: [
+        { code: "PHTC1201", title: "Physical Pharmacy I", required: true },
+        { code: "PHTC2307", title: "Pharmaceutics I", required: false },
+        {
+          code: "PHTC3213",
+          title: "Biopharmaceutics & Pharmacokinetics I",
+          required: false,
+        },
+      ],
     },
   },
   {
@@ -8824,7 +8924,11 @@ export const courses: CourseData[] = [
         "Total Credits:": "3 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHPT2306", "PHPT3307", "PHPT4310"],
+      preRequirements: [
+        { code: "PHPT2306", title: "Human Physiology I", required: true },
+        { code: "PHPT3307", title: "Human Physiology II", required: false },
+        { code: "PHPT4310", title: "Pharmacology I", required: false },
+      ],
     },
   },
   {
@@ -9043,7 +9147,11 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHCG2201", "PHCG3204", "PHCG3208"],
+      preRequirements: [
+        { code: "PHCG2201", title: "Pharmaceutical Botany", required: false },
+        { code: "PHCG3204", title: "Pharmacognosy", required: true },
+        { code: "PHCG3208", title: "Phytochemistry I", required: false },
+      ],
     },
   },
   {
@@ -9253,7 +9361,11 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHTC2307", "PHTC3209", "PHTC3211"],
+      preRequirements: [
+        { code: "PHTC2307", title: "Pharmaceutics I", required: true },
+        { code: "PHTC3209", title: "Pharmaceutics II", required: false },
+        { code: "PHTC3211", title: "Pharmaceutics III", required: false },
+      ],
     },
   },
   {
@@ -9492,7 +9604,15 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHCH1303", "PHCH2306", "PHCH4210"],
+      preRequirements: [
+        { code: "PHCH1303", title: "Organic Chemistry I", required: false },
+        { code: "PHCH2306", title: "Organic Chemistry II", required: true },
+        {
+          code: "PHCH4210",
+          title: "Pharmaceutical Chemistry I",
+          required: false,
+        },
+      ],
     },
   },
   {
@@ -9705,7 +9825,11 @@ export const courses: CourseData[] = [
         "Total Credits:": "3 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHPT2306", "PHPT3307", "PHPT4310"],
+      preRequirements: [
+        { code: "PHPT2306", title: "Human Physiology I", required: true },
+        { code: "PHPT2306", title: "Human Physiology II", required: false },
+        { code: "PHPT4310", title: "Pharmacology I", required: false },
+      ],
     },
   },
   {
@@ -9853,7 +9977,11 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHCG2201", "PHCG3204", "PHCG3208"],
+      preRequirements: [
+        { code: "PHCG2201", title: "Pharmaceutical Botany", required: false },
+        { code: "PHCG3204", title: "Pharmacognosy", required: true },
+        { code: "PHCG3208", title: "Phytochemistry I", required: false },
+      ],
     },
   },
   {
@@ -10033,7 +10161,7 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "-",
       },
-      preRequirements: [],
+      preRequirements: [{}],
     },
   },
   {
@@ -10109,7 +10237,7 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "-",
       },
-      preRequirements: [],
+      preRequirements: [{}],
     },
   },
   {
@@ -10333,7 +10461,7 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "-",
       },
-      preRequirements: ["---"],
+      preRequirements: [{}],
     },
   },
   {
@@ -10380,7 +10508,7 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "-",
       },
-      preRequirements: ["---"],
+      preRequirements: [{}],
     },
   },
   {
@@ -10591,7 +10719,7 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "-",
       },
-      preRequirements: ["---"],
+      preRequirements: [{}],
     },
   },
   {
@@ -10773,7 +10901,7 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "-",
       },
-      preRequirements: ["---"],
+      preRequirements: [{}],
     },
   },
   {
@@ -11006,7 +11134,7 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "-",
       },
-      preRequirements: ["---"],
+      preRequirements: [{}],
     },
   },
   {
@@ -11053,7 +11181,7 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "-",
       },
-      preRequirements: ["---"],
+      preRequirements: [{}],
     },
   },
   {
@@ -11267,7 +11395,11 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHPT4310", "PHPT4312", "PHPT5315"],
+      preRequirements: [
+        { code: "PHPT4310", title: "Pharmacology I", required: false },
+        { code: "PHPT4312", title: "Pharmacology II", required: false },
+        { code: "PHPT5315", title: "Pharmacology II", required: true },
+      ],
     },
   },
   {
@@ -11447,7 +11579,11 @@ export const courses: CourseData[] = [
         "Total Credits:": "3 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHTC2307", "PHTC3209", "PHTC3211"],
+      preRequirements: [
+        { code: "PHTC2307", title: "Pharmaceutics I", required: true },
+        { code: "PHTC3211", title: "Pharmaceutics III", required: false },
+        { code: "PHTC3209", title: "Pharmaceutics II", required: false },
+      ],
     },
   },
   {
@@ -11728,7 +11864,19 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHCH2306", "PHCH4210", "PHCH4211"],
+      preRequirements: [
+        { code: "PHCH2306", title: "Organic Chemistry I", required: true },
+        {
+          code: "PHCH4210",
+          title: "Pharmaceutical Chemistry I",
+          required: false,
+        },
+        {
+          code: "PHCH4211",
+          title: "Pharmaceutical Chemistry II",
+          required: false,
+        },
+      ],
     },
   },
   {
@@ -12024,7 +12172,11 @@ export const courses: CourseData[] = [
         "Total Credits:": "3 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHPT4310", "PHPT4312", "PHPT5315"],
+      preRequirements: [
+        { code: "PHPT4310", title: "Pharmacology I", required: true },
+        { code: "PHPT4312", title: "Pharmacology II", required: false },
+        { code: "PHPT5315", title: "Pharmacology III", required: false },
+      ],
     },
   },
   {
@@ -12294,7 +12446,11 @@ export const courses: CourseData[] = [
         "Total Credits:": "3 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHPT4310", "PHPT4312", "PHPT5315"],
+      preRequirements: [
+        { code: "PHPT4310", title: "Pharmacology I", required: true },
+        { code: "PHPT4312", title: "Pharmacology II", required: false },
+        { code: "PHPT5315", title: "Pharmacology III", required: false },
+      ],
     },
   },
   {
@@ -12487,7 +12643,10 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHCH2207", "PHCH3208"],
+      preRequirements: [
+        { code: "PHCH2207", title: "Biochemistry I", required: false },
+        { code: "PHCH3208", title: "Biochemistry II", required: true },
+      ],
     },
   },
   {
@@ -12534,7 +12693,7 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "-",
       },
-      preRequirements: ["---"],
+      preRequirements: [{}],
     },
   },
   {
@@ -12781,7 +12940,19 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHCH2306", "PHCH4211", "PHCH4213"],
+      preRequirements: [
+        { code: "PHCH2306", title: "Organic Chemistry I", required: true },
+        {
+          code: "PHCH4211",
+          title: "Pharmaceutical Chemistry II",
+          required: false,
+        },
+        {
+          code: "PHCH4213",
+          title: "Pharmaceutical Chemistry III",
+          required: false,
+        },
+      ],
     },
   },
   {
@@ -13008,7 +13179,11 @@ export const courses: CourseData[] = [
         "Total Credits:": "3 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHPT4310", "PHPT4312", "PHPT5315"],
+      preRequirements: [
+        { code: "PHPT4310", title: "Pharmacology I", required: true },
+        { code: "PHPT4312", title: "Pharmacology II", required: false },
+        { code: "PHPT5315", title: "Pharmacology III", required: false },
+      ],
     },
   },
   {
@@ -13199,27 +13374,11 @@ export const courses: CourseData[] = [
         "Total Credits:": "2 Credit Hours",
         "Notes:": "You Should at least Study this Course.",
       },
-      preRequirements: ["PHPT4310", "PHPT4312", "PHPT5315"],
-    },
-  },
-  {
-    slug: "univ-needs",
-    title: "University Needs.",
-    description:
-      "University Needs for all Levels & Faculties at Alazhar\n            University of Gaza",
-    lecturers: [],
-    stats: {
-      videosCount: 0,
-      chaptersCount: 0,
-    },
-    lectures: [],
-    resources: {
-      exams: [],
-    },
-    about: {
-      description: "",
-      infoTable: {},
-      preRequirements: [],
+      preRequirements: [
+        { code: "PHPT4310", title: "Pharmacology I", required: true },
+        { code: "PHPT4312", title: "Pharmacology II", required: false },
+        { code: "PHPT5315", title: "Pharmacology III", required: false },
+      ],
     },
   },
 ] as const;
