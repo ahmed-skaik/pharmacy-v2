@@ -5,7 +5,7 @@ export const courses: CourseData[] = [
     slug: "cell-biology",
     title: "Cell Biology.",
     description:
-      "Understanding the Structures of Basic Components of Prokaryotic\n & Eukaryotic Cells and How These Components are used to Generate\n and Utilize Energy",
+      "Understanding the Structures of Basic Components of Prokaryotic & Eukaryotic Cells and How These Components are used to Generate and Utilize Energy",
     lecturers: [
       {
         title: "Dr.",
@@ -19,11 +19,11 @@ export const courses: CourseData[] = [
     lectures: [],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "",
         url: "404",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -51,8 +51,7 @@ export const courses: CourseData[] = [
         "Course Title:": "Cell Biology",
         "Course Code:": "PHPT1301",
         "Faculty:": "Faculty of Pharmacy",
-        "Department:":
-          "Departemnt of Pharmacology & Medical Sciences\n                          (PHPT)",
+        "Department:": "Departemnt of Pharmacology & Medical Sciences (PHPT)",
         "Course Classification:": "College Need",
         "Course Level:": "1st Level",
         "Total Credits:": "3 Credit Hours",
@@ -114,8 +113,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter II :\n                      The Internet & World Wide Web",
+        chapterTitle: "Chapter II : The Internet & World Wide Web",
         documents: [
           {
             title: "Chapter Slides",
@@ -189,8 +187,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter IV :\n                      The Components of the System Unit",
+        chapterTitle: "Chapter IV : The Components of the System Unit",
         documents: [
           {
             title: "Chapter Slides",
@@ -308,8 +305,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VIII :\n                      Operating Systems & Utility Programs",
+        chapterTitle: "Chapter VIII : Operating Systems & Utility Programs",
         documents: [
           {
             title: "Chapter Slides",
@@ -331,19 +327,18 @@ export const courses: CourseData[] = [
         videos: [],
       },
       {
-        chapterTitle:
-          "Chapter X :\n                      Programming Languages & Program Development",
+        chapterTitle: "Chapter X : Programming Languages & Program Development",
         documents: [],
         videos: [],
       },
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "CS - Living in a Digital Wrold",
         url: "../../../documents/level-1/semester-1/computer-science/computer-science-book.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -442,8 +437,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter II :\n                      The Internet & World Wide Web",
+        chapterTitle: "Chapter II : The Internet & World Wide Web",
         documents: [
           {
             title: "Chapter Slides",
@@ -502,8 +496,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter IV :\n                      The Components of the System Unit",
+        chapterTitle: "Chapter IV : The Components of the System Unit",
         documents: [
           {
             title: "Chapter Slides",
@@ -621,8 +614,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VIII :\n                      Operating Systems & Utility Programs",
+        chapterTitle: "Chapter VIII : Operating Systems & Utility Programs",
         documents: [
           {
             title: "Chapter Slides",
@@ -644,19 +636,18 @@ export const courses: CourseData[] = [
         videos: [],
       },
       {
-        chapterTitle:
-          "Chapter X :\n                      Programming Languages & Program Development",
+        chapterTitle: "Chapter X : Programming Languages & Program Development",
         documents: [],
         videos: [],
       },
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "CS - Living in a Digital Wrold",
         url: "../../../documents/level-1/semester-1/computer-science/computer-science-book.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -701,7 +692,7 @@ export const courses: CourseData[] = [
     slug: "general-chemistry",
     title: "General Chemistry.",
     description:
-      "Learning the Principles of (Atomic & Molecular\n            Theory), Stoichiometry & Thermodynamics",
+      "Learning the Principles of (Atomic & Molecular Theory), Stoichiometry & Thermodynamics",
     lecturers: [
       {
         name: "Maha Al-khateeb",
@@ -730,8 +721,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter II :\n                      Atoms, Molecules, Ions & Chemical Formuals",
+        chapterTitle: "Chapter II : Atoms, Molecules, Ions & Chemical Formuals",
         documents: [
           {
             title: "Chapter Slides",
@@ -780,8 +770,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter IV :\n                      The Electronic Structure of Atoms",
+        chapterTitle: "Chapter IV : The Electronic Structure of Atoms",
         documents: [
           {
             title: "Chapter Slides",
@@ -853,7 +842,7 @@ export const courses: CourseData[] = [
       },
       {
         chapterTitle:
-          "Chapter VII :\n                      Molecular Geometry & Hybridization of Atomic\n                        Orbitals",
+          "Chapter VII : Molecular Geometry & Hybridization of Atomic   Orbitals",
         documents: [
           {
             title: "Chapter Slides",
@@ -880,8 +869,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VIII :\n                      Polarity & Intermolecular Forces",
+        chapterTitle: "Chapter VIII : Polarity & Intermolecular Forces",
         documents: [
           {
             title: "Chapter Slides",
@@ -899,7 +887,7 @@ export const courses: CourseData[] = [
       },
       {
         chapterTitle:
-          "Chapter IX + X :\n                      Physical Properties of Solutions &\n                        Electrolytes",
+          "Chapter IX + X : Physical Properties of Solutions &   Electrolytes",
         documents: [],
         videos: [
           {
@@ -943,11 +931,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "General Chemistry - The Essential Concepts 5th Edition",
         url: "../../../documents/level-1/semester-1/general-chemistry/book/General-Chemistry-The-Essential-Concepts-5th.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -964,7 +952,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHCH1301",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Chemistry & Pharmaceutical Chemistry\n                          (PHCH)",
+          "Departemnt of Chemistry & Pharmaceutical Chemistry     (PHCH)",
         "Course Classification:": "College Need",
         "Course Level:": "1st Level",
         "Total Credits:": "3 Credit Hours",
@@ -977,7 +965,7 @@ export const courses: CourseData[] = [
     slug: "mathematics-matar",
     title: "Mathematics for Health Sciences.",
     description:
-      "Understanding Concepts and Develop Skills to Calculate, Analyze\n            & Interpret Results",
+      "Understanding Concepts and Develop Skills to Calculate, Analyze & Interpret Results",
     lecturers: [
       {
         title: "Prof.",
@@ -1037,7 +1025,7 @@ export const courses: CourseData[] = [
       },
       {
         chapterTitle:
-          "Chapter II :\n                      Discrete Time Model Sequence & Difference\n                        Equation",
+          "Chapter II : Discrete Time Model Sequence & Difference   Equation",
         documents: [],
         videos: [
           {
@@ -1154,11 +1142,16 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Calculus - Thomas Calculus",
         url: "../../../documents/level-1/semester-1/mathematics/thomas-calculus-11-book.pdf",
       },
+      extraResources: {
+        title: "Book Answers",
+        url: "../../../documents/level-1/semester-1/mathematics/thomas-calculus-11-book.pdf",
+        note: "Answers",
+      },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -1187,7 +1180,7 @@ export const courses: CourseData[] = [
     slug: "mathematics",
     title: "Mathematics for Health Sciences.",
     description:
-      "Understanding Concepts and Develop Skills to Calculate, Analyze\n            & Interpret Results",
+      "Understanding Concepts and Develop Skills to Calculate, Analyze & Interpret Results",
     lecturers: [
       {
         title: "Dr.",
@@ -1343,11 +1336,16 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Calculus - Thomas Calculus",
         url: "../../../documents/level-1/semester-1/mathematics/thomas-calculus-11-book.pdf",
       },
+      extraResources: {
+        title: "Book Answers",
+        url: "../../../documents/level-1/semester-1/mathematics/thomas-calculus-11-book.pdf",
+        note: "Answers",
+      },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -1376,7 +1374,7 @@ export const courses: CourseData[] = [
     slug: "terminology",
     title: "Medical & Pharmaceutical Terminology.",
     description:
-      "Basics in Scientific English and Latin Origin of Medical &\n            Pharmaceutical Terms",
+      "Basics in Scientific English and Latin Origin of Medical & Pharmaceutical Terms",
     lecturers: [
       {
         name: "Jamil Mohanna",
@@ -1471,7 +1469,7 @@ export const courses: CourseData[] = [
       },
       {
         chapterTitle:
-          "Chapter VIII => X :\n                      Medical & Pharmaceutical Abbreviations",
+          "Chapter VIII => X : Medical & Pharmaceutical Abbreviations",
         documents: [],
         videos: [
           {
@@ -1489,11 +1487,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Medical Terminology - A Body Systems Approach 8th Edition",
         url: "../../../documents/level-1/semester-1/terminology/Medical-Terminology-Systems-A-Body-Systems-Approach.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -1514,7 +1512,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHPT1105",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Pharmacology & Medical Sciences\n                          (PHPT)",
+          "Departemnt of Pharmacology & Medical Sciences     (PHPT)",
         "Course Classification:": "Collage Need",
         "Course Level:": "1st Level",
         "Total Credits:": "1 Credit Hour",
@@ -1527,7 +1525,7 @@ export const courses: CourseData[] = [
     slug: "analytical-chemistry-1-maha",
     title: "Analytical Chemistry One.",
     description:
-      "Qualitative Inorganic Analysis of Chemicals (Pharmaceutical\n            Drugs)",
+      "Qualitative Inorganic Analysis of Chemicals (Pharmaceutical Drugs)",
     lecturers: [
       {
         name: "Maha Al-khateeb",
@@ -1571,8 +1569,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter II :\n                      Anions−\n                        (Direct & Indirect)",
+        chapterTitle: "Chapter II : Anions−",
+        chapterTitleNote: "(Direct & Indirect)",
         documents: [
           {
             title: "Chapter Slides",
@@ -1588,7 +1586,7 @@ export const courses: CourseData[] = [
           },
           {
             title: "Lecture (2)",
-            description: "Acetate Ion\n                            (CH3COO-)",
+            description: "Acetate Ion       (CH3COO-)",
             url: "https://youtu.be/lxqygL9_KCg",
           },
           {
@@ -1599,49 +1597,43 @@ export const courses: CourseData[] = [
           {
             title: "Lecture (4)",
             description:
-              "Borate (Boric Acid), Flouride\n                            (F-), Silicate Ion\n                            (SiO3-2)",
+              "Borate (Boric Acid), Flouride       (F-), Silicate Ion       (SiO3-2)",
             url: "https://youtu.be/L0Z68Cjbh48",
           },
           {
             title: "Lecture (5)",
-            description:
-              "unknown\n                            couldn't find the Lecture",
+            description: "unknown       couldn't find the Lecture",
             url: "404",
           },
           {
             title: "Lecture (6)",
-            description:
-              "Bromide (Br-) & Iodide\n                            (I-)",
+            description: "Bromide (Br-) & Iodide       (I-)",
             url: "https://youtu.be/YO4F7f8JdhE",
           },
           {
             title: "Lecture (7)",
-            description:
-              "Iodide (I-) Cont. & Nitrate\n                            (NO3-)",
+            description: "Iodide (I-) Cont. & Nitrate       (NO3-)",
             url: "https://youtu.be/6X97ZxAUwDk",
           },
           {
             title: "Lecture (8)",
-            description:
-              "Nitrite (NO2-) &\n                            Cyanide (CN-)",
+            description: "Nitrite (NO2-) &       Cyanide (CN-)",
             url: "https://youtu.be/TdZhuQclNLc",
           },
           {
             title: "Lecture (9)",
             description:
-              "Sulfate (SO4-2),\n                            Sulfite (SO3-2)\n                            & Thiosulfate (S2O3-2)",
+              "Sulfate (SO4-2),       Sulfite (SO3-2)       & Thiosulfate (S2O3-2)",
             url: "https://youtu.be/rgjiM3drkVI",
           },
           {
             title: "Lecture (10)",
-            description:
-              "Sulfide (S-2) &\n                            Thiocyanate(NCS-)",
+            description: "Sulfide (S-2) &       Thiocyanate(NCS-)",
             url: "https://youtu.be/lS2TvaZrQ0w",
           },
           {
             title: "Lecture (11)",
-            description:
-              "Chromate (CrO4-2)\n                            & Phosphate (PO4-3)",
+            description: "Chromate (CrO4-2)       & Phosphate (PO4-3)",
             url: "https://youtu.be/G1mFSFSS7fU",
           },
           {
@@ -1652,7 +1644,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter III :\n                      Cation+",
+        chapterTitle: "Chapter III : Cation+",
         documents: [
           {
             title: "Chapter Slides",
@@ -1688,8 +1680,7 @@ export const courses: CourseData[] = [
           },
           {
             title: "Lecture (6)",
-            description:
-              "Acidic H2S Group pt.D + Basic\n                            H2S Group",
+            description: "Acidic H2S Group pt.D + Basic       H2S Group",
             url: "https://youtu.be/-8FWnfZuTbM",
           },
           {
@@ -1702,11 +1693,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Analytical Chemistry - Vogel's Qualitative Inorganic Analysis",
         url: "../../../documents/level-1/semester-2/analytical-chemistry-1/book/G_Svehla_Vogel's_Qualitative_Inorganic_Analysis_Prentice_Hall_1996.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -1723,7 +1714,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHCH1201",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Chemistry & Pharmaceutical Chemistry\n                          (PHCH)",
+          "Departemnt of Chemistry & Pharmaceutical Chemistry     (PHCH)",
         "Course Classification:": "Major Need",
         "Course Level:": "1st Level",
         "Total Credits:": "2 Credit Hours",
@@ -1738,7 +1729,7 @@ export const courses: CourseData[] = [
     slug: "analytical-chemistry-1",
     title: "Analytical Chemistry One.",
     description:
-      "Qualitative Inorganic Analysis of Chemicals (Pharmaceutical\n            Drugs)",
+      "Qualitative Inorganic Analysis of Chemicals (Pharmaceutical Drugs)",
     lecturers: [
       {
         title: "Dr.",
@@ -1782,8 +1773,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter II :\n                      Anions−\n                        (Direct & Indirect)",
+        chapterTitle: "Chapter II : Anions−",
+        chapterTitleNote: "(Direct & Indirect)",
         documents: [
           {
             title: "Chapter Slides",
@@ -1870,7 +1861,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter III :\n                      Cation+",
+        chapterTitle: "Chapter III : Cation+",
         documents: [
           {
             title: "Chapter Slides",
@@ -1924,11 +1915,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Analytical Chemistry - Vogel's Qualitative Inorganic Analysis",
         url: "../../../documents/level-1/semester-2/analytical-chemistry-1/book/G_Svehla_Vogel's_Qualitative_Inorganic_Analysis_Prentice_Hall_1996.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -1945,7 +1936,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHCH1201",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Chemistry & Pharmaceutical Chemistry\n                          (PHCH)",
+          "Departemnt of Chemistry & Pharmaceutical Chemistry     (PHCH)",
         "Course Classification:": "Major Need",
         "Course Level:": "1st Level",
         "Total Credits:": "2 Credit Hours",
@@ -1973,7 +1964,7 @@ export const courses: CourseData[] = [
     lectures: [
       {
         chapterTitle:
-          "Chapter I => III :\n                      Introduction to Human Anatomy & Histology",
+          "Chapter I => III : Introduction to Human Anatomy & Histology",
         documents: [],
         videos: [],
       },
@@ -2120,11 +2111,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "",
         url: "404",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -2145,7 +2136,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHPT1203",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Pharmacology & Medical Sciences\n                          (PHPT)",
+          "Departemnt of Pharmacology & Medical Sciences     (PHPT)",
         "Course Classification:": "Major Need",
         "Course Level:": "1st Level",
         "Total Credits:": "2 Credit Hours",
@@ -2160,7 +2151,7 @@ export const courses: CourseData[] = [
     slug: "organic-chemistry-1",
     title: "Organic Chemistry One.",
     description:
-      "Introduction to Organic Chemistry, Stereochemistry & Functional\n            Groups (Alkanes, Alkenes, Alkynes, Alkyl Halides, Alcohols\n            & Eather)",
+      "Introduction to Organic Chemistry, Stereochemistry & Functional Groups (Alkanes, Alkenes, Alkynes, Alkyl Halides, Alcohols & Eather)",
     lecturers: [
       {
         title: "Prof.",
@@ -2220,7 +2211,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter III :\n                      Alkenes",
+        chapterTitle: "Chapter III : Alkenes",
         documents: [],
         videos: [
           {
@@ -2298,7 +2289,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter VI :\n                      Alkyl Halides",
+        chapterTitle: "Chapter VI : Alkyl Halides",
         documents: [],
         videos: [
           {
@@ -2319,7 +2310,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter VII :\n                      Alcohols",
+        chapterTitle: "Chapter VII : Alcohols",
         documents: [],
         videos: [
           {
@@ -2340,7 +2331,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter VIII :\n                      Eather",
+        chapterTitle: "Chapter VIII : Eather",
         documents: [],
         videos: [
           {
@@ -2358,11 +2349,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Organic Chemistry - John Mcmurry 9th Edition",
         url: "../../../documents/level-1/semester-2/organic-chemistry-1/Organic-Chemistry-John-McMurry-9th.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "Marah Isam Falit",
         url: "../../../documents/level-1/semester-2/organic-chemistry-1/summary/organic-chem-1-summary.pdf",
       },
       exams: [
@@ -2383,7 +2374,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHCH1303",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Chemistry & Pharmaceutical Chemistry\n                          (PHCH)",
+          "Departemnt of Chemistry & Pharmaceutical Chemistry     (PHCH)",
         "Course Classification:": "Major Need",
         "Course Level:": "1st Level",
         "Total Credits:": "3 Credit Hours",
@@ -2398,7 +2389,7 @@ export const courses: CourseData[] = [
     slug: "physical-pharamcy-1",
     title: "Physical Pharamcy One.",
     description:
-      "Basics to the Department of Pharmaceutics & Industrial Pharmacy\n            (Part I)",
+      "Basics to the Department of Pharmaceutics & Industrial Pharmacy (Part I)",
     lecturers: [
       {
         name: "Manal Zourab",
@@ -2478,8 +2469,7 @@ export const courses: CourseData[] = [
           },
           {
             title: "Lecture (8)",
-            description:
-              "Unknown\n                            (couldn't find the lecture)",
+            description: "Unknown       (couldn't find the lecture)",
             url: "404",
           },
           {
@@ -2495,8 +2485,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter III :\n                      Physical Properties of Drug Molecules",
+        chapterTitle: "Chapter III : Physical Properties of Drug Molecules",
         documents: [
           {
             title: "Chapter Slides",
@@ -2562,8 +2551,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VI :\n                      Buffered & Isotonic Solutions",
+        chapterTitle: "Chapter VI : Buffered & Isotonic Solutions",
         documents: [
           {
             title: "Chapter Slides",
@@ -2580,8 +2568,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VII :\n                      Solubility & Distribution Phenomenon",
+        chapterTitle: "Chapter VII : Solubility & Distribution Phenomenon",
         documents: [
           {
             title: "Chapter Slides",
@@ -2605,11 +2592,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Physical Pharmacy - Alfred Martin 4th Edition",
         url: "../../../documents/level-1/semester-2/physical-pharmacy-1/book/Physical-Pharmacy-referance.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -2626,7 +2613,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHTC1201",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Pharmaceutics & Industrial Pharmacy\n                          (PHTC)",
+          "Departemnt of Pharmaceutics & Industrial Pharmacy     (PHTC)",
         "Course Classification:": "College Need",
         "Course Level:": "1st Level",
         "Total Credits:": "2 Credit Hours",
@@ -2641,7 +2628,7 @@ export const courses: CourseData[] = [
     slug: "analytical-chemistry-2",
     title: "Analytical Chemistry Two.",
     description:
-      "Quantitative Inorganic Analysis of Chemicals (Pharmaceutical\n            Drugs)",
+      "Quantitative Inorganic Analysis of Chemicals (Pharmaceutical Drugs)",
     lecturers: [
       {
         title: "Dr.",
@@ -2718,8 +2705,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter III :\n                      Acid-Base Titration",
+        chapterTitle: "Chapter III : Acid-Base Titration",
         documents: [
           {
             title: "Chapter Slides",
@@ -2870,8 +2856,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VI :\n                      Complexometric Titration",
+        chapterTitle: "Chapter VI : Complexometric Titration",
         documents: [
           {
             title: "Chapter Slides",
@@ -2898,19 +2883,26 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VII :\n                      Potentiometric Titration",
+        chapterTitle: "Chapter VII : Potentiometric Titration",
         documents: [],
         videos: [],
       },
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "",
+        url: "404",
+      },
+      extraResources: {
+        title: "Book",
+        url: "404",
+      },
+      extraResourcesTwo: {
+        title: "pKa & pKb Values",
         url: "404",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -2931,7 +2923,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHCH2304",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Chemistry & Pharmaceutical Chemistry\n                          (PHCH)",
+          "Departemnt of Chemistry & Pharmaceutical Chemistry     (PHCH)",
         "Course Classification:": "Major Need",
         "Course Level:": "2nd Level",
         "Total Credits:": "3 Credit Hours",
@@ -2960,8 +2952,7 @@ export const courses: CourseData[] = [
     },
     lectures: [
       {
-        chapterTitle:
-          "Chapter I :\n                      Introduction & Classification of Bacteria",
+        chapterTitle: "Chapter I : Introduction & Classification of Bacteria",
         documents: [
           {
             title: "Chapter Slides",
@@ -2988,8 +2979,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter II :\n                      Bacterial Infection & Pathogenesis",
+        chapterTitle: "Chapter II : Bacterial Infection & Pathogenesis",
         documents: [
           {
             title: "Chapter Slides",
@@ -3016,8 +3006,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter III :\n                      Classification of Bacteria",
+        chapterTitle: "Chapter III : Classification of Bacteria",
         documents: [],
         videos: [
           {
@@ -3043,8 +3032,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter IV :\n                      Cocci\n                        (Ch: 4, 5)",
+        chapterTitle: "Chapter IV : Cocci   (Ch: 4, 5)",
         documents: [
           {
             title: "Chapter Slides",
@@ -3066,8 +3054,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter V :\n                      Bacilli\n                        (Ch: 6, 7, 8, 9, 10, 11)",
+        chapterTitle: "Chapter V : Bacilli   (Ch: 6, 7, 8, 9, 10, 11)",
         documents: [],
         videos: [
           {
@@ -3108,7 +3095,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter VI :\n                      Medical Mycology",
+        chapterTitle: "Chapter VI : Medical Mycology",
         documents: [
           {
             title: "Chapter Slides",
@@ -3126,7 +3113,7 @@ export const courses: CourseData[] = [
       },
       {
         chapterTitle:
-          "Chapter VII :\n                      Medical Parasitology\n                        (Protozoa & Helminths)",
+          "Chapter VII : Medical Parasitology   (Protozoa & Helminths)",
         documents: [
           {
             title: "Chapter Slides",
@@ -3158,7 +3145,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter VIII :\n                      Medical Virology",
+        chapterTitle: "Chapter VIII : Medical Virology",
         documents: [
           {
             title: "Chapter Slides",
@@ -3171,11 +3158,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Review of Medical Microbiology & Immunology 40th Edition",
         url: "../../../documents/level-2/semester-1/microbiology/book/Review-of-Medical-Microbiology-and-Immunology.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -3200,7 +3187,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHTC2305",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Pharmaceutics & Industrial Pharmacy\n                          (PHTC)",
+          "Department of Pharmaceutics & Industrial Pharmacy     (PHTC)",
         "Course Classification:": "Major Need",
         "Course Level:": "2nd Level",
         "Total Credits:": "3 Credit Hours",
@@ -3215,7 +3202,7 @@ export const courses: CourseData[] = [
     slug: "organic-chemistry-2",
     title: "Organic Chemistry Two.",
     description:
-      "Nomenclature of Polyfunctional Organic Compounds, Functional Groups\n            Cont. (Benzene, Carboxylic Acid, Amines & Phenols)\n            & Applications",
+      "Nomenclature of Polyfunctional Organic Compounds, Functional Groups Cont. (Benzene, Carboxylic Acid, Amines & Phenols) & Applications",
     lecturers: [
       {
         title: "Dr.",
@@ -3228,8 +3215,7 @@ export const courses: CourseData[] = [
     },
     lectures: [
       {
-        chapterTitle:
-          "Chapter I :\n                      Revision of Necessary Chemistry Basics",
+        chapterTitle: "Chapter I : Revision of Necessary Chemistry Basics",
         documents: [
           {
             title: "Chapter Slides",
@@ -3276,8 +3262,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter II :\n                      Benzene & Aromaticity",
+        chapterTitle: "Chapter II : Benzene & Aromaticity",
         documents: [
           {
             title: "Chapter Slides",
@@ -3315,7 +3300,7 @@ export const courses: CourseData[] = [
       },
       {
         chapterTitle:
-          "Chapter III :\n                      Nomenclature of Polyfunctional Organic Compounds",
+          "Chapter III : Nomenclature of Polyfunctional Organic Compounds",
         documents: [
           {
             title: "Chapter Slides",
@@ -3357,8 +3342,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter IV :\n                      Reactions of Benzene",
+        chapterTitle: "Chapter IV : Reactions of Benzene",
         documents: [
           {
             title: "Chapter Slides",
@@ -3385,7 +3369,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter V :\n                      α-Carbonyl Reactions",
+        chapterTitle: "Chapter V : α-Carbonyl Reactions",
         documents: [
           {
             title: "Chapter Slides",
@@ -3417,8 +3401,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VI :\n                      Carboxylic Acid & its Derivatives",
+        chapterTitle: "Chapter VI : Carboxylic Acid & its Derivatives",
         documents: [
           {
             title: "Chapter Slides",
@@ -3455,7 +3438,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter VII :\n                      Amines & Phenols",
+        chapterTitle: "Chapter VII : Amines & Phenols",
         documents: [
           {
             title: "Chapter Slides",
@@ -3477,8 +3460,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VIII :\n                      Applications & Discussion",
+        chapterTitle: "Chapter VIII : Applications & Discussion",
         documents: [
           {
             title: "Chapter Slides",
@@ -3497,11 +3479,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Organic Chemistry - John Mcmurry 9th Edition",
         url: "../../../documents/level-1/semester-2/organic-chemistry-1/Organic-Chemistry-John-McMurry-9th.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -3526,7 +3508,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHCH2306",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Chemistry & Pharmaceutical Chemistry\n                          (PHCH)",
+          "Department of Chemistry & Pharmaceutical Chemistry     (PHCH)",
         "Course Classification:": "Major Need",
         "Course Level:": "2nd Level",
         "Total Credits:": "3 Credit Hours",
@@ -3542,7 +3524,7 @@ export const courses: CourseData[] = [
     slug: "physical-pharmacy-2-ibtihal",
     title: "Physical Pharamcy Two.",
     description:
-      "Basics to the Department of Pharmaceutics & Industrial Pharmacy\n            (Part II)",
+      "Basics to the Department of Pharmaceutics & Industrial Pharmacy (Part II)",
     lecturers: [
       {
         name: "Ibtihal Al-astal",
@@ -3563,8 +3545,7 @@ export const courses: CourseData[] = [
     },
     lectures: [
       {
-        chapterTitle:
-          "Chapter I :\n                      Chemical Kinetics & Stability",
+        chapterTitle: "Chapter I : Chemical Kinetics & Stability",
         documents: [],
         videos: [
           {
@@ -3685,11 +3666,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Physical Pharmacy - Alfred Martin 4th Edition",
         url: "../../../documents/level-1/semester-2/physical-pharmacy-1/book/Physical-Pharmacy-referance.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -3710,7 +3691,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHTC2203",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Pharmaceutics & Industrial Pharmacy\n                          (PHTC)",
+          "Departemnt of Pharmaceutics & Industrial Pharmacy     (PHTC)",
         "Course Classification:": "Major Need",
         "Course Level:": "2nd Level",
         "Total Credits:": "2 Credit Hours",
@@ -3726,7 +3707,7 @@ export const courses: CourseData[] = [
     slug: "physical-pharmacy-2-manal",
     title: "Physical Pharamcy Two.",
     description:
-      "Basics to the Department of Pharmaceutics & Industrial Pharmacy\n            (Part II)",
+      "Basics to the Department of Pharmaceutics & Industrial Pharmacy (Part II)",
     lecturers: [
       {
         name: "Manal Zourab",
@@ -3747,8 +3728,7 @@ export const courses: CourseData[] = [
     },
     lectures: [
       {
-        chapterTitle:
-          "Chapter I :\n                      Chemical Kinetics & Stability",
+        chapterTitle: "Chapter I : Chemical Kinetics & Stability",
         documents: [
           {
             title: "Chapter Slides",
@@ -3775,7 +3755,7 @@ export const courses: CourseData[] = [
           {
             title: "Lecture (3)",
             description:
-              "Pseudo (Zero) Order Reactions pt.B + 1st\n                            Order Reactions",
+              "Pseudo (Zero) Order Reactions pt.B + 1st       Order Reactions",
             url: "https://youtu.be/-cDl-bi5v6k",
           },
           {
@@ -3818,7 +3798,7 @@ export const courses: CourseData[] = [
           {
             title: "Lecture (2)",
             description:
-              "Measurement of Surface & Interfacial Tension\n                            pt.A",
+              "Measurement of Surface & Interfacial Tension       pt.A",
             url: "https://youtu.be/PLB8RKBB7dw",
           },
           {
@@ -3829,7 +3809,7 @@ export const courses: CourseData[] = [
           {
             title: "Lecture (5)",
             description:
-              "Surfactants Cont. + Applications of Surface\n                            Active Agents",
+              "Surfactants Cont. + Applications of Surface       Active Agents",
             url: "https://youtu.be/jS_zKqzWPbY",
           },
           {
@@ -3886,11 +3866,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Physical Pharmacy - Alfred Martin 4th Edition",
         url: "../../../documents/level-1/semester-2/physical-pharmacy-1/book/Physical-Pharmacy-referance.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -3911,7 +3891,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHTC2203",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Pharmaceutics & Industrial Pharmacy\n                          (PHTC)",
+          "Departemnt of Pharmaceutics & Industrial Pharmacy     (PHTC)",
         "Course Classification:": "Major Need",
         "Course Level:": "2nd Level",
         "Total Credits:": "2 Credit Hours",
@@ -3927,7 +3907,7 @@ export const courses: CourseData[] = [
     slug: "physical-pharmacy-2",
     title: "Physical Pharamcy Two.",
     description:
-      "Basics to the Department of Pharmaceutics & Industrial Pharmacy\n            (Part II)",
+      "Basics to the Department of Pharmaceutics & Industrial Pharmacy (Part II)",
     lecturers: [
       {
         title: "Dr.",
@@ -3948,8 +3928,7 @@ export const courses: CourseData[] = [
     },
     lectures: [
       {
-        chapterTitle:
-          "Chapter I :\n                      Chemical Kinetics & Stability",
+        chapterTitle: "Chapter I : Chemical Kinetics & Stability",
         documents: [],
         videos: [
           {
@@ -3975,7 +3954,7 @@ export const courses: CourseData[] = [
           {
             title: "Lecture (5)",
             description:
-              "Systems of Hydrophile − Lipophile\n                            Classification",
+              "Systems of Hydrophile − Lipophile       Classification",
             url: "https://www.youtube.com/watch?v=LP-v326VpHM",
           },
           {
@@ -4013,11 +3992,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Physical Pharmacy - Alfred Martin 4th Edition",
         url: "../../../documents/level-1/semester-2/physical-pharmacy-1/book/Physical-Pharmacy-referance.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -4038,7 +4017,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHTC2203",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Pharmaceutics & Industrial Pharmacy\n                          (PHTC)",
+          "Departemnt of Pharmaceutics & Industrial Pharmacy     (PHTC)",
         "Course Classification:": "Major Need",
         "Course Level:": "2nd Level",
         "Total Credits:": "2 Credit Hours",
@@ -4067,8 +4046,7 @@ export const courses: CourseData[] = [
     },
     lectures: [
       {
-        chapterTitle:
-          "Chapter I :\n                      Introduction to Physiology & Homeostasis",
+        chapterTitle: "Chapter I : Introduction to Physiology & Homeostasis",
         documents: [
           {
             title: "Chapter Slides",
@@ -4090,7 +4068,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter III :\n                      Membrane Potential",
+        chapterTitle: "Chapter III : Membrane Potential",
         documents: [
           {
             title: "Chapter Slides",
@@ -4117,7 +4095,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter IV :\n                      Neuronal Physiology",
+        chapterTitle: "Chapter IV : Neuronal Physiology",
         documents: [
           {
             title: "Chapter Slides",
@@ -4184,7 +4162,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter V :\n                      CNS Physiology",
+        chapterTitle: "Chapter V : CNS Physiology",
         documents: [
           {
             title: "Chapter Slides",
@@ -4247,23 +4225,23 @@ export const courses: CourseData[] = [
       },
       {
         chapterTitle:
-          "Chapter VI + VII :\n                      PNS Physiology\n                        (Afferent & Efferent)",
+          "Chapter VI + VII : PNS Physiology   (Afferent & Efferent)",
         documents: [],
         videos: [],
       },
       {
-        chapterTitle: "Chapter VIII :\n                      Muscle Physiology",
+        chapterTitle: "Chapter VIII : Muscle Physiology",
         documents: [],
         videos: [],
       },
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Human Physiology - From Cells to Systems 9th Edition",
         url: "../../../documents/level-2/semester-1/physiology-1/book/Human-Physiology-From-Cells-to-Systems-Sherwood-9th.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -4280,7 +4258,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHPT2306",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Pharmacology & Medical Sciences\n                          (PHPT)",
+          "Department of Pharmacology & Medical Sciences     (PHPT)",
         "Course Classification:": "Major Need",
         "Course Level:": "2nd Level",
         "Total Credits:": "3 Credit Hours",
@@ -4312,7 +4290,7 @@ export const courses: CourseData[] = [
     },
     lectures: [
       {
-        chapterTitle: "Chapter I :\n                      Amino Acids",
+        chapterTitle: "Chapter I : Amino Acids",
         documents: [],
         videos: [
           {
@@ -4338,8 +4316,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter II :\n                      Structure of Protein",
+        chapterTitle: "Chapter II : Structure of Protein",
         documents: [],
         videos: [
           {
@@ -4355,7 +4332,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter III :\n                      Globular Protein",
+        chapterTitle: "Chapter III : Globular Protein",
         documents: [],
         videos: [
           {
@@ -4376,7 +4353,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter IV :\n                      Fibrous Protein",
+        chapterTitle: "Chapter IV : Fibrous Protein",
         documents: [],
         videos: [
           {
@@ -4418,8 +4395,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VI :\n                      Amino Acids: Disposal of Nitrogen",
+        chapterTitle: "Chapter VI : Amino Acids: Disposal of Nitrogen",
         documents: [],
         videos: [
           {
@@ -4442,7 +4418,7 @@ export const courses: CourseData[] = [
       },
       {
         chapterTitle:
-          "Chapter VIII :\n                      Glycosaminoglycans Proteoglycans &\n                        Glycoproteins",
+          "Chapter VIII : Glycosaminoglycans Proteoglycans &   Glycoproteins",
         documents: [],
         videos: [
           {
@@ -4464,8 +4440,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter X :\n                      Fatty Acids & Triglycerides Metabolism",
+        chapterTitle: "Chapter X : Fatty Acids & Triglycerides Metabolism",
         documents: [],
         videos: [
           {
@@ -4481,8 +4456,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter XI :\n                      Cholesterol & Steroids Metabolism",
+        chapterTitle: "Chapter XI : Cholesterol & Steroids Metabolism",
         documents: [],
         videos: [
           {
@@ -4537,11 +4511,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Lippincott's Illustrated Reviews: Biochemistry 5th Edition",
         url: "../../../documents/level-2/semester-2/biochemistry-1/Lippincotts_Illustrated_Review.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -4562,7 +4536,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHCH2207",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Chemistry & Pharmaceutical Chemistry\n                          (PHCH)",
+          "Department of Chemistry & Pharmaceutical Chemistry     (PHCH)",
         "Course Classification:": "Major Need",
         "Course Level:": "2nd Level",
         "Total Credits:": "2 Credit Hours",
@@ -4591,11 +4565,11 @@ export const courses: CourseData[] = [
     lectures: [],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "",
         url: "404",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -4612,7 +4586,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHCG2201",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Pharmacognosy & Pharmaceutical\n                          Botany (PHCG)",
+          "Department of Pharmacognosy & Pharmaceutical Botany (PHCG)",
         "Course Classification:": "Major Need",
         "Course Level:": "2nd Level",
         "Total Credits:": "2 Credit Hours",
@@ -4625,7 +4599,7 @@ export const courses: CourseData[] = [
     slug: "pharmaceutics-1",
     title: "Pharamceutics One.",
     description:
-      "Semi-Solid Pharmaceutical Dosage Forms & Formulations ||\n            Suspensions & Emulsions",
+      "Semi-Solid Pharmaceutical Dosage Forms & Formulations || Suspensions & Emulsions",
     lecturers: [
       {
         title: "Dr.",
@@ -4638,8 +4612,7 @@ export const courses: CourseData[] = [
     },
     lectures: [
       {
-        chapterTitle:
-          "Chapter I :\n                      Pharmaceutical Consideration",
+        chapterTitle: "Chapter I : Pharmaceutical Consideration",
         documents: [
           {
             title: "Chapter Slides",
@@ -4661,8 +4634,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter II :\n                      The Skin & Semisolid Dosage Form",
+        chapterTitle: "Chapter II : The Skin & Semisolid Dosage Form",
         documents: [
           {
             title: "Chapter Slides",
@@ -4679,7 +4651,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter III :\n                      Ointments",
+        chapterTitle: "Chapter III : Ointments",
         documents: [
           {
             title: "Chapter Slides",
@@ -4745,7 +4717,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter VII :\n                      Suppositories",
+        chapterTitle: "Chapter VII : Suppositories",
         documents: [
           {
             title: "Chapter Slides",
@@ -4772,8 +4744,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VIII :\n                      Pharmaceutical Suspensions\n                        (Dr. Hend)",
+        chapterTitle: "Chapter VIII : Pharmaceutical Suspensions   (Dr. Hend)",
         documents: [],
         videos: [
           {
@@ -4834,8 +4805,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter IX :\n                      Pharmaceutical Emulsions\n                        (Dr. Hend)",
+        chapterTitle: "Chapter IX : Pharmaceutical Emulsions   (Dr. Hend)",
         documents: [
           {
             title: "Chapter Slides",
@@ -4854,11 +4824,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Ansel's Pharmaceutical Dosage Forms & DDS 10th Edition",
         url: "../../../documents/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -4879,7 +4849,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHTC2307",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Pharmaceutics & Industrial Pharmacy\n                          (PHTC)",
+          "Department of Pharmaceutics & Industrial Pharmacy     (PHTC)",
         "Course Classification:": "Major Need",
         "Course Level:": "2nd Level",
         "Total Credits:": "3 Credit Hours",
@@ -4910,7 +4880,7 @@ export const courses: CourseData[] = [
     },
     lectures: [
       {
-        chapterTitle: "Chapter IX :\n                      Cardiac Physiology",
+        chapterTitle: "Chapter IX : Cardiac Physiology",
         documents: [],
         videos: [
           {
@@ -5080,11 +5050,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Human Physiology - From Cells to Systems 9th Edition",
         url: "../../../documents/level-2/semester-1/physiology-1/book/Human-Physiology-From-Cells-to-Systems-Sherwood-9th.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -5109,7 +5079,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHPT3307",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Pharmacology & Medical Sciences\n                          (PHPT)",
+          "Departemnt of Pharmacology & Medical Sciences     (PHPT)",
         "Course Classification:": "Major Need",
         "Course Level:": "2nd Level",
         "Total Credits:": "3 Credit Hours",
@@ -5145,7 +5115,7 @@ export const courses: CourseData[] = [
     lectures: [
       {
         chapterTitle:
-          "Chapter VI + VII :\n                      PNS Physiology\n                        (Afferent & Efferent)",
+          "Chapter VI + VII : PNS Physiology   (Afferent & Efferent)",
         documents: [],
         videos: [
           {
@@ -5338,11 +5308,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Human Physiology - From Cells to Systems 9th Edition",
         url: "../../../documents/level-2/semester-1/physiology-1/book/Human-Physiology-From-Cells-to-Systems-Sherwood-9th.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -5367,7 +5337,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHPT3307",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Pharmacology & Medical Sciences\n                          (PHPT)",
+          "Departemnt of Pharmacology & Medical Sciences     (PHPT)",
         "Course Classification:": "Major Need",
         "Course Level:": "2nd Level",
         "Total Credits:": "3 Credit Hours",
@@ -5387,7 +5357,7 @@ export const courses: CourseData[] = [
     slug: "biochemistry-2",
     title: "Biochemistry Two.",
     description:
-      "Biomolecules General Metabolism & Regulation Involved in the\n            Body Functions, \n            Diseases Caused by Disturbance of that Function",
+      "Biomolecules General Metabolism & Regulation Involved in the Body Functions,  Diseases Caused by Disturbance of that Function",
     lecturers: [
       {
         title: "Dr.",
@@ -5400,8 +5370,7 @@ export const courses: CourseData[] = [
     },
     lectures: [
       {
-        chapterTitle:
-          "Chapter I :\n                      Bioenergetics & Oxidative Phosphorylation",
+        chapterTitle: "Chapter I : Bioenergetics & Oxidative Phosphorylation",
         documents: [],
         videos: [
           {
@@ -5427,8 +5396,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter II :\n                      Introduction to Metabolism",
+        chapterTitle: "Chapter II : Introduction to Metabolism",
         documents: [],
         videos: [
           {
@@ -5440,7 +5408,7 @@ export const courses: CourseData[] = [
       },
       {
         chapterTitle:
-          "Chapter III :\n                      Krebs Cycle, Citric Acid Cycle or TCA\n                        (Tricarboxylic Acid Cycle)",
+          "Chapter III : Krebs Cycle, Citric Acid Cycle or TCA   (Tricarboxylic Acid Cycle)",
         documents: [],
         videos: [
           {
@@ -5473,7 +5441,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter VI :\n                      Glycogen Metabolism",
+        chapterTitle: "Chapter VI : Glycogen Metabolism",
         documents: [],
         videos: [
           {
@@ -5485,7 +5453,7 @@ export const courses: CourseData[] = [
       },
       {
         chapterTitle:
-          "Chapter VII :\n                      Metabolism of Monosaccharides & Disaccharides",
+          "Chapter VII : Metabolism of Monosaccharides & Disaccharides",
         documents: [],
         videos: [
           {
@@ -5591,11 +5559,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Lippincott's Illustrated Reviews: Biochemistry 5th Edition",
         url: "../../../documents/level-2/semester-2/biochemistry-1/Lippincotts_Illustrated_Review.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "Mohammed Zourob",
         url: "../../../documents/level-3/semester-1/biochemistry-2/biochemistry-2-course-summary-zourob.pdf",
       },
       exams: [
@@ -5612,7 +5580,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHCH3208",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Chemistry & Pharmaceutical Chemistry\n                          (PHCH)",
+          "Department of Chemistry & Pharmaceutical Chemistry     (PHCH)",
         "Course Classification:": "Major Need",
         "Course Level:": "3rd Level",
         "Total Credits:": "2 Credit Hours",
@@ -5640,8 +5608,7 @@ export const courses: CourseData[] = [
     },
     lectures: [
       {
-        chapterTitle:
-          "Chapter I :\n                      Introduction to Biostatistics",
+        chapterTitle: "Chapter I : Introduction to Biostatistics",
         documents: [],
         videos: [
           {
@@ -5667,8 +5634,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter II :\n                      Organization & Presentation of Data",
+        chapterTitle: "Chapter II : Organization & Presentation of Data",
         documents: [],
         videos: [
           {
@@ -5699,7 +5665,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter III :\n                      Summarizing Data",
+        chapterTitle: "Chapter III : Summarizing Data",
         documents: [],
         videos: [
           {
@@ -5800,11 +5766,19 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book (II)",
+        title: "Prof. Ali Abu-zaid: Principles of Statistics",
+        url: "../../../documents/level-3/semester-1/biostatistics/biostatistics-book.pdf",
+      },
+      referenceBookTwo: {
+        title: "Basic Statistics for the Health Sciences 3rd Edition",
         url: "../../../documents/level-3/semester-1/biostatistics/Basic-Statistics-for-Health-Sciences.pdf",
       },
+      extraResources: {
+        title: "Slides of the Course",
+        url: "../../../documents/level-3/semester-1/biostatistics/Introductory-Statistics-for-Health-Sciences.pdf",
+      },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -5821,7 +5795,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHPT4214",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Pharmacology & Medical Sciences\n                          (PHPT)",
+          "Department of Pharmacology & Medical Sciences     (PHPT)",
         "Course Classification:": "Major Need",
         "Course Level:": "3rd Level",
         "Total Credits:": "2 Credit Hours",
@@ -5834,7 +5808,7 @@ export const courses: CourseData[] = [
     slug: "pathophysiology-1",
     title: "Pathophysiology One.",
     description:
-      "Alterations in Cell Funcitons || Immune system, Cardiovascular &\n            GIT Disorders",
+      "Alterations in Cell Funcitons || Immune system, Cardiovascular & GIT Disorders",
     lecturers: [
       {
         title: "Dr.",
@@ -5847,8 +5821,7 @@ export const courses: CourseData[] = [
     },
     lectures: [
       {
-        chapterTitle:
-          "Chapter I :\n                      Alterations of Cell Functions",
+        chapterTitle: "Chapter I : Alterations of Cell Functions",
         documents: [
           {
             title: "Chapter Slides",
@@ -5870,8 +5843,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter II :\n                      Immune System\n                        (as Physiology)",
+        chapterTitle: "Chapter II : Immune System ",
+        chapterTitleNote: "(as Physiology)",
         documents: [
           {
             title: "Chapter Slides",
@@ -5913,8 +5886,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter III :\n                      Immune System\n                        (as Pathophysiology)",
+        chapterTitle: "Chapter III : Immune System",
+        chapterTitleNote: "(as Pathophysiology)",
         documents: [
           {
             title: "Chapter Slides",
@@ -6027,11 +6000,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Reference of Pathophysiology",
         url: "../../../documents/level-3/semester-1/pathophysiology-1/pathophysiology-1-book.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -6055,8 +6028,7 @@ export const courses: CourseData[] = [
         "Course Title:": "Pathophysiology I",
         "Course Code:": "PHPT3204",
         "Faculty:": "Faculty of Pharmacy",
-        "Department:":
-          "Department Pharmacology & Medical Sciences\n                          (PHPT)",
+        "Department:": "Department Pharmacology & Medical Sciences     (PHPT)",
         "Course Classification:": "Major Need",
         "Course Level:": "3rd Level",
         "Total Credits:": "2 Credit Hours",
@@ -6083,7 +6055,7 @@ export const courses: CourseData[] = [
     },
     lectures: [
       {
-        chapterTitle: "Chapter I :\n                      Introduction",
+        chapterTitle: "Chapter I : Introduction",
         documents: [
           {
             title: "Chapter Slides",
@@ -6105,7 +6077,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter II :\n                      Powder",
+        chapterTitle: "Chapter II : Powder",
         documents: [
           {
             title: "Chapter Slides",
@@ -6132,7 +6104,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter III :\n                      Granules",
+        chapterTitle: "Chapter III : Granules",
         documents: [
           {
             title: "Chapter Slides",
@@ -6256,11 +6228,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Ansel's Pharmaceutical Dosage Forms & DDS 10th Edition",
         url: "../../../documents/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -6277,7 +6249,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHTC3209",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Pharmaceutics & Industrial Pharmacy\n                          (PHTC)",
+          "Department of Pharmaceutics & Industrial Pharmacy     (PHTC)",
         "Course Classification:": "Major Need",
         "Course Level:": "3rd Level",
         "Total Credits:": "2 Credit Hours",
@@ -6294,13 +6266,18 @@ export const courses: CourseData[] = [
     slug: "pharmacognosy",
     title: "Pharmacognosy.",
     description:
-      "Traditional Medicine || Extraction, Separation & Purification of\n            Natural Drugs || Primary & Secondary Metabolites",
+      "Traditional Medicine || Extraction, Separation & Purification of Natural Drugs || Primary & Secondary Metabolites",
     lecturers: [
       {
         title: "Dr.",
         name: "Mazen El-sakka",
       },
     ],
+    courseNote: {
+      note: "* Checkout Chromatography chapter in the Technical Instruments Course",
+      url: "/courses/technical-instruments",
+      urlText: "Technical Instruments Course",
+    },
     stats: {
       videosCount: 0,
       chaptersCount: 0,
@@ -6308,11 +6285,16 @@ export const courses: CourseData[] = [
     lectures: [],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "404 - Not Found",
         url: "404",
       },
+      extraResources: {
+        title: "Slides of the Course",
+        url: "404",
+        note: "Dr. Mazen",
+      },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -6329,7 +6311,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHCG3204",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Pharmacognosy & Pharmaceutical\n                          Botany (PHCG)",
+          "Department of Pharmacognosy & Pharmaceutical Botany (PHCG)",
         "Course Classification:": "Major Need",
         "Course Level:": "3rd Level",
         "Total Credits:": "2 Credit Hours",
@@ -6546,12 +6528,16 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Reference of Pathophysiology",
         url: "../../../documents/level-3/semester-2/pathophysiology-2/pathophysiology-2-book.pdf",
       },
       summaries: {
-        title: "Summaries (II)",
+        title: "Lolo Abushaban",
         url: "../../../documents/level-3/semester-2/pathophysiology-2/summary/pathophysiology-2-summary-lolo.pdf",
+      },
+      otherSummaries: {
+        title: "Tasneem Al-qeeq",
+        url: "../../../documents/level-3/semester-2/pathophysiology-2/summary/pathophysiology-2-summary-tasneem.pdf",
       },
       exams: [
         {
@@ -6567,7 +6553,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHPT3207",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Pharmacology & Medical Sciences\n                          (PHPT)",
+          "Department of Pharmacology & Medical Sciences     (PHPT)",
         "Course Classification:": "Major Need",
         "Course Level:": "3rd Level",
         "Total Credits:": "2 Credit Hours",
@@ -6584,7 +6570,7 @@ export const courses: CourseData[] = [
     slug: "pharmaceutics-3",
     title: "Pharmaceutics Three.",
     description:
-      "Liquid (Parenteral) Pharmaceutical Dosage Forms &\n            Formulations",
+      "Liquid (Parenteral) Pharmaceutical Dosage Forms & Formulations",
     lecturers: [
       {
         title: "Dr.",
@@ -6628,8 +6614,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter II :\n                      Parenteral Products\n                        (Parenterals)",
+        chapterTitle: "Chapter II : Parenteral Products",
+        chapterTitleNote: "(Parenterals)",
         documents: [],
         videos: [
           {
@@ -6783,24 +6769,24 @@ export const courses: CourseData[] = [
       },
       {
         chapterTitle:
-          "Chapter V :\n                      Biological Products\n                        (Biologicals) &\n                        Radiopharmaceuticals",
+          "Chapter V : Biological Products (Biologicals) & Radiopharmaceuticals",
         documents: [],
         videos: [],
       },
       {
-        chapterTitle:
-          "Chapter VI :\n                      Ophthalmic Preparations\n                        (Ophthalmics)",
+        chapterTitle: "Chapter VI : Ophthalmic Preparations",
+        chapterTitleNote: "(Ophthalmics)",
         documents: [],
         videos: [],
       },
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Ansel's Pharmaceutical Dosage Forms & DDS 10th Edition",
         url: "../../../documents/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -6821,7 +6807,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHTC3211",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Pharmaceutics & Industrial Pharmacy\n                          (PHTC)",
+          "Department of Pharmaceutics & Industrial Pharmacy     (PHTC)",
         "Course Classification:": "Major Need",
         "Course Level:": "3rd Level",
         "Total Credits:": "2 Credit Hours",
@@ -6838,7 +6824,7 @@ export const courses: CourseData[] = [
     slug: "pharmacokinetics-1",
     title: "Biopharmaceutics & Pharmacokinetics One.",
     description:
-      "Introdcution to Biopharmaceutics & Pharmacokinetics || Different\n            Routes of Administration (Biopharmaceutics)",
+      "Introdcution to Biopharmaceutics & Pharmacokinetics || Different Routes of Administration (Biopharmaceutics)",
     lecturers: [
       {
         title: "Prof.",
@@ -6852,7 +6838,7 @@ export const courses: CourseData[] = [
     lectures: [
       {
         chapterTitle:
-          "Chapter I :\n                      Introduction to Biopharmaceutics &\n                        Pharmacokinetics",
+          "Chapter I : Introduction to Biopharmaceutics &   Pharmacokinetics",
         documents: [
           {
             title: "Chapter Slides",
@@ -6869,13 +6855,13 @@ export const courses: CourseData[] = [
           {
             title: "Lecture (1)",
             description:
-              "Introduction to Biopharmaceutics &\n                            Pharmacokinetics pt.A",
+              "Introduction to Biopharmaceutics &       Pharmacokinetics pt.A",
             url: "https://youtu.be/KeMDRYV-lsE",
           },
           {
             title: "Lecture (2)",
             description:
-              "Introduction to Biopharmaceutics &\n                            Pharmacokinetics pt.B",
+              "Introduction to Biopharmaceutics &       Pharmacokinetics pt.B",
             url: "https://youtu.be/dNJ_JcZPkoY",
           },
           {
@@ -6891,8 +6877,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter II => V :\n                      GIT Route of Administration\n                        (Buccal & Sublingual, Oral,\n                          Rectal)",
+        chapterTitle: "Chapter II => V : GIT Route of Administration",
+        chapterTitleNote: "(Buccal & Sublingual, Oral, Rectal)",
         documents: [
           {
             title: "Chapter Slides",
@@ -6934,8 +6920,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VI :\n                      Parenteral Route of Administration\n                        (IV, IM, SC)",
+        chapterTitle: "Chapter VI : Parenteral Route of Administration",
+        chapterTitleNote: "(IV, IM, SC)",
         documents: [
           {
             title: "Chapter Slides",
@@ -6957,8 +6943,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VII :\n                      Intranasal Route of Administration",
+        chapterTitle: "Chapter VII : Intranasal Route of Administration",
         documents: [
           {
             title: "Chapter Slides",
@@ -6981,7 +6966,7 @@ export const courses: CourseData[] = [
       },
       {
         chapterTitle:
-          "Chapter VIII + IX :\n                      Vaginal & Ear Routes of Administration",
+          "Chapter VIII + IX : Vaginal & Ear Routes of Administration",
         documents: [
           {
             title: "Chapter Slides",
@@ -7015,8 +7000,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter XI :\n                      Pulmonary Route of Administration",
+        chapterTitle: "Chapter XI : Pulmonary Route of Administration",
         documents: [
           {
             title: "Chapter Slides",
@@ -7033,8 +7017,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter XII :\n                      Transdermal Drug Delivery System",
+        chapterTitle: "Chapter XII : Transdermal Drug Delivery System",
         documents: [
           {
             title: "Chapter Slides",
@@ -7063,11 +7046,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Shargel & Yu's : Applied Biopharmaceutics & PK 7th Edition",
         url: "../../../documents/level-3/semester-2/pharmacokinetics-1/book/Leon_Shargel,_Andrew_B_C_Yu_Applied_Biopharmaceutics_&_Pharmacokinetics.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -7088,7 +7071,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHTC3213",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Pharmaceutics & Industrial Pharmacy\n                          (PHTC)",
+          "Department of Pharmaceutics & Industrial Pharmacy     (PHTC)",
         "Course Classification:": "Major Need",
         "Course Level:": "3rd Level",
         "Total Credits:": "2 Credit Hours",
@@ -7105,7 +7088,7 @@ export const courses: CourseData[] = [
     slug: "pharmacology-1",
     title: "Pharmacology One.",
     description:
-      "Introduction to Pharmacology, Pharmacodynamics || Drugs affecting\n            the ANS & Drugs affecting the CNS",
+      "Introduction to Pharmacology, Pharmacodynamics || Drugs affecting the ANS & Drugs affecting the CNS",
     lecturers: [
       {
         name: "Rasha Bseiso",
@@ -7117,8 +7100,7 @@ export const courses: CourseData[] = [
     },
     lectures: [
       {
-        chapterTitle:
-          "Chapter I :\n                      Introduction to Pharmacology",
+        chapterTitle: "Chapter I : Introduction to Pharmacology",
         documents: [],
         videos: [
           {
@@ -7130,7 +7112,7 @@ export const courses: CourseData[] = [
       },
       {
         chapterTitle:
-          "Chapter II :\n                      Drug-Receptor Interactions & Pharmacodynamics",
+          "Chapter II : Drug-Receptor Interactions & Pharmacodynamics",
         documents: [],
         videos: [
           {
@@ -7151,8 +7133,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter III :\n                      ANS\n                        (as Physiology)",
+        chapterTitle: "Chapter III : ANS",
+        chapterTitleNote: "(as Physiology)",
         documents: [],
         videos: [
           {
@@ -7232,8 +7214,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VIII :\n                      Drugs for Neurodegenerative Diseases",
+        chapterTitle: "Chapter VIII : Drugs for Neurodegenerative Diseases",
         documents: [],
         videos: [
           {
@@ -7327,11 +7308,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "404 - Nof Found",
         url: "404",
       },
       summaries: {
-        title: "Summaries",
+        title: "Ahmed J. Skaik - CNS Unit",
         url: "../../../documents/level-3/semester-2/pharmacology-1/summary/cns-pharmacology-summary-ahmed-skaik.pdf",
       },
       exams: [
@@ -7352,7 +7333,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHPT4310",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Pharmacology & Medical Sciences\n                          (PHPT)",
+          "Department of Pharmacology & Medical Sciences     (PHPT)",
         "Course Classification:": "Major Need",
         "Course Level:": "3rd Level",
         "Total Credits:": "3 Credit Hours",
@@ -7369,7 +7350,7 @@ export const courses: CourseData[] = [
     slug: "phytochemistry-1",
     title: "Phytochemistry One.",
     description:
-      "Introduction to Phytochemistry & Different Groups of\n            Phytochemicals",
+      "Introduction to Phytochemistry & Different Groups of Phytochemicals",
     lecturers: [
       {
         title: "Dr.",
@@ -7509,11 +7490,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Dr. Mazen El-sakka: Manual of Phytochemistry I",
         url: "../../../documents/level-3/semester-2/phytochemistry-1/phytochemistry-1-book.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -7538,7 +7519,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHCG3208",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Pharmacognosy & Pharmaceutical\n                          Botany (PHCG)",
+          "Department of Pharmacognosy & Pharmaceutical Botany (PHCG)",
         "Course Classification:": "Major Need",
         "Course Level:": "3rd Level",
         "Total Credits:": "2 Credit Hours",
@@ -7554,7 +7535,7 @@ export const courses: CourseData[] = [
     slug: "technical-instruments",
     title: "Technical Instruments.",
     description:
-      "Quantitative & Qualitative Instrumental Analysis of Chemicals\n            (Pharmaceutical Drugs) \n            NMR, IR, UV & Mass Spectroscopy || Chromatography",
+      "Quantitative & Qualitative Instrumental Analysis of Chemicals (Pharmaceutical Drugs)  NMR, IR, UV & Mass Spectroscopy || Chromatography",
     lecturers: [
       {
         title: "Dr.",
@@ -7681,7 +7662,7 @@ export const courses: CourseData[] = [
           {
             title: "Lecture (9)",
             description:
-              "Absorption Region, Angle Strain & Examples of\n                            Carbonyls",
+              "Absorption Region, Angle Strain & Examples of       Carbonyls",
             url: "https://youtu.be/QRnOPMxfhqQ",
           },
           {
@@ -7829,12 +7810,16 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "404 - Not Found",
         url: "404",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
+      },
+      personalRecommendations: {
+        title: "IR Spectroscopy",
+        url: "https://www.youtube.com/watch?v=_Xi5ZVbbftI",
       },
       exams: [
         {
@@ -7858,7 +7843,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHCH2308",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Chemistry & Pharmaceutical Chemistry\n                          (PHCH)",
+          "Department of Chemistry & Pharmaceutical Chemistry     (PHCH)",
         "Course Classification:": "Major Need",
         "Course Level:": "3rd Level",
         "Total Credits:": "3 Credit Hours",
@@ -7875,7 +7860,7 @@ export const courses: CourseData[] = [
     slug: "first-aid",
     title: "First Aid.",
     description:
-      "Theoretical Study of Common Cases & How to Deal with them Until\n            Full Medical Treatment is Available",
+      "Theoretical Study of Common Cases & How to Deal with them Until Full Medical Treatment is Available",
     lecturers: [
       {
         name: "Jamil Mohanna",
@@ -7914,8 +7899,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter III :\n                      Airways & Breathing Problems",
+        chapterTitle: "Chapter III : Airways & Breathing Problems",
         documents: [],
         videos: [
           {
@@ -7958,8 +7942,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VI :\n                      Injuries to Bone, Muscles & Joints",
+        chapterTitle: "Chapter VI : Injuries to Bone, Muscles & Joints",
         documents: [],
         videos: [
           {
@@ -7981,8 +7964,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VIII :\n                      Serious Conditions",
+        chapterTitle: "Chapter VIII : Serious Conditions",
         documents: [],
         videos: [
           {
@@ -7995,11 +7977,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "First Aid Made Easy",
         url: "../../../documents/level-4/semester-1/first-aid/first-aid-book.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -8016,7 +7998,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHPT5122",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Pharmacology & Medical Sciences\n                          (PHPT)",
+          "Department of Pharmacology & Medical Sciences     (PHPT)",
         "Course Classification:": "College Need",
         "Course Level:": "4th Level",
         "Total Credits:": "1 Credit Hour",
@@ -8029,21 +8011,25 @@ export const courses: CourseData[] = [
     slug: "pharmaceutical-chem-1",
     title: "Pharmaceutical Chemistry One.",
     description:
-      "Introduction to Pharmaceutical Chemistry, Biotransformation of Drugs\n            & Antibiotics Classes",
+      "Introduction to Pharmaceutical Chemistry, Biotransformation of Drugs & Antibiotics Classes",
     lecturers: [
       {
         title: "Prof.",
         name: "Usama Abu-mohsen",
       },
     ],
+    courseNote: {
+      note: "* It's Highly Recommended to Check out Chapter I & III of the",
+      url: "/courses/organic-chemistry-2",
+      urlText: "Organic Chemistry II Course",
+    },
     stats: {
       videosCount: 23,
       chaptersCount: 10,
     },
     lectures: [
       {
-        chapterTitle:
-          "Chapter I :\n                      Introduction to Pharmaceutical Chemistry",
+        chapterTitle: "Chapter I : Introduction to Pharmaceutical Chemistry",
         documents: [],
         videos: [
           {
@@ -8069,8 +8055,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter II :\n                      Biotransformation of Drugs\n                        (Metabolism)",
+        chapterTitle: "Chapter II : Biotransformation of Drugs",
+        chapterTitleNote: "(Metabolism)",
         documents: [],
         videos: [
           {
@@ -8096,8 +8082,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter III :\n                      Sulfa Drugs\n                        (Synthetic AB)",
+        chapterTitle: "Chapter III : Sulfa Drugs",
+        chapterTitleNote: "(Synthetic ABs)",
         documents: [],
         videos: [
           {
@@ -8118,8 +8104,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter IV :\n                      Quinolones + Nitrofurans + Methenamines\n                        (Synthetic ABs)",
+        chapterTitle: "Chapter IV : Quinolones + Nitrofurans + Methenamines",
+        chapterTitleNote: "(Synthetic ABs)",
         documents: [],
         videos: [
           {
@@ -8135,14 +8121,14 @@ export const courses: CourseData[] = [
           {
             title: "Lecture (3)",
             description:
-              "Quinolones pt.C + Nitrofurans\n                            (02:30) + Methenamines\n                            (07:30) + Penicillins\n                            pt.A (10:30)",
+              "Quinolones pt.C + Nitrofurans       (02:30) + Methenamines       (07:30) + Penicillins       pt.A (10:30)",
             url: "https://youtu.be/hXikq-VQ_vk",
           },
         ],
       },
       {
-        chapterTitle:
-          "Chapter V :\n                      Penicillins\n                        (Natural AB)",
+        chapterTitle: "Chapter V : Penicillins",
+        chapterTitleNote: "(Natural ABs)",
         documents: [],
         videos: [
           {
@@ -8158,8 +8144,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VI :\n                      Cephalosporins\n                        (Natural AB)",
+        chapterTitle: "Chapter VI : Cephalosporins",
+        chapterTitleNote: "(Natural AB)",
         documents: [],
         videos: [
           {
@@ -8180,14 +8166,14 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VII :\n                      New β Lactams\n                        (Natural AB)",
+        chapterTitle: "Chapter VII : New β Lactams",
+        chapterTitleNote: "(Natural ABs)",
         documents: [],
         videos: [],
       },
       {
-        chapterTitle:
-          "Chapter VIII :\n                      Tetracyclines\n                        (Natural AB)",
+        chapterTitle: "Chapter VIII : Tetracyclines",
+        chapterTitleNote: "(Natural ABs)",
         documents: [],
         videos: [
           {
@@ -8203,27 +8189,26 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter IX :\n                      Chloramphenicol + Aminoglycosides\n                        (Natural ABs)",
+        chapterTitle: "Chapter IX : Chloramphenicol + Aminoglycosides",
+        chapterTitleNote: "(Natural ABs)",
         documents: [],
         videos: [
           {
             title: "Lecture (1)",
             description:
-              "Tetracyclines pt.C + Chloramphenicol\n                            (01:00) +\n                            Aminoglycosides\n                            (09:01) + Macrolides\n                            pt.A\n                            (18:20)",
+              "Tetracyclines pt.C + Chloramphenicol       (01:00) +       Aminoglycosides       (09:01) + Macrolides       pt.A       (18:20)",
             url: "https://youtu.be/UN72b3KV5Cc",
           },
         ],
       },
       {
-        chapterTitle:
-          "Chapter X :\n                      Macrolides & Polypeptides\n                        (Other Natural ABs)",
+        chapterTitle: "Chapter X : Macrolides & Polypeptides",
+        chapterTitleNote: "(Other Natural ABs)",
         documents: [],
         videos: [
           {
             title: "Lecture (1)",
-            description:
-              "Macrolides pt.B & Polypeptides\n                            (15:45)",
+            description: "Macrolides pt.B & Polypeptides       (15:45)",
             url: "https://youtu.be/53tJ_DT1Hrs",
           },
         ],
@@ -8231,11 +8216,20 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book (III)",
+        title:
+          "Wilson & Gisvold's Textbook of Organic Medicinal & Pharmaceutical Chemistry - 12th Edition",
+        url: "../../../documents/level-4/semester-1/pharmaceutical-chemistry-1/Wilson_and_Gisvold's_Textbook.pdf",
+      },
+      referenceBookTwo: {
+        title: "V. Alagarsamy, Textbook of Medicinal Chemistry",
+        url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/TEXTBOOK-OF-MEDICINAL-CHEMISTRY.pdf",
+      },
+      referenceBookThree: {
+        title: "Foye's Principles of Medicinal Chmeistry - 7th Edition",
         url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/Foye's_Principles_of_Medicinal_Chemistry,_7th.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "Marah Isam Falit",
         url: "../../../documents/level-4/semester-1/pharmaceutical-chemistry-1/summary/pharm-chem-1-summary.pdf",
       },
       exams: [
@@ -8252,7 +8246,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHCH4210",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Chemistry & Pharmaceutical Chemistry\n                          (PHCH)",
+          "Department of Chemistry & Pharmaceutical Chemistry     (PHCH)",
         "Course Classification:": "Major Need",
         "Course Level:": "4th Level",
         "Total Credits:": "2 Credit Hours",
@@ -8268,7 +8262,7 @@ export const courses: CourseData[] = [
     slug: "pharmaceutical-law",
     title: "Pharmaceutical Law & History.",
     description:
-      "Pharmaceutical Laws in the State of Palestine & Pharmaceutical\n            History",
+      "Pharmaceutical Laws in the State of Palestine & Pharmaceutical History",
     lecturers: [
       {
         title: "Dr.",
@@ -8390,11 +8384,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Reference of Pharmaceutical Law & History",
         url: "../../../documents/level-4/semester-1/pharmaceutical-law/pharmaceutical-law-history-book.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -8411,7 +8405,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHTC4111",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Pharmaceutics & Industrial Pharmacy\n                          (PHTC)",
+          "Department of Pharmaceutics & Industrial Pharmacy     (PHTC)",
         "Course Classification:": "Major Need",
         "Course Level:": "4th Level",
         "Total Credits:": "1 Credit Hour",
@@ -8424,7 +8418,7 @@ export const courses: CourseData[] = [
     slug: "pharmacokinetics-2",
     title: "Biopharmaceutics & Pharmacokinetics Two.",
     description:
-      "Pharmacokinetics of Drugs in the Body (ADME: Absorption,\n            Distribution, Metabolism & Excretion)",
+      "Pharmacokinetics of Drugs in the Body (ADME: Absorption, Distribution, Metabolism & Excretion)",
     lecturers: [
       {
         title: "Prof.",
@@ -8437,8 +8431,8 @@ export const courses: CourseData[] = [
     },
     lectures: [
       {
-        chapterTitle:
-          "Chapter IA :\n                      Introduction to Pharmacokinetics\n                        (Compartmental Theory)",
+        chapterTitle: "Chapter IA : Introduction to Pharmacokinetics",
+        chapterTitleNote: "(Compartmental Theory)",
         documents: [
           {
             title: "Chapter Slides",
@@ -8448,7 +8442,7 @@ export const courses: CourseData[] = [
           {
             title: "Chapter Questions",
             url: "../../../documents/level-4/semester-1/pharmacokinetics-2/chapter-1-problmes.pdf",
-            type: "answers",
+            type: "questions",
           },
         ],
         videos: [
@@ -8465,8 +8459,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter IB :\n                      One Comparmental Open Model\n                        (IV: Bolus & Infusion)",
+        chapterTitle: "Chapter IB : One Comparmental Open Model",
+        chapterTitleNote: "(IV: Bolus & Infusion)",
         documents: [],
         videos: [
           {
@@ -8482,14 +8476,14 @@ export const courses: CourseData[] = [
           {
             title: "Lecture (3)",
             description:
-              "One Compartmental Open Model IV Bolus\n                            (Problems)",
+              "One Compartmental Open Model IV Bolus       (Problems)",
             url: "https://youtu.be/86E0tpDVK1k",
           },
         ],
       },
       {
-        chapterTitle:
-          "Chapter II :\n                      Two Comparmental Open Model\n                        (IV Bolus)",
+        chapterTitle: "Chapter II : Two Comparmental Open Model",
+        chapterTitleNote: "(IV Bolus)",
         documents: [
           {
             title: "Chapter Slides",
@@ -8506,8 +8500,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter III :\n                      One Comparmental Open Model\n                        (Extravascular Routes)",
+        chapterTitle: "Chapter III : One Comparmental Open Model",
+        chapterTitleNote: "(Extravascular Routes)",
         documents: [
           {
             title: "Chapter Slides",
@@ -8534,7 +8528,7 @@ export const courses: CourseData[] = [
           {
             title: "Lecture (3)",
             description:
-              "One Compartmental Open Model Extravascular\n                            (Problems)",
+              "One Compartmental Open Model Extravascular       (Problems)",
             url: "https://youtu.be/RY0HUvox0v4",
           },
         ],
@@ -8589,8 +8583,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VI :\n                      Drug Metabolism\n                        (Biotransformation)",
+        chapterTitle: "Chapter VI : Drug Metabolism",
+        chapterTitleNote: "(Biotransformation)",
         documents: [
           {
             title: "Chapter Slides",
@@ -8668,11 +8662,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Shargel & Yu's : Applied Biopharmaceutics & PK 7th Edition",
         url: "../../../documents/level-3/semester-2/pharmacokinetics-1/book/Leon_Shargel,_Andrew_B_C_Yu_Applied_Biopharmaceutics_&_Pharmacokinetics.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "Mohammed El-Farra",
         url: "../../../documents/level-4/semester-1/pharmacokinetics-2/summary/pharmacokinetics-2-course-summary.pdf",
       },
       exams: [
@@ -8693,7 +8687,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHTC4314",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Pharmaceutics & Industrial Pharmacy\n                          (PHTC)",
+          "Department of Pharmaceutics & Industrial Pharmacy     (PHTC)",
         "Course Classification:": "Major Need",
         "Course Level:": "4th Level",
         "Total Credits:": "3 Credit Hours",
@@ -8714,7 +8708,7 @@ export const courses: CourseData[] = [
     slug: "pharmacology-2",
     title: "Pharmacology Two.",
     description:
-      "Respiratory Drugs, Antihistamines, (GIT & Antiemetic\n            Drugs), Drugs affecting the Cardiovascular System & Drugs\n            for DM",
+      "Respiratory Drugs, Antihistamines, (GIT & Antiemetic Drugs), Drugs affecting the Cardiovascular System & Drugs for DM",
     lecturers: [
       {
         name: "Rasha Bseiso",
@@ -8753,7 +8747,7 @@ export const courses: CourseData[] = [
           {
             title: "Lecture (2)",
             description:
-              "Antihistamines pt.B + GIT & Antiemetic Drugs\n                            pt.A",
+              "Antihistamines pt.B + GIT & Antiemetic Drugs       pt.A",
             url: "https://www.youtube.com/watch?v=VxxVvW33BnQ&feature=youtu.be",
           },
         ],
@@ -8845,8 +8839,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter IX :\n                      Anticoagulants & Antiplatelet Agents",
+        chapterTitle: "Chapter IX : Anticoagulants & Antiplatelet Agents",
         documents: [],
         videos: [
           {
@@ -8878,8 +8871,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter XI :\n                      Drugs for DM\n                        (Diabetes Mellitus)",
+        chapterTitle: "Chapter XI : Drugs for DM",
+        chapterTitleNote: "(Diabetes Mellitus)",
         documents: [],
         videos: [
           {
@@ -8897,11 +8890,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "",
         url: "404",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -8918,7 +8911,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHPT4312",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Pharmacology & Medical Sciences\n                          (PHPT)",
+          "Department of Pharmacology & Medical Sciences     (PHPT)",
         "Course Classification:": "Major Need",
         "Course Level:": "4th Level",
         "Total Credits:": "3 Credit Hours",
@@ -8963,8 +8956,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter II :\n                      Monoterpenoids\n                        (10C)",
+        chapterTitle: "Chapter II : Monoterpenoids",
+        chapterTitleNote: "(10C)",
         documents: [],
         videos: [
           {
@@ -9010,8 +9003,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter III :\n                      Sesquiterpenes\n                        (15C)",
+        chapterTitle: "Chapter III : Sesquiterpenes",
+        chapterTitleNote: "(15C)",
         documents: [],
         videos: [
           {
@@ -9032,8 +9025,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter IV :\n                      Triterpens\n                        (30C)",
+        chapterTitle: "Chapter IV : Triterpens",
+        chapterTitleNote: "(30C)",
         documents: [],
         videos: [
           {
@@ -9102,8 +9095,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VIII :\n                      Tetraterpenes\n                        (40C)",
+        chapterTitle: "Chapter VIII : Tetraterpenes",
+        chapterTitleNote: "(40C)",
         documents: [],
         videos: [
           {
@@ -9116,12 +9109,22 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "",
         url: "404",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
+      },
+      extraResources: {
+        title: "Slides of the Course",
+        url: "../../../documents/level-4/semester-1/phytochemistry-2/phytochemistry-2-slides.pdf",
+        note: "Dr. Mazen",
+      },
+      extraResourcesTwo: {
+        title: "Slides of the Course",
+        url: "../../../documents/level-4/semester-1/phytochemistry-2/phytochemistry-2-slides-dr-khaldonue.pdf",
+        note: "Dr. Khaldoun",
       },
       exams: [
         {
@@ -9141,7 +9144,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHCG4209",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Pharmacognosy & Pharmaceutical\n                          Botany (PHCG)",
+          "Department of Pharmacognosy & Pharmaceutical Botany (PHCG)",
         "Course Classification:": "Major Need",
         "Course Level:": "4th Level",
         "Total Credits:": "2 Credit Hours",
@@ -9158,7 +9161,7 @@ export const courses: CourseData[] = [
     slug: "industrial-pharmacy-1",
     title: "Industrial Pharmacy One.",
     description:
-      "Design & Mechanism of Action of the Instruments Included in the\n            Unit Operation in Pharmaceutical Practice",
+      "Design & Mechanism of Action of the Instruments Included in the Unit Operation in Pharmaceutical Practice",
     lecturers: [
       {
         title: "Dr.",
@@ -9171,8 +9174,7 @@ export const courses: CourseData[] = [
     },
     lectures: [
       {
-        chapterTitle:
-          "Chapter I :\n                      Introduction to Industiral Pharamcy",
+        chapterTitle: "Chapter I : Introduction to Industrial Pharmacy",
         documents: [
           {
             title: "Chapter Slides",
@@ -9183,7 +9185,7 @@ export const courses: CourseData[] = [
         videos: [
           {
             title: "Lecture (1)",
-            description: "Introduction to Industiral Pharamcy",
+            description: "Introduction to Industrial Pharmacy",
             url: "https://youtu.be/M5hzfv-kAX4",
           },
         ],
@@ -9221,14 +9223,13 @@ export const courses: CourseData[] = [
           {
             title: "Lecture (5)",
             description:
-              "Mixers of Plastic Materials (Semi-Solid\n                            Materials)",
+              "Mixers of Plastic Materials (Semi-Solid       Materials)",
             url: "https://youtu.be/TofCV8eGgQ0",
           },
         ],
       },
       {
-        chapterTitle:
-          "Chapter III :\n                      Homogenization & Emulsification Process",
+        chapterTitle: "Chapter III : Homogenization & Emulsification Process",
         documents: [
           {
             title: "Chapter Slides",
@@ -9245,8 +9246,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter IV :\n                      Heat Transfer & Heating Process",
+        chapterTitle: "Chapter IV : Heat Transfer & Heating Process",
         documents: [
           {
             title: "Chapter Slides",
@@ -9334,11 +9334,15 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book (II)",
+        title: "Ansel's Pharmaceutical Dosage Forms & DDS 10th Edition",
+        url: "../../../documents/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf",
+      },
+      referenceBookTwo: {
+        title: "The Theory & Practice of Industrial Pharmacy 3rd Edition",
         url: "../../../documents/level-4/semester-2/industrial-pharmacy-1/book/The-Theory-And-Practice-of-Industrial-Pharmacy.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -9355,7 +9359,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHTC4215",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Pharmaceutics & Industrial Pharmacy\n                          (PHTC)",
+          "Department of Pharmaceutics & Industrial Pharmacy     (PHTC)",
         "Course Classification:": "Major Need",
         "Course Level:": "4th Level",
         "Total Credits:": "2 Credit Hours",
@@ -9372,7 +9376,7 @@ export const courses: CourseData[] = [
     slug: "pharmaceutical-chemistry-2",
     title: "Pharmaceutical Chemistry Two.",
     description:
-      "Antibiotics Classes Cont., Opioids, NSAIDs & Chemotherapy\n            (Anticancer Drugs)",
+      "Antibiotics Classes Cont., Opioids, NSAIDs & Chemotherapy (Anticancer Drugs)",
     lecturers: [
       {
         title: "Dr.",
@@ -9577,11 +9581,20 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book (III)",
+        title:
+          "Wilson & Gisvold's Textbook of Organic Medicinal & Pharmaceutical Chemistry - 12th Edition",
+        url: "../../../documents/level-4/semester-1/pharmaceutical-chemistry-1/Wilson_and_Gisvold's_Textbook.pdf",
+      },
+      referenceBookTwo: {
+        title: "V. Alagarsamy, Textbook of Medicinal Chemistry",
+        url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/TEXTBOOK-OF-MEDICINAL-CHEMISTRY.pdf",
+      },
+      referenceBookThree: {
+        title: "Foye's Principles of Medicinal Chmeistry - 7th Edition",
         url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/Foye's_Principles_of_Medicinal_Chemistry,_7th.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "Marah Issam Falit",
         url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/pharm-chem-2-course-summary-marah.pdf",
       },
       exams: [
@@ -9598,7 +9611,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHCH4211",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Chemistry & Pharmaceutical Chemistry\n                          (PHCH)",
+          "Department of Chemistry & Pharmaceutical Chemistry     (PHCH)",
         "Course Classification:": "Major Need",
         "Course Level:": "4th Level",
         "Total Credits:": "2 Credit Hours",
@@ -9619,7 +9632,7 @@ export const courses: CourseData[] = [
     slug: "pharmacology-3",
     title: "Pharmacology Three.",
     description:
-      "Drugs affecting the Endocrine System, Chemotherapeutic Drugs &\n            Immunostimulants",
+      "Drugs affecting the Endocrine System, Chemotherapeutic Drugs & Immunostimulants",
     lecturers: [
       {
         title: "Dr.",
@@ -9786,11 +9799,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book ∥I)",
+        title: "Basic & Clinical Pharmacology 14th Edition)",
         url: "../../../documents/level-4/semester-2/pharmacology-3/Basic_and_Clinical_Pharmacology.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -9819,7 +9832,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHPT5315",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Pharmacology & Medical Sciences\n                          (PHPT)",
+          "Department of Pharmacology & Medical Sciences     (PHPT)",
         "Course Classification:": "Major Need",
         "Course Level:": "4th Level",
         "Total Credits:": "3 Credit Hours",
@@ -9848,8 +9861,7 @@ export const courses: CourseData[] = [
     },
     lectures: [
       {
-        chapterTitle:
-          "Chapter I :\n                      Introduction & General Alkaloids",
+        chapterTitle: "Chapter I : Introduction & General Alkaloids",
         documents: [],
         videos: [
           {
@@ -9913,7 +9925,7 @@ export const courses: CourseData[] = [
       },
       {
         chapterTitle:
-          "Chapter IV :\n                      Alkaloids Derived From Phenyalanine &\n                        Tyrosine",
+          "Chapter IV : Alkaloids Derived From Phenyalanine &   Tyrosine",
         documents: [],
         videos: [
           {
@@ -9946,12 +9958,17 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Dr. Mazen El-sakka: Manual of Phytochemistry III",
         url: "../../../documents/level-4/semester-2/phytochemistry-3/phytochemistry-3-book.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
+      },
+      extraResources: {
+        title: "Slides of the Course",
+        url: "../../../documents/level-4/semester-2/phytochemistry-3/phytochemistry-3-slides.pdf",
+        note: "Dr. Mazen",
       },
       exams: [
         {
@@ -9971,7 +9988,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHCG4211",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Pharmacognosy & Pharmaceutical\n                          Botany (PHCG)",
+          "Department of Pharmacognosy & Pharmaceutical Botany (PHCG)",
         "Course Classification:": "Major Need",
         "Course Level:": "4th Level",
         "Total Credits:": "2 Credit Hours",
@@ -9987,8 +10004,7 @@ export const courses: CourseData[] = [
   {
     slug: "public-health",
     title: "Public Health & Preventative Medicine.",
-    description:
-      "General Principles of Public Health & Preventative\n            Medicine",
+    description: "General Principles of Public Health & Preventative Medicine",
     lecturers: [
       {
         title: "Dr.",
@@ -10114,8 +10130,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter V :\n                      Communicable Disease & Immunizations",
+        chapterTitle: "Chapter V : Communicable Disease & Immunizations",
         documents: [
           {
             title: "Chapter Slides",
@@ -10134,11 +10149,15 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book (II)",
+        title: "Reference of Public Health",
+        url: "../../../documents/level-4/semester-2/public-health/public-health-book-pt-1.pdf",
+      },
+      referenceBookTwo: {
+        title: "Dr. Ahmed Najem",
         url: "../../../documents/level-4/semester-2/public-health/public-health-book-ahmed-najem.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -10155,7 +10174,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHPT5221",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Pharmacology & Medical Sciences\n                          (PHPT)",
+          "Department of Pharmacology & Medical Sciences     (PHPT)",
         "Course Classification:": "Major Need",
         "Course Level:": "4th Level",
         "Total Credits:": "2 Credit Hours",
@@ -10217,6 +10236,19 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
+      referenceBook: {
+        title: "Training Book -Empty-",
+        url: "../../../documents/level-4/summer/training-book-empty.pdf",
+      },
+      summaries: {
+        title: "Training Book -Filled-, By: TA. Eman Ibrahim",
+        url: "../../../documents/level-4/summer/training-book-filled-ta-eman-ibrahem.pdf",
+      },
+      extraResources: {
+        title: "Training Form",
+        url: "../../../documents/level-4/summer/training-form.pdf",
+        note: "Pharmacy Training Form",
+      },
       exams: [
         {
           title: "Previous Exams",
@@ -10231,7 +10263,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHTC4218",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Department of Pharmaceutics & Industrial Pharmacy\n                          (PHTC)",
+          "Department of Pharmaceutics & Industrial Pharmacy     (PHTC)",
         "Course Classification:": "College Need",
         "Course Level:": "4th Level",
         "Total Credits:": "2 Credit Hours",
@@ -10257,7 +10289,7 @@ export const courses: CourseData[] = [
     lectures: [
       {
         chapterTitle:
-          "Chapter I + II :\n                      Dermatological Dosage Forms & Types of Skin",
+          "Chapter I + II : Dermatological Dosage Forms & Types of Skin",
         documents: [],
         videos: [
           {
@@ -10410,7 +10442,7 @@ export const courses: CourseData[] = [
           {
             title: "Lecture (2)",
             description:
-              "Fungal, Viral & Parasitic Infectious Skin\n                            Diseases",
+              "Fungal, Viral & Parasitic Infectious Skin       Diseases",
             url: "https://youtu.be/qs9MqeRPcaA",
           },
         ],
@@ -10434,11 +10466,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "",
         url: "404",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -10455,7 +10487,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHTC5216",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Pharmaceutics & Industrial Pharmacy\n                          (PHTC)",
+          "Departemnt of Pharmaceutics & Industrial Pharmacy     (PHTC)",
         "Course Classification:": "Major Need - (Optional)",
         "Course Level:": "5th Level",
         "Total Credits:": "2 Credit Hours",
@@ -10468,7 +10500,7 @@ export const courses: CourseData[] = [
     slug: "drug-interactions",
     title: "Drug Interactions.",
     description:
-      "Introduction to Drug Interactions, Mechanisms of Drug Interactions\n            & Drug Interactions of Selected Classes of Therapeutic Agents",
+      "Introduction to Drug Interactions, Mechanisms of Drug Interactions & Drug Interactions of Selected Classes of Therapeutic Agents",
     lecturers: [
       {
         name: "Rasha Bseiso",
@@ -10481,11 +10513,11 @@ export const courses: CourseData[] = [
     lectures: [],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Stockley's Drug Interactions 9th Edition",
         url: "../../../documents/level-5/optional/drug-interactions/referance/stockley's-drug-interactions-9th.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -10502,7 +10534,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHPT5223",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Pharmacology & Medical Sciences\n                          (PHPT)",
+          "Departemnt of Pharmacology & Medical Sciences     (PHPT)",
         "Course Classification:": "Major Need - (Optional)",
         "Course Level:": "5th Level",
         "Total Credits:": "2 Credit Hours",
@@ -10515,7 +10547,7 @@ export const courses: CourseData[] = [
     slug: "food-supplements",
     title: "Food Supplements.",
     description:
-      "Studying Sources of Nutrients or Other Substances with a Nutritional\n            or Physiological Effect to Supply a Healthy Diet",
+      "Studying Sources of Nutrients or Other Substances with a Nutritional or Physiological Effect to Supply a Healthy Diet",
     lecturers: [
       {
         title: "Dr.",
@@ -10607,8 +10639,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter V :\n                      Hypertension & Food Supplements",
+        chapterTitle: "Chapter V : Hypertension & Food Supplements",
         documents: [],
         videos: [
           {
@@ -10652,8 +10683,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter IX :\n                      Urogenital Tract Disorder",
+        chapterTitle: "Chapter IX : Urogenital Tract Disorder",
         documents: [],
         videos: [
           {
@@ -10692,11 +10722,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Dr. Mazen El-sakka: Manual of Food Supplements",
         url: "../../../documents/level-5/optional/food-supplements/food-supplements-book.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -10712,8 +10742,7 @@ export const courses: CourseData[] = [
         "Course Title:": "Food Supplements",
         "Course Code:": "PHCG5210",
         "Faculty:": "Faculty of Pharmacy",
-        "Department:":
-          "Pharmacognosy & Pharmaceutical Botany\n                          (PHCG)",
+        "Department:": "Pharmacognosy & Pharmaceutical Botany (PHCG)",
         "Course Classification:": "Major Need - (Optional)",
         "Course Level:": "5th Level",
         "Total Credits:": "2 Credit Hours",
@@ -10726,7 +10755,7 @@ export const courses: CourseData[] = [
     slug: "hospital-pharmacy",
     title: "Hospital Pharmacy.",
     description:
-      "Understanding the Concept of Hospital Pharmacy & the Importance of\n            it in Different Health Care Settings",
+      "Understanding the Concept of Hospital Pharmacy & the Importance of it in Different Health Care Settings",
     lecturers: [
       {
         name: "Khalil Al-majdalawi",
@@ -10795,8 +10824,7 @@ export const courses: CourseData[] = [
           },
           {
             title: "Lecture (4)",
-            description:
-              "Magnesium (Mg) & Calcium\n                            (Ca)",
+            description: "Magnesium (Mg) & Calcium       (Ca)",
             url: "https://youtu.be/Lko8ggestGM",
           },
         ],
@@ -10874,11 +10902,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "",
         url: "404",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -10895,7 +10923,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHPT5216",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Pharmacology & Medical Sciences\n                          (PHPT)",
+          "Departemnt of Pharmacology & Medical Sciences     (PHPT)",
         "Course Classification:": "Major Need - (Optional)",
         "Course Level:": "5th Level",
         "Total Credits:": "2 Credit Hours",
@@ -10908,7 +10936,7 @@ export const courses: CourseData[] = [
     slug: "phytotherapy",
     title: "Phytotherapy.",
     description:
-      "Acquiring the Knowledge of Plant Biology & Recognizing the\n            Principal Characteristics of Plant-based Drugs",
+      "Acquiring the Knowledge of Plant Biology & Recognizing the Principal Characteristics of Plant-based Drugs",
     lecturers: [
       {
         name: "Maha Al-khateeb",
@@ -11095,11 +11123,19 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book (III)",
+        title: "Fundamentals of Pharmacognosy & Phytotherapy",
+        url: "../../../documents/level-5/optional/phytotherapy/Fundamentals_of_Pharmacognosy_and_Phytotherapy,_2nd_Edition.pdf",
+      },
+      referenceBookTwo: {
+        title: "Rational Phytotherapy",
+        url: "../../../documents/level-5/optional/phytotherapy/rational-phyto.pdf",
+      },
+      referenceBookThree: {
+        title: "University of Szeged: Textbook of Phytotherapy",
         url: "../../../documents/level-5/optional/phytotherapy/Szeged.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -11128,7 +11164,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHCG5213",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Pharmacognosy & Pharmaceutical\n                          Botany (PHCG)",
+          "Departemnt of Pharmacognosy & Pharmaceutical Botany (PHCG)",
         "Course Classification:": "Major Need - (Optional)",
         "Course Level:": "5th Level",
         "Total Credits:": "2 Credit Hours",
@@ -11154,11 +11190,11 @@ export const courses: CourseData[] = [
     lectures: [],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "",
         url: "404",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -11175,7 +11211,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHTC5221",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Pharmaceutics & Industrial Pharmacy\n                          (PHTC)",
+          "Departemnt of Pharmaceutics & Industrial Pharmacy     (PHTC)",
         "Course Classification:": "Major Need - (Optional)",
         "Course Level:": "5th Level",
         "Total Credits:": "2 Credit Hours",
@@ -11188,7 +11224,7 @@ export const courses: CourseData[] = [
     slug: "clinical-pharmacy",
     title: "Clinical Pharmacy.",
     description:
-      "Understanding the Concept of Clinical Pharmacy & the Importance\n            of it in Different Health Care Settings",
+      "Understanding the Concept of Clinical Pharmacy & the Importance of it in Different Health Care Settings",
     lecturers: [
       {
         title: "Dr.",
@@ -11222,8 +11258,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter II :\n                      Adverse Drug Reactions & Pharmacovigilance",
+        chapterTitle: "Chapter II : Adverse Drug Reactions & Pharmacovigilance",
         documents: [],
         videos: [
           {
@@ -11264,8 +11299,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter III :\n                      Common Skin Conditions & thier Management",
+        chapterTitle: "Chapter III : Common Skin Conditions & thier Management",
         documents: [],
         videos: [
           {
@@ -11286,8 +11320,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter IV :\n                      Therapeutic Considerations for Geriatrics",
+        chapterTitle: "Chapter IV : Therapeutic Considerations for Geriatrics",
         documents: [],
         videos: [
           {
@@ -11323,8 +11356,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter V :\n                      Therapeutic Considerations for Pediatrics",
+        chapterTitle: "Chapter V : Therapeutic Considerations for Pediatrics",
         documents: [],
         videos: [],
       },
@@ -11345,7 +11377,7 @@ export const courses: CourseData[] = [
           {
             title: "Lecture (3)",
             description:
-              "Contraception pt.B (Risks, Benefits & ADRs\n                            of COCs )",
+              "Contraception pt.B (Risks, Benefits & ADRs       of COCs )",
             url: "https://youtu.be/l-vQZtte7OM",
           },
           {
@@ -11368,11 +11400,15 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book (II)",
+        title: "Pharmacotherapy Principles & Practice 5th Edition",
+        url: "../../../documents/level-5/semester-1/clinical-pharmacy/Kelly_C_Lee,_Marie_A_Chisholm_Burns,_Patrick_M_Malone,_P_Brandon.pdf",
+      },
+      referenceBookTwo: {
+        title: "Clincial Pharmacy & Therapeutics 6th Edition",
         url: "../../../documents/level-5/semester-1/clinical-pharmacy/Clinical-Pharmacy.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "Aya Maher Fatooh",
         url: "../../../documents/level-5/semester-1/clinical-pharmacy/clinical-pharmacy-course-summary-aya.pdf",
       },
       exams: [
@@ -11389,7 +11425,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHPT5220",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Pharmacology & Medical Sciences\n                          (PHPT)",
+          "Departemnt of Pharmacology & Medical Sciences     (PHPT)",
         "Course Classification:": "Major Need",
         "Course Level:": "5th Level",
         "Total Credits:": "2 Credit Hours",
@@ -11406,13 +11442,23 @@ export const courses: CourseData[] = [
     slug: "industrial-pharmacy-2",
     title: "Industrial Pharmacy Two.",
     description:
-      "Design & Mechanism of Action of the Instruments Included in the Unit\n            Operation in Pharmaceutical Practice Cont.",
+      "Design & Mechanism of Action of the Instruments Included in the Unit Operation in Pharmaceutical Practice Cont.",
     lecturers: [
       {
         title: "Dr.",
         name: "Riad El-qidra",
       },
     ],
+    courseNote: {
+      note: "* Drying Process Lectures are the same as those in",
+      url: "/courses/industrial-pharmacy-1",
+      urlText: "Industrial Pharmacy I Course",
+    },
+    courseNoteTwo: {
+      note: "* Crystallization Process is usually part of the",
+      url: "/courses/industrial-pharmacy-1",
+      urlText: "Industrial Pharmacy I Course",
+    },
     stats: {
       videosCount: 17,
       chaptersCount: 8,
@@ -11544,19 +11590,22 @@ export const courses: CourseData[] = [
         videos: [],
       },
       {
-        chapterTitle:
-          "Chapter VIII :\n                      Good Manufacturing Practice\n                        (GMP)",
+        chapterTitle: "Chapter VIII : Good Manufacturing Practice   (GMP)",
         documents: [],
         videos: [],
       },
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book (I)",
+        title: "Ansel's Pharmaceutical Dosage Forms & DDS 10th Edition",
+        url: "../../../documents/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf",
+      },
+      referenceBookTwo: {
+        title: "The Theory & Practice of Industrial Pharmacy 3rd Edition",
         url: "../../../documents/level-4/semester-2/industrial-pharmacy-1/book/The-Theory-And-Practice-of-Industrial-Pharmacy.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -11573,7 +11622,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHTC5316",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Pharmaceutics & Industrial Pharmacy\n                          (PHTC)",
+          "Departemnt of Pharmaceutics & Industrial Pharmacy     (PHTC)",
         "Course Classification:": "Major Need",
         "Course Level:": "5th Level",
         "Total Credits:": "3 Credit Hours",
@@ -11590,7 +11639,7 @@ export const courses: CourseData[] = [
     slug: "pharmaceutical-chemistry-3",
     title: "Pharmaceutical & Med. Chemistry Three.",
     description:
-      "CNS Stimulants, CNS Depressants, Adrenergic Drugs, Antiadrenergic\n            Drugs & Antihypertensive Drugs",
+      "CNS Stimulants, CNS Depressants, Adrenergic Drugs, Antiadrenergic Drugs & Antihypertensive Drugs",
     lecturers: [
       {
         title: "Prof.",
@@ -11689,8 +11738,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter IV :\n                      Centrally Acting Muscle Relaxants",
+        chapterTitle: "Chapter IV : Centrally Acting Muscle Relaxants",
         documents: [
           {
             title: "Chapter Slides",
@@ -11734,8 +11782,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VI :\n                      Antidepressants & Psychomotor Stimulants",
+        chapterTitle: "Chapter VI : Antidepressants & Psychomotor Stimulants",
         documents: [
           {
             title: "Chapter Slides",
@@ -11767,8 +11814,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VII :\n                      Adrenergic & Antiadrenergic Drugs",
+        chapterTitle: "Chapter VII : Adrenergic & Antiadrenergic Drugs",
         documents: [],
         videos: [
           {
@@ -11837,11 +11883,20 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book (III)",
+        title:
+          "Wilson & Gisvold's Textbook of Organic Medicinal & Pharmaceutical Chemistry - 12th Edition",
+        url: "../../../documents/level-4/semester-1/pharmaceutical-chemistry-1/Wilson_and_Gisvold's_Textbook.pdf",
+      },
+      referenceBookTwo: {
+        title: "V. Alagarsamy, Textbook of Medicinal Chemistry",
+        url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/TEXTBOOK-OF-MEDICINAL-CHEMISTRY.pdf",
+      },
+      referenceBookThree: {
+        title: "Foye's Principles of Medicinal Chmeistry - 7th Edition",
         url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/Foye's_Principles_of_Medicinal_Chemistry,_7th.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "Marah Isam Falit",
         url: "../../../documents/level-5/semester-1/pharmaceutical-chemistry-3/summary/pharm-chem-3-summary.pdf",
       },
       exams: [
@@ -11858,7 +11913,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHCH4213",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Chemistry & Pharmaceutical Chemistry\n                          (PHCH)",
+          "Departemnt of Chemistry & Pharmaceutical Chemistry     (PHCH)",
         "Course Classification:": "Major Need",
         "Course Level:": "5th Level",
         "Total Credits:": "2 Credit Hours",
@@ -11883,7 +11938,7 @@ export const courses: CourseData[] = [
     slug: "pharmacotherapeutics-1-samar",
     title: "Pharmacotherapeutics One.",
     description:
-      "Introduction to Pharmacotherapeutics || Chemotherapeutic Agents of\n            Different Families of Antibiotics, Antifungals, Antiprotozoals,\n            Antiparasitics & Applications of Diseases",
+      "Introduction to Pharmacotherapeutics || Chemotherapeutic Agents of Different Families of Antibiotics, Antifungals, Antiprotozoals, Antiparasitics & Applications of Diseases",
     lecturers: [
       {
         name: "Samar Abu-rkhaya",
@@ -11900,8 +11955,7 @@ export const courses: CourseData[] = [
     },
     lectures: [
       {
-        chapterTitle:
-          "Chapter I :\n                      General Principles of Pharmacotherapeutics",
+        chapterTitle: "Chapter I : General Principles of Pharmacotherapeutics",
         documents: [],
         videos: [
           {
@@ -12031,7 +12085,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter VI :\n                      GIT Infections",
+        chapterTitle: "Chapter VI : GIT Infections",
         documents: [],
         videos: [
           {
@@ -12047,8 +12101,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VII :\n                      Urinary Tract Infections\n                        (UTI)",
+        chapterTitle: "Chapter VII : Urinary Tract Infections",
+        chapterTitleNote: "(UTI)",
         documents: [],
         videos: [
           {
@@ -12080,7 +12134,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter IX :\n                      Antiviral Agents",
+        chapterTitle: "Chapter IX : Antiviral Agents",
         documents: [],
         videos: [
           {
@@ -12112,8 +12166,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter XI :\n                      Sexually Transmitted Disease",
+        chapterTitle: "Chapter XI : Sexually Transmitted Disease",
         documents: [],
         videos: [
           {
@@ -12137,11 +12190,15 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book (I)",
+        title: "Pharmacotherapy Principles & Practice 5th Edition",
+        url: "../../../documents/level-5/semester-1/clinical-pharmacy/Kelly_C_Lee,_Marie_A_Chisholm_Burns,_Patrick_M_Malone,_P_Brandon.pdf",
+      },
+      referenceBookTwo: {
+        title: "Clincial Pharmacy & Therapeutics 5th Edition",
         url: "../../../documents/level-5/semester-1/pharmacotherapeutics-1/Clinical-Pharmacy-and-Therapeutics-roger-walker-5th.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "Aya Maher Fatooh",
         url: "../../../documents/level-5/semester-1/pharmacotherapeutics-1/therapeutics-1-course-summary-aya.pdf",
       },
       exams: [
@@ -12166,7 +12223,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHPT5317",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Pharmacology & Medical Sciences\n                          (PHPT)",
+          "Departemnt of Pharmacology & Medical Sciences     (PHPT)",
         "Course Classification:": "Major Need",
         "Course Level:": "5th Level",
         "Total Credits:": "3 Credit Hours",
@@ -12183,7 +12240,7 @@ export const courses: CourseData[] = [
     slug: "pharmacotherapeutics-1",
     title: "Pharmacotherapeutics One.",
     description:
-      "Introduction to Pharmacotherapeutics || Chemotherapeutic Agents of\n            Different Families of Antibiotics, Antifungals, Antiprotozoals,\n            Antiparasitics & Applications of Diseases",
+      "Introduction to Pharmacotherapeutics || Chemotherapeutic Agents of Different Families of Antibiotics, Antifungals, Antiprotozoals, Antiparasitics & Applications of Diseases",
     lecturers: [
       {
         title: "Dr.",
@@ -12200,8 +12257,7 @@ export const courses: CourseData[] = [
     },
     lectures: [
       {
-        chapterTitle:
-          "Chapter I :\n                      General Principles of Pharmacotherapeutics",
+        chapterTitle: "Chapter I : General Principles of Pharmacotherapeutics",
         documents: [],
         videos: [
           {
@@ -12286,8 +12342,7 @@ export const courses: CourseData[] = [
           },
           {
             title: "Lecture (2)",
-            description:
-              "URITs (Sinusitis) + LRTIs\n                            (Bronchitis)",
+            description: "URITs (Sinusitis) + LRTIs       (Bronchitis)",
             url: "https://www.youtube.com/watch?v=66kktpcecHM&list=PLRQuCY98Q_etFlafpQ3eQQS4Fv1_POTfi&index=14",
           },
           {
@@ -12314,8 +12369,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VI :\n                      Urinary Tract Infections\n                        (UTI)",
+        chapterTitle: "Chapter VI : Urinary Tract Infections",
+        chapterTitleNote: "(UTI)",
         documents: [
           {
             title: "Chapter Slides",
@@ -12359,7 +12414,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter IX :\n                      Antifungal Drugs",
+        chapterTitle: "Chapter IX : Antifungal Drugs",
         documents: [],
         videos: [
           {
@@ -12381,8 +12436,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter XI :\n                      Antihelminthic Drugs",
+        chapterTitle: "Chapter XI : Antihelminthic Drugs",
         documents: [],
         videos: [
           {
@@ -12411,11 +12465,15 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book (I)",
+        title: "Pharmacotherapy Principles & Practice 5th Edition",
+        url: "../../../documents/level-5/semester-1/clinical-pharmacy/Kelly_C_Lee,_Marie_A_Chisholm_Burns,_Patrick_M_Malone,_P_Brandon.pdf",
+      },
+      referenceBookTwo: {
+        title: "Clincial Pharmacy & Therapeutics 5th Edition",
         url: "../../../documents/level-5/semester-1/pharmacotherapeutics-1/Clinical-Pharmacy-and-Therapeutics-roger-walker-5th.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "Aya Maher Fatooh",
         url: "../../../documents/level-5/semester-1/pharmacotherapeutics-1/therapeutics-1-course-summary-aya.pdf",
       },
       exams: [
@@ -12440,7 +12498,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHPT5317",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Pharmacology & Medical Sciences\n                          (PHPT)",
+          "Departemnt of Pharmacology & Medical Sciences     (PHPT)",
         "Course Classification:": "Major Need",
         "Course Level:": "5th Level",
         "Total Credits:": "3 Credit Hours",
@@ -12457,7 +12515,7 @@ export const courses: CourseData[] = [
     slug: "clinical-biochemistry",
     title: "Clinical Biochemistry.",
     description:
-      "Biomolecules Modifications that affect the Body Health Status &\n            Diseases Associated with it",
+      "Biomolecules Modifications that affect the Body Health Status & Diseases Associated with it",
     lecturers: [
       {
         title: "Dr.",
@@ -12470,8 +12528,7 @@ export const courses: CourseData[] = [
     },
     lectures: [
       {
-        chapterTitle:
-          "Chapter I :\n                      Introduction to Clinical Biochemistry",
+        chapterTitle: "Chapter I : Introduction to Clinical Biochemistry",
         documents: [],
         videos: [
           {
@@ -12492,8 +12549,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter II :\n                      Fluids & Electrolytes Balance",
+        chapterTitle: "Chapter II : Fluids & Electrolytes Balance",
         documents: [],
         videos: [
           {
@@ -12576,8 +12632,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter V :\n                      Myocardial Infarction\n                        (MI)",
+        chapterTitle: "Chapter V : Myocardial Infarction",
+        chapterTitleNote: "(MI)",
         documents: [],
         videos: [
           {
@@ -12616,11 +12672,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Clinical Biochemistry: An Illustrated Colour Text",
         url: "../../../documents/level-5/semester-2/clinical-biochemistry/Clinical-Biochemistry-An-Illustrated-Colour-Text-5th-2013.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "Tasneem Al-qeeq",
         url: "../../../documents/level-5/semester-2/clinical-biochemistry/clinical-biochemistry-course-summary-tasneem.pdf",
       },
       exams: [
@@ -12637,7 +12693,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHCH5218",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Chemistry & Pharmaceutical Chemistry\n                          (PHCH)",
+          "Departemnt of Chemistry & Pharmaceutical Chemistry     (PHCH)",
         "Course Classification:": "Major Need",
         "Course Level:": "5th Level",
         "Total Credits:": "2 Credit Hours",
@@ -12666,11 +12722,11 @@ export const courses: CourseData[] = [
     lectures: [],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "",
         url: "404",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -12686,8 +12742,7 @@ export const courses: CourseData[] = [
         "Course Title:": "Human Nutrition",
         "Course Code:": "PHCH5222",
         "Faculty:": "Faculty of Pharmacy",
-        "Department:":
-          "Chemistry & Pharmaceutical Chemistry\n                          (PHCH)",
+        "Department:": "Chemistry & Pharmaceutical Chemistry     (PHCH)",
         "Course Classification:": "Major Need",
         "Course Level:": "5th Level",
         "Total Credits:": "2 Credit Hours",
@@ -12700,7 +12755,7 @@ export const courses: CourseData[] = [
     slug: "pharmaceutical-chemistry-4",
     title: "Pharmaceutical Chemistry Four.",
     description:
-      "Cardiovascular System Drug Classes Cont., Diuretics, Hypoglycemic\n            Agents & Antihistamines",
+      "Cardiovascular System Drug Classes Cont., Diuretics, Hypoglycemic Agents & Antihistamines",
     lecturers: [
       {
         title: "Prof.",
@@ -12827,8 +12882,7 @@ export const courses: CourseData[] = [
           },
           {
             title: "Lecture (7)",
-            description:
-              "Site 4 Diuretics (Potassium Sparing\n                            Diuretics)",
+            description: "Site 4 Diuretics (Potassium Sparing       Diuretics)",
             url: "https://youtu.be/P208PfUayBs",
           },
         ],
@@ -12906,18 +12960,27 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter IX :\n                      Cholinergic Drugs",
+        chapterTitle: "Chapter IX : Cholinergic Drugs",
         documents: [],
         videos: [],
       },
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book (III)",
+        title:
+          "Wilson & Gisvold's Textbook of Organic Medicinal & Pharmaceutical Chemistry - 12th Edition",
+        url: "../../../documents/level-4/semester-1/pharmaceutical-chemistry-1/Wilson_and_Gisvold's_Textbook.pdf",
+      },
+      referenceBookTwo: {
+        title: "V. Alagarsamy, Textbook of Medicinal Chemistry",
+        url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/TEXTBOOK-OF-MEDICINAL-CHEMISTRY.pdf",
+      },
+      referenceBookThree: {
+        title: "Foye's Principles of Medicinal Chmeistry - 7th Edition",
         url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/Foye's_Principles_of_Medicinal_Chemistry,_7th.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -12934,7 +12997,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHCH5217",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Chemistry & Pharmaceutical Chemistry\n                          (PHCH)",
+          "Departemnt of Chemistry & Pharmaceutical Chemistry     (PHCH)",
         "Course Classification:": "Major Need",
         "Course Level:": "5th Level",
         "Total Credits:": "2 Credit Hours",
@@ -12997,8 +13060,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter II :\n                      Unknown\n                        (Hidden)",
+        chapterTitle: "Chapter II : Unknown",
+        chapterTitleNote: "(Hidden)",
         documents: [],
         videos: [
           {
@@ -13044,8 +13107,7 @@ export const courses: CourseData[] = [
           },
           {
             title: "Lecture (4)",
-            description:
-              "Stable Angina pt.A\n                            (couldn't find the lecture)",
+            description: "Stable Angina pt.A       (couldn't find the lecture)",
             url: "404",
           },
           {
@@ -13061,8 +13123,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter IV :\n                      Chronic Kidney Diseases\n                        (CKD)",
+        chapterTitle: "Chapter IV : Chronic Kidney Diseases",
+        chapterTitleNote: "(CKD)",
         documents: [],
         videos: [
           {
@@ -13109,8 +13171,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VI :\n                      Diabetes Mellitus\n                        (DM)",
+        chapterTitle: "Chapter VI : Diabetes Mellitus",
+        chapterTitleNote: "(DM)",
         documents: [],
         videos: [
           {
@@ -13148,11 +13210,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Pharmacotherapy Principles & Practice 5th Edition",
         url: "../../../documents/level-5/semester-1/clinical-pharmacy/Kelly_C_Lee,_Marie_A_Chisholm_Burns,_Patrick_M_Malone,_P_Brandon.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -13173,7 +13235,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHPT5318",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Pharmacology & Medical Sciences\n                          (PHPT)",
+          "Departemnt of Pharmacology & Medical Sciences     (PHPT)",
         "Course Classification:": "Major Need",
         "Course Level:": "5th Level",
         "Total Credits:": "3 Credit Hours",
@@ -13190,7 +13252,7 @@ export const courses: CourseData[] = [
     slug: "toxicology",
     title: "Toxicology.",
     description:
-      "Introduction to Toxicology, Dealing with Poisoning, Toxicity of\n            Therapeutic & Non-therapeutic Agents",
+      "Introduction to Toxicology, Dealing with Poisoning, Toxicity of Therapeutic & Non-therapeutic Agents",
     lecturers: [
       {
         title: "Dr.",
@@ -13209,7 +13271,7 @@ export const courses: CourseData[] = [
           {
             title: "Lecture (1)",
             description:
-              "Course Outline & General Principles of\n                            Toxicology pt.A",
+              "Course Outline & General Principles of       Toxicology pt.A",
             url: "https://youtu.be/go0_zL_ykbM",
           },
           {
@@ -13251,7 +13313,7 @@ export const courses: CourseData[] = [
       },
       {
         chapterTitle:
-          "Chapter II :\n                      General Management & Treatment of Poisoning",
+          "Chapter II : General Management & Treatment of Poisoning",
         documents: [],
         videos: [
           {
@@ -13287,8 +13349,7 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter III :\n                      Toxicity of Selected Therapeutic Agents",
+        chapterTitle: "Chapter III : Toxicity of Selected Therapeutic Agents",
         documents: [],
         videos: [
           {
@@ -13309,14 +13370,14 @@ export const courses: CourseData[] = [
           {
             title: "Lecture (4)",
             description:
-              "Toxicity of Amphetamine & Phenethylamine\n                            Derivatives",
+              "Toxicity of Amphetamine & Phenethylamine       Derivatives",
             url: "https://youtu.be/T_1n28VPVzQ",
           },
         ],
       },
       {
         chapterTitle:
-          "Chapter IV :\n                      Toxicity of Selected Non-therapeutic Agents",
+          "Chapter IV : Toxicity of Selected Non-therapeutic Agents",
         documents: [],
         videos: [
           {
@@ -13339,11 +13400,11 @@ export const courses: CourseData[] = [
     ],
     resources: {
       referenceBook: {
-        title: "Reference Book",
+        title: "Casarett & Duoll's Toxicology - 8th Edition",
         url: "../../../documents/level-5/semester-2/toxicology/reference/Casarett-&-Doull's-Toxicology_The-Basic-Science-of-Poisons.pdf",
       },
       summaries: {
-        title: "Summaries",
+        title: "",
         url: "404",
       },
       exams: [
@@ -13368,7 +13429,7 @@ export const courses: CourseData[] = [
         "Course Code:": "PHPT5219",
         "Faculty:": "Faculty of Pharmacy",
         "Department:":
-          "Departemnt of Pharmacology & Medical Sciences\n                          (PHPT)",
+          "Departemnt of Pharmacology & Medical Sciences     (PHPT)",
         "Course Classification:": "Major Need",
         "Course Level:": "5th Level",
         "Total Credits:": "2 Credit Hours",

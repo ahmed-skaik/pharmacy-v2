@@ -24,7 +24,6 @@ export default function LinkCard({
   cardClassName = "",
   target,
   rel,
-  hideAction = false,
 }: LinkCardProps) {
   return (
     <a href={href} className="a-parent" target={target} rel={rel}>
@@ -42,7 +41,7 @@ export default function LinkCard({
         </div>
         {(actionText || actionIcon) && (
           <div className="link align-self-center align-self-md-end">
-            <span style={hideAction ? { visibility: "hidden" } : undefined}>
+            <span>
               {actionText}
               {actionIcon && <FontAwesomeIcon icon={actionIcon} fixedWidth />}
             </span>

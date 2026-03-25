@@ -7,6 +7,7 @@ import {
   faDownload,
   faFile,
   faFileLines,
+  faPlayCircle,
 } from "@fortawesome/free-solid-svg-icons";
 import type { CourseData } from "../../../types";
 import LinkCard from "../../../components/LinkCard";
@@ -33,6 +34,36 @@ export default function CourseContentSection({ course }: Props) {
             <p>Recorded E-Learning Lectures</p>
           </div>
           <div className="year mt-4 mb-5">
+            {course.courseNote && (
+              <div>
+                <p className="oops mt-2 mb-2 ms-2">
+                  <span style={{ fontSize: "10px", color: "#f00" }}>
+                    {course.courseNote.note}:{" "}
+                    <a
+                      href={course.courseNote.url}
+                      className="id-color id-bold hover"
+                    >
+                      {course.courseNote.urlText}
+                    </a>
+                  </span>
+                </p>
+              </div>
+            )}
+            {course.courseNoteTwo && (
+              <div>
+                <p className="oops mt-2 mb-2 ms-2">
+                  <span style={{ fontSize: "10px", color: "#f00" }}>
+                    {course.courseNoteTwo.note}:{" "}
+                    <a
+                      href={course.courseNoteTwo.url}
+                      className="id-color id-bold hover"
+                    >
+                      {course.courseNoteTwo.urlText}
+                    </a>
+                  </span>
+                </p>
+              </div>
+            )}
             {course.lectures.length > 0 ? (
               course.lectures.map((lecture, i) => (
                 <div className="semester" key={i}>
@@ -49,7 +80,12 @@ export default function CourseContentSection({ course }: Props) {
                         <FontAwesomeIcon icon={faAngleRight} />
                       </div>
                       <div>
-                        <span>{lecture.chapterTitle}</span>
+                        <span>
+                          {lecture.chapterTitle}{" "}
+                          <span className="note">
+                            {lecture.chapterTitleNote}
+                          </span>
+                        </span>
                       </div>
                     </button>
                   </p>
@@ -59,11 +95,7 @@ export default function CourseContentSection({ course }: Props) {
                         key={i}
                         href={document.url}
                         title={document.title}
-                        subtitle={
-                          <>
-                            {document.type} (<span>404 - Not Found</span>)
-                          </>
-                        }
+                        subtitle={document.type}
                         icon={faFile}
                         actionText="Download"
                         actionIcon={faDownload}
@@ -126,8 +158,12 @@ export default function CourseContentSection({ course }: Props) {
                     <h2 className="mb-2 mb-md-1">Reference Book</h2>
                     <p className="mb-3 mb-md-0">
                       The Recommended Reference Book
-                      <br className="d-block d-lg-none" />
-                      <span> {course.resources.referenceBook?.title}</span>
+                      <br className="d-block d-lg-none" /> (
+                      <span>
+                        {course.resources.referenceBook?.title ||
+                          "404 - Not Found !"}
+                      </span>
+                      )
                     </p>
                   </div>
                 </div>
@@ -137,6 +173,128 @@ export default function CourseContentSection({ course }: Props) {
                 </span>
               </a>
             </li>
+            {course.resources.referenceBookTwo && (
+              <li className="mb-3">
+                <a
+                  href={course.resources.referenceBookTwo?.url}
+                  className="a-parent d-flex justify-content-between align-items-center flex-column flex-md-row"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="info d-flex justify-content-between align-items-center flex-column flex-md-row text-center text-md-start">
+                    <div className="img d-flex justify-content-center align-items-center ms-auto me-auto ms-md-0 me-md-3 mb-3 mb-md-0">
+                      <FontAwesomeIcon icon={faFile} fixedWidth />
+                    </div>
+                    <div className="txt">
+                      <h2 className="mb-2 mb-md-1">Reference Book (II)</h2>
+                      <p className="mb-3 mb-md-0">
+                        The Recommended Reference Book
+                        <br className="d-block d-lg-none" /> (
+                        <span>
+                          {course.resources.referenceBookTwo?.title ||
+                            "404 - Not Found !"}
+                        </span>
+                        )
+                      </p>
+                    </div>
+                  </div>
+                  <span className="anchor-btn d-flex align-items-center justify-content-between ms-auto me-auto me-md-0">
+                    Download
+                    <FontAwesomeIcon icon={faDownload} fixedWidth />
+                  </span>
+                </a>
+              </li>
+            )}
+            {course.resources.referenceBookThree && (
+              <li className="mb-3">
+                <a
+                  href={course.resources.referenceBookThree?.url}
+                  className="a-parent d-flex justify-content-between align-items-center flex-column flex-md-row"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="info d-flex justify-content-between align-items-center flex-column flex-md-row text-center text-md-start">
+                    <div className="img d-flex justify-content-center align-items-center ms-auto me-auto ms-md-0 me-md-3 mb-3 mb-md-0">
+                      <FontAwesomeIcon icon={faFile} fixedWidth />
+                    </div>
+                    <div className="txt">
+                      <h2 className="mb-2 mb-md-1">Reference Book (III)</h2>
+                      <p className="mb-3 mb-md-0">
+                        The Recommended Reference Book
+                        <br className="d-block d-lg-none" /> (
+                        <span>
+                          {course.resources.referenceBookThree?.title ||
+                            "404 - Not Found !"}
+                        </span>
+                        )
+                      </p>
+                    </div>
+                  </div>
+                  <span className="anchor-btn d-flex align-items-center justify-content-between ms-auto me-auto me-md-0">
+                    Download
+                    <FontAwesomeIcon icon={faDownload} fixedWidth />
+                  </span>
+                </a>
+              </li>
+            )}
+            {course.resources.extraResources && (
+              <li className="mb-3">
+                <a
+                  href={course.resources.extraResources?.url}
+                  className="a-parent d-flex justify-content-between align-items-center flex-column flex-md-row"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="info d-flex justify-content-between align-items-center flex-column flex-md-row text-center text-md-start">
+                    <div className="img d-flex justify-content-center align-items-center ms-auto me-auto ms-md-0 me-md-3 mb-3 mb-md-0">
+                      <FontAwesomeIcon icon={faFile} fixedWidth />
+                    </div>
+                    <div className="txt">
+                      <h2 className="mb-2 mb-md-1">
+                        {course.resources.extraResources?.title}
+                      </h2>
+                      <p className="mb-3 mb-md-0">
+                        {course.resources.extraResources?.title} (
+                        <span>{course.resources.extraResources?.note}</span>)
+                      </p>
+                    </div>
+                  </div>
+                  <span className="anchor-btn d-flex align-items-center justify-content-between ms-auto me-auto me-md-0">
+                    Download
+                    <FontAwesomeIcon icon={faDownload} fixedWidth />
+                  </span>
+                </a>
+              </li>
+            )}
+            {course.resources.extraResourcesTwo && (
+              <li className="mb-3">
+                <a
+                  href={course.resources.extraResourcesTwo?.url}
+                  className="a-parent d-flex justify-content-between align-items-center flex-column flex-md-row"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="info d-flex justify-content-between align-items-center flex-column flex-md-row text-center text-md-start">
+                    <div className="img d-flex justify-content-center align-items-center ms-auto me-auto ms-md-0 me-md-3 mb-3 mb-md-0">
+                      <FontAwesomeIcon icon={faFile} fixedWidth />
+                    </div>
+                    <div className="txt">
+                      <h2 className="mb-2 mb-md-1">
+                        {course.resources.extraResourcesTwo?.title}
+                      </h2>
+                      <p className="mb-3 mb-md-0">
+                        {course.resources.extraResourcesTwo?.title} (
+                        <span>{course.resources.extraResourcesTwo?.note}</span>)
+                      </p>
+                    </div>
+                  </div>
+                  <span className="anchor-btn d-flex align-items-center justify-content-between ms-auto me-auto me-md-0">
+                    Download
+                    <FontAwesomeIcon icon={faDownload} fixedWidth />
+                  </span>
+                </a>
+              </li>
+            )}
             <li className="mb-3">
               <a
                 href={course.resources.summaries?.url}
@@ -152,8 +310,12 @@ export default function CourseContentSection({ course }: Props) {
                     <h2 className="mb-2 mb-md-1">Summaries</h2>
                     <p className="mb-3 mb-md-0">
                       Selected summary of the course by other students
-                      <br className="d-block d-lg-none" />
-                      <span> {course.resources.summaries?.title}</span>
+                      <br className="d-block d-lg-none" /> (
+                      <span>
+                        {course.resources.summaries?.title ||
+                          "404 - Not Found !"}
+                      </span>
+                      )
                     </p>
                   </div>
                 </div>
@@ -163,6 +325,70 @@ export default function CourseContentSection({ course }: Props) {
                 </span>
               </a>
             </li>
+            {course.resources.otherSummaries && (
+              <li className="mb-3">
+                <a
+                  href={course.resources.otherSummaries?.url}
+                  className="a-parent d-flex justify-content-between align-items-center flex-column flex-md-row"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="info d-flex justify-content-between align-items-center flex-column flex-md-row text-center text-md-start">
+                    <div className="img d-flex justify-content-center align-items-center ms-auto me-auto ms-md-0 me-md-3 mb-3 mb-md-0">
+                      <FontAwesomeIcon icon={faFile} fixedWidth />
+                    </div>
+                    <div className="txt">
+                      <h2 className="mb-2 mb-md-1">Summaries (II)</h2>
+                      <p className="mb-3 mb-md-0">
+                        Selected summary of the course by other students
+                        <br className="d-block d-lg-none" /> (
+                        <span>
+                          {course.resources.otherSummaries?.title ||
+                            "404 - Not Found !"}
+                        </span>
+                        )
+                      </p>
+                    </div>
+                  </div>
+                  <span className="anchor-btn d-flex align-items-center justify-content-between ms-auto me-auto me-md-0">
+                    Download
+                    <FontAwesomeIcon icon={faDownload} fixedWidth />
+                  </span>
+                </a>
+              </li>
+            )}
+            {course.resources.personalRecommendations && (
+              <li className="mb-3">
+                <a
+                  href={course.resources.personalRecommendations?.url}
+                  className="a-parent d-flex justify-content-between align-items-center flex-column flex-md-row"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="info d-flex justify-content-between align-items-center flex-column flex-md-row text-center text-md-start">
+                    <div className="img d-flex justify-content-center align-items-center ms-auto me-auto ms-md-0 me-md-3 mb-3 mb-md-0">
+                      <FontAwesomeIcon icon={faPlayCircle} fixedWidth />
+                    </div>
+                    <div className="txt">
+                      <h2 className="mb-2 mb-md-1">Personal Recommendation</h2>
+                      <p className="mb-3 mb-md-0">
+                        I recommend watching this video if you have a problem
+                        with the course (
+                        <span>
+                          {course.resources.personalRecommendations?.title ||
+                            "404 - Not Found !"}
+                        </span>
+                        )
+                      </p>
+                    </div>
+                  </div>
+                  <span className="anchor-btn d-flex align-items-center justify-content-between ms-auto me-auto me-md-0">
+                    Watch
+                    <FontAwesomeIcon icon={faYoutube} fixedWidth />
+                  </span>
+                </a>
+              </li>
+            )}
             <li className="mb-3">
               <span className="a-parent d-flex justify-content-between align-items-start flex-column">
                 <div className="info d-flex justify-content-between align-items-center flex-column flex-md-row text-center text-md-start">

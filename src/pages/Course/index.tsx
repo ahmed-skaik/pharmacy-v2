@@ -13,8 +13,7 @@ export default function CoursePage() {
   if (!course) {
     return <OopsMessage />;
   }
-
-  // console.log(courseName);
+  
   return (
     <>
       <Seo

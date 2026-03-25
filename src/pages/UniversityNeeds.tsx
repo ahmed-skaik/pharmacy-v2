@@ -5,7 +5,6 @@ import {
   faCirclePlay,
   faDownload,
   faFile,
-  // faPaperclip,
 } from "@fortawesome/free-solid-svg-icons";
 import { uniNeeds } from "../data/UniversityNeedsData";
 import DotsDecoration from "../components/DotsDecoration";

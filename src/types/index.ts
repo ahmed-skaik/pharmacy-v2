@@ -98,6 +98,9 @@ export interface CourseData {
     altLink?: string;
   }[];
 
+  courseNote?: { note: string; url?: string; urlText?: string };
+  courseNoteTwo?: { note: string; url?: string; urlText?: string };
+
   stats: {
     videosCount: number;
     chaptersCount: number;
@@ -105,10 +108,11 @@ export interface CourseData {
 
   lectures: {
     chapterTitle: string;
+    chapterTitleNote?: string;
     documents: {
       title: string;
       url: string;
-      type: "slides" | "answers" | "file";
+      type: "slides" | "answers" | "file" | "questions";
     }[];
     videos: {
       title: string;
@@ -119,7 +123,13 @@ export interface CourseData {
 
   resources: {
     referenceBook?: { title: string; url: string };
+    referenceBookTwo?: { title: string; url: string };
+    referenceBookThree?: { title: string; url: string };
+    extraResources?: { title: string; url: string; note?: string } | null;
+    extraResourcesTwo?: { title: string; url: string; note?: string } | null;
     summaries?: { title: string; url: string };
+    otherSummaries?: { title: string; url: string };
+    personalRecommendations?: { title: string; url: string };
     exams: { title: string; url: string }[];
   };
 

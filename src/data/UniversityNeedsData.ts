@@ -1805,11 +1805,11 @@ export const uniNeeds: UniSubject[] = [
     isOptional: true,
     books: [
       {
-        title: "Book\n                        (Prof. Khalid's)",
+        title: "Book (Prof. Khalid's)",
         url: "../documents/univ-needs/environmental-sciences/environmental-sciences-book-dr-khaled.pdf",
       },
       {
-        title: "Book\n                        (Dr. Khaldoun's)",
+        title: "Book (Dr. Khaldoun's)",
         url: "../documents/univ-needs/environmental-sciences/environmental-sciences-book-dr-khaldoun.pdf",
       },
     ],
