@@ -18,14 +18,18 @@ export const courses: CourseData[] = [
     },
     lectures: [],
     resources: {
-      referenceBook: {
-        title: "",
-        url: "404",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Final Exam of 2010 - Dr. Mona Wadi",
@@ -333,14 +337,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "CS - Living in a Digital Wrold",
-        url: "../../../documents/level-1/semester-1/computer-science/computer-science-book.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "CS - Living in a Digital Wrold",
+          url: "../../../documents/level-1/semester-1/computer-science/computer-science-book.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Final Exam of 2014",
@@ -642,14 +650,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "CS - Living in a Digital Wrold",
-        url: "../../../documents/level-1/semester-1/computer-science/computer-science-book.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "CS - Living in a Digital Wrold",
+          url: "../../../documents/level-1/semester-1/computer-science/computer-science-book.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Final Exam of 2014",
@@ -930,14 +942,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "General Chemistry - The Essential Concepts 5th Edition",
-        url: "../../../documents/level-1/semester-1/general-chemistry/book/General-Chemistry-The-Essential-Concepts-5th.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "General Chemistry - The Essential Concepts 5th Edition",
+          url: "../../../documents/level-1/semester-1/general-chemistry/book/General-Chemistry-The-Essential-Concepts-5th.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Final Exam of 2019 - Dr. Maha El-Khateeb",
@@ -1141,19 +1157,25 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Calculus - Thomas Calculus",
-        url: "../../../documents/level-1/semester-1/mathematics/thomas-calculus-11-book.pdf",
-      },
-      extraResources: {
-        title: "Book Answers",
-        url: "../../../documents/level-1/semester-1/mathematics/thomas-calculus-11-book.pdf",
-        note: "Answers",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Calculus - Thomas Calculus",
+          url: "../../../documents/level-1/semester-1/mathematics/thomas-calculus-11-book.pdf",
+        },
+      ],
+      extraResources: [
+        {
+          title: "Book Answers",
+          url: "../../../documents/level-1/semester-1/mathematics/thomas-calculus-11-book.pdf",
+          note: "Answers",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "404 - Not Found !",
@@ -1335,19 +1357,25 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Calculus - Thomas Calculus",
-        url: "../../../documents/level-1/semester-1/mathematics/thomas-calculus-11-book.pdf",
-      },
-      extraResources: {
-        title: "Book Answers",
-        url: "../../../documents/level-1/semester-1/mathematics/thomas-calculus-11-book.pdf",
-        note: "Answers",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Calculus - Thomas Calculus",
+          url: "../../../documents/level-1/semester-1/mathematics/thomas-calculus-11-book.pdf",
+        },
+      ],
+      extraResources: [
+        {
+          title: "Book Answers",
+          url: "../../../documents/level-1/semester-1/mathematics/thomas-calculus-11-book.pdf",
+          note: "Answers",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "404 - Not Found !",
@@ -1486,14 +1514,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Medical Terminology - A Body Systems Approach 8th Edition",
-        url: "../../../documents/level-1/semester-1/terminology/Medical-Terminology-Systems-A-Body-Systems-Approach.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Medical Terminology - A Body Systems Approach 8th Edition",
+          url: "../../../documents/level-1/semester-1/terminology/Medical-Terminology-Systems-A-Body-Systems-Approach.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Final Exam of 2013 - Dr. Jamil Mohanna",
@@ -1692,14 +1724,19 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Analytical Chemistry - Vogel's Qualitative Inorganic Analysis",
-        url: "../../../documents/level-1/semester-2/analytical-chemistry-1/book/G_Svehla_Vogel's_Qualitative_Inorganic_Analysis_Prentice_Hall_1996.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title:
+            "Analytical Chemistry - Vogel's Qualitative Inorganic Analysis",
+          url: "../../../documents/level-1/semester-2/analytical-chemistry-1/book/G_Svehla_Vogel's_Qualitative_Inorganic_Analysis_Prentice_Hall_1996.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Mai Ramadan, Final Exam of 2016",
@@ -1914,14 +1951,19 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Analytical Chemistry - Vogel's Qualitative Inorganic Analysis",
-        url: "../../../documents/level-1/semester-2/analytical-chemistry-1/book/G_Svehla_Vogel's_Qualitative_Inorganic_Analysis_Prentice_Hall_1996.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title:
+            "Analytical Chemistry - Vogel's Qualitative Inorganic Analysis",
+          url: "../../../documents/level-1/semester-2/analytical-chemistry-1/book/G_Svehla_Vogel's_Qualitative_Inorganic_Analysis_Prentice_Hall_1996.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Mai Ramadan, Final Exam of 2016",
@@ -2110,14 +2152,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "",
-        url: "404",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Luay Nasser + Dr. Amal, Final Exam of 2016",
@@ -2348,14 +2394,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Organic Chemistry - John Mcmurry 9th Edition",
-        url: "../../../documents/level-1/semester-2/organic-chemistry-1/Organic-Chemistry-John-McMurry-9th.pdf",
-      },
-      summaries: {
-        title: "Marah Isam Falit",
-        url: "../../../documents/level-1/semester-2/organic-chemistry-1/summary/organic-chem-1-summary.pdf",
-      },
+      referenceBooks: [
+        {
+          title: "Organic Chemistry - John Mcmurry 9th Edition",
+          url: "../../../documents/level-1/semester-2/organic-chemistry-1/Organic-Chemistry-John-McMurry-9th.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "Marah Isam Falit",
+          url: "../../../documents/level-1/semester-2/organic-chemistry-1/summary/organic-chem-1-summary.pdf",
+        },
+      ],
       exams: [
         {
           title: "Dr. Kanan & Dr. Osama, Final Exam of 2016",
@@ -2591,14 +2641,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Physical Pharmacy - Alfred Martin 4th Edition",
-        url: "../../../documents/level-1/semester-2/physical-pharmacy-1/book/Physical-Pharmacy-referance.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Physical Pharmacy - Alfred Martin 4th Edition",
+          url: "../../../documents/level-1/semester-2/physical-pharmacy-1/book/Physical-Pharmacy-referance.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Hend Abu-amara, Final Exam of 2013",
@@ -2889,22 +2943,30 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "",
-        url: "404",
-      },
-      extraResources: {
-        title: "Book",
-        url: "404",
-      },
-      extraResourcesTwo: {
-        title: "pKa & pKb Values",
-        url: "404",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
+      extraResources: [
+        {
+          title: "Book Answers",
+          url: "../../../documents/level-2/semester-1/alalytical-chemistry-2/book-answers.pdf",
+          note: "Book Answers",
+        },
+        {
+          title: "pKa & pKb Values",
+          url: "../../../documents/level-2/semester-1/alalytical-chemistry-2/pka-pkb.pdf",
+          note: "pKa & pKb Values",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Mai Ramadan, Final Exam of 2013",
@@ -3032,7 +3094,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter IV : Cocci   (Ch: 4, 5)",
+        chapterTitle: "Chapter IV : Cocci",
+        chapterTitleNote: "(Ch: 4, 5)",
         documents: [
           {
             title: "Chapter Slides",
@@ -3054,7 +3117,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle: "Chapter V : Bacilli   (Ch: 6, 7, 8, 9, 10, 11)",
+        chapterTitle: "Chapter V : Bacilli",
+        chapterTitleNote: "(Ch: 6, 7, 8, 9, 10, 11)",
         documents: [],
         videos: [
           {
@@ -3112,8 +3176,8 @@ export const courses: CourseData[] = [
         ],
       },
       {
-        chapterTitle:
-          "Chapter VII : Medical Parasitology   (Protozoa & Helminths)",
+        chapterTitle: "Chapter VII : Medical Parasitology",
+        chapterTitleNote: "(Protozoa & Helminths)",
         documents: [
           {
             title: "Chapter Slides",
@@ -3157,14 +3221,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Review of Medical Microbiology & Immunology 40th Edition",
-        url: "../../../documents/level-2/semester-1/microbiology/book/Review-of-Medical-Microbiology-and-Immunology.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Review of Medical Microbiology & Immunology 40th Edition",
+          url: "../../../documents/level-2/semester-1/microbiology/book/Review-of-Medical-Microbiology-and-Immunology.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Mohammed Taleb, Final Exam of 2014",
@@ -3478,14 +3546,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Organic Chemistry - John Mcmurry 9th Edition",
-        url: "../../../documents/level-1/semester-2/organic-chemistry-1/Organic-Chemistry-John-McMurry-9th.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Organic Chemistry - John Mcmurry 9th Edition",
+          url: "../../../documents/level-1/semester-2/organic-chemistry-1/Organic-Chemistry-John-McMurry-9th.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Kanan Wahedy, Final Exam of 2012",
@@ -3665,14 +3737,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Physical Pharmacy - Alfred Martin 4th Edition",
-        url: "../../../documents/level-1/semester-2/physical-pharmacy-1/book/Physical-Pharmacy-referance.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Physical Pharmacy - Alfred Martin 4th Edition",
+          url: "../../../documents/level-1/semester-2/physical-pharmacy-1/book/Physical-Pharmacy-referance.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Hind Abu-amara, Final Exam of 2010",
@@ -3865,14 +3941,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Physical Pharmacy - Alfred Martin 4th Edition",
-        url: "../../../documents/level-1/semester-2/physical-pharmacy-1/book/Physical-Pharmacy-referance.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Physical Pharmacy - Alfred Martin 4th Edition",
+          url: "../../../documents/level-1/semester-2/physical-pharmacy-1/book/Physical-Pharmacy-referance.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Hind Abu-amara, Final Exam of 2010",
@@ -3991,14 +4071,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Physical Pharmacy - Alfred Martin 4th Edition",
-        url: "../../../documents/level-1/semester-2/physical-pharmacy-1/book/Physical-Pharmacy-referance.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Physical Pharmacy - Alfred Martin 4th Edition",
+          url: "../../../documents/level-1/semester-2/physical-pharmacy-1/book/Physical-Pharmacy-referance.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Hind Abu-amara, Final Exam of 2010",
@@ -4236,14 +4320,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Human Physiology - From Cells to Systems 9th Edition",
-        url: "../../../documents/level-2/semester-1/physiology-1/book/Human-Physiology-From-Cells-to-Systems-Sherwood-9th.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Human Physiology - From Cells to Systems 9th Edition",
+          url: "../../../documents/level-2/semester-1/physiology-1/book/Human-Physiology-From-Cells-to-Systems-Sherwood-9th.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Jamil Mohanna, Final Exam of 2017",
@@ -4510,14 +4598,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Lippincott's Illustrated Reviews: Biochemistry 5th Edition",
-        url: "../../../documents/level-2/semester-2/biochemistry-1/Lippincotts_Illustrated_Review.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Lippincott's Illustrated Reviews: Biochemistry 5th Edition",
+          url: "../../../documents/level-2/semester-2/biochemistry-1/Lippincotts_Illustrated_Review.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Moh. Al-ghussain, Final Exam of 2016",
@@ -4564,14 +4656,18 @@ export const courses: CourseData[] = [
     },
     lectures: [],
     resources: {
-      referenceBook: {
-        title: "",
-        url: "404",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "(404 - Not Found)",
@@ -4823,14 +4919,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Ansel's Pharmaceutical Dosage Forms & DDS 10th Edition",
-        url: "../../../documents/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Ansel's Pharmaceutical Dosage Forms & DDS 10th Edition",
+          url: "../../../documents/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Mohammed Taleb, Final Exam of 2015",
@@ -5049,14 +5149,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Human Physiology - From Cells to Systems 9th Edition",
-        url: "../../../documents/level-2/semester-1/physiology-1/book/Human-Physiology-From-Cells-to-Systems-Sherwood-9th.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Human Physiology - From Cells to Systems 9th Edition",
+          url: "../../../documents/level-2/semester-1/physiology-1/book/Human-Physiology-From-Cells-to-Systems-Sherwood-9th.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Mohammed Shbair, Final Exam of 2013",
@@ -5307,14 +5411,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Human Physiology - From Cells to Systems 9th Edition",
-        url: "../../../documents/level-2/semester-1/physiology-1/book/Human-Physiology-From-Cells-to-Systems-Sherwood-9th.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Human Physiology - From Cells to Systems 9th Edition",
+          url: "../../../documents/level-2/semester-1/physiology-1/book/Human-Physiology-From-Cells-to-Systems-Sherwood-9th.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Mohammed Shbair, Final Exam of 2013",
@@ -5558,14 +5666,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Lippincott's Illustrated Reviews: Biochemistry 5th Edition",
-        url: "../../../documents/level-2/semester-2/biochemistry-1/Lippincotts_Illustrated_Review.pdf",
-      },
-      summaries: {
-        title: "Mohammed Zourob",
-        url: "../../../documents/level-3/semester-1/biochemistry-2/biochemistry-2-course-summary-zourob.pdf",
-      },
+      referenceBooks: [
+        {
+          title: "Lippincott's Illustrated Reviews: Biochemistry 5th Edition",
+          url: "../../../documents/level-2/semester-2/biochemistry-1/Lippincotts_Illustrated_Review.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "Mohammed Zourob",
+          url: "../../../documents/level-3/semester-1/biochemistry-2/biochemistry-2-course-summary-zourob.pdf",
+        },
+      ],
       exams: [
         {
           title: "Dr. Moh. Al-ghussain, Final of Summer 2020",
@@ -5765,22 +5877,29 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Prof. Ali Abu-zaid: Principles of Statistics",
-        url: "../../../documents/level-3/semester-1/biostatistics/biostatistics-book.pdf",
-      },
-      referenceBookTwo: {
-        title: "Basic Statistics for the Health Sciences 3rd Edition",
-        url: "../../../documents/level-3/semester-1/biostatistics/Basic-Statistics-for-Health-Sciences.pdf",
-      },
-      extraResources: {
-        title: "Slides of the Course",
-        url: "../../../documents/level-3/semester-1/biostatistics/Introductory-Statistics-for-Health-Sciences.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Prof. Ali Abu-zaid: Principles of Statistics",
+          url: "../../../documents/level-3/semester-1/biostatistics/biostatistics-book.pdf",
+        },
+        {
+          title: "Basic Statistics for the Health Sciences 3rd Edition",
+          url: "../../../documents/level-3/semester-1/biostatistics/Basic-Statistics-for-Health-Sciences.pdf",
+        },
+      ],
+      extraResources: [
+        {
+          title: "Slides of the Course",
+          url: "../../../documents/level-3/semester-1/biostatistics/Introductory-Statistics-for-Health-Sciences.pdf",
+          note: "Slides of the Course",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Ali Abu-zaid, Final Exam",
@@ -5999,14 +6118,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Reference of Pathophysiology",
-        url: "../../../documents/level-3/semester-1/pathophysiology-1/pathophysiology-1-book.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Reference of Pathophysiology",
+          url: "../../../documents/level-3/semester-1/pathophysiology-1/pathophysiology-1-book.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Hala Al-agha, Final Exam of 2015",
@@ -6227,14 +6350,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Ansel's Pharmaceutical Dosage Forms & DDS 10th Edition",
-        url: "../../../documents/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Ansel's Pharmaceutical Dosage Forms & DDS 10th Edition",
+          url: "../../../documents/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "(404 - Not Found)",
@@ -6273,30 +6400,38 @@ export const courses: CourseData[] = [
         name: "Mazen El-sakka",
       },
     ],
-    courseNote: {
-      note: "* Checkout Chromatography chapter in the Technical Instruments Course",
-      url: "/courses/technical-instruments",
-      urlText: "Technical Instruments Course",
-    },
+    courseNotes: [
+      {
+        note: "* Checkout Chromatography chapter in the Technical Instruments Course",
+        url: "/courses/technical-instruments",
+        urlText: "Technical Instruments Course",
+      },
+    ],
     stats: {
       videosCount: 0,
       chaptersCount: 0,
     },
     lectures: [],
     resources: {
-      referenceBook: {
-        title: "404 - Not Found",
-        url: "404",
-      },
-      extraResources: {
-        title: "Slides of the Course",
-        url: "404",
-        note: "Dr. Mazen",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "404 - Not Found",
+          url: "404",
+        },
+      ],
+      extraResources: [
+        {
+          title: "Slides of the Course",
+          url: "404",
+          note: "Dr. Mazen",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "(404 - Not Found)",
@@ -6527,18 +6662,22 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Reference of Pathophysiology",
-        url: "../../../documents/level-3/semester-2/pathophysiology-2/pathophysiology-2-book.pdf",
-      },
-      summaries: {
-        title: "Lolo Abushaban",
-        url: "../../../documents/level-3/semester-2/pathophysiology-2/summary/pathophysiology-2-summary-lolo.pdf",
-      },
-      otherSummaries: {
-        title: "Tasneem Al-qeeq",
-        url: "../../../documents/level-3/semester-2/pathophysiology-2/summary/pathophysiology-2-summary-tasneem.pdf",
-      },
+      referenceBooks: [
+        {
+          title: "Reference of Pathophysiology",
+          url: "../../../documents/level-3/semester-2/pathophysiology-2/pathophysiology-2-book.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "Lolo Abushaban",
+          url: "../../../documents/level-3/semester-2/pathophysiology-2/summary/pathophysiology-2-summary-lolo.pdf",
+        },
+        {
+          title: "Tasneem Al-qeeq",
+          url: "../../../documents/level-3/semester-2/pathophysiology-2/summary/pathophysiology-2-summary-tasneem.pdf",
+        },
+      ],
       exams: [
         {
           title: "(404 - Not Found)",
@@ -6781,14 +6920,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Ansel's Pharmaceutical Dosage Forms & DDS 10th Edition",
-        url: "../../../documents/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Ansel's Pharmaceutical Dosage Forms & DDS 10th Edition",
+          url: "../../../documents/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Issam Abushammala, Final Exam of 2013",
@@ -7045,14 +7188,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Shargel & Yu's : Applied Biopharmaceutics & PK 7th Edition",
-        url: "../../../documents/level-3/semester-2/pharmacokinetics-1/book/Leon_Shargel,_Andrew_B_C_Yu_Applied_Biopharmaceutics_&_Pharmacokinetics.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Shargel & Yu's : Applied Biopharmaceutics & PK 7th Edition",
+          url: "../../../documents/level-3/semester-2/pharmacokinetics-1/book/Leon_Shargel,_Andrew_B_C_Yu_Applied_Biopharmaceutics_&_Pharmacokinetics.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Issam Abushammala, Final Exam of 2012",
@@ -7307,14 +7454,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "404 - Nof Found",
-        url: "404",
-      },
-      summaries: {
-        title: "Ahmed J. Skaik - CNS Unit",
-        url: "../../../documents/level-3/semester-2/pharmacology-1/summary/cns-pharmacology-summary-ahmed-skaik.pdf",
-      },
+      referenceBooks: [
+        {
+          title: "404 - Nof Found",
+          url: "404",
+        },
+      ],
+      summaries: [
+        {
+          title: "Ahmed J. Skaik - CNS Unit",
+          url: "../../../documents/level-3/semester-2/pharmacology-1/summary/cns-pharmacology-summary-ahmed-skaik.pdf",
+        },
+      ],
       exams: [
         {
           title: "Dr. Mahmoud Taleb, Final Exam of 2016",
@@ -7489,14 +7640,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Dr. Mazen El-sakka: Manual of Phytochemistry I",
-        url: "../../../documents/level-3/semester-2/phytochemistry-1/phytochemistry-1-book.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Dr. Mazen El-sakka: Manual of Phytochemistry I",
+          url: "../../../documents/level-3/semester-2/phytochemistry-1/phytochemistry-1-book.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Mazen El-sakka, Final Exam of 2015",
@@ -7809,14 +7964,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "404 - Not Found",
-        url: "404",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "404 - Not Found",
+          url: "404",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       personalRecommendations: {
         title: "IR Spectroscopy",
         url: "https://www.youtube.com/watch?v=_Xi5ZVbbftI",
@@ -7976,14 +8135,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "First Aid Made Easy",
-        url: "../../../documents/level-4/semester-1/first-aid/first-aid-book.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "First Aid Made Easy",
+          url: "../../../documents/level-4/semester-1/first-aid/first-aid-book.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "(404 - Not Found)",
@@ -8018,11 +8181,13 @@ export const courses: CourseData[] = [
         name: "Usama Abu-mohsen",
       },
     ],
-    courseNote: {
-      note: "* It's Highly Recommended to Check out Chapter I & III of the",
-      url: "/courses/organic-chemistry-2",
-      urlText: "Organic Chemistry II Course",
-    },
+    courseNotes: [
+      {
+        note: "* It's Highly Recommended to Check out Chapter I & III of the",
+        url: "/courses/organic-chemistry-2",
+        urlText: "Organic Chemistry II Course",
+      },
+    ],
     stats: {
       videosCount: 23,
       chaptersCount: 10,
@@ -8215,23 +8380,27 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title:
-          "Wilson & Gisvold's Textbook of Organic Medicinal & Pharmaceutical Chemistry - 12th Edition",
-        url: "../../../documents/level-4/semester-1/pharmaceutical-chemistry-1/Wilson_and_Gisvold's_Textbook.pdf",
-      },
-      referenceBookTwo: {
-        title: "V. Alagarsamy, Textbook of Medicinal Chemistry",
-        url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/TEXTBOOK-OF-MEDICINAL-CHEMISTRY.pdf",
-      },
-      referenceBookThree: {
-        title: "Foye's Principles of Medicinal Chmeistry - 7th Edition",
-        url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/Foye's_Principles_of_Medicinal_Chemistry,_7th.pdf",
-      },
-      summaries: {
-        title: "Marah Isam Falit",
-        url: "../../../documents/level-4/semester-1/pharmaceutical-chemistry-1/summary/pharm-chem-1-summary.pdf",
-      },
+      referenceBooks: [
+        {
+          title:
+            "Wilson & Gisvold's Textbook of Organic Medicinal & Pharmaceutical Chemistry - 12th Edition",
+          url: "../../../documents/level-4/semester-1/pharmaceutical-chemistry-1/Wilson_and_Gisvold's_Textbook.pdf",
+        },
+        {
+          title: "V. Alagarsamy, Textbook of Medicinal Chemistry",
+          url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/TEXTBOOK-OF-MEDICINAL-CHEMISTRY.pdf",
+        },
+        {
+          title: "Foye's Principles of Medicinal Chmeistry - 7th Edition",
+          url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/Foye's_Principles_of_Medicinal_Chemistry,_7th.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "Marah Isam Falit",
+          url: "../../../documents/level-4/semester-1/pharmaceutical-chemistry-1/summary/pharm-chem-1-summary.pdf",
+        },
+      ],
       exams: [
         {
           title: "Dr. Ihab Al-masry, Final Exam of 2018",
@@ -8383,14 +8552,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Reference of Pharmaceutical Law & History",
-        url: "../../../documents/level-4/semester-1/pharmaceutical-law/pharmaceutical-law-history-book.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Reference of Pharmaceutical Law & History",
+          url: "../../../documents/level-4/semester-1/pharmaceutical-law/pharmaceutical-law-history-book.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Issam Abushammala, Final Exam",
@@ -8661,14 +8834,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Shargel & Yu's : Applied Biopharmaceutics & PK 7th Edition",
-        url: "../../../documents/level-3/semester-2/pharmacokinetics-1/book/Leon_Shargel,_Andrew_B_C_Yu_Applied_Biopharmaceutics_&_Pharmacokinetics.pdf",
-      },
-      summaries: {
-        title: "Mohammed El-Farra",
-        url: "../../../documents/level-4/semester-1/pharmacokinetics-2/summary/pharmacokinetics-2-course-summary.pdf",
-      },
+      referenceBooks: [
+        {
+          title: "Shargel & Yu's : Applied Biopharmaceutics & PK 7th Edition",
+          url: "../../../documents/level-3/semester-2/pharmacokinetics-1/book/Leon_Shargel,_Andrew_B_C_Yu_Applied_Biopharmaceutics_&_Pharmacokinetics.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "Mohammed El-Farra",
+          url: "../../../documents/level-4/semester-1/pharmacokinetics-2/summary/pharmacokinetics-2-course-summary.pdf",
+        },
+      ],
       exams: [
         {
           title: "Dr. Issam Abushammala, Final Exam of 2018",
@@ -8889,14 +9066,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "",
-        url: "404",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Mohammed Shbair, Final Exam of 2018",
@@ -9108,24 +9289,30 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "",
-        url: "404",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
-      extraResources: {
-        title: "Slides of the Course",
-        url: "../../../documents/level-4/semester-1/phytochemistry-2/phytochemistry-2-slides.pdf",
-        note: "Dr. Mazen",
-      },
-      extraResourcesTwo: {
-        title: "Slides of the Course",
-        url: "../../../documents/level-4/semester-1/phytochemistry-2/phytochemistry-2-slides-dr-khaldonue.pdf",
-        note: "Dr. Khaldoun",
-      },
+      referenceBooks: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
+      extraResources: [
+        {
+          title: "Slides of the Course",
+          url: "../../../documents/level-4/semester-1/phytochemistry-2/phytochemistry-2-slides.pdf",
+          note: "Dr. Mazen",
+        },
+        {
+          title: "Slides of the Course",
+          url: "../../../documents/level-4/semester-1/phytochemistry-2/phytochemistry-2-slides-dr-khaldonue.pdf",
+          note: "Dr. Khaldoun",
+        },
+      ],
       exams: [
         {
           title: "Dr. Mazen El-sakka, Final Exam of 2017",
@@ -9333,18 +9520,22 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Ansel's Pharmaceutical Dosage Forms & DDS 10th Edition",
-        url: "../../../documents/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf",
-      },
-      referenceBookTwo: {
-        title: "The Theory & Practice of Industrial Pharmacy 3rd Edition",
-        url: "../../../documents/level-4/semester-2/industrial-pharmacy-1/book/The-Theory-And-Practice-of-Industrial-Pharmacy.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Ansel's Pharmaceutical Dosage Forms & DDS 10th Edition",
+          url: "../../../documents/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf",
+        },
+        {
+          title: "The Theory & Practice of Industrial Pharmacy 3rd Edition",
+          url: "../../../documents/level-4/semester-2/industrial-pharmacy-1/book/The-Theory-And-Practice-of-Industrial-Pharmacy.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Riad Al-qidra, Final Exam of 2012",
@@ -9580,23 +9771,27 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title:
-          "Wilson & Gisvold's Textbook of Organic Medicinal & Pharmaceutical Chemistry - 12th Edition",
-        url: "../../../documents/level-4/semester-1/pharmaceutical-chemistry-1/Wilson_and_Gisvold's_Textbook.pdf",
-      },
-      referenceBookTwo: {
-        title: "V. Alagarsamy, Textbook of Medicinal Chemistry",
-        url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/TEXTBOOK-OF-MEDICINAL-CHEMISTRY.pdf",
-      },
-      referenceBookThree: {
-        title: "Foye's Principles of Medicinal Chmeistry - 7th Edition",
-        url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/Foye's_Principles_of_Medicinal_Chemistry,_7th.pdf",
-      },
-      summaries: {
-        title: "Marah Issam Falit",
-        url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/pharm-chem-2-course-summary-marah.pdf",
-      },
+      referenceBooks: [
+        {
+          title:
+            "Wilson & Gisvold's Textbook of Organic Medicinal & Pharmaceutical Chemistry - 12th Edition",
+          url: "../../../documents/level-4/semester-1/pharmaceutical-chemistry-1/Wilson_and_Gisvold's_Textbook.pdf",
+        },
+        {
+          title: "V. Alagarsamy, Textbook of Medicinal Chemistry",
+          url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/TEXTBOOK-OF-MEDICINAL-CHEMISTRY.pdf",
+        },
+        {
+          title: "Foye's Principles of Medicinal Chmeistry - 7th Edition",
+          url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/Foye's_Principles_of_Medicinal_Chemistry,_7th.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "Marah Issam Falit",
+          url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/pharm-chem-2-course-summary-marah.pdf",
+        },
+      ],
       exams: [
         {
           title: "(404 - Not Found)",
@@ -9798,14 +9993,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Basic & Clinical Pharmacology 14th Edition)",
-        url: "../../../documents/level-4/semester-2/pharmacology-3/Basic_and_Clinical_Pharmacology.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Basic & Clinical Pharmacology 14th Edition)",
+          url: "../../../documents/level-4/semester-2/pharmacology-3/Basic_and_Clinical_Pharmacology.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Mohammed Shbair, Midterm Exam of 2014",
@@ -9957,19 +10156,25 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Dr. Mazen El-sakka: Manual of Phytochemistry III",
-        url: "../../../documents/level-4/semester-2/phytochemistry-3/phytochemistry-3-book.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
-      extraResources: {
-        title: "Slides of the Course",
-        url: "../../../documents/level-4/semester-2/phytochemistry-3/phytochemistry-3-slides.pdf",
-        note: "Dr. Mazen",
-      },
+      referenceBooks: [
+        {
+          title: "Dr. Mazen El-sakka: Manual of Phytochemistry III",
+          url: "../../../documents/level-4/semester-2/phytochemistry-3/phytochemistry-3-book.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
+      extraResources: [
+        {
+          title: "Slides of the Course",
+          url: "../../../documents/level-4/semester-2/phytochemistry-3/phytochemistry-3-slides.pdf",
+          note: "Dr. Mazen",
+        },
+      ],
       exams: [
         {
           title: "Dr. Mazen El-sakka, Final Exam of 2016",
@@ -10148,18 +10353,22 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Reference of Public Health",
-        url: "../../../documents/level-4/semester-2/public-health/public-health-book-pt-1.pdf",
-      },
-      referenceBookTwo: {
-        title: "Dr. Ahmed Najem",
-        url: "../../../documents/level-4/semester-2/public-health/public-health-book-ahmed-najem.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Reference of Public Health",
+          url: "../../../documents/level-4/semester-2/public-health/public-health-book-pt-1.pdf",
+        },
+        {
+          title: "Dr. Ahmed Najem",
+          url: "../../../documents/level-4/semester-2/public-health/public-health-book-ahmed-najem.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Ahmed Najim, Final Exam of 2016",
@@ -10236,19 +10445,25 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Training Book -Empty-",
-        url: "../../../documents/level-4/summer/training-book-empty.pdf",
-      },
-      summaries: {
-        title: "Training Book -Filled-, By: TA. Eman Ibrahim",
-        url: "../../../documents/level-4/summer/training-book-filled-ta-eman-ibrahem.pdf",
-      },
-      extraResources: {
-        title: "Training Form",
-        url: "../../../documents/level-4/summer/training-form.pdf",
-        note: "Pharmacy Training Form",
-      },
+      referenceBooks: [
+        {
+          title: "Training Book -Empty-",
+          url: "../../../documents/level-4/summer/training-book-empty.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "Training Book -Filled-, By: TA. Eman Ibrahim",
+          url: "../../../documents/level-4/summer/training-book-filled-ta-eman-ibrahem.pdf",
+        },
+      ],
+      extraResources: [
+        {
+          title: "Training Form",
+          url: "../../../documents/level-4/summer/training-form.pdf",
+          note: "Pharmacy Training Form",
+        },
+      ],
       exams: [
         {
           title: "Previous Exams",
@@ -10465,14 +10680,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "",
-        url: "404",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "(404 - Not Found)",
@@ -10512,14 +10731,18 @@ export const courses: CourseData[] = [
     },
     lectures: [],
     resources: {
-      referenceBook: {
-        title: "Stockley's Drug Interactions 9th Edition",
-        url: "../../../documents/level-5/optional/drug-interactions/referance/stockley's-drug-interactions-9th.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Stockley's Drug Interactions 9th Edition",
+          url: "../../../documents/level-5/optional/drug-interactions/referance/stockley's-drug-interactions-9th.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Mohammed Shbair, Final Exam of 2016",
@@ -10721,14 +10944,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Dr. Mazen El-sakka: Manual of Food Supplements",
-        url: "../../../documents/level-5/optional/food-supplements/food-supplements-book.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Dr. Mazen El-sakka: Manual of Food Supplements",
+          url: "../../../documents/level-5/optional/food-supplements/food-supplements-book.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "(404 - Not Found)",
@@ -10901,14 +11128,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "",
-        url: "404",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "(404 - Not Found)",
@@ -11122,22 +11353,26 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Fundamentals of Pharmacognosy & Phytotherapy",
-        url: "../../../documents/level-5/optional/phytotherapy/Fundamentals_of_Pharmacognosy_and_Phytotherapy,_2nd_Edition.pdf",
-      },
-      referenceBookTwo: {
-        title: "Rational Phytotherapy",
-        url: "../../../documents/level-5/optional/phytotherapy/rational-phyto.pdf",
-      },
-      referenceBookThree: {
-        title: "University of Szeged: Textbook of Phytotherapy",
-        url: "../../../documents/level-5/optional/phytotherapy/Szeged.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Fundamentals of Pharmacognosy & Phytotherapy",
+          url: "../../../documents/level-5/optional/phytotherapy/Fundamentals_of_Pharmacognosy_and_Phytotherapy,_2nd_Edition.pdf",
+        },
+        {
+          title: "Rational Phytotherapy",
+          url: "../../../documents/level-5/optional/phytotherapy/rational-phyto.pdf",
+        },
+        {
+          title: "University of Szeged: Textbook of Phytotherapy",
+          url: "../../../documents/level-5/optional/phytotherapy/Szeged.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Mazen El-sakka, Final Exam of 2011",
@@ -11189,14 +11424,18 @@ export const courses: CourseData[] = [
     },
     lectures: [],
     resources: {
-      referenceBook: {
-        title: "",
-        url: "404",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "(404 - Not Found)",
@@ -11399,18 +11638,22 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Pharmacotherapy Principles & Practice 5th Edition",
-        url: "../../../documents/level-5/semester-1/clinical-pharmacy/Kelly_C_Lee,_Marie_A_Chisholm_Burns,_Patrick_M_Malone,_P_Brandon.pdf",
-      },
-      referenceBookTwo: {
-        title: "Clincial Pharmacy & Therapeutics 6th Edition",
-        url: "../../../documents/level-5/semester-1/clinical-pharmacy/Clinical-Pharmacy.pdf",
-      },
-      summaries: {
-        title: "Aya Maher Fatooh",
-        url: "../../../documents/level-5/semester-1/clinical-pharmacy/clinical-pharmacy-course-summary-aya.pdf",
-      },
+      referenceBooks: [
+        {
+          title: "Pharmacotherapy Principles & Practice 5th Edition",
+          url: "../../../documents/level-5/semester-1/clinical-pharmacy/Kelly_C_Lee,_Marie_A_Chisholm_Burns,_Patrick_M_Malone,_P_Brandon.pdf",
+        },
+        {
+          title: "Clincial Pharmacy & Therapeutics 6th Edition",
+          url: "../../../documents/level-5/semester-1/clinical-pharmacy/Clinical-Pharmacy.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "Aya Maher Fatooh",
+          url: "../../../documents/level-5/semester-1/clinical-pharmacy/clinical-pharmacy-course-summary-aya.pdf",
+        },
+      ],
       exams: [
         {
           title: "Final Exam of 2013",
@@ -11449,16 +11692,18 @@ export const courses: CourseData[] = [
         name: "Riad El-qidra",
       },
     ],
-    courseNote: {
-      note: "* Drying Process Lectures are the same as those in",
-      url: "/courses/industrial-pharmacy-1",
-      urlText: "Industrial Pharmacy I Course",
-    },
-    courseNoteTwo: {
-      note: "* Crystallization Process is usually part of the",
-      url: "/courses/industrial-pharmacy-1",
-      urlText: "Industrial Pharmacy I Course",
-    },
+    courseNotes: [
+      {
+        note: "* Drying Process Lectures are the same as those in",
+        url: "/courses/industrial-pharmacy-1",
+        urlText: "Industrial Pharmacy I Course",
+      },
+      {
+        note: "* Crystallization Process is usually part of the",
+        url: "/courses/industrial-pharmacy-1",
+        urlText: "Industrial Pharmacy I Course",
+      },
+    ],
     stats: {
       videosCount: 17,
       chaptersCount: 8,
@@ -11596,18 +11841,22 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Ansel's Pharmaceutical Dosage Forms & DDS 10th Edition",
-        url: "../../../documents/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf",
-      },
-      referenceBookTwo: {
-        title: "The Theory & Practice of Industrial Pharmacy 3rd Edition",
-        url: "../../../documents/level-4/semester-2/industrial-pharmacy-1/book/The-Theory-And-Practice-of-Industrial-Pharmacy.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Ansel's Pharmaceutical Dosage Forms & DDS 10th Edition",
+          url: "../../../documents/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf",
+        },
+        {
+          title: "The Theory & Practice of Industrial Pharmacy 3rd Edition",
+          url: "../../../documents/level-4/semester-2/industrial-pharmacy-1/book/The-Theory-And-Practice-of-Industrial-Pharmacy.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "(404 - Not Found)",
@@ -11882,23 +12131,27 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title:
-          "Wilson & Gisvold's Textbook of Organic Medicinal & Pharmaceutical Chemistry - 12th Edition",
-        url: "../../../documents/level-4/semester-1/pharmaceutical-chemistry-1/Wilson_and_Gisvold's_Textbook.pdf",
-      },
-      referenceBookTwo: {
-        title: "V. Alagarsamy, Textbook of Medicinal Chemistry",
-        url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/TEXTBOOK-OF-MEDICINAL-CHEMISTRY.pdf",
-      },
-      referenceBookThree: {
-        title: "Foye's Principles of Medicinal Chmeistry - 7th Edition",
-        url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/Foye's_Principles_of_Medicinal_Chemistry,_7th.pdf",
-      },
-      summaries: {
-        title: "Marah Isam Falit",
-        url: "../../../documents/level-5/semester-1/pharmaceutical-chemistry-3/summary/pharm-chem-3-summary.pdf",
-      },
+      referenceBooks: [
+        {
+          title:
+            "Wilson & Gisvold's Textbook of Organic Medicinal & Pharmaceutical Chemistry - 12th Edition",
+          url: "../../../documents/level-4/semester-1/pharmaceutical-chemistry-1/Wilson_and_Gisvold's_Textbook.pdf",
+        },
+        {
+          title: "V. Alagarsamy, Textbook of Medicinal Chemistry",
+          url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/TEXTBOOK-OF-MEDICINAL-CHEMISTRY.pdf",
+        },
+        {
+          title: "Foye's Principles of Medicinal Chmeistry - 7th Edition",
+          url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/Foye's_Principles_of_Medicinal_Chemistry,_7th.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "Marah Isam Falit",
+          url: "../../../documents/level-5/semester-1/pharmaceutical-chemistry-3/summary/pharm-chem-3-summary.pdf",
+        },
+      ],
       exams: [
         {
           title: "(404 - Not Found)",
@@ -12189,18 +12442,22 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Pharmacotherapy Principles & Practice 5th Edition",
-        url: "../../../documents/level-5/semester-1/clinical-pharmacy/Kelly_C_Lee,_Marie_A_Chisholm_Burns,_Patrick_M_Malone,_P_Brandon.pdf",
-      },
-      referenceBookTwo: {
-        title: "Clincial Pharmacy & Therapeutics 5th Edition",
-        url: "../../../documents/level-5/semester-1/pharmacotherapeutics-1/Clinical-Pharmacy-and-Therapeutics-roger-walker-5th.pdf",
-      },
-      summaries: {
-        title: "Aya Maher Fatooh",
-        url: "../../../documents/level-5/semester-1/pharmacotherapeutics-1/therapeutics-1-course-summary-aya.pdf",
-      },
+      referenceBooks: [
+        {
+          title: "Pharmacotherapy Principles & Practice 5th Edition",
+          url: "../../../documents/level-5/semester-1/clinical-pharmacy/Kelly_C_Lee,_Marie_A_Chisholm_Burns,_Patrick_M_Malone,_P_Brandon.pdf",
+        },
+        {
+          title: "Clincial Pharmacy & Therapeutics 5th Edition",
+          url: "../../../documents/level-5/semester-1/pharmacotherapeutics-1/Clinical-Pharmacy-and-Therapeutics-roger-walker-5th.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "Aya Maher Fatooh",
+          url: "../../../documents/level-5/semester-1/pharmacotherapeutics-1/therapeutics-1-course-summary-aya.pdf",
+        },
+      ],
       exams: [
         {
           title: "Dr. Mahmoud Taleb, Final Exam of 2012",
@@ -12464,18 +12721,22 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Pharmacotherapy Principles & Practice 5th Edition",
-        url: "../../../documents/level-5/semester-1/clinical-pharmacy/Kelly_C_Lee,_Marie_A_Chisholm_Burns,_Patrick_M_Malone,_P_Brandon.pdf",
-      },
-      referenceBookTwo: {
-        title: "Clincial Pharmacy & Therapeutics 5th Edition",
-        url: "../../../documents/level-5/semester-1/pharmacotherapeutics-1/Clinical-Pharmacy-and-Therapeutics-roger-walker-5th.pdf",
-      },
-      summaries: {
-        title: "Aya Maher Fatooh",
-        url: "../../../documents/level-5/semester-1/pharmacotherapeutics-1/therapeutics-1-course-summary-aya.pdf",
-      },
+      referenceBooks: [
+        {
+          title: "Pharmacotherapy Principles & Practice 5th Edition",
+          url: "../../../documents/level-5/semester-1/clinical-pharmacy/Kelly_C_Lee,_Marie_A_Chisholm_Burns,_Patrick_M_Malone,_P_Brandon.pdf",
+        },
+        {
+          title: "Clincial Pharmacy & Therapeutics 5th Edition",
+          url: "../../../documents/level-5/semester-1/pharmacotherapeutics-1/Clinical-Pharmacy-and-Therapeutics-roger-walker-5th.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "Aya Maher Fatooh",
+          url: "../../../documents/level-5/semester-1/pharmacotherapeutics-1/therapeutics-1-course-summary-aya.pdf",
+        },
+      ],
       exams: [
         {
           title: "Dr. Mahmoud Taleb, Final Exam of 2012",
@@ -12671,14 +12932,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Clinical Biochemistry: An Illustrated Colour Text",
-        url: "../../../documents/level-5/semester-2/clinical-biochemistry/Clinical-Biochemistry-An-Illustrated-Colour-Text-5th-2013.pdf",
-      },
-      summaries: {
-        title: "Tasneem Al-qeeq",
-        url: "../../../documents/level-5/semester-2/clinical-biochemistry/clinical-biochemistry-course-summary-tasneem.pdf",
-      },
+      referenceBooks: [
+        {
+          title: "Clinical Biochemistry: An Illustrated Colour Text",
+          url: "../../../documents/level-5/semester-2/clinical-biochemistry/Clinical-Biochemistry-An-Illustrated-Colour-Text-5th-2013.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "Tasneem Al-qeeq",
+          url: "../../../documents/level-5/semester-2/clinical-biochemistry/clinical-biochemistry-course-summary-tasneem.pdf",
+        },
+      ],
       exams: [
         {
           title: "(404 - Not Found)",
@@ -12721,14 +12986,18 @@ export const courses: CourseData[] = [
     },
     lectures: [],
     resources: {
-      referenceBook: {
-        title: "",
-        url: "404",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Final Exam of 2016",
@@ -12966,23 +13235,27 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title:
-          "Wilson & Gisvold's Textbook of Organic Medicinal & Pharmaceutical Chemistry - 12th Edition",
-        url: "../../../documents/level-4/semester-1/pharmaceutical-chemistry-1/Wilson_and_Gisvold's_Textbook.pdf",
-      },
-      referenceBookTwo: {
-        title: "V. Alagarsamy, Textbook of Medicinal Chemistry",
-        url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/TEXTBOOK-OF-MEDICINAL-CHEMISTRY.pdf",
-      },
-      referenceBookThree: {
-        title: "Foye's Principles of Medicinal Chmeistry - 7th Edition",
-        url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/Foye's_Principles_of_Medicinal_Chemistry,_7th.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title:
+            "Wilson & Gisvold's Textbook of Organic Medicinal & Pharmaceutical Chemistry - 12th Edition",
+          url: "../../../documents/level-4/semester-1/pharmaceutical-chemistry-1/Wilson_and_Gisvold's_Textbook.pdf",
+        },
+        {
+          title: "V. Alagarsamy, Textbook of Medicinal Chemistry",
+          url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/TEXTBOOK-OF-MEDICINAL-CHEMISTRY.pdf",
+        },
+        {
+          title: "Foye's Principles of Medicinal Chmeistry - 7th Edition",
+          url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/Foye's_Principles_of_Medicinal_Chemistry,_7th.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "(404 - Not Found)",
@@ -13209,14 +13482,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Pharmacotherapy Principles & Practice 5th Edition",
-        url: "../../../documents/level-5/semester-1/clinical-pharmacy/Kelly_C_Lee,_Marie_A_Chisholm_Burns,_Patrick_M_Malone,_P_Brandon.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Pharmacotherapy Principles & Practice 5th Edition",
+          url: "../../../documents/level-5/semester-1/clinical-pharmacy/Kelly_C_Lee,_Marie_A_Chisholm_Burns,_Patrick_M_Malone,_P_Brandon.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Mahmoud Taleb, Final Exam of 2015",
@@ -13399,14 +13676,18 @@ export const courses: CourseData[] = [
       },
     ],
     resources: {
-      referenceBook: {
-        title: "Casarett & Duoll's Toxicology - 8th Edition",
-        url: "../../../documents/level-5/semester-2/toxicology/reference/Casarett-&-Doull's-Toxicology_The-Basic-Science-of-Poisons.pdf",
-      },
-      summaries: {
-        title: "",
-        url: "404",
-      },
+      referenceBooks: [
+        {
+          title: "Casarett & Duoll's Toxicology - 8th Edition",
+          url: "../../../documents/level-5/semester-2/toxicology/reference/Casarett-&-Doull's-Toxicology_The-Basic-Science-of-Poisons.pdf",
+        },
+      ],
+      summaries: [
+        {
+          title: "",
+          url: "404",
+        },
+      ],
       exams: [
         {
           title: "Dr. Mohammed Shbair, Final Exam of 2013",

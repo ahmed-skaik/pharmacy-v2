@@ -17,7 +17,7 @@ export default function Footer() {
           <span>
             <Link to="/about#founders">Ahmed-Skaîk</Link>
           </span>
-          &copy; {currentYear}
+          &copy; 2022 - {currentYear}
         </p>
       </div>
     </footer>
