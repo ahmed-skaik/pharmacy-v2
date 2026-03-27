@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
+import { memo } from "react";
 
 type Props = {
   title: string;
@@ -12,7 +13,7 @@ type Props = {
   buttonVisibility: boolean;
 };
 
-export default function ResourceCard({
+function ResourceCard({
   title,
   description,
   descriptionNote,
@@ -52,3 +53,5 @@ export default function ResourceCard({
     </a>
   );
 }
+
+export default memo(ResourceCard);

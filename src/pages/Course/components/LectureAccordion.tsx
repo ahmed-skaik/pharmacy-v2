@@ -9,12 +9,13 @@ import type { CourseData } from "../../../types";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import LinkCard from "../../../components/LinkCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { memo } from "react";
 
 type Props = {
   lectures: CourseData["lectures"];
 };
 
-export default function LectureAccordion({ lectures }: Props) {
+function LectureAccordion({ lectures }: Props) {
   if (!lectures || lectures.length === 0) {
     return <OopsMessage />;
   }
@@ -82,3 +83,5 @@ export default function LectureAccordion({ lectures }: Props) {
     </>
   );
 }
+
+export default memo(LectureAccordion);

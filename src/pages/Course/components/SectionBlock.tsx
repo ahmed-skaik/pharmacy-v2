@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 type SectionBlockProps = {
   title: string;
   highlight: string;
@@ -5,7 +7,7 @@ type SectionBlockProps = {
   children: React.ReactNode;
 };
 
-export default function SectionBlock({
+function SectionBlock({
   title,
   highlight,
   description,
@@ -23,3 +25,5 @@ export default function SectionBlock({
     </>
   );
 }
+
+export default memo(SectionBlock);

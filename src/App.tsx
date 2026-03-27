@@ -1,18 +1,20 @@
 import "./styles/main.scss";
 import { Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import NotFound from "./pages/NotFound";
-import LevelDetails from "./pages/LevelDetails";
-import CoursePage from "./pages/Course";
-import UniversityNeeds from "./pages/UniversityNeeds";
 import AnalyticsTracker from "./analytics/AnalyticsTracker";
 import ScrollToHash from "./utils/ScrollToHash";
+import LoadingPage from "./components/LoadingPage";
 import * as bootstrap from "bootstrap";
-import { useEffect } from "react";
+import { lazy, Suspense, useEffect } from "react";
 import { useLocation } from "react-router-dom";
+
+const LazyHome = lazy(() => import("./pages/Home"));
+const LazyAbout = lazy(() => import("./pages/About"));
+const LazyContact = lazy(() => import("./pages/Contact"));
+const LazyNotFound = lazy(() => import("./pages/NotFound"));
+const LazyLevelDetails = lazy(() => import("./pages/LevelDetails"));
+const LazyCoursePage = lazy(() => import("./pages/Course"));
+const LazyUniversityNeeds = lazy(() => import("./pages/UniversityNeeds"));
 
 export default function App() {
   const welcomeMsg = `Hello from Console my fellow Pharmacy Students !`;
@@ -34,27 +36,34 @@ export default function App() {
     });
   }, [location]);
 
-  document.addEventListener("fullscreenchange", () =>
-    console.log("fullscreen:", !!document.fullscreenElement),
-  );
+  useEffect(() => {
+    const handler = () =>
+      console.log("fullscreen:", !!document.fullscreenElement);
+
+    document.addEventListener("fullscreenchange", handler);
+
+    return () => {
+      document.removeEventListener("fullscreenchange", handler);
+    };
+  }, []);
 
   return (
     <>
       <AnalyticsTracker />
       <ScrollToHash />
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="levels" element={<h3>Test for Levels page </h3>} />
-          <Route path="levels/:levelId" element={<LevelDetails />} />
-          <Route path="uni-needs" element={<UniversityNeeds />} />
-          <Route path="courses" element={<h3>Test For Courses Page</h3>} />
-          <Route path="courses/:courseName" element={<CoursePage />} />
-        </Route>
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+      <Suspense fallback={<LoadingPage />}>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<LazyHome />} />
+            <Route path="about" element={<LazyAbout />} />
+            <Route path="contact" element={<LazyContact />} />
+            <Route path="levels/:levelId" element={<LazyLevelDetails />} />
+            <Route path="uni-needs" element={<LazyUniversityNeeds />} />
+            <Route path="courses/:courseName" element={<LazyCoursePage />} />
+          </Route>
+          <Route path="*" element={<LazyNotFound />} />
+        </Routes>
+      </Suspense>
     </>
   );
 }

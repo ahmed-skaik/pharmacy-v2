@@ -1,4 +1,4 @@
-import WebsiteLogo from "../assets/images/logo.png";
+import WebsiteLogo from "/logo.png";
 import MoodleLogo from "../assets/images/moodle-logo.png";
 import GateLogo from "../assets/images/gate.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

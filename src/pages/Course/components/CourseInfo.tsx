@@ -6,12 +6,13 @@ import {
 import type { CourseData } from "../../../types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ResourceCard from "./ResourceCard";
+import { memo } from "react";
 
 type Props = {
   resources: CourseData;
 };
 
-export default function CourseInfo({ resources }: Props) {
+function CourseInfo({ resources }: Props) {
   return (
     <ul className="list-unstyled mt-4 mb-5 content">
       <li className="mb-3">
@@ -110,3 +111,5 @@ export default function CourseInfo({ resources }: Props) {
     </ul>
   );
 }
+
+export default memo(CourseInfo);

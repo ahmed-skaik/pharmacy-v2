@@ -7,12 +7,13 @@ import type { CourseData } from "../../../types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import ResourceCard from "./ResourceCard";
+import { memo } from "react";
 
 type Props = {
   resources: CourseData["resources"];
 };
 
-export default function CourseResources({ resources }: Props) {
+function CourseResources({ resources }: Props) {
   return (
     <ul className="list-unstyled mt-4 mb-5 content">
       {resources.referenceBooks?.map((referenceBook, bookI) => (
@@ -115,3 +116,5 @@ export default function CourseResources({ resources }: Props) {
     </ul>
   );
 }
+
+export default memo(CourseResources);
