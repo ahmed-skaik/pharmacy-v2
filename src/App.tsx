@@ -1,6 +1,12 @@
 import "./styles/main.scss";
 import { Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import NotFound from "./pages/NotFound";
+import LevelDetails from "./pages/LevelDetails";
+import UniversityNeeds from "./pages/UniversityNeeds";
 import AnalyticsTracker from "./analytics/AnalyticsTracker";
 import ScrollToHash from "./utils/ScrollToHash";
 import LoadingPage from "./components/LoadingPage";
@@ -8,13 +14,7 @@ import { Tooltip } from "bootstrap";
 import { lazy, Suspense, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-const LazyHome = lazy(() => import("./pages/Home"));
-const LazyAbout = lazy(() => import("./pages/About"));
-const LazyContact = lazy(() => import("./pages/Contact"));
-const LazyNotFound = lazy(() => import("./pages/NotFound"));
-const LazyLevelDetails = lazy(() => import("./pages/LevelDetails"));
 const LazyCoursePage = lazy(() => import("./pages/Course"));
-const LazyUniversityNeeds = lazy(() => import("./pages/UniversityNeeds"));
 
 const welcomeMsg = `Hello from Console my fellow Pharmacy Students !`;
 console.log(
@@ -53,21 +53,21 @@ export default function App() {
       <ScrollToHash />
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<LazyHome />} />
-          <Route path="about" element={<LazyAbout />} />
-          <Route path="contact" element={<LazyContact />} />
-          <Route path="levels/:levelId" element={<LazyLevelDetails />} />
-          <Route path="uni-needs" element={<LazyUniversityNeeds />} />
-          <Route path="courses/:courseName" element={<LazyCoursePage />} />
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="levels/:levelId" element={<LevelDetails />} />
+          <Route path="uni-needs" element={<UniversityNeeds />} />
+          <Route
+            path="courses/:courseName"
+            element={
+              <Suspense fallback={<LoadingPage />}>
+                <LazyCoursePage />
+              </Suspense>
+            }
+          />
         </Route>
-        <Route
-          path="*"
-          element={
-            <Suspense fallback={<LoadingPage />}>
-              <LazyNotFound />
-            </Suspense>
-          }
-        />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </>
   );

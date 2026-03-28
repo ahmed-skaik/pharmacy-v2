@@ -17,7 +17,7 @@ import LinkCard from "../../components/LinkCard";
 import SectionHeading from "../../components/SectionHeading";
 import { GetDepartmentClass } from "../../utils/GetDepartmentClass";
 
-export default function LevelPage() {
+export default function LevelDetails() {
   const { levelId } = useParams();
   // Convert route param to number
   const myLevelId = Number(levelId);
