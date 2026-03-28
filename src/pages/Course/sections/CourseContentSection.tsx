@@ -1,13 +1,9 @@
-import { lazy, Suspense } from "react";
 import type { CourseData } from "../../../types";
 import SectionBlock from "../components/SectionBlock";
-
-const LazyLectureAccordion = lazy(
-  () => import("../components/LectureAccordion"),
-);
-const LazyCourseNotes = lazy(() => import("../components/CourseNotes"));
-const LazyCourseResources = lazy(() => import("../components/CourseResources"));
-const LazyCourseInfo = lazy(() => import("../components/CourseInfo"));
+import CourseNotes from "../components/CourseNotes";
+import LectureAccordion from "../components/LectureAccordion";
+import CourseResources from "../components/CourseResources";
+import CourseInfo from "../components/CourseInfo";
 
 type Props = {
   course: CourseData;
@@ -29,10 +25,8 @@ export default function CourseContentSection({ course }: Props) {
             description="Recorded E-Learning Lectures"
           >
             <div className="year mt-4 mb-5">
-              <Suspense fallback={<div>Loading Lectures..</div>}>
-                <LazyCourseNotes notes={course.courseNotes} />
-                <LazyLectureAccordion lectures={course.lectures} />
-              </Suspense>
+              <CourseNotes notes={course.courseNotes} />
+              <LectureAccordion lectures={course.lectures} />
             </div>{" "}
           </SectionBlock>
         </div>
@@ -47,9 +41,7 @@ export default function CourseContentSection({ course }: Props) {
             highlight="Resources"
             description="Reference Book, Summaries, Previous Exams &amp; More !"
           >
-            <Suspense fallback={<div>Loading Resources..</div>}>
-              <LazyCourseResources resources={course.resources} />
-            </Suspense>
+            <CourseResources resources={course.resources} />
           </SectionBlock>
         </div>
         <div
@@ -63,9 +55,7 @@ export default function CourseContentSection({ course }: Props) {
             highlight="Course"
             description="Information About The Course"
           >
-            <Suspense fallback={<div>Loading Course Info..</div>}>
-              <LazyCourseInfo resources={course} />
-            </Suspense>
+            <CourseInfo resources={course} />
           </SectionBlock>
         </div>
       </div>

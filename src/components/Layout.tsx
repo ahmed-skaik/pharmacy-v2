@@ -1,5 +1,5 @@
 import { Outlet, useLocation } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import ScrollToTopButton from "./ScrollToTopButton";
@@ -12,7 +12,7 @@ export default function Layout() {
   useEffect(() => {
     requestAnimationFrame(() => {
       setLoading(true);
-      setTimeout(() => setLoading(false), 300);
+      setTimeout(() => setLoading(false), 100);
     });
   }, [location]);
 
@@ -21,7 +21,9 @@ export default function Layout() {
       {loading && <LoadingPage />}
       <Header />
       <main className="fill-content">
-        <Outlet />
+        <Suspense fallback={<LoadingPage />}>
+          <Outlet />
+        </Suspense>
       </main>
       <Footer />
       <ScrollToTopButton />
