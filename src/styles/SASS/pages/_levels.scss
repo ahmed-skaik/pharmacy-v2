@@ -1,5 +1,4 @@
 @use "../helpers" as *;
-@use "sass:math";
 
 // courses cards start
 .collapse {
@@ -52,7 +51,7 @@
     }
     p {
       span {
-        color: $id-color;
+        color: $id_color;
       }
     }
   }
@@ -85,7 +84,7 @@
           padding-left: 10px;
           margin: 10px 0 10px;
           svg {
-            color: $id-color;
+            color: $id_color;
           }
         }
         .prog {

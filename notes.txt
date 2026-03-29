@@ -28,5 +28,5 @@ the dean special ch.ch thing
 
 
 delete the artificial loading and replace it with a real one 
-the suspense placment outside the scope of layout 
-the tooltip thing doesn't work 
+
+attatchements in teh course 

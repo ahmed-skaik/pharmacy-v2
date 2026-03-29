@@ -1,5 +1,4 @@
 @use "index" as *;
-@use "sass:math";
 
 // animation bouncing start
 @keyframes bouncing {
@@ -65,7 +64,7 @@
 // animation link-mobile start
 @keyframes link-mobile {
   100% {
-    background-color: $section-background;
+    background-color: $section_background;
     color: $dark_blue;
   }
 }

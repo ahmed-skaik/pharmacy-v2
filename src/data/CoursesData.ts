@@ -12,10 +12,6 @@ export const courses: CourseData[] = [
         name: "Mona Wadi",
       },
     ],
-    stats: {
-      videosCount: 0,
-      chaptersCount: 0,
-    },
     lectures: [],
     resources: {
       referenceBooks: [
@@ -79,10 +75,6 @@ export const courses: CourseData[] = [
         altLink: "computer-science-1",
       },
     ],
-    stats: {
-      videosCount: 21,
-      chaptersCount: 10,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Introduction to Computers",
@@ -402,10 +394,6 @@ export const courses: CourseData[] = [
         altLink: "computer-science-1-omar",
       },
     ],
-    stats: {
-      videosCount: 19,
-      chaptersCount: 10,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Introduction to Computers",
@@ -710,10 +698,6 @@ export const courses: CourseData[] = [
         name: "Maha Al-khateeb",
       },
     ],
-    stats: {
-      videosCount: 23,
-      chaptersCount: 10,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Introduction",
@@ -993,10 +977,6 @@ export const courses: CourseData[] = [
         altLink: "mathematics",
       },
     ],
-    stats: {
-      videosCount: 24,
-      chaptersCount: 6,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Preview & Review",
@@ -1214,10 +1194,6 @@ export const courses: CourseData[] = [
         altLink: "mathematics-matar",
       },
     ],
-    stats: {
-      videosCount: 20,
-      chaptersCount: 6,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Pre Calculus Review",
@@ -1408,10 +1384,6 @@ export const courses: CourseData[] = [
         name: "Jamil Mohanna",
       },
     ],
-    stats: {
-      videosCount: 10,
-      chaptersCount: 8,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Introduction",
@@ -1568,10 +1540,6 @@ export const courses: CourseData[] = [
         altLink: "analytical-chemistry-1",
       },
     ],
-    stats: {
-      videosCount: 22,
-      chaptersCount: 3,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Complex & Nomenclature",
@@ -1777,10 +1745,6 @@ export const courses: CourseData[] = [
         altLink: "analytical-chemistry-1-maha",
       },
     ],
-    stats: {
-      videosCount: 26,
-      chaptersCount: 3,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Complex & Nomenclature",
@@ -1999,10 +1963,6 @@ export const courses: CourseData[] = [
         name: "Waheed Qudaih",
       },
     ],
-    stats: {
-      videosCount: 15,
-      chaptersCount: 12,
-    },
     lectures: [
       {
         chapterTitle:
@@ -2204,10 +2164,6 @@ export const courses: CourseData[] = [
         name: "Usama Abu-mohsen",
       },
     ],
-    stats: {
-      videosCount: 27,
-      chaptersCount: 8,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Introduction to Organic Chemistry",
@@ -2445,10 +2401,6 @@ export const courses: CourseData[] = [
         name: "Manal Zourab",
       },
     ],
-    stats: {
-      videosCount: 21,
-      chaptersCount: 7,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Introduction to Physical Pharmacy",
@@ -2689,10 +2641,6 @@ export const courses: CourseData[] = [
         name: "Mai Ramadan",
       },
     ],
-    stats: {
-      videosCount: 32,
-      chaptersCount: 7,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Gravimetry",
@@ -3008,10 +2956,6 @@ export const courses: CourseData[] = [
         name: "Mohammed Taleb",
       },
     ],
-    stats: {
-      videosCount: 24,
-      chaptersCount: 8,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Introduction & Classification of Bacteria",
@@ -3277,10 +3221,6 @@ export const courses: CourseData[] = [
         name: "Kanan Wahedy",
       },
     ],
-    stats: {
-      videosCount: 33,
-      chaptersCount: 8,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Revision of Necessary Chemistry Basics",
@@ -3611,10 +3551,6 @@ export const courses: CourseData[] = [
         altLink: "physical-pharmacy-2",
       },
     ],
-    stats: {
-      videosCount: 18,
-      chaptersCount: 5,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Chemical Kinetics & Stability",
@@ -3798,10 +3734,6 @@ export const courses: CourseData[] = [
         altLink: "physical-pharmacy-2",
       },
     ],
-    stats: {
-      videosCount: 16,
-      chaptersCount: 5,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Chemical Kinetics & Stability",
@@ -4002,10 +3934,6 @@ export const courses: CourseData[] = [
         altLink: "physical-pharmacy-2-manal",
       },
     ],
-    stats: {
-      videosCount: 7,
-      chaptersCount: 5,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Chemical Kinetics & Stability",
@@ -4124,10 +4052,6 @@ export const courses: CourseData[] = [
         name: "Mohammed Shbair",
       },
     ],
-    stats: {
-      videosCount: 26,
-      chaptersCount: 6,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Introduction to Physiology & Homeostasis",
@@ -4372,10 +4296,6 @@ export const courses: CourseData[] = [
         name: "Mohammed Al-ghussein",
       },
     ],
-    stats: {
-      videosCount: 28,
-      chaptersCount: 13,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Amino Acids",
@@ -4650,10 +4570,6 @@ export const courses: CourseData[] = [
         name: "Jehad Ahmed",
       },
     ],
-    stats: {
-      videosCount: 0,
-      chaptersCount: 0,
-    },
     lectures: [],
     resources: {
       referenceBooks: [
@@ -4702,10 +4618,6 @@ export const courses: CourseData[] = [
         name: "Mohammed Taleb & Dr. Hend",
       },
     ],
-    stats: {
-      videosCount: 24,
-      chaptersCount: 8,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Pharmaceutical Consideration",
@@ -4974,10 +4886,6 @@ export const courses: CourseData[] = [
         altLink: "physiology-2",
       },
     ],
-    stats: {
-      videosCount: 24,
-      chaptersCount: 8,
-    },
     lectures: [
       {
         chapterTitle: "Chapter IX : Cardiac Physiology",
@@ -5212,10 +5120,6 @@ export const courses: CourseData[] = [
         altLink: "physiology-2-manal",
       },
     ],
-    stats: {
-      videosCount: 25,
-      chaptersCount: 6,
-    },
     lectures: [
       {
         chapterTitle:
@@ -5472,10 +5376,6 @@ export const courses: CourseData[] = [
         name: "Mohammed Al-ghussein",
       },
     ],
-    stats: {
-      videosCount: 25,
-      chaptersCount: 10,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Bioenergetics & Oxidative Phosphorylation",
@@ -5714,10 +5614,6 @@ export const courses: CourseData[] = [
         name: "Ali Abu-zaid",
       },
     ],
-    stats: {
-      videosCount: 23,
-      chaptersCount: 7,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Introduction to Biostatistics",
@@ -5934,10 +5830,6 @@ export const courses: CourseData[] = [
         name: "Mohammed Taha",
       },
     ],
-    stats: {
-      videosCount: 23,
-      chaptersCount: 5,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Alterations of Cell Functions",
@@ -6172,10 +6064,6 @@ export const courses: CourseData[] = [
         name: "Ibtihal Al-astal",
       },
     ],
-    stats: {
-      videosCount: 21,
-      chaptersCount: 6,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Introduction",
@@ -6407,10 +6295,6 @@ export const courses: CourseData[] = [
         urlText: "Technical Instruments Course",
       },
     ],
-    stats: {
-      videosCount: 0,
-      chaptersCount: 0,
-    },
     lectures: [],
     resources: {
       referenceBooks: [
@@ -6468,10 +6352,6 @@ export const courses: CourseData[] = [
         name: "Mohammed Taha",
       },
     ],
-    stats: {
-      videosCount: 21,
-      chaptersCount: 6,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Liver Disorders",
@@ -6716,10 +6596,6 @@ export const courses: CourseData[] = [
         name: "Hend Abu-amara",
       },
     ],
-    stats: {
-      videosCount: 32,
-      chaptersCount: 6,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Introduction",
@@ -6974,10 +6850,6 @@ export const courses: CourseData[] = [
         name: "Issam Abushammala",
       },
     ],
-    stats: {
-      videosCount: 21,
-      chaptersCount: 8,
-    },
     lectures: [
       {
         chapterTitle:
@@ -7241,10 +7113,6 @@ export const courses: CourseData[] = [
         name: "Rasha Bseiso",
       },
     ],
-    stats: {
-      videosCount: 23,
-      chaptersCount: 13,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Introduction to Pharmacology",
@@ -7508,10 +7376,6 @@ export const courses: CourseData[] = [
         name: "Mazen El-sakka",
       },
     ],
-    stats: {
-      videosCount: 13,
-      chaptersCount: 10,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Introduction to Phytochemistry",
@@ -7697,10 +7561,6 @@ export const courses: CourseData[] = [
         name: "Kanan Wahedy",
       },
     ],
-    stats: {
-      videosCount: 41,
-      chaptersCount: 5,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : NMR Spectroscopy",
@@ -8025,10 +7885,6 @@ export const courses: CourseData[] = [
         name: "Jamil Mohanna",
       },
     ],
-    stats: {
-      videosCount: 11,
-      chaptersCount: 8,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Introduction to First Aid",
@@ -8188,10 +8044,6 @@ export const courses: CourseData[] = [
         urlText: "Organic Chemistry II Course",
       },
     ],
-    stats: {
-      videosCount: 23,
-      chaptersCount: 10,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Introduction to Pharmaceutical Chemistry",
@@ -8438,10 +8290,6 @@ export const courses: CourseData[] = [
         name: "Riad El-qidra",
       },
     ],
-    stats: {
-      videosCount: 19,
-      chaptersCount: 2,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Pharmaceutical Law",
@@ -8598,10 +8446,6 @@ export const courses: CourseData[] = [
         name: "Issam Abushammala",
       },
     ],
-    stats: {
-      videosCount: 21,
-      chaptersCount: 9,
-    },
     lectures: [
       {
         chapterTitle: "Chapter IA : Introduction to Pharmacokinetics",
@@ -8891,10 +8735,6 @@ export const courses: CourseData[] = [
         name: "Rasha Bseiso",
       },
     ],
-    stats: {
-      videosCount: 20,
-      chaptersCount: 11,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Respiratory Disorders Drugs",
@@ -9115,10 +8955,6 @@ export const courses: CourseData[] = [
         name: "Mazen El-sakka",
       },
     ],
-    stats: {
-      videosCount: 23,
-      chaptersCount: 8,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Introduction",
@@ -9355,10 +9191,6 @@ export const courses: CourseData[] = [
         name: "Riad El-qidra",
       },
     ],
-    stats: {
-      videosCount: 16,
-      chaptersCount: 7,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Introduction to Industrial Pharmacy",
@@ -9574,10 +9406,6 @@ export const courses: CourseData[] = [
         name: "Mai Ramadan",
       },
     ],
-    stats: {
-      videosCount: 26,
-      chaptersCount: 5,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Antifungal Drugs",
@@ -9834,10 +9662,6 @@ export const courses: CourseData[] = [
         name: "Mahmoud Taleb",
       },
     ],
-    stats: {
-      videosCount: 22,
-      chaptersCount: 7,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Endocrine System Drugs",
@@ -10054,10 +9878,6 @@ export const courses: CourseData[] = [
         name: "Mazen El-sakka",
       },
     ],
-    stats: {
-      videosCount: 14,
-      chaptersCount: 4,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Introduction & General Alkaloids",
@@ -10216,10 +10036,6 @@ export const courses: CourseData[] = [
         name: "Ahmed Najem",
       },
     ],
-    stats: {
-      videosCount: 14,
-      chaptersCount: 5,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Introduction to Public Health",
@@ -10402,10 +10218,6 @@ export const courses: CourseData[] = [
         name: "Mahmoud Taleb",
       },
     ],
-    stats: {
-      videosCount: 6,
-      chaptersCount: 1,
-    },
     lectures: [
       {
         chapterTitle: "Instructions about Pharmacy Summer Training",
@@ -10497,10 +10309,6 @@ export const courses: CourseData[] = [
         name: "Mohammed Taleb",
       },
     ],
-    stats: {
-      videosCount: 24,
-      chaptersCount: 9,
-    },
     lectures: [
       {
         chapterTitle:
@@ -10725,10 +10533,6 @@ export const courses: CourseData[] = [
         name: "Rasha Bseiso",
       },
     ],
-    stats: {
-      videosCount: 0,
-      chaptersCount: 0,
-    },
     lectures: [],
     resources: {
       referenceBooks: [
@@ -10777,10 +10581,6 @@ export const courses: CourseData[] = [
         name: "Mazen El-sakka",
       },
     ],
-    stats: {
-      videosCount: 20,
-      chaptersCount: 10,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Introduction to Food Supplements",
@@ -10988,10 +10788,6 @@ export const courses: CourseData[] = [
         name: "Khalil Al-majdalawi",
       },
     ],
-    stats: {
-      videosCount: 17,
-      chaptersCount: 8,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Introduction to Hospital Pharmacy",
@@ -11173,10 +10969,6 @@ export const courses: CourseData[] = [
         name: "Maha Al-khateeb",
       },
     ],
-    stats: {
-      videosCount: 25,
-      chaptersCount: 8,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Introduction to Phytotherap",
@@ -11418,10 +11210,6 @@ export const courses: CourseData[] = [
         name: "Ibtihal Al-astal",
       },
     ],
-    stats: {
-      videosCount: 0,
-      chaptersCount: 0,
-    },
     lectures: [],
     resources: {
       referenceBooks: [
@@ -11470,10 +11258,6 @@ export const courses: CourseData[] = [
         name: "Hala Al-agha",
       },
     ],
-    stats: {
-      videosCount: 25,
-      chaptersCount: 6,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Clinical Pharmacy Practice",
@@ -11704,10 +11488,6 @@ export const courses: CourseData[] = [
         urlText: "Industrial Pharmacy I Course",
       },
     ],
-    stats: {
-      videosCount: 17,
-      chaptersCount: 8,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Crystallization Process",
@@ -11895,10 +11675,6 @@ export const courses: CourseData[] = [
         name: "Ihab Almasri",
       },
     ],
-    stats: {
-      videosCount: 29,
-      chaptersCount: 8,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : General Anesthetics",
@@ -12202,10 +11978,6 @@ export const courses: CourseData[] = [
         altLink: "pharmacotherapeutics-1",
       },
     ],
-    stats: {
-      videosCount: 32,
-      chaptersCount: 12,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : General Principles of Pharmacotherapeutics",
@@ -12508,10 +12280,6 @@ export const courses: CourseData[] = [
         altLink: "pharmacotherapeutics-1-samar",
       },
     ],
-    stats: {
-      videosCount: 23,
-      chaptersCount: 12,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : General Principles of Pharmacotherapeutics",
@@ -12783,10 +12551,6 @@ export const courses: CourseData[] = [
         name: "Mohammed Al-ghussein",
       },
     ],
-    stats: {
-      videosCount: 21,
-      chaptersCount: 6,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Introduction to Clinical Biochemistry",
@@ -12980,10 +12744,6 @@ export const courses: CourseData[] = [
         name: "Abedel-Raziq Salama",
       },
     ],
-    stats: {
-      videosCount: 0,
-      chaptersCount: 0,
-    },
     lectures: [],
     resources: {
       referenceBooks: [
@@ -13031,10 +12791,6 @@ export const courses: CourseData[] = [
         name: "Ihab Almasri",
       },
     ],
-    stats: {
-      videosCount: 29,
-      chaptersCount: 9,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Antianginal Drugs",
@@ -13301,10 +13057,6 @@ export const courses: CourseData[] = [
         name: "Hala Al-agha",
       },
     ],
-    stats: {
-      videosCount: 27,
-      chaptersCount: 6,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : Breast Cancer",
@@ -13536,10 +13288,6 @@ export const courses: CourseData[] = [
         name: "Mohammed Shbair",
       },
     ],
-    stats: {
-      videosCount: 21,
-      chaptersCount: 4,
-    },
     lectures: [
       {
         chapterTitle: "Chapter I : General Principles of Toxicology",

@@ -1,4 +1,4 @@
-import WebsiteLogo from "/logo.png";
+import WebsiteLogo from "/logo.webp";
 import MoodleLogo from "../assets/images/moodle-logo.png";
 import GateLogo from "../assets/images/gate.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -112,7 +112,6 @@ export default function Header() {
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
-                  href="#"
                 >
                   Levels
                 </a>
@@ -212,7 +211,7 @@ export default function Header() {
                   className="nav-link"
                   href="https://moodle.alazhar.edu.ps/login/"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                   onClick={() => setMenuOpen(false)}
                 >
                   Moodle
@@ -223,7 +222,7 @@ export default function Header() {
                   className="nav-link"
                   href="http://gate.alazhar.edu.ps/students/"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                   onClick={() => setMenuOpen(false)}
                 >
                   Student Gate
@@ -234,12 +233,14 @@ export default function Header() {
               <NavLink
                 to="https://moodle.alazhar.edu.ps/login/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img src={MoodleLogo} alt="moodle" />
               </NavLink>
               <NavLink
                 to="http://gate.alazhar.edu.ps/students/"
                 target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setMenuOpen(false)}
               >
                 <img src={GateLogo} alt="gate" />

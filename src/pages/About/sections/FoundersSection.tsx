@@ -1,5 +1,5 @@
-import AhmedSkaik from "../../../assets/images/ahmed-skaik.jpg";
-import AhmedYounis from "../../../assets/images/ahmed-younis.jpeg";
+import AhmedSkaik from "../../../assets/images/ahmed-skaik.webp";
+import AhmedYounis from "../../../assets/images/ahmed-younis.webp";
 
 export default function FoundersSection() {
   return (
@@ -9,7 +9,12 @@ export default function FoundersSection() {
           <div className="col-lg-6">
             <div className="box text-center mt-5">
               <div className="box-wrap code">
-                <img src={AhmedSkaik} alt="ahmed-skaik" className="img-fluid" />
+                <img
+                  src={AhmedSkaik}
+                  alt="ahmed-skaik"
+                  className="img-fluid"
+                  loading="lazy"
+                />
                 <h3 className="mt-3 mb-2 mb-0">Ahmed J. Skaik</h3>
                 <span className="mb-2 d-block">- Idea &#38; Coding -</span>
                 <blockquote className="cutoff-text mb-4 text-start english">
@@ -49,6 +54,7 @@ export default function FoundersSection() {
                   src={AhmedYounis}
                   alt="ahmed-younis"
                   className="img-fluid"
+                  loading="lazy"
                 />
                 <h3 className="mt-3 mb-2 mb-0">Ahmed Y. Shaheen</h3>
                 <span className="mb-2 d-block">- Data Provider -</span>

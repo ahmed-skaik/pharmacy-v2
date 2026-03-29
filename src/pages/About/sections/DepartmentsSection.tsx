@@ -7,7 +7,7 @@ export default function DepartmentsSection() {
         <div className="row align-items-center justify-content-between gap-4 gap-lg-0">
           <div className="col-lg-6 img-flex">
             <div className="img">
-              <img src={AboutImg} alt="about" className="img-fluid" />
+              <img src={AboutImg} alt="about" className="img-fluid" loading="lazy" />
             </div>
           </div>
           <div className="col-lg-6 txt-flex">
@@ -27,19 +27,18 @@ export default function DepartmentsSection() {
                   Different Academic Departments as Follows:
                   <ul>
                     <li>
-                      Pharmacology &#38; Medical Sciences
-                      <span>(PHPT)</span>
+                      Pharmacology &#38; Medical Sciences <span>(PHPT)</span>
                     </li>
                     <li>
-                      Pharmaceutics &#38; Industrial Pharmacy
+                      Pharmaceutics &#38; Industrial Pharmacy{" "}
                       <span>(PHTC)</span>
                     </li>
                     <li>
-                      <del>Chemistry &#38; Pharmaceutical Chemistry</del>
+                      <del>Chemistry &#38; Pharmaceutical Chemistry</del>{" "}
                       <span>(PHCH)</span>
                     </li>
                     <li>
-                      <del>Pharmacognosy &#38; Pharmaceutical Botany</del>
+                      <del>Pharmacognosy &#38; Pharmaceutical Botany</del>{" "}
                       <span>(PHCG)</span>
                     </li>
                   </ul>

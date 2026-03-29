@@ -51,10 +51,10 @@ export default function FaqsSection() {
                     19 Credit Hours of Practical Laboratory Courses
                   </li>
                   <li className="mb-2">
-                    2 Credit Hours of
+                    2 Credit Hours of{" "}
                     <span>
                       <a href="/courses/pharmacy-training">Pharmacy Training</a>
-                    </span>
+                    </span>{" "}
                     (4<sup>th</sup> Level Summer Semester)
                   </li>
                   <li className="mb-2">
@@ -110,10 +110,10 @@ export default function FaqsSection() {
             <div className="collapse" id="collapseExample-2">
               <div className="card card-body">
                 <p>
-                  A Course Code ex: the Code of
+                  A Course Code ex: the Code of{" "}
                   <span>
                     <a href="/courses/pathophysiology-2">Pathophysiology II</a>
-                  </span>
+                  </span>{" "}
                   Course (<span style={{ color: "#08082c" }}>PHPT</span>
                   <span style={{ color: "#3434ff" }}>3207</span>) Gives
                   Information About the Course.
@@ -172,7 +172,7 @@ export default function FaqsSection() {
                   <li className="mb-3">
                     To Graduate from the Faculty of Pharmacy - Alazhar
                     University of Gaza with the
-                    <span>First Degree of Honer</span>, Your
+                    <span>First Degree of Honer</span>, Your{" "}
                     <abbr
                       data-bs-toggle="tooltip"
                       data-bs-placement="top"
@@ -180,8 +180,8 @@ export default function FaqsSection() {
                       title="Cumulative Grade Point Average"
                     >
                       CGPA
-                    </abbr>
-                    Should be at least 90%, and neither of your
+                    </abbr>{" "}
+                    Should be at least 90%, and neither of your{" "}
                     <abbr
                       data-bs-toggle="tooltip"
                       data-bs-placement="top"
@@ -189,13 +189,13 @@ export default function FaqsSection() {
                       title="Grade Point Average"
                     >
                       GPA
-                    </abbr>
+                    </abbr>{" "}
                     s in any Semester (including Summers) is less than 90%.
                   </li>
                   <li className="mb-3">
                     To Graduate from the Faculty of Pharmacy - Alazhar
                     University of Gaza with the
-                    <span>Second Degree of Honer</span>, Your
+                    <span>Second Degree of Honer</span>, Your{" "}
                     <abbr
                       data-bs-toggle="tooltip"
                       data-bs-placement="top"
@@ -203,8 +203,8 @@ export default function FaqsSection() {
                       title="Cumulative Grade Point Average"
                     >
                       CGPA
-                    </abbr>
-                    Should be at least 80%, and neither of your
+                    </abbr>{" "}
+                    Should be at least 80%, and neither of your{" "}
                     <abbr
                       data-bs-toggle="tooltip"
                       data-bs-placement="top"
@@ -212,7 +212,7 @@ export default function FaqsSection() {
                       title="Grade Point Average"
                     >
                       GPA
-                    </abbr>
+                    </abbr>{" "}
                     s in any Semester (including Summers) is less than 80%.
                   </li>
                   <li className="mb-3">

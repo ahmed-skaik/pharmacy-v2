@@ -11,16 +11,21 @@ declare global {
   }
 }
 
+const GA_ID = import.meta.env.VITE_GA_ID;
+if (!GA_ID) {
+  console.warn("GA Measurement ID is missing");
+}
+
 export default function AnalyticsTracker() {
   const location = useLocation();
 
   useEffect(() => {
-    if (window.gtag) {
-      window.gtag("config", "G-VXKB3761KN", {
-        page_path: location.pathname,
-      });
-    }
-  }, [location]);
+    if (!GA_ID || !window.gtag) return;
+
+    window.gtag("config", GA_ID, {
+      page_path: location.pathname,
+    });
+  }, [location.pathname]);
 
   return null;
 }

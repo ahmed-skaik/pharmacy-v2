@@ -7,12 +7,12 @@
 //Layout:
 @forward "SASS/layout/header";
 @forward "SASS/layout/loading";
-@forward "SASS/layout/content";
 @forward "SASS/layout/footer";
 
 //Shared Components
 @forward "SASS/components/btns";
 @forward "SASS/components/headings";
+@forward "SASS/components/oops";
 
 //Global styls
 @forward "SASS/pages/global-page";

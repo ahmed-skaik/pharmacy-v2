@@ -13,6 +13,7 @@ import LoadingPage from "./components/LoadingPage";
 import { Tooltip } from "bootstrap";
 import { lazy, Suspense, useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import ChunkErrorBoundary from "./components/ChunkErrorBoundary";
 
 const LazyCoursePage = lazy(() => import("./pages/Course"));
 
@@ -61,9 +62,11 @@ export default function App() {
           <Route
             path="courses/:courseName"
             element={
-              <Suspense fallback={<LoadingPage />}>
-                <LazyCoursePage />
-              </Suspense>
+              <ChunkErrorBoundary>
+                <Suspense fallback={<LoadingPage />}>
+                  <LazyCoursePage />
+                </Suspense>
+              </ChunkErrorBoundary>
             }
           />
         </Route>

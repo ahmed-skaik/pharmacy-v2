@@ -1,5 +1,4 @@
 @use "../helpers" as *;
-@use "sass:math";
 
 // contact start
 .contact {
@@ -9,8 +8,10 @@
       border-radius: $img-border-radius;
       border: 1px solid $border_color;
       max-width: 810px;
-      box-shadow: 0 20px 34px 0 rgb(11 11 44 / 4%),
-        0 4px 8px 0 rgb(11 11 44 / 2%), 0 10px 34px 0 rgb(52 52 255 / 5%);
+      box-shadow:
+        0 20px 34px 0 rgb(11 11 44 / 4%),
+        0 4px 8px 0 rgb(11 11 44 / 2%),
+        0 10px 34px 0 rgb(52 52 255 / 5%);
       transition: $main_transition;
       @include breakpoint-down(sm) {
         padding: 40px 20px;
@@ -145,7 +146,7 @@
             list-style: disc;
             li {
               &::marker {
-                color: $id-color;
+                color: $id_color;
               }
               ul {
                 list-style: revert;

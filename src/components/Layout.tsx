@@ -1,5 +1,5 @@
 import { Outlet, useLocation } from "react-router-dom";
-import { useState, useEffect, Suspense } from "react";
+import { useState, useEffect } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import ScrollToTopButton from "./ScrollToTopButton";
@@ -21,9 +21,7 @@ export default function Layout() {
       {loading && <LoadingPage />}
       <Header />
       <main className="fill-content">
-        <Suspense fallback={<LoadingPage />}>
-          <Outlet />
-        </Suspense>
+        <Outlet />
       </main>
       <Footer />
       <ScrollToTopButton />

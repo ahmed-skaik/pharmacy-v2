@@ -1,5 +1,4 @@
 @use "../helpers" as *;
-@use "sass:math";
 
 // scroll up btn start
 .up {
@@ -10,7 +9,7 @@
   transition: $main_transition;
   button {
     border: none;
-    background-color: transparent;
+    background: none;
     svg {
       $dimention: 45px;
       font-size: 35px;

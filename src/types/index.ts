@@ -100,11 +100,6 @@ export interface CourseData {
 
   courseNotes?: { note: string; url?: string; urlText?: string }[];
 
-  stats: {
-    videosCount: number;
-    chaptersCount: number;
-  };
-
   lectures: {
     chapterTitle: string;
     chapterTitleNote?: string;

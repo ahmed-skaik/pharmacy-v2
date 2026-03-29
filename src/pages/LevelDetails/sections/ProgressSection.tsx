@@ -4,7 +4,7 @@ import {
   faUserGraduate,
   faVialVirus,
 } from "@fortawesome/free-solid-svg-icons";
-import GraducationImg from "../../../assets/images/graduation-img.png";
+import GraducationImg from "../../../assets/images/graduation-img.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useRef, useState } from "react";
 
@@ -51,7 +51,12 @@ export default function ProgressSection() {
         <div className="row align-items-center justify-content-between gap-4 gap-lg-0">
           <div className="col-lg-6 order-1 order-lg-0">
             <div className="img text-center ms-lg-2 me-lg-5">
-              <img src={GraducationImg} alt="gradution" className="img-fluid" />
+              <img
+                src={GraducationImg}
+                alt="gradution"
+                className="img-fluid"
+                loading="lazy"
+              />
             </div>
           </div>
           <div className="col-lg-6">
@@ -59,8 +64,7 @@ export default function ProgressSection() {
               {progressData.map((item, i) => (
                 <div className="prog-holder" key={i}>
                   <h4>
-                    <FontAwesomeIcon icon={item.icon} fixedWidth />
-                    {item.title}
+                    <FontAwesomeIcon icon={item.icon} fixedWidth /> {item.title}
                   </h4>
                   <div className="prog">
                     <span

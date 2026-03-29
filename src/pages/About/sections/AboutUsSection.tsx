@@ -39,7 +39,12 @@ export default function AboutUsSection() {
           </div>
           <div className="col-lg-6">
             <div className="img">
-              <img src={AboutImg} alt="about" className="img-fluid" />
+              <img
+                src={AboutImg}
+                alt="about"
+                className="img-fluid"
+                loading="lazy"
+              />
             </div>
           </div>
         </div>

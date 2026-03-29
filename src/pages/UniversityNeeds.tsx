@@ -88,6 +88,7 @@ export default function UniversityNeeds() {
                               key={bIndex}
                               href={book.url}
                               target="_blank"
+                              rel="noopener noreferrer"
                               title={book.title}
                               subtitle="The Recommended Reference Book"
                               icon={faFile}
@@ -151,6 +152,7 @@ export default function UniversityNeeds() {
                                         key={i}
                                         href={lecture.url}
                                         target="_blank"
+                                        rel="noopener noreferrer"
                                         title={lecture.title}
                                         subtitle={
                                           <>

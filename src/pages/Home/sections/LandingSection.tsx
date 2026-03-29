@@ -1,4 +1,3 @@
-import DrugLanding from "../../../assets/images/drug-landing.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 
@@ -25,6 +24,7 @@ export default function LandingSection() {
                 <a
                   href="https://youtu.be/L46THylwkHk"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="id-color hover"
                 >
                   Youtube Video
@@ -42,6 +42,7 @@ export default function LandingSection() {
                 <a
                   href="http://www.alazhar.edu.ps/arabic/fa/Pha.asp"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="btn main-btn revers"
                 >
                   Official Website
@@ -52,9 +53,10 @@ export default function LandingSection() {
           <div className="col-lg-4">
             <div className="img d-none d-md-block text-center">
               <img
-                src={DrugLanding}
+                src="/images/drug-landing.webp"
                 alt="landing-drug-img"
                 className="img-fluid"
+                fetchPriority="high"
               />
             </div>
           </div>

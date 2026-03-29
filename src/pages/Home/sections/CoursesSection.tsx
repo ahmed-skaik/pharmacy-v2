@@ -1,6 +1,6 @@
-import LevelImg from "../../../assets/images/level-img.jpg";
+import LevelImg from "../../../assets/images/level-img.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import { cardsData } from "../../../data/HomeData";
 import DotsDecoration from "../../../components/DotsDecoration";
@@ -28,7 +28,12 @@ export default function CoursesSection() {
               <Link to={card.path}>
                 <div className="article-box">
                   <div className="img">
-                    <img src={LevelImg} alt="level-img" className="img-fluid" />
+                    <img
+                      src={LevelImg}
+                      alt="level-img"
+                      className="img-fluid"
+                      loading="lazy"
+                    />
                   </div>
                   <div className="text">
                     <h3>{card.title}</h3>
@@ -47,7 +52,7 @@ export default function CoursesSection() {
                   <div className="more">
                     <span className="d-flex justify-content-between align-items-center">
                       <span>Visit</span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} fixedWidth />
+                      <FontAwesomeIcon icon={faArrowRight} fixedWidth />
                     </span>
                   </div>
                 </div>

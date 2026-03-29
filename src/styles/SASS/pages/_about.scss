@@ -1,7 +1,5 @@
 @use "../helpers" as *;
-@use "sass:math";
 
-@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Bad+Script&family=Vibes&display=swap");
 
 // about start
@@ -39,7 +37,7 @@
 
 // departments start
 .departments {
-  background-color: $section-background;
+  background-color: $section_background;
   border: {
     top: 1px solid $border_color;
     bottom: $border-bottom;
@@ -73,11 +71,10 @@
           list-style: disc;
           li {
             &::marker {
-              color: $id-color;
+              color: $id_color;
             }
             span {
-              color: $id-color;
-              margin-left: 5px;
+              color: $id_color;
             }
           }
         }
@@ -98,7 +95,7 @@
       li {
         color: $black;
         &::marker {
-          color: $id-color;
+          color: $id_color;
         }
       }
       @media (max-width: 992px) {
@@ -121,10 +118,10 @@
             box-shadow: 0 14px 94px 0 rgb(15 15 182 / 9%);
             border-radius: $img-border-radius;
             @include breakpoint-up(sm) {
-              border: 65px solid $section-background;
+              border: 65px solid $section_background;
             }
             @include breakpoint-down(xs) {
-              border: 15px solid $section-background;
+              border: 15px solid $section_background;
             }
           }
         }
@@ -161,9 +158,9 @@
 //creators start
 .about {
   &.creators {
-    background-color: $section-background;
+    background-color: $section_background;
     position: relative;
-    
+
     border: {
       top: 1px solid $border_color;
       // bottom: 1px solid $border_color;
@@ -184,7 +181,7 @@
           &::before {
             @include fontawesome("\f10e");
             position: absolute;
-            color: $id-color;
+            color: $id_color;
             right: 50%;
             transform: translateX(calc(-50% + 216px));
             top: 80px;
@@ -217,7 +214,7 @@
           img {
             @include circle(140px);
             border: 12px solid $img-background;
-            outline: 1px dotted $id-color;
+            outline: 1px dotted $id_color;
             position: inherit;
             @include breakpoint-down(sm) {
               @include circle(110px);
@@ -227,7 +224,7 @@
             color: $black;
           }
           > span {
-            color: $id-color;
+            color: $id_color;
             font-size: 21px;
             text-transform: uppercase;
             font-weight: 500;
@@ -259,7 +256,7 @@
               }
             }
             a {
-              color: $id-color;
+              color: $id_color;
               transition: $main-transition;
               animation: wiggle calc($main-transition * 6) linear infinite;
               display: inline-block;
@@ -304,13 +301,13 @@
           }
           .expand-btn {
             appearance: none;
-            border: 1px solid $id-color;
+            border: 1px solid $id_color;
             padding: 0.25em 0.5em;
             cursor: pointer;
             width: fit-content;
             height: fit-content;
             transition: $main-transition;
-            background-color: $id-color;
+            background-color: $id_color;
             border-radius: 8px;
             display: block;
             z-index: 10;
@@ -323,18 +320,18 @@
             &:hover {
               background-color: #fff;
               &::before {
-                color: $id-color;
+                color: $id_color;
               }
             }
             &:checked {
               background-color: #fff;
-              border-color: $id-color;
+              border-color: $id_color;
               &::before {
                 content: "Read Less";
-                color: $id-color;
+                color: $id_color;
               }
               &:hover {
-                background-color: $id-color;
+                background-color: $id_color;
                 &::before {
                   color: #fff;
                 }

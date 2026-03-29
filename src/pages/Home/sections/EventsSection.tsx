@@ -23,9 +23,14 @@ export default function EventsSection() {
           <div className="card mb-3 mt-3" key={event.id}>
             <div className="row align-items-center justify-content-between">
               <div className="col-md-4 text-center">
-                <a href={event.pdfPath || event.websiteUrl} target="_blank">
+                <a
+                  href={event.pdfPath || event.websiteUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src={event.image}
+                    loading="lazy"
                     className="img-fluid rounded-start"
                     alt="event"
                   />

@@ -1,19 +1,6 @@
 import QrCodeImg from "../../../assets/images/qr-code.png";
-import viteLogo from "../../../assets/images/vite.svg";
-import NetlifyLogo from "../../../assets/images/netlify-logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFontAwesome } from "@fortawesome/free-solid-svg-icons";
-import {
-  faBootstrap,
-  faCss3,
-  faGitAlt,
-  faGithub,
-  faHtml5,
-  faJs,
-  faReact,
-  faSass,
-  faTypescript,
-} from "@fortawesome/free-brands-svg-icons";
+import { techStack } from "../../../data/AboutData";
 
 export default function AboutWebsiteSection() {
   return (
@@ -37,121 +24,33 @@ export default function AboutWebsiteSection() {
                   Languages, Skills &#38; Services used:
                   <div className="p-0 m-0">
                     <ul className="list-revert">
-                      <li>
-                        <FontAwesomeIcon
-                          icon={faHtml5}
-                          style={{ color: "#e34c26" }}
-                          fixedWidth
-                        />
-                        HTML 5
-                      </li>
-                      <li>
-                        <FontAwesomeIcon
-                          icon={faCss3}
-                          style={{ color: "#264de4" }}
-                          fixedWidth
-                        />
-                        CSS 3
-                      </li>
-                      <li>
-                        <FontAwesomeIcon
-                          icon={faSass}
-                          style={{ color: "#cc6699" }}
-                          fixedWidth
-                        />
-                        SASS
-                      </li>
-                      <li>
-                        <FontAwesomeIcon
-                          icon={faBootstrap}
-                          style={{ color: "#7c69ef" }}
-                          fixedWidth
-                        />
-                        Bootstrap 5
-                      </li>
-                      <li>
-                        <FontAwesomeIcon
-                          icon={faJs}
-                          style={{
-                            color: "#f0db4f",
-                            backgroundColor: "#323330",
-                          }}
-                          fixedWidth
-                        />
-                        Javascript
-                      </li>
-                      <li>
-                        <FontAwesomeIcon
-                          icon={faReact}
-                          style={{
-                            color: "#61DBFB",
-                          }}
-                          fixedWidth
-                        />
-                        Reactjs
-                      </li>
-                      <li>
-                        <FontAwesomeIcon
-                          icon={faTypescript}
-                          style={{ color: "#3178c6" }}
-                          fixedWidth
-                        />
-                        Typescript
-                      </li>
-                      <li>
-                        <img
-                          src={viteLogo}
-                          alt="vite-logo"
-                          style={{
-                            width: "1.0em",
-                            height: "1.0em",
-                            verticalAlign: "-0.125em",
-                            marginRight: "8px",
-                          }}
-                        />
-                        Vite
-                      </li>
-                      <li>
-                        <img
-                          src={NetlifyLogo}
-                          alt="vite-logo"
-                          style={{
-                            width: "1.0em",
-                            height: "1.0em",
-                            verticalAlign: "-0.125em",
-                            marginRight: "8px",
-                          }}
-                        />
-                        Netlify
-                      </li>
-                      <li>
-                        <FontAwesomeIcon
-                          icon={faGitAlt}
-                          style={{
-                            color: "#f1502f",
-                          }}
-                          fixedWidth
-                        />
-                        Git
-                      </li>
-                      <li>
-                        <FontAwesomeIcon
-                          icon={faGithub}
-                          style={{
-                            color: "#171515",
-                          }}
-                          fixedWidth
-                        />
-                        Github
-                      </li>
-                      <li>
-                        <FontAwesomeIcon
-                          icon={faFontAwesome}
-                          style={{ color: "#228ae6" }}
-                          fixedWidth
-                        />
-                        Fontawesome
-                      </li>
+                      {techStack.map((item) => (
+                        <li key={item.label}>
+                          {item.type === "fa" ? (
+                            <FontAwesomeIcon
+                              icon={item.icon}
+                              style={{
+                                color: item.color,
+                                backgroundColor: item.bgColor,
+                              }}
+                              fixedWidth
+                            />
+                          ) : (
+                            <img
+                              src={item.src}
+                              alt={item.alt}
+                              loading="lazy"
+                              style={{
+                                width: "1.0em",
+                                height: "1.0em",
+                                verticalAlign: "-0.125em",
+                                marginRight: "8px",
+                              }}
+                            />
+                          )}{" "}
+                          {item.label}
+                        </li>
+                      ))}
                     </ul>
                   </div>
                   If you want to know more about the website, you can checkout
@@ -159,6 +58,7 @@ export default function AboutWebsiteSection() {
                   <a
                     href="https://youtu.be/L46THylwkHk"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="id-color hover wiggle"
                   >
                     Youtube Video
@@ -184,7 +84,12 @@ export default function AboutWebsiteSection() {
           </div>
           <div className="col-lg-6">
             <div className="img website">
-              <img src={QrCodeImg} alt="qr-code" className="img-fluid" />
+              <img
+                src={QrCodeImg}
+                alt="qr-code"
+                className="img-fluid"
+                loading="lazy"
+              />
             </div>
           </div>
         </div>

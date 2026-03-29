@@ -13,10 +13,10 @@ export default function Footer() {
           data-bs-delay="100"
           title="This Project was made by me Ahmed-Skaik, a Pharmacist & a Web Developer using Reactjs, TS, SASS & Bootstrap | Credit to Mr. Ahmed-Younis for providing project's data."
         >
-          Made with ❤️, by
+          Made with ❤️, by{" "}
           <span>
             <Link to="/about#founders">Ahmed-Skaîk</Link>
-          </span>
+          </span>{" "}
           &copy; 2022 - {currentYear}
         </p>
       </div>

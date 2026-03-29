@@ -9,6 +9,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import type { CourseData } from "../../../types";
 import SectionHeading from "../../../components/SectionHeading";
+import SpikesSeperator from "../../../components/SpikesSeperator";
 
 type Props = {
   course: CourseData;
@@ -22,6 +23,12 @@ export default function CourseHeadingSection({ course }: Props) {
   const words = cleanTitle.split(" ");
   const lastWord = words.pop();
   const firstPart = words.join(" ");
+  const numberOfVideos = course.lectures.reduce(
+    (acc, lecture) => acc + lecture.videos.length,
+    0,
+  );
+  const pad = (n: number) => String(n).padStart(2, "0");
+
   return (
     <>
       <div className="container">
@@ -32,7 +39,7 @@ export default function CourseHeadingSection({ course }: Props) {
         />
       </div>
       <div className="sub-container">
-        {/* <SpikesSeperator /> */}
+        <SpikesSeperator />
         <div className="container">
           <div className="about">
             <ul className="list-unstyled d-flex flex-column flex-md-row justify-content-md-around">
@@ -44,7 +51,7 @@ export default function CourseHeadingSection({ course }: Props) {
               ) : course.lecturers.length === 1 ? (
                 <li>
                   <FontAwesomeIcon icon={faChalkboardUser} fixedWidth />
-                  Lecturer:
+                  Lecturer:{" "}
                   {course.lecturers.map((lecturer, i) => (
                     <span key={i}>
                       {lecturer.title} {lecturer.name}
@@ -54,11 +61,10 @@ export default function CourseHeadingSection({ course }: Props) {
               ) : (
                 <li className="dropdown d-flex align-items-center flex-wrap">
                   <FontAwesomeIcon icon={faChalkboardUser} fixedWidth />
-                  Lecturer:
+                  Lecturer:{" "}
                   <span className="ms-1">
                     <a
                       className="nav-link dropdown-toggle"
-                      href="#"
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
@@ -83,12 +89,11 @@ export default function CourseHeadingSection({ course }: Props) {
               )}
               <li>
                 <FontAwesomeIcon icon={faCirclePlay} fixedWidth />
-                Videos:
-                <span>{course.stats.videosCount}</span>
+                Videos: <span>{pad(numberOfVideos)}</span>
               </li>
               <li>
                 <FontAwesomeIcon icon={faBook} fixedWidth />
-                Chapters: <span>{course.stats.chaptersCount}</span>
+                Chapters: <span>{pad(course.lectures.length)}</span>
               </li>
             </ul>
           </div>
