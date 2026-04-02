@@ -54,7 +54,7 @@ export default function AboutWebsiteSection() {
                     </ul>
                   </div>
                   If you want to know more about the website, you can checkout
-                  this
+                  this{" "}
                   <a
                     href="https://youtu.be/L46THylwkHk"
                     target="_blank"

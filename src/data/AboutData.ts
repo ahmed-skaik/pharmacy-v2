@@ -1,9 +1,6 @@
-import viteLogo from "../assets/images/vite.svg";
-import NetlifyLogo from "../assets/images/netlify-logo.svg";
-import {
-  faFontAwesome,
-  type IconDefinition,
-} from "@fortawesome/free-solid-svg-icons";
+import viteLogo from "../assets/svgs/vite.svg";
+import NetlifyLogo from "../assets/svgs/netlify-logo.svg";
+import { faFontAwesome } from "@fortawesome/free-solid-svg-icons";
 import {
   faBootstrap,
   faCss3,
@@ -15,16 +12,7 @@ import {
   faSass,
   faTypescript,
 } from "@fortawesome/free-brands-svg-icons";
-
-type TechItem =
-  | {
-      type: "fa";
-      icon: IconDefinition;
-      color: string;
-      bgColor?: string;
-      label: string;
-    }
-  | { type: "img"; src: string; alt: string; label: string };
+import type { TechItem } from "../types/AboutTypes";
 
 export const techStack: TechItem[] = [
   { type: "fa", icon: faHtml5, color: "#e34c26", label: "HTML 5" },
@@ -44,5 +32,5 @@ export const techStack: TechItem[] = [
   { type: "img", src: NetlifyLogo, alt: "Netlify-logo", label: "Netlify" },
   { type: "fa", icon: faGitAlt, color: "#f1502f", label: "Git" },
   { type: "fa", icon: faGithub, color: "#171515", label: "Github" },
-  { type: "fa", icon: faFontAwesome, color: "#228ae6", label: "FA" },
+  { type: "fa", icon: faFontAwesome, color: "#228ae6", label: "Fontawesome" },
 ];

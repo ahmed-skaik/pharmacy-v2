@@ -20,7 +20,7 @@ export default function LandingSection() {
                 It includes all the E-Learning lectures, summaries, previous
                 exams & more !
                 <br />
-                Let me take you on tour in this
+                Let me take you on tour in this{" "}
                 <a
                   href="https://youtu.be/L46THylwkHk"
                   target="_blank"

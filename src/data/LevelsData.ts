@@ -1,4 +1,4 @@
-import type { LevelStructure } from "../types";
+import type { LevelStructure } from "../types/LevelsTypes";
 
 export const levels: LevelStructure[] = [
   {
@@ -75,11 +75,11 @@ export const levels: LevelStructure[] = [
             link: "organic-chemistry-1",
           },
           {
-            id: "physical-pharamcy-1",
+            id: "physical-pharmacy-1",
             name: "Physical Pharmacy (I)",
             code: "PHTC1201",
             classification: "College Need",
-            link: "physical-pharamcy-1",
+            link: "physical-pharmacy-1",
           },
         ],
       },

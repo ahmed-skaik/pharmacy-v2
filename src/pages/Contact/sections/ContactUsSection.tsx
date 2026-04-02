@@ -1,4 +1,4 @@
-import MailIcon from "../../../assets/images/mail.svg";
+import MailIcon from "../../../assets/svgs/mail.svg";
 
 export default function ContactUsSection() {
   return (

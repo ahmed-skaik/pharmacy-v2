@@ -97,15 +97,6 @@ export default function Header() {
                   Home
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <a
-                  className={`nav-link`}
-                  href="/#plans"
-                  onClick={() => setMenuOpen(false)}
-                >
-                  Plans
-                </a>
-              </li>
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
@@ -161,21 +152,18 @@ export default function Header() {
                       Level 5
                     </NavLink>
                   </li>
-                  <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li>
-                    <NavLink
-                      className="dropdown-item"
-                      to="uni-needs"
-                      onClick={() => setMenuOpen(false)}
-                    >
-                      UNIV Needs
-                    </NavLink>
-                  </li>
                 </ul>
               </li>
-              <li className="nav-item d-block d-md-none">
+              <li>
+                <NavLink
+                  className={`nav-link`}
+                  to="uni-needs"
+                  onClick={() => setMenuOpen(false)}
+                >
+                  UNIV Needs
+                </NavLink>
+              </li>
+              {/* <li className="nav-item d-block d-md-none">
                 <a
                   className="nav-link"
                   href="/#courses"
@@ -183,7 +171,7 @@ export default function Header() {
                 >
                   Courses
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <NavLink
                   className={({ isActive }) =>
@@ -206,6 +194,7 @@ export default function Header() {
                   About
                 </NavLink>
               </li>
+              <hr className="d-block d-lg-none" />
               <li className="nav-item d-block d-lg-none">
                 <a
                   className="nav-link"

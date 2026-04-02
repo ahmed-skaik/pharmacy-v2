@@ -7,7 +7,7 @@ import {
   faInfo,
   faNoteSticky,
 } from "@fortawesome/free-solid-svg-icons";
-import type { CourseData } from "../../../types";
+import type { CourseData } from "../../../types/CoursesTypes";
 import SectionHeading from "../../../components/SectionHeading";
 import SpikesSeperator from "../../../components/SpikesSeperator";
 

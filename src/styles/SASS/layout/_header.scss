@@ -121,6 +121,13 @@ header {
               }
             }
           }
+          @include breakpoint-up(lg) {
+            background-color: #fff;
+            border: 1px solid $id_color;
+            li:not(:last-child) {
+              border-bottom: 1px solid $id_color;
+            }
+          }
         }
       }
       .dropdown {
@@ -304,6 +311,14 @@ header {
               background-color: hsla(0deg, 0%, 100%, 0.52);
             }
           }
+          @include breakpoint-up(lg) {
+            .dropdown-item {
+              &.active {
+                background-color: $id_color;
+                color: #fff;
+              }
+            }
+          }
         }
       }
       .dropdown {
@@ -314,6 +329,9 @@ header {
         }
       }
     }
+  }
+  hr {
+    color: $border_color;
   }
 }
 // header end

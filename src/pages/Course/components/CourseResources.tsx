@@ -3,7 +3,7 @@ import {
   faFile,
   faPlayCircle,
 } from "@fortawesome/free-solid-svg-icons";
-import type { CourseData } from "../../../types";
+import type { CourseData } from "../../../types/CoursesTypes";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import ResourceCard from "./ResourceCard";

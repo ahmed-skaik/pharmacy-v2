@@ -9,7 +9,7 @@ import DotsDecoration from "../../components/DotsDecoration";
 
 import { useParams } from "react-router-dom";
 import { levels } from "../../data/LevelsData";
-import type { LevelStructure } from "../../types";
+import type { LevelStructure } from "../../types/LevelsTypes";
 import ProgressSection from "./sections/ProgressSection";
 import SpikesSeperator from "../../components/SpikesSeperator";
 import Seo from "../../meta/Seo";

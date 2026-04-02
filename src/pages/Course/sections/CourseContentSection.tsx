@@ -1,4 +1,4 @@
-import type { CourseData } from "../../../types";
+import type { CourseData } from "../../../types/CoursesTypes";
 import SectionBlock from "../components/SectionBlock";
 import CourseNotes from "../components/CourseNotes";
 import LectureAccordion from "../components/LectureAccordion";

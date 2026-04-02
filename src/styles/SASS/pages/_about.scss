@@ -98,7 +98,7 @@
           color: $id_color;
         }
       }
-      @media (max-width: 992px) {
+      @include breakpoint-down(xs) {
         grid-template-columns: repeat(2, 1fr); // tablet
       }
     }

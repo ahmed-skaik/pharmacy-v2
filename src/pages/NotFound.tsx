@@ -21,9 +21,9 @@ export default function NotFound() {
         description="Error 404 Page - Faculty of Pharmacy - Alazhar University of Gaza"
       />
       <div className="error d-flex justify-content-center align-items-center text-white">
-        <div className="container d-flex flex-column align-items-center text-center">
+        <main className="container d-flex flex-column align-items-center text-center">
           <div className="title">404</div>
-          <h2 className="mb-3">Page not Found</h2>
+          <h1 className="mb-3">Page not Found</h1>
           <p className="mb-0">
             No page found for: {location.pathname}
             <br />
@@ -42,7 +42,7 @@ export default function NotFound() {
               <span>Go Back</span>
             </button>
           </div>
-        </div>
+        </main>
       </div>
     </>
   );

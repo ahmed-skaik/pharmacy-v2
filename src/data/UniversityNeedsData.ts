@@ -1,4 +1,5 @@
-import type { UniSubject } from "../types";
+import type { UniSubject } from "../types/UniversityNeedsTypes";
+import { CDN_URL } from "../constants";
 
 export const uniNeeds: UniSubject[] = [
   {
@@ -8,11 +9,11 @@ export const uniNeeds: UniSubject[] = [
     books: [
       {
         title: "Book (الأدب والبلاغة)",
-        url: "../documents/univ-needs/arabic-language-1/ادب-بلاغة.pdf",
+        url: `${CDN_URL}/univ-needs/arabic-language-1/ادب-بلاغة.pdf`,
       },
       {
         title: "Book (النحو)",
-        url: "../documents/univ-needs/arabic-language-1/نحو.pdf",
+        url: `${CDN_URL}/univ-needs/arabic-language-1/نحو.pdf`,
       },
     ],
     lecturers: [
@@ -135,7 +136,7 @@ export const uniNeeds: UniSubject[] = [
     books: [
       {
         title: "Book (All Lecturers)",
-        url: "../documents/univ-needs/english-language-1/headway-book.pdf",
+        url: `${CDN_URL}/univ-needs/english-language-1/headway-book.pdf`,
       },
     ],
     lecturers: [
@@ -157,7 +158,7 @@ export const uniNeeds: UniSubject[] = [
     books: [
       {
         title: "Book (All Lecturers)",
-        url: "../documents/univ-needs/holy-quran-1/holy-quran-1-book.pdf",
+        url: `${CDN_URL}/univ-needs/holy-quran-1/holy-quran-1-book.pdf`,
       },
     ],
     lecturers: [
@@ -325,7 +326,7 @@ export const uniNeeds: UniSubject[] = [
     books: [
       {
         title: "Book (All Lecturers)",
-        url: "../documents/univ-needs/holy-quran-2/holy-quran-2-book.pdf",
+        url: `${CDN_URL}/univ-needs/holy-quran-2/holy-quran-2-book.pdf`,
       },
     ],
     lecturers: [
@@ -483,7 +484,7 @@ export const uniNeeds: UniSubject[] = [
     books: [
       {
         title: "Book",
-        url: "../documents/univ-needs/holy-quran-3/holy-quran-3-book.pdf",
+        url: `${CDN_URL}/univ-needs/holy-quran-3/holy-quran-3-book.pdf`,
       },
     ],
     lecturers: [
@@ -496,7 +497,7 @@ export const uniNeeds: UniSubject[] = [
               {
                 title: "Course Summary",
                 description: "Selected Summary of the Course by Other Students",
-                url: "../documents/univ-needs/holy-quran-3/holy-quran-3-course-summary.pdf",
+                url: `${CDN_URL}/univ-needs/holy-quran-3/holy-quran-3-course-summary.pdf`,
               },
               {
                 title: "Lecture (01)",
@@ -581,7 +582,7 @@ export const uniNeeds: UniSubject[] = [
     books: [
       {
         title: "Book",
-        url: "../documents/univ-needs/holy-quran-4/holy-quran-4-book.pdf",
+        url: `${CDN_URL}/univ-needs/holy-quran-4/holy-quran-4-book.pdf`,
       },
     ],
     lecturers: [
@@ -672,7 +673,7 @@ export const uniNeeds: UniSubject[] = [
               {
                 title: "Course Summary",
                 description: "Selected Summary of the Course by Other Students",
-                url: "../documents/univ-needs/interpretation-of-quran/interpretation-of-quran-course-summary.pdf",
+                url: `${CDN_URL}/univ-needs/interpretation-of-quran/interpretation-of-quran-course-summary.pdf`,
               },
               {
                 title: "Lecture (01)",
@@ -932,7 +933,7 @@ export const uniNeeds: UniSubject[] = [
     books: [
       {
         title: "Book (All Lecturers)",
-        url: "../documents/univ-needs/jurisprudence/jurisprudence-book.pdf",
+        url: `${CDN_URL}/univ-needs/jurisprudence/jurisprudence-book.pdf`,
       },
     ],
     lecturers: [
@@ -1385,7 +1386,7 @@ export const uniNeeds: UniSubject[] = [
     books: [
       {
         title: "Book (All Lecturers)",
-        url: "../documents/univ-needs/studies-in-islamic-faith/studies-in-islamic-faith-book.pdf",
+        url: `${CDN_URL}/univ-needs/studies-in-islamic-faith/studies-in-islamic-faith-book.pdf`,
       },
     ],
     lecturers: [
@@ -1521,7 +1522,7 @@ export const uniNeeds: UniSubject[] = [
               {
                 title: "Course Summary",
                 description: "Selected Summary of the Course by Other Students",
-                url: "../documents/univ-needs/studies-in-prophetic-tradition/studies-in-prophetic-tradition-course-summary.pdf",
+                url: `${CDN_URL}/univ-needs/studies-in-prophetic-tradition/studies-in-prophetic-tradition-course-summary.pdf`,
               },
               {
                 title: "Lecture (01)",
@@ -1806,11 +1807,11 @@ export const uniNeeds: UniSubject[] = [
     books: [
       {
         title: "Book (Prof. Khalid's)",
-        url: "../documents/univ-needs/environmental-sciences/environmental-sciences-book-dr-khaled.pdf",
+        url: `${CDN_URL}/univ-needs/environmental-sciences/environmental-sciences-book-dr-khaled.pdf`,
       },
       {
         title: "Book (Dr. Khaldoun's)",
-        url: "../documents/univ-needs/environmental-sciences/environmental-sciences-book-dr-khaldoun.pdf",
+        url: `${CDN_URL}/univ-needs/environmental-sciences/environmental-sciences-book-dr-khaldoun.pdf`,
       },
     ],
     lecturers: [
@@ -1823,7 +1824,7 @@ export const uniNeeds: UniSubject[] = [
               {
                 title: "Course Summary",
                 description: "Selected Summary of the Course by Other Students",
-                url: "../documents/univ-needs/environmental-sciences/environmental-sciences-course-summary.pdf",
+                url: `${CDN_URL}/univ-needs/environmental-sciences/environmental-sciences-course-summary.pdf`,
               },
               {
                 title: "Lecture (01)",
@@ -2065,7 +2066,7 @@ export const uniNeeds: UniSubject[] = [
     books: [
       {
         title: "Book (All Lecturers)",
-        url: "../documents/univ-needs/palestinian-studies/palestinian-studies-book.pdf",
+        url: `${CDN_URL}/univ-needs/palestinian-studies/palestinian-studies-book.pdf`,
       },
     ],
     lecturers: [

@@ -1,4 +1,4 @@
-import type { CourseData } from "../../../types";
+import type { CourseData } from "../../../types/CoursesTypes";
 
 type Props = {
   notes?: CourseData["courseNotes"];

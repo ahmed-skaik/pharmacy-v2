@@ -5,7 +5,7 @@ import {
   faFile,
 } from "@fortawesome/free-solid-svg-icons";
 import OopsMessage from "../../../components/OopsMessage";
-import type { CourseData } from "../../../types";
+import type { CourseData } from "../../../types/CoursesTypes";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import LinkCard from "../../../components/LinkCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

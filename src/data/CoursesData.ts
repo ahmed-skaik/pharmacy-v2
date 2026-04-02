@@ -1,4 +1,5 @@
-import type { CourseData } from "../types";
+import type { CourseData } from "../types/CoursesTypes";
+import { CDN_URL } from "../constants";
 
 export const courses: CourseData[] = [
   {
@@ -29,19 +30,19 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Final Exam of 2010 - Dr. Mona Wadi",
-          url: "../../../documents/level-1/semester-1/cell-biology/exams/dr-mona-wadi-final-2010.pdf",
+          url: `${CDN_URL}/level-1/semester-1/cell-biology/exams/dr-mona-wadi-final-2010.pdf`,
         },
         {
           title: "Final Exam of 2012 - Dr. Mona Wadi",
-          url: "../../../documents/level-1/semester-1/cell-biology/exams/dr-mona-wadi-final-2012.pdf",
+          url: `${CDN_URL}/level-1/semester-1/cell-biology/exams/dr-mona-wadi-final-2012.pdf`,
         },
         {
           title: "Final Exam of 2013 - Dr. Mona Wadi",
-          url: "../../../documents/level-1/semester-1/cell-biology/exams/dr-mona-wadi-final-2013.pdf",
+          url: `${CDN_URL}/level-1/semester-1/cell-biology/exams/dr-mona-wadi-final-2013.pdf`,
         },
         {
           title: "Final Exam of 2018 - Dr. Mona Wadi",
-          url: "../../../documents/level-1/semester-1/cell-biology/exams/dr-mona-wadi-final-2018.pdf",
+          url: `${CDN_URL}/level-1/semester-1/cell-biology/exams/dr-mona-wadi-final-2018.pdf`,
         },
       ],
     },
@@ -81,12 +82,12 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-slides/chapter01.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-slides/chapter01.pdf`,
             type: "slides",
           },
           {
             title: "Chapter Answers",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-solutions/chapter-1-sol.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-solutions/chapter-1-sol.pdf`,
             type: "answers",
           },
         ],
@@ -113,12 +114,12 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-slides/chapter02.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-slides/chapter02.pdf`,
             type: "slides",
           },
           {
             title: "Chapter Answers",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-solutions/chapter-2-sol.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-solutions/chapter-2-sol.pdf`,
             type: "answers",
           },
         ],
@@ -145,12 +146,12 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-slides/chapter03.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-slides/chapter03.pdf`,
             type: "slides",
           },
           {
             title: "Chapter Answers",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-solutions/chapter-3-sol.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-solutions/chapter-3-sol.pdf`,
             type: "answers",
           },
         ],
@@ -187,12 +188,12 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-slides/chapter04.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-slides/chapter04.pdf`,
             type: "slides",
           },
           {
             title: "Chapter Answers",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-solutions/chapter-4-sol.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-solutions/chapter-4-sol.pdf`,
             type: "answers",
           },
         ],
@@ -224,12 +225,12 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-slides/chapter05.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-slides/chapter05.pdf`,
             type: "slides",
           },
           {
             title: "Chapter Answers",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-solutions/chapter-5-sol.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-solutions/chapter-5-sol.pdf`,
             type: "answers",
           },
         ],
@@ -251,12 +252,12 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-slides/chapter06.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-slides/chapter06.pdf`,
             type: "slides",
           },
           {
             title: "Chapter Answers",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-solutions/chapter-6-sol.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-solutions/chapter-6-sol.pdf`,
             type: "answers",
           },
         ],
@@ -278,12 +279,12 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-slides/chapter07.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-slides/chapter07.pdf`,
             type: "slides",
           },
           {
             title: "Chapter Answers",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-solutions/chapter-7-sol.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-solutions/chapter-7-sol.pdf`,
             type: "answers",
           },
         ],
@@ -305,7 +306,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-slides/chapter08.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-slides/chapter08.pdf`,
             type: "slides",
           },
         ],
@@ -316,7 +317,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-slides/chapter09.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-slides/chapter09.pdf`,
             type: "slides",
           },
         ],
@@ -332,7 +333,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "CS - Living in a Digital Wrold",
-          url: "../../../documents/level-1/semester-1/computer-science/computer-science-book.pdf",
+          url: `${CDN_URL}/level-1/semester-1/computer-science/computer-science-book.pdf`,
         },
       ],
       summaries: [
@@ -344,23 +345,23 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Final Exam of 2014",
-          url: "../../../documents/level-1/semester-1/computer-science/cs-exams/final-2014.pdf",
+          url: `${CDN_URL}/level-1/semester-1/computer-science/cs-exams/final-2014.pdf`,
         },
         {
           title: "Final Exam of 2015",
-          url: "../../../documents/level-1/semester-1/computer-science/cs-exams/final-2015.pdf",
+          url: `${CDN_URL}/level-1/semester-1/computer-science/cs-exams/final-2015.pdf`,
         },
         {
           title: "Final Exam of 2017",
-          url: "../../../documents/level-1/semester-1/computer-science/cs-exams/final-2017.pdf",
+          url: `${CDN_URL}/level-1/semester-1/computer-science/cs-exams/final-2017.pdf`,
         },
         {
           title: "Midterm Exam of 2013",
-          url: "../../../documents/level-1/semester-1/computer-science/cs-exams/mids2013.pdf",
+          url: `${CDN_URL}/level-1/semester-1/computer-science/cs-exams/mids2013.pdf`,
         },
         {
           title: "Midterm Exam of 2015",
-          url: "../../../documents/level-1/semester-1/computer-science/cs-exams/mid-2015.pdf",
+          url: `${CDN_URL}/level-1/semester-1/computer-science/cs-exams/mid-2015.pdf`,
         },
       ],
     },
@@ -400,12 +401,12 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-slides/chapter01.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-slides/chapter01.pdf`,
             type: "slides",
           },
           {
             title: "Chapter Answers",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-solutions/chapter-1-sol.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-solutions/chapter-1-sol.pdf`,
             type: "answers",
           },
         ],
@@ -437,12 +438,12 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-slides/chapter02.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-slides/chapter02.pdf`,
             type: "slides",
           },
           {
             title: "Chapter Answers",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-solutions/chapter-2-sol.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-solutions/chapter-2-sol.pdf`,
             type: "answers",
           },
         ],
@@ -469,12 +470,12 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-slides/chapter03.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-slides/chapter03.pdf`,
             type: "slides",
           },
           {
             title: "Chapter Answers",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-solutions/chapter-3-sol.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-solutions/chapter-3-sol.pdf`,
             type: "answers",
           },
         ],
@@ -496,12 +497,12 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-slides/chapter04.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-slides/chapter04.pdf`,
             type: "slides",
           },
           {
             title: "Chapter Answers",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-solutions/chapter-4-sol.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-solutions/chapter-4-sol.pdf`,
             type: "answers",
           },
         ],
@@ -528,12 +529,12 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-slides/chapter05.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-slides/chapter05.pdf`,
             type: "slides",
           },
           {
             title: "Chapter Answers",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-solutions/chapter-5-sol.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-solutions/chapter-5-sol.pdf`,
             type: "answers",
           },
         ],
@@ -560,12 +561,12 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-slides/chapter06.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-slides/chapter06.pdf`,
             type: "slides",
           },
           {
             title: "Chapter Answers",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-solutions/chapter-6-sol.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-solutions/chapter-6-sol.pdf`,
             type: "answers",
           },
         ],
@@ -592,12 +593,12 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-slides/chapter07.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-slides/chapter07.pdf`,
             type: "slides",
           },
           {
             title: "Chapter Answers",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-solutions/chapter-7-sol.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-solutions/chapter-7-sol.pdf`,
             type: "answers",
           },
         ],
@@ -614,7 +615,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-slides/chapter08.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-slides/chapter08.pdf`,
             type: "slides",
           },
         ],
@@ -625,7 +626,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/computer-science/cs-slides/chapter09.pdf",
+            url: `${CDN_URL}/level-1/semester-1/computer-science/cs-slides/chapter09.pdf`,
             type: "slides",
           },
         ],
@@ -641,7 +642,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "CS - Living in a Digital Wrold",
-          url: "../../../documents/level-1/semester-1/computer-science/computer-science-book.pdf",
+          url: `${CDN_URL}/level-1/semester-1/computer-science/computer-science-book.pdf`,
         },
       ],
       summaries: [
@@ -653,23 +654,23 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Final Exam of 2014",
-          url: "../../../documents/level-1/semester-1/computer-science/cs-exams/final-2014.pdf",
+          url: `${CDN_URL}/level-1/semester-1/computer-science/cs-exams/final-2014.pdf`,
         },
         {
           title: "Final Exam of 2015",
-          url: "../../../documents/level-1/semester-1/computer-science/cs-exams/final-2015.pdf",
+          url: `${CDN_URL}/level-1/semester-1/computer-science/cs-exams/final-2015.pdf`,
         },
         {
           title: "Final Exam of 2017",
-          url: "../../../documents/level-1/semester-1/computer-science/cs-exams/final-2017.pdf",
+          url: `${CDN_URL}/level-1/semester-1/computer-science/cs-exams/final-2017.pdf`,
         },
         {
           title: "Midterm Exam of 2013",
-          url: "../../../documents/level-1/semester-1/computer-science/cs-exams/mids2013.pdf",
+          url: `${CDN_URL}/level-1/semester-1/computer-science/cs-exams/mids2013.pdf`,
         },
         {
           title: "Midterm Exam of 2015",
-          url: "../../../documents/level-1/semester-1/computer-science/cs-exams/mid-2015.pdf",
+          url: `${CDN_URL}/level-1/semester-1/computer-science/cs-exams/mid-2015.pdf`,
         },
       ],
     },
@@ -704,7 +705,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/general-chemistry/chapter-1-introduction.pdf",
+            url: `${CDN_URL}/level-1/semester-1/general-chemistry/chapter-1-introduction.pdf`,
             type: "slides",
           },
         ],
@@ -721,7 +722,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/general-chemistry/chapter-2-atoms-molecules-ions.pdf",
+            url: `${CDN_URL}/level-1/semester-1/general-chemistry/chapter-2-atoms-molecules-ions.pdf`,
             type: "slides",
           },
         ],
@@ -738,7 +739,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/general-chemistry/chapter-3-stoichiometry.pdf",
+            url: `${CDN_URL}/level-1/semester-1/general-chemistry/chapter-3-stoichiometry.pdf`,
             type: "slides",
           },
         ],
@@ -770,7 +771,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/general-chemistry/chapter-4-the-electronic-structure-of-atoms.pdf",
+            url: `${CDN_URL}/level-1/semester-1/general-chemistry/chapter-4-the-electronic-structure-of-atoms.pdf`,
             type: "slides",
           },
         ],
@@ -792,7 +793,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/general-chemistry/chapter-5-periodic-table.pdf",
+            url: `${CDN_URL}/level-1/semester-1/general-chemistry/chapter-5-periodic-table.pdf`,
             type: "slides",
           },
         ],
@@ -814,7 +815,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/general-chemistry/chapter-6-chemical-bonding.pdf",
+            url: `${CDN_URL}/level-1/semester-1/general-chemistry/chapter-6-chemical-bonding.pdf`,
             type: "slides",
           },
         ],
@@ -842,7 +843,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/general-chemistry/chapter-7-molecular-geometry.pdf",
+            url: `${CDN_URL}/level-1/semester-1/general-chemistry/chapter-7-molecular-geometry.pdf`,
             type: "slides",
           },
         ],
@@ -869,7 +870,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-1/general-chemistry/chapter-8-polarity-and-intramolecular-forces.pdf",
+            url: `${CDN_URL}/level-1/semester-1/general-chemistry/chapter-8-polarity-and-intramolecular-forces.pdf`,
             type: "slides",
           },
         ],
@@ -929,7 +930,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "General Chemistry - The Essential Concepts 5th Edition",
-          url: "../../../documents/level-1/semester-1/general-chemistry/book/General-Chemistry-The-Essential-Concepts-5th.pdf",
+          url: `${CDN_URL}/level-1/semester-1/general-chemistry/book/General-Chemistry-The-Essential-Concepts-5th.pdf`,
         },
       ],
       summaries: [
@@ -941,7 +942,7 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Final Exam of 2019 - Dr. Maha El-Khateeb",
-          url: "../../../documents/level-1/semester-1/general-chemistry/exams/dr-maha-final-2019.pdf",
+          url: `${CDN_URL}/level-1/semester-1/general-chemistry/exams/dr-maha-final-2019.pdf`,
         },
       ],
     },
@@ -1140,13 +1141,13 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Calculus - Thomas Calculus",
-          url: "../../../documents/level-1/semester-1/mathematics/thomas-calculus-11-book.pdf",
+          url: `${CDN_URL}/level-1/semester-1/mathematics/thomas-calculus-11-book.pdf`,
         },
       ],
       extraResources: [
         {
           title: "Book Answers",
-          url: "../../../documents/level-1/semester-1/mathematics/thomas-calculus-11-book.pdf",
+          url: `${CDN_URL}/level-1/semester-1/mathematics/thomas-calculus-11-book.pdf`,
           note: "Answers",
         },
       ],
@@ -1336,13 +1337,13 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Calculus - Thomas Calculus",
-          url: "../../../documents/level-1/semester-1/mathematics/thomas-calculus-11-book.pdf",
+          url: `${CDN_URL}/level-1/semester-1/mathematics/thomas-calculus-11-book.pdf`,
         },
       ],
       extraResources: [
         {
           title: "Book Answers",
-          url: "../../../documents/level-1/semester-1/mathematics/thomas-calculus-11-book.pdf",
+          url: `${CDN_URL}/level-1/semester-1/mathematics/thomas-calculus-11-book.pdf`,
           note: "Answers",
         },
       ],
@@ -1489,7 +1490,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Medical Terminology - A Body Systems Approach 8th Edition",
-          url: "../../../documents/level-1/semester-1/terminology/Medical-Terminology-Systems-A-Body-Systems-Approach.pdf",
+          url: `${CDN_URL}/level-1/semester-1/terminology/Medical-Terminology-Systems-A-Body-Systems-Approach.pdf`,
         },
       ],
       summaries: [
@@ -1501,11 +1502,11 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Final Exam of 2013 - Dr. Jamil Mohanna",
-          url: "../../../documents/level-1/semester-1/terminology/exams/dr-jamil-final-2013.pdf",
+          url: `${CDN_URL}/level-1/semester-1/terminology/exams/dr-jamil-final-2013.pdf`,
         },
         {
           title: "Final Exam of 2014 - Dr. Jamil Mohanna",
-          url: "../../../documents/level-1/semester-1/terminology/exams/dr-jamil-final-2014.pdf",
+          url: `${CDN_URL}/level-1/semester-1/terminology/exams/dr-jamil-final-2014.pdf`,
         },
       ],
     },
@@ -1546,7 +1547,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-2/analytical-chemistry-1/chapter-1-complex-and-nomenclature.pdf",
+            url: `${CDN_URL}/level-1/semester-2/analytical-chemistry-1/chapter-1-complex-and-nomenclature.pdf`,
             type: "slides",
           },
         ],
@@ -1574,7 +1575,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-2/analytical-chemistry-1/chapter-2-anions.pdf",
+            url: `${CDN_URL}/level-1/semester-2/analytical-chemistry-1/chapter-2-anions.pdf`,
             type: "slides",
           },
         ],
@@ -1648,7 +1649,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-2/analytical-chemistry-1/chapter-3-cations.pdf",
+            url: `${CDN_URL}/level-1/semester-2/analytical-chemistry-1/chapter-3-cations.pdf`,
             type: "slides",
           },
         ],
@@ -1696,7 +1697,7 @@ export const courses: CourseData[] = [
         {
           title:
             "Analytical Chemistry - Vogel's Qualitative Inorganic Analysis",
-          url: "../../../documents/level-1/semester-2/analytical-chemistry-1/book/G_Svehla_Vogel's_Qualitative_Inorganic_Analysis_Prentice_Hall_1996.pdf",
+          url: `${CDN_URL}/level-1/semester-2/analytical-chemistry-1/book/G_Svehla_Vogel's_Qualitative_Inorganic_Analysis_Prentice_Hall_1996.pdf`,
         },
       ],
       summaries: [
@@ -1708,7 +1709,7 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Mai Ramadan, Final Exam of 2016",
-          url: "../../../documents/level-1/semester-2/analytical-chemistry-1/exams/dr-mai-ramadan-final-2016.pdf",
+          url: `${CDN_URL}/level-1/semester-2/analytical-chemistry-1/exams/dr-mai-ramadan-final-2016.pdf`,
         },
       ],
     },
@@ -1751,7 +1752,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-2/analytical-chemistry-1/chapter-1-complex-and-nomenclature.pdf",
+            url: `${CDN_URL}/level-1/semester-2/analytical-chemistry-1/chapter-1-complex-and-nomenclature.pdf`,
             type: "slides",
           },
         ],
@@ -1779,7 +1780,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-2/analytical-chemistry-1/chapter-2-anions.pdf",
+            url: `${CDN_URL}/level-1/semester-2/analytical-chemistry-1/chapter-2-anions.pdf`,
             type: "slides",
           },
         ],
@@ -1866,7 +1867,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-2/analytical-chemistry-1/chapter-3-cations.pdf",
+            url: `${CDN_URL}/level-1/semester-2/analytical-chemistry-1/chapter-3-cations.pdf`,
             type: "slides",
           },
         ],
@@ -1919,7 +1920,7 @@ export const courses: CourseData[] = [
         {
           title:
             "Analytical Chemistry - Vogel's Qualitative Inorganic Analysis",
-          url: "../../../documents/level-1/semester-2/analytical-chemistry-1/book/G_Svehla_Vogel's_Qualitative_Inorganic_Analysis_Prentice_Hall_1996.pdf",
+          url: `${CDN_URL}/level-1/semester-2/analytical-chemistry-1/book/G_Svehla_Vogel's_Qualitative_Inorganic_Analysis_Prentice_Hall_1996.pdf`,
         },
       ],
       summaries: [
@@ -1931,7 +1932,7 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Mai Ramadan, Final Exam of 2016",
-          url: "../../../documents/level-1/semester-2/analytical-chemistry-1/exams/dr-mai-ramadan-final-2016.pdf",
+          url: `${CDN_URL}/level-1/semester-2/analytical-chemistry-1/exams/dr-mai-ramadan-final-2016.pdf`,
         },
       ],
     },
@@ -2127,11 +2128,11 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Luay Nasser + Dr. Amal, Final Exam of 2016",
-          url: "../../../documents/level-1/semester-2/anatomy/exams/dr-luay-final-2016.pdf",
+          url: `${CDN_URL}/level-1/semester-2/anatomy/exams/dr-luay-final-2016.pdf`,
         },
         {
           title: "Dr. Luay Nasser, Final Exam of 2017",
-          url: "../../../documents/level-1/semester-2/anatomy/exams/dr-luay-and-dr-amal-final-2017.pdf",
+          url: `${CDN_URL}/level-1/semester-2/anatomy/exams/dr-luay-and-dr-amal-final-2017.pdf`,
         },
       ],
     },
@@ -2353,23 +2354,23 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Organic Chemistry - John Mcmurry 9th Edition",
-          url: "../../../documents/level-1/semester-2/organic-chemistry-1/Organic-Chemistry-John-McMurry-9th.pdf",
+          url: `${CDN_URL}/level-1/semester-2/organic-chemistry-1/Organic-Chemistry-John-McMurry-9th.pdf`,
         },
       ],
       summaries: [
         {
           title: "Marah Isam Falit",
-          url: "../../../documents/level-1/semester-2/organic-chemistry-1/summary/organic-chem-1-summary.pdf",
+          url: `${CDN_URL}/level-1/semester-2/organic-chemistry-1/summary/organic-chem-1-summary.pdf`,
         },
       ],
       exams: [
         {
           title: "Dr. Kanan & Dr. Osama, Final Exam of 2016",
-          url: "../../../documents/level-1/semester-2/organic-chemistry-1/exams/dr-kanaan-and-osama-final-2016.pdf",
+          url: `${CDN_URL}/level-1/semester-2/organic-chemistry-1/exams/dr-kanaan-and-osama-final-2016.pdf`,
         },
         {
           title: "Dr. Kanan Wahedy, Final Exam of 2017",
-          url: "../../../documents/level-1/semester-2/organic-chemistry-1/exams/dr-kanan-final-2017.pdf",
+          url: `${CDN_URL}/level-1/semester-2/organic-chemistry-1/exams/dr-kanan-final-2017.pdf`,
         },
       ],
     },
@@ -2392,8 +2393,8 @@ export const courses: CourseData[] = [
     },
   },
   {
-    slug: "physical-pharamcy-1",
-    title: "Physical Pharamcy One.",
+    slug: "physical-pharmacy-1",
+    title: "Physical Pharmacy One.",
     description:
       "Basics to the Department of Pharmaceutics & Industrial Pharmacy (Part I)",
     lecturers: [
@@ -2407,7 +2408,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-2/physical-pharmacy-1/chapter-1-introduction.pdf",
+            url: `${CDN_URL}/level-1/semester-2/physical-pharmacy-1/chapter-1-introduction.pdf`,
             type: "slides",
           },
         ],
@@ -2434,7 +2435,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-2/physical-pharmacy-1/chapter-2-states-of-matter.pdf",
+            url: `${CDN_URL}/level-1/semester-2/physical-pharmacy-1/chapter-2-states-of-matter.pdf`,
             type: "slides",
           },
         ],
@@ -2491,7 +2492,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-2/physical-pharmacy-1/chapter-3-physical-properties-of-drug-molecules.pdf",
+            url: `${CDN_URL}/level-1/semester-2/physical-pharmacy-1/chapter-3-physical-properties-of-drug-molecules.pdf`,
             type: "slides",
           },
         ],
@@ -2508,7 +2509,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-2/physical-pharmacy-1/chapter-4-solutions-of-nonelectrolytes.pdf",
+            url: `${CDN_URL}/level-1/semester-2/physical-pharmacy-1/chapter-4-solutions-of-nonelectrolytes.pdf`,
             type: "slides",
           },
         ],
@@ -2535,7 +2536,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-2/physical-pharmacy-1/chapter-5-solutions-of-electrolytes.pdf",
+            url: `${CDN_URL}/level-1/semester-2/physical-pharmacy-1/chapter-5-solutions-of-electrolytes.pdf`,
             type: "slides",
           },
         ],
@@ -2557,7 +2558,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-2/physical-pharmacy-1/chapter-6-buffered-and-isotonic-solutions.pdf",
+            url: `${CDN_URL}/level-1/semester-2/physical-pharmacy-1/chapter-6-buffered-and-isotonic-solutions.pdf`,
             type: "slides",
           },
         ],
@@ -2574,7 +2575,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-1/semester-2/physical-pharmacy-1/chapter-7-solubility-and-distribution-phenomena.pdf",
+            url: `${CDN_URL}/level-1/semester-2/physical-pharmacy-1/chapter-7-solubility-and-distribution-phenomena.pdf`,
             type: "slides",
           },
         ],
@@ -2596,7 +2597,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Physical Pharmacy - Alfred Martin 4th Edition",
-          url: "../../../documents/level-1/semester-2/physical-pharmacy-1/book/Physical-Pharmacy-referance.pdf",
+          url: `${CDN_URL}/level-1/semester-2/physical-pharmacy-1/book/Physical-Pharmacy-referance.pdf`,
         },
       ],
       summaries: [
@@ -2608,7 +2609,7 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Hend Abu-amara, Final Exam of 2013",
-          url: "../../../documents/level-1/semester-2/physical-pharmacy-1/exams/dr-hend-final-2017.pdf",
+          url: `${CDN_URL}/level-1/semester-2/physical-pharmacy-1/exams/dr-hend-final-2017.pdf`,
         },
       ],
     },
@@ -2647,12 +2648,12 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/alalytical-chemistry-2/chapter-1-gravimetry.pdf",
+            url: `${CDN_URL}/level-2/semester-1/alalytical-chemistry-2/chapter-1-gravimetry.pdf`,
             type: "slides",
           },
           {
             title: "Test Yourself",
-            url: "../../../documents/level-2/semester-1/alalytical-chemistry-2/chapter-1-exercise.pdf",
+            url: `${CDN_URL}/level-2/semester-1/alalytical-chemistry-2/chapter-1-exercise.pdf`,
             type: "answers",
           },
         ],
@@ -2684,12 +2685,12 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/alalytical-chemistry-2/chapter-2-volumetry.pdf",
+            url: `${CDN_URL}/level-2/semester-1/alalytical-chemistry-2/chapter-2-volumetry.pdf`,
             type: "slides",
           },
           {
             title: "Test Yourself",
-            url: "../../../documents/level-2/semester-1/alalytical-chemistry-2/chapter-2-exercise.pdf",
+            url: `${CDN_URL}/level-2/semester-1/alalytical-chemistry-2/chapter-2-exercise.pdf`,
             type: "answers",
           },
         ],
@@ -2711,7 +2712,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/alalytical-chemistry-2/chapter-3-acid–base-titration.pdf",
+            url: `${CDN_URL}/level-2/semester-1/alalytical-chemistry-2/chapter-3-acid–base-titration.pdf`,
             type: "slides",
           },
         ],
@@ -2793,7 +2794,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/alalytical-chemistry-2/chapter-4-redox-titration.pdf",
+            url: `${CDN_URL}/level-2/semester-1/alalytical-chemistry-2/chapter-4-redox-titration.pdf`,
             type: "slides",
           },
         ],
@@ -2840,7 +2841,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/alalytical-chemistry-2/chapter-5-precipitation-titration.pdf",
+            url: `${CDN_URL}/level-2/semester-1/alalytical-chemistry-2/chapter-5-precipitation-titration.pdf`,
             type: "slides",
           },
         ],
@@ -2862,7 +2863,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/alalytical-chemistry-2/chapter-6-complexometric-titration.pdf",
+            url: `${CDN_URL}/level-2/semester-1/alalytical-chemistry-2/chapter-6-complexometric-titration.pdf`,
             type: "slides",
           },
         ],
@@ -2900,12 +2901,12 @@ export const courses: CourseData[] = [
       extraResources: [
         {
           title: "Book Answers",
-          url: "../../../documents/level-2/semester-1/alalytical-chemistry-2/book-answers.pdf",
+          url: `${CDN_URL}/level-2/semester-1/alalytical-chemistry-2/book-answers.pdf`,
           note: "Book Answers",
         },
         {
           title: "pKa & pKb Values",
-          url: "../../../documents/level-2/semester-1/alalytical-chemistry-2/pka-pkb.pdf",
+          url: `${CDN_URL}/level-2/semester-1/alalytical-chemistry-2/pka-pkb.pdf`,
           note: "pKa & pKb Values",
         },
       ],
@@ -2918,11 +2919,11 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Mai Ramadan, Final Exam of 2013",
-          url: "../../../documents/level-2/semester-1/alalytical-chemistry-2/exams/dr-mai-ramadan-final-2013.pdf",
+          url: `${CDN_URL}/level-2/semester-1/alalytical-chemistry-2/exams/dr-mai-ramadan-final-2013.pdf`,
         },
         {
           title: "Dr. Mai Ramadan, Final Exam of 2015",
-          url: "../../../documents/level-2/semester-1/alalytical-chemistry-2/exams/dr-mai-ramadan-final-2015.pdf",
+          url: `${CDN_URL}/level-2/semester-1/alalytical-chemistry-2/exams/dr-mai-ramadan-final-2015.pdf`,
         },
       ],
     },
@@ -2962,7 +2963,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/microbiology/chapter-1.pdf",
+            url: `${CDN_URL}/level-2/semester-1/microbiology/chapter-1.pdf`,
             type: "slides",
           },
         ],
@@ -2989,7 +2990,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/microbiology/chapter-2.pdf",
+            url: `${CDN_URL}/level-2/semester-1/microbiology/chapter-2.pdf`,
             type: "slides",
           },
         ],
@@ -3043,7 +3044,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/microbiology/Chapter-3.pdf",
+            url: `${CDN_URL}/level-2/semester-1/microbiology/Chapter-3.pdf`,
             type: "slides",
           },
         ],
@@ -3107,7 +3108,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/microbiology/mycology.pdf",
+            url: `${CDN_URL}/level-2/semester-1/microbiology/mycology.pdf`,
             type: "slides",
           },
         ],
@@ -3125,7 +3126,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/microbiology/parasitology.pdf",
+            url: `${CDN_URL}/level-2/semester-1/microbiology/parasitology.pdf`,
             type: "slides",
           },
         ],
@@ -3157,7 +3158,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/microbiology/virology.pdf",
+            url: `${CDN_URL}/level-2/semester-1/microbiology/virology.pdf`,
             type: "slides",
           },
         ],
@@ -3168,7 +3169,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Review of Medical Microbiology & Immunology 40th Edition",
-          url: "../../../documents/level-2/semester-1/microbiology/book/Review-of-Medical-Microbiology-and-Immunology.pdf",
+          url: `${CDN_URL}/level-2/semester-1/microbiology/book/Review-of-Medical-Microbiology-and-Immunology.pdf`,
         },
       ],
       summaries: [
@@ -3180,15 +3181,15 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Mohammed Taleb, Final Exam of 2014",
-          url: "../../../documents/level-2/semester-1/microbiology/exams/dr-mohammed-taleb-final-2014.pdf",
+          url: `${CDN_URL}/level-2/semester-1/microbiology/exams/dr-mohammed-taleb-final-2014.pdf`,
         },
         {
           title: "Dr. Mohammed Taleb, Final Exam of 2015",
-          url: "../../../documents/level-2/semester-1/microbiology/exams/dr-mohammed-taleb-final-2015.pdf",
+          url: `${CDN_URL}/level-2/semester-1/microbiology/exams/dr-mohammed-taleb-final-2015.pdf`,
         },
         {
           title: "Dr. Rahifa Al-Hadad, Final Exam",
-          url: "../../../documents/level-2/semester-1/microbiology/exams/dr-rahifa-final.pdf",
+          url: `${CDN_URL}/level-2/semester-1/microbiology/exams/dr-rahifa-final.pdf`,
         },
       ],
     },
@@ -3227,7 +3228,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/organic-chemistry-2/chapter-1-revision.pdf",
+            url: `${CDN_URL}/level-2/semester-1/organic-chemistry-2/chapter-1-revision.pdf`,
             type: "slides",
           },
         ],
@@ -3274,7 +3275,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/organic-chemistry-2/chapter-2-benzen-and-aromaticity.pdf",
+            url: `${CDN_URL}/level-2/semester-1/organic-chemistry-2/chapter-2-benzen-and-aromaticity.pdf`,
             type: "slides",
           },
         ],
@@ -3312,7 +3313,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/organic-chemistry-2/chapter-3-nomenclature.pdf",
+            url: `${CDN_URL}/level-2/semester-1/organic-chemistry-2/chapter-3-nomenclature.pdf`,
             type: "slides",
           },
         ],
@@ -3354,7 +3355,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/organic-chemistry-2/chapter-4-reactions-of-benzene.pdf",
+            url: `${CDN_URL}/level-2/semester-1/organic-chemistry-2/chapter-4-reactions-of-benzene.pdf`,
             type: "slides",
           },
         ],
@@ -3381,7 +3382,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/organic-chemistry-2/chapter-5-alpha-carbonyl-reactions.pdf",
+            url: `${CDN_URL}/level-2/semester-1/organic-chemistry-2/chapter-5-alpha-carbonyl-reactions.pdf`,
             type: "slides",
           },
         ],
@@ -3413,7 +3414,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/organic-chemistry-2/chapter-6-carboxylic-acid.pdf",
+            url: `${CDN_URL}/level-2/semester-1/organic-chemistry-2/chapter-6-carboxylic-acid.pdf`,
             type: "slides",
           },
         ],
@@ -3450,7 +3451,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/organic-chemistry-2/chapter-7-amines-and-phenols.pdf",
+            url: `${CDN_URL}/level-2/semester-1/organic-chemistry-2/chapter-7-amines-and-phenols.pdf`,
             type: "slides",
           },
         ],
@@ -3472,7 +3473,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/organic-chemistry-2/chapter-8-applications.pdf",
+            url: `${CDN_URL}/level-2/semester-1/organic-chemistry-2/chapter-8-applications.pdf`,
             type: "slides",
           },
         ],
@@ -3489,7 +3490,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Organic Chemistry - John Mcmurry 9th Edition",
-          url: "../../../documents/level-1/semester-2/organic-chemistry-1/Organic-Chemistry-John-McMurry-9th.pdf",
+          url: `${CDN_URL}/level-1/semester-2/organic-chemistry-1/Organic-Chemistry-John-McMurry-9th.pdf`,
         },
       ],
       summaries: [
@@ -3501,15 +3502,15 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Kanan Wahedy, Final Exam of 2012",
-          url: "../../../documents/level-2/semester-1/organic-chemistry-2/exams/dr-kanaan-final-2012.pdf",
+          url: `${CDN_URL}/level-2/semester-1/organic-chemistry-2/exams/dr-kanaan-final-2012.pdf`,
         },
         {
           title: "Dr. Kanan Wahedy, Final Exam of 2013",
-          url: "../../../documents/level-2/semester-1/organic-chemistry-2/exams/dr-kanaan-final-2013.pdf",
+          url: `${CDN_URL}/level-2/semester-1/organic-chemistry-2/exams/dr-kanaan-final-2013.pdf`,
         },
         {
           title: "Dr. Kanan Wahedy, Final Exam of 2018",
-          url: "../../../documents/level-2/semester-1/organic-chemistry-2/exams/dr-kanaan-final-2018.pdf",
+          url: `${CDN_URL}/level-2/semester-1/organic-chemistry-2/exams/dr-kanaan-final-2018.pdf`,
         },
       ],
     },
@@ -3676,7 +3677,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Physical Pharmacy - Alfred Martin 4th Edition",
-          url: "../../../documents/level-1/semester-2/physical-pharmacy-1/book/Physical-Pharmacy-referance.pdf",
+          url: `${CDN_URL}/level-1/semester-2/physical-pharmacy-1/book/Physical-Pharmacy-referance.pdf`,
         },
       ],
       summaries: [
@@ -3688,11 +3689,11 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Hind Abu-amara, Final Exam of 2010",
-          url: "../../../documents/level-2/semester-1/physical-pharmacy-2/exams/dr-hind-final-2010.pdf",
+          url: `${CDN_URL}/level-2/semester-1/physical-pharmacy-2/exams/dr-hind-final-2010.pdf`,
         },
         {
           title: "Dr. Hind Abu-amara, Final Exam of 2012",
-          url: "../../../documents/level-2/semester-1/physical-pharmacy-2/exams/dr-hind-final-2012.pdf",
+          url: `${CDN_URL}/level-2/semester-1/physical-pharmacy-2/exams/dr-hind-final-2012.pdf`,
         },
       ],
     },
@@ -3740,7 +3741,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/physical-pharmacy-2/chapter-1-chemical-kinetics.pdf",
+            url: `${CDN_URL}/level-2/semester-1/physical-pharmacy-2/chapter-1-chemical-kinetics.pdf`,
             type: "slides",
           },
         ],
@@ -3798,7 +3799,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/physical-pharmacy-2/chapter-2-interfacial-phenomena.pdf",
+            url: `${CDN_URL}/level-2/semester-1/physical-pharmacy-2/chapter-2-interfacial-phenomena.pdf`,
             type: "slides",
           },
         ],
@@ -3832,7 +3833,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/physical-pharmacy-2/chapter-3-colloidal-dispersion.pdf",
+            url: `${CDN_URL}/level-2/semester-1/physical-pharmacy-2/chapter-3-colloidal-dispersion.pdf`,
             type: "slides",
           },
         ],
@@ -3859,7 +3860,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/physical-pharmacy-2/chapter-5-rheology.pdf",
+            url: `${CDN_URL}/level-2/semester-1/physical-pharmacy-2/chapter-5-rheology.pdf`,
             type: "slides",
           },
         ],
@@ -3876,7 +3877,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Physical Pharmacy - Alfred Martin 4th Edition",
-          url: "../../../documents/level-1/semester-2/physical-pharmacy-1/book/Physical-Pharmacy-referance.pdf",
+          url: `${CDN_URL}/level-1/semester-2/physical-pharmacy-1/book/Physical-Pharmacy-referance.pdf`,
         },
       ],
       summaries: [
@@ -3888,11 +3889,11 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Hind Abu-amara, Final Exam of 2010",
-          url: "../../../documents/level-2/semester-1/physical-pharmacy-2/exams/dr-hind-final-2010.pdf",
+          url: `${CDN_URL}/level-2/semester-1/physical-pharmacy-2/exams/dr-hind-final-2010.pdf`,
         },
         {
           title: "Dr. Hind Abu-amara, Final Exam of 2012",
-          url: "../../../documents/level-2/semester-1/physical-pharmacy-2/exams/dr-hind-final-2012.pdf",
+          url: `${CDN_URL}/level-2/semester-1/physical-pharmacy-2/exams/dr-hind-final-2012.pdf`,
         },
       ],
     },
@@ -4002,7 +4003,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Physical Pharmacy - Alfred Martin 4th Edition",
-          url: "../../../documents/level-1/semester-2/physical-pharmacy-1/book/Physical-Pharmacy-referance.pdf",
+          url: `${CDN_URL}/level-1/semester-2/physical-pharmacy-1/book/Physical-Pharmacy-referance.pdf`,
         },
       ],
       summaries: [
@@ -4014,11 +4015,11 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Hind Abu-amara, Final Exam of 2010",
-          url: "../../../documents/level-2/semester-1/physical-pharmacy-2/exams/dr-hind-final-2010.pdf",
+          url: `${CDN_URL}/level-2/semester-1/physical-pharmacy-2/exams/dr-hind-final-2010.pdf`,
         },
         {
           title: "Dr. Hind Abu-amara, Final Exam of 2012",
-          url: "../../../documents/level-2/semester-1/physical-pharmacy-2/exams/dr-hind-final-2012.pdf",
+          url: `${CDN_URL}/level-2/semester-1/physical-pharmacy-2/exams/dr-hind-final-2012.pdf`,
         },
       ],
     },
@@ -4058,7 +4059,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/physiology-1/chapter-1-homeostasis.pdf",
+            url: `${CDN_URL}/level-2/semester-1/physiology-1/chapter-1-homeostasis.pdf`,
             type: "slides",
           },
         ],
@@ -4080,7 +4081,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/physiology-1/chapter-3-membrane-potential.pdf",
+            url: `${CDN_URL}/level-2/semester-1/physiology-1/chapter-3-membrane-potential.pdf`,
             type: "slides",
           },
         ],
@@ -4107,7 +4108,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/physiology-1/chapter-4-neuronal-physiology.pdf",
+            url: `${CDN_URL}/level-2/semester-1/physiology-1/chapter-4-neuronal-physiology.pdf`,
             type: "slides",
           },
         ],
@@ -4174,7 +4175,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-1/physiology-1/chapter-5-cns-physiology.pdf",
+            url: `${CDN_URL}/level-2/semester-1/physiology-1/chapter-5-cns-physiology.pdf`,
             type: "slides",
           },
         ],
@@ -4247,7 +4248,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Human Physiology - From Cells to Systems 9th Edition",
-          url: "../../../documents/level-2/semester-1/physiology-1/book/Human-Physiology-From-Cells-to-Systems-Sherwood-9th.pdf",
+          url: `${CDN_URL}/level-2/semester-1/physiology-1/book/Human-Physiology-From-Cells-to-Systems-Sherwood-9th.pdf`,
         },
       ],
       summaries: [
@@ -4259,7 +4260,7 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Jamil Mohanna, Final Exam of 2017",
-          url: "../../../documents/level-2/semester-1/physiology-1/exams/dr-jamil-final-2017.pdf",
+          url: `${CDN_URL}/level-2/semester-1/physiology-1/exams/dr-jamil-final-2017.pdf`,
         },
       ],
     },
@@ -4521,7 +4522,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Lippincott's Illustrated Reviews: Biochemistry 5th Edition",
-          url: "../../../documents/level-2/semester-2/biochemistry-1/Lippincotts_Illustrated_Review.pdf",
+          url: `${CDN_URL}/level-2/semester-2/biochemistry-1/Lippincotts_Illustrated_Review.pdf`,
         },
       ],
       summaries: [
@@ -4533,11 +4534,11 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Moh. Al-ghussain, Final Exam of 2016",
-          url: "../../../documents/level-2/semester-2/biochemistry-1/exams/dr-mohammed-alghusain-final-2016.pdf",
+          url: `${CDN_URL}/level-2/semester-2/biochemistry-1/exams/dr-mohammed-alghusain-final-2016.pdf`,
         },
         {
           title: "Dr. Moh. Al-ghussain, Final Exam of 2017",
-          url: "../../../documents/level-2/semester-2/biochemistry-1/exams/dr-mohammed-alghusain-final-2017.pdf",
+          url: `${CDN_URL}/level-2/semester-2/biochemistry-1/exams/dr-mohammed-alghusain-final-2017.pdf`,
         },
       ],
     },
@@ -4624,7 +4625,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-2/pharmaceutics-1/chapter-1-pharmaceutical-consideration.pdf",
+            url: `${CDN_URL}/level-2/semester-2/pharmaceutics-1/chapter-1-pharmaceutical-consideration.pdf`,
             type: "slides",
           },
         ],
@@ -4646,7 +4647,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-2/pharmaceutics-1/chapter-2-skin-and-semisolid-dosage.pdf",
+            url: `${CDN_URL}/level-2/semester-2/pharmaceutics-1/chapter-2-skin-and-semisolid-dosage.pdf`,
             type: "slides",
           },
         ],
@@ -4663,7 +4664,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-2/pharmaceutics-1/chapter-3-ointment.pdf",
+            url: `${CDN_URL}/level-2/semester-2/pharmaceutics-1/chapter-3-ointment.pdf`,
             type: "slides",
           },
         ],
@@ -4690,7 +4691,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-2/pharmaceutics-1/chapter-4-5-paste-and-cream.pdf",
+            url: `${CDN_URL}/level-2/semester-2/pharmaceutics-1/chapter-4-5-paste-and-cream.pdf`,
             type: "slides",
           },
         ],
@@ -4712,7 +4713,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-2/pharmaceutics-1/chapter-6-gel.pdf",
+            url: `${CDN_URL}/level-2/semester-2/pharmaceutics-1/chapter-6-gel.pdf`,
             type: "slides",
           },
         ],
@@ -4729,7 +4730,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-2/pharmaceutics-1/chapter-7-suppositries.pdf",
+            url: `${CDN_URL}/level-2/semester-2/pharmaceutics-1/chapter-7-suppositries.pdf`,
             type: "slides",
           },
         ],
@@ -4817,7 +4818,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-2/pharmaceutics-1/chapter-9-emulsion.pdf",
+            url: `${CDN_URL}/level-2/semester-2/pharmaceutics-1/chapter-9-emulsion.pdf`,
             type: "slides",
           },
         ],
@@ -4834,7 +4835,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Ansel's Pharmaceutical Dosage Forms & DDS 10th Edition",
-          url: "../../../documents/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf",
+          url: `${CDN_URL}/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf`,
         },
       ],
       summaries: [
@@ -4846,11 +4847,11 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Mohammed Taleb, Final Exam of 2015",
-          url: "../../../documents/level-2/semester-2/pharmaceutics-1/exams/dr-mohammed-talev-final-2015.pdf",
+          url: `${CDN_URL}/level-2/semester-2/pharmaceutics-1/exams/dr-mohammed-talev-final-2015.pdf`,
         },
         {
           title: "Dr. Riad + Ibtihal, Final Exam of 2017",
-          url: "../../../documents/level-2/semester-2/pharmaceutics-1/exams/dr-riad-and-ibtihal-final-2017.pdf",
+          url: `${CDN_URL}/level-2/semester-2/pharmaceutics-1/exams/dr-riad-and-ibtihal-final-2017.pdf`,
         },
       ],
     },
@@ -5060,7 +5061,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Human Physiology - From Cells to Systems 9th Edition",
-          url: "../../../documents/level-2/semester-1/physiology-1/book/Human-Physiology-From-Cells-to-Systems-Sherwood-9th.pdf",
+          url: `${CDN_URL}/level-2/semester-1/physiology-1/book/Human-Physiology-From-Cells-to-Systems-Sherwood-9th.pdf`,
         },
       ],
       summaries: [
@@ -5072,15 +5073,15 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Mohammed Shbair, Final Exam of 2013",
-          url: "../../../documents/level-2/semester-2/physiology-2/exams/dr-mohammed-shbair-final-2013.pdf",
+          url: `${CDN_URL}/level-2/semester-2/physiology-2/exams/dr-mohammed-shbair-final-2013.pdf`,
         },
         {
           title: "Dr. Jamil Mohanna, Final Exam of 2015",
-          url: "../../../documents/level-2/semester-2/physiology-2/exams/dr-jamil-final-2015.pdf",
+          url: `${CDN_URL}/level-2/semester-2/physiology-2/exams/dr-jamil-final-2015.pdf`,
         },
         {
           title: "Dr. Jamil Mohanna, Final Exam of 2017",
-          url: "../../../documents/level-2/semester-2/physiology-2/exams/dr-jamil-final-2017.pdf",
+          url: `${CDN_URL}/level-2/semester-2/physiology-2/exams/dr-jamil-final-2017.pdf`,
         },
       ],
     },
@@ -5163,7 +5164,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-2/physiology-2/chapter-8-muscle-physiology.pdf",
+            url: `${CDN_URL}/level-2/semester-2/physiology-2/chapter-8-muscle-physiology.pdf`,
             type: "slides",
           },
         ],
@@ -5180,7 +5181,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-2/physiology-2/chapter-9-cardiac-physiology.pdf",
+            url: `${CDN_URL}/level-2/semester-2/physiology-2/chapter-9-cardiac-physiology.pdf`,
             type: "slides",
           },
         ],
@@ -5217,7 +5218,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-2/physiology-2/chapter-13-respiratory-physiology.pdf",
+            url: `${CDN_URL}/level-2/semester-2/physiology-2/chapter-13-respiratory-physiology.pdf`,
             type: "slides",
           },
         ],
@@ -5259,7 +5260,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-2/physiology-2/chapter-14-urinary-physiology.pdf",
+            url: `${CDN_URL}/level-2/semester-2/physiology-2/chapter-14-urinary-physiology.pdf`,
             type: "slides",
           },
         ],
@@ -5291,7 +5292,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-2/semester-2/physiology-2/chapter-16-digestive-physiology.pdf",
+            url: `${CDN_URL}/level-2/semester-2/physiology-2/chapter-16-digestive-physiology.pdf`,
             type: "slides",
           },
         ],
@@ -5318,7 +5319,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Human Physiology - From Cells to Systems 9th Edition",
-          url: "../../../documents/level-2/semester-1/physiology-1/book/Human-Physiology-From-Cells-to-Systems-Sherwood-9th.pdf",
+          url: `${CDN_URL}/level-2/semester-1/physiology-1/book/Human-Physiology-From-Cells-to-Systems-Sherwood-9th.pdf`,
         },
       ],
       summaries: [
@@ -5330,15 +5331,15 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Mohammed Shbair, Final Exam of 2013",
-          url: "../../../documents/level-2/semester-2/physiology-2/exams/dr-mohammed-shbair-final-2013.pdf",
+          url: `${CDN_URL}/level-2/semester-2/physiology-2/exams/dr-mohammed-shbair-final-2013.pdf`,
         },
         {
           title: "Dr. Jamil Mohanna, Final Exam of 2015",
-          url: "../../../documents/level-2/semester-2/physiology-2/exams/dr-jamil-final-2015.pdf",
+          url: `${CDN_URL}/level-2/semester-2/physiology-2/exams/dr-jamil-final-2015.pdf`,
         },
         {
           title: "Dr. Jamil Mohanna, Final Exam of 2017",
-          url: "../../../documents/level-2/semester-2/physiology-2/exams/dr-jamil-final-2017.pdf",
+          url: `${CDN_URL}/level-2/semester-2/physiology-2/exams/dr-jamil-final-2017.pdf`,
         },
       ],
     },
@@ -5569,19 +5570,19 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Lippincott's Illustrated Reviews: Biochemistry 5th Edition",
-          url: "../../../documents/level-2/semester-2/biochemistry-1/Lippincotts_Illustrated_Review.pdf",
+          url: `${CDN_URL}/level-2/semester-2/biochemistry-1/Lippincotts_Illustrated_Review.pdf`,
         },
       ],
       summaries: [
         {
           title: "Mohammed Zourob",
-          url: "../../../documents/level-3/semester-1/biochemistry-2/biochemistry-2-course-summary-zourob.pdf",
+          url: `${CDN_URL}/level-3/semester-1/biochemistry-2/biochemistry-2-course-summary-zourob.pdf`,
         },
       ],
       exams: [
         {
           title: "Dr. Moh. Al-ghussain, Final of Summer 2020",
-          url: "../../../documents/level-3/semester-1/biochemistry-2/exams/dr-mohammed-alghusain-final-summer-2020.pdf",
+          url: `${CDN_URL}/level-3/semester-1/biochemistry-2/exams/dr-mohammed-alghusain-final-summer-2020.pdf`,
         },
       ],
     },
@@ -5776,17 +5777,17 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Prof. Ali Abu-zaid: Principles of Statistics",
-          url: "../../../documents/level-3/semester-1/biostatistics/biostatistics-book.pdf",
+          url: `${CDN_URL}/level-3/semester-1/biostatistics/biostatistics-book.pdf`,
         },
         {
           title: "Basic Statistics for the Health Sciences 3rd Edition",
-          url: "../../../documents/level-3/semester-1/biostatistics/Basic-Statistics-for-Health-Sciences.pdf",
+          url: `${CDN_URL}/level-3/semester-1/biostatistics/Basic-Statistics-for-Health-Sciences.pdf`,
         },
       ],
       extraResources: [
         {
           title: "Slides of the Course",
-          url: "../../../documents/level-3/semester-1/biostatistics/Introductory-Statistics-for-Health-Sciences.pdf",
+          url: `${CDN_URL}/level-3/semester-1/biostatistics/Introductory-Statistics-for-Health-Sciences.pdf`,
           note: "Slides of the Course",
         },
       ],
@@ -5799,7 +5800,7 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Ali Abu-zaid, Final Exam",
-          url: "../../../documents/level-3/semester-1/biostatistics/exams/dr-ali-abuazaid-final.pdf",
+          url: `${CDN_URL}/level-3/semester-1/biostatistics/exams/dr-ali-abuazaid-final.pdf`,
         },
       ],
     },
@@ -5836,7 +5837,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-1/pathophysiology-1/chapter-01-alterationsofcellfunctions.pdf",
+            url: `${CDN_URL}/level-3/semester-1/pathophysiology-1/chapter-01-alterationsofcellfunctions.pdf`,
             type: "slides",
           },
         ],
@@ -5859,7 +5860,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-1/pathophysiology-1/chapter-02-immune-system.pdf",
+            url: `${CDN_URL}/level-3/semester-1/pathophysiology-1/chapter-02-immune-system.pdf`,
             type: "slides",
           },
         ],
@@ -5902,7 +5903,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-1/pathophysiology-1/chapter-03-inflamation.pdf",
+            url: `${CDN_URL}/level-3/semester-1/pathophysiology-1/chapter-03-inflamation.pdf`,
             type: "slides",
           },
         ],
@@ -5939,7 +5940,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-1/pathophysiology-1/chapter-04-cardiovascular-disorders.pdf",
+            url: `${CDN_URL}/level-3/semester-1/pathophysiology-1/chapter-04-cardiovascular-disorders.pdf`,
             type: "slides",
           },
         ],
@@ -5986,7 +5987,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-1/pathophysiology-1/chapter-05-git-disorders.pdf",
+            url: `${CDN_URL}/level-3/semester-1/pathophysiology-1/chapter-05-git-disorders.pdf`,
             type: "slides",
           },
         ],
@@ -6013,7 +6014,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Reference of Pathophysiology",
-          url: "../../../documents/level-3/semester-1/pathophysiology-1/pathophysiology-1-book.pdf",
+          url: `${CDN_URL}/level-3/semester-1/pathophysiology-1/pathophysiology-1-book.pdf`,
         },
       ],
       summaries: [
@@ -6025,15 +6026,15 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Hala Al-agha, Final Exam of 2015",
-          url: "../../../documents/level-3/semester-1/pathophysiology-1/exams/dr-hala-al-agha-final-2015.pdf",
+          url: `${CDN_URL}/level-3/semester-1/pathophysiology-1/exams/dr-hala-al-agha-final-2015.pdf`,
         },
         {
           title: "Dr. Mohammed Shbair, Final Exam of 2018",
-          url: "../../../documents/level-3/semester-1/pathophysiology-1/exams/dr-mohammed-shbair-final-2018.pdf",
+          url: `${CDN_URL}/level-3/semester-1/pathophysiology-1/exams/dr-mohammed-shbair-final-2018.pdf`,
         },
         {
           title: "Dr. Mohammed Taha, Midterm of 2019",
-          url: "../../../documents/level-3/semester-1/pathophysiology-1/exams/dr-mohammed-taha-mid-2019.pdf",
+          url: `${CDN_URL}/level-3/semester-1/pathophysiology-1/exams/dr-mohammed-taha-mid-2019.pdf`,
         },
       ],
     },
@@ -6070,7 +6071,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-1/pharmaceutics-2/chapter-1-introduction.pdf",
+            url: `${CDN_URL}/level-3/semester-1/pharmaceutics-2/chapter-1-introduction.pdf`,
             type: "slides",
           },
         ],
@@ -6092,7 +6093,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-1/pharmaceutics-2/chapter-2-powder.pdf",
+            url: `${CDN_URL}/level-3/semester-1/pharmaceutics-2/chapter-2-powder.pdf`,
             type: "slides",
           },
         ],
@@ -6119,7 +6120,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-1/pharmaceutics-2/chapter-3-granules.pdf",
+            url: `${CDN_URL}/level-3/semester-1/pharmaceutics-2/chapter-3-granules.pdf`,
             type: "slides",
           },
         ],
@@ -6197,7 +6198,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-1/pharmaceutics-2/chapter-5-capsule.pdf",
+            url: `${CDN_URL}/level-3/semester-1/pharmaceutics-2/chapter-5-capsule.pdf`,
             type: "slides",
           },
         ],
@@ -6219,7 +6220,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-1/pharmaceutics-2/chapter-6-modified-release.pdf",
+            url: `${CDN_URL}/level-3/semester-1/pharmaceutics-2/chapter-6-modified-release.pdf`,
             type: "slides",
           },
         ],
@@ -6241,7 +6242,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Ansel's Pharmaceutical Dosage Forms & DDS 10th Edition",
-          url: "../../../documents/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf",
+          url: `${CDN_URL}/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf`,
         },
       ],
       summaries: [
@@ -6358,7 +6359,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-2/pathophysiology-2/chapter-1-liver-diseases-slides.pdf",
+            url: `${CDN_URL}/level-3/semester-2/pathophysiology-2/chapter-1-liver-diseases-slides.pdf`,
             type: "slides",
           },
         ],
@@ -6390,7 +6391,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-2/pathophysiology-2/chapter-2-Respiratory-diseases.pdf",
+            url: `${CDN_URL}/level-3/semester-2/pathophysiology-2/chapter-2-Respiratory-diseases.pdf`,
             type: "slides",
           },
         ],
@@ -6427,12 +6428,12 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-2/pathophysiology-2/chapter-3-endocrine-disorders.pdf",
+            url: `${CDN_URL}/level-3/semester-2/pathophysiology-2/chapter-3-endocrine-disorders.pdf`,
             type: "slides",
           },
           {
             title: "Summary of the Missing Video",
-            url: "../../../documents/level-3/semester-2/pathophysiology-2/summary/chronic-complications-DM.pdf",
+            url: `${CDN_URL}/level-3/semester-2/pathophysiology-2/summary/chronic-complications-DM.pdf`,
             type: "slides",
           },
         ],
@@ -6469,7 +6470,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-2/pathophysiology-2/chapter-4-kidney-disorders.pdf",
+            url: `${CDN_URL}/level-3/semester-2/pathophysiology-2/chapter-4-kidney-disorders.pdf`,
             type: "slides",
           },
         ],
@@ -6496,12 +6497,12 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-2/pathophysiology-2/chapter-5-disorders-of-CNS.pdf",
+            url: `${CDN_URL}/level-3/semester-2/pathophysiology-2/chapter-5-disorders-of-CNS.pdf`,
             type: "slides",
           },
           {
             title: "Chapter Summary",
-            url: "../../../documents/level-3/semester-2/pathophysiology-2/summary/cns-phathophysiology-summary-ahmed-skaik.pdf",
+            url: `${CDN_URL}/level-3/semester-2/pathophysiology-2/summary/cns-phathophysiology-summary-ahmed-skaik.pdf`,
             type: "slides",
           },
         ],
@@ -6523,7 +6524,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-2/pathophysiology-2/chapter-6-cancer.pdf",
+            url: `${CDN_URL}/level-3/semester-2/pathophysiology-2/chapter-6-cancer.pdf`,
             type: "slides",
           },
         ],
@@ -6545,17 +6546,17 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Reference of Pathophysiology",
-          url: "../../../documents/level-3/semester-2/pathophysiology-2/pathophysiology-2-book.pdf",
+          url: `${CDN_URL}/level-3/semester-2/pathophysiology-2/pathophysiology-2-book.pdf`,
         },
       ],
       summaries: [
         {
           title: "Lolo Abushaban",
-          url: "../../../documents/level-3/semester-2/pathophysiology-2/summary/pathophysiology-2-summary-lolo.pdf",
+          url: `${CDN_URL}/level-3/semester-2/pathophysiology-2/summary/pathophysiology-2-summary-lolo.pdf`,
         },
         {
           title: "Tasneem Al-qeeq",
-          url: "../../../documents/level-3/semester-2/pathophysiology-2/summary/pathophysiology-2-summary-tasneem.pdf",
+          url: `${CDN_URL}/level-3/semester-2/pathophysiology-2/summary/pathophysiology-2-summary-tasneem.pdf`,
         },
       ],
       exams: [
@@ -6799,7 +6800,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Ansel's Pharmaceutical Dosage Forms & DDS 10th Edition",
-          url: "../../../documents/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf",
+          url: `${CDN_URL}/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf`,
         },
       ],
       summaries: [
@@ -6811,11 +6812,11 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Issam Abushammala, Final Exam of 2013",
-          url: "../../../documents/level-3/semester-2/pharmaceutics-3/exams/dr-issam-final-2013.pdf",
+          url: `${CDN_URL}/level-3/semester-2/pharmaceutics-3/exams/dr-issam-final-2013.pdf`,
         },
         {
           title: "Dr. Issam Abushammala, Final",
-          url: "../../../documents/level-3/semester-2/pharmaceutics-3/exams/dr-issam-final.pdf",
+          url: `${CDN_URL}/level-3/semester-2/pharmaceutics-3/exams/dr-issam-final.pdf`,
         },
       ],
     },
@@ -6857,7 +6858,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-2/pharmacokinetics-1/chapter-01-introduction.pdf",
+            url: `${CDN_URL}/level-3/semester-2/pharmacokinetics-1/chapter-01-introduction.pdf`,
             type: "slides",
           },
         ],
@@ -6897,7 +6898,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-2/pharmacokinetics-1/chapter-02-05-git-route.pdf",
+            url: `${CDN_URL}/level-3/semester-2/pharmacokinetics-1/chapter-02-05-git-route.pdf`,
             type: "slides",
           },
         ],
@@ -6940,7 +6941,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-2/pharmacokinetics-1/chapter-06-parenteral-routes.pdf",
+            url: `${CDN_URL}/level-3/semester-2/pharmacokinetics-1/chapter-06-parenteral-routes.pdf`,
             type: "slides",
           },
         ],
@@ -6962,7 +6963,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-2/pharmacokinetics-1/chapter-07-intranasal-route.pdf",
+            url: `${CDN_URL}/level-3/semester-2/pharmacokinetics-1/chapter-07-intranasal-route.pdf`,
             type: "slides",
           },
         ],
@@ -6985,7 +6986,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-2/pharmacokinetics-1/chapter-08-09-vaginal-ear-routes.pdf",
+            url: `${CDN_URL}/level-3/semester-2/pharmacokinetics-1/chapter-08-09-vaginal-ear-routes.pdf`,
             type: "slides",
           },
         ],
@@ -7002,7 +7003,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-2/pharmacokinetics-1/chapter-10-ocular-route.pdf",
+            url: `${CDN_URL}/level-3/semester-2/pharmacokinetics-1/chapter-10-ocular-route.pdf`,
             type: "slides",
           },
         ],
@@ -7019,7 +7020,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-2/pharmacokinetics-1/chapter-11-pulmonary-route.pdf",
+            url: `${CDN_URL}/level-3/semester-2/pharmacokinetics-1/chapter-11-pulmonary-route.pdf`,
             type: "slides",
           },
         ],
@@ -7036,7 +7037,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-2/pharmacokinetics-1/chaptere-12-tds.pdf",
+            url: `${CDN_URL}/level-3/semester-2/pharmacokinetics-1/chaptere-12-tds.pdf`,
             type: "slides",
           },
         ],
@@ -7063,7 +7064,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Shargel & Yu's : Applied Biopharmaceutics & PK 7th Edition",
-          url: "../../../documents/level-3/semester-2/pharmacokinetics-1/book/Leon_Shargel,_Andrew_B_C_Yu_Applied_Biopharmaceutics_&_Pharmacokinetics.pdf",
+          url: `${CDN_URL}/level-3/semester-2/pharmacokinetics-1/book/Leon_Shargel,_Andrew_B_C_Yu_Applied_Biopharmaceutics_&_Pharmacokinetics.pdf`,
         },
       ],
       summaries: [
@@ -7075,11 +7076,11 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Issam Abushammala, Final Exam of 2012",
-          url: "../../../documents/level-3/semester-2/pharmacokinetics-1/exams/dr-issam-final-2012.pdf",
+          url: `${CDN_URL}/level-3/semester-2/pharmacokinetics-1/exams/dr-issam-final-2012.pdf`,
         },
         {
           title: "Dr. Issam Abushammala, Final Answered",
-          url: "../../../documents/level-3/semester-2/pharmacokinetics-1/exams/dr-issam-final-answerd.pdf",
+          url: `${CDN_URL}/level-3/semester-2/pharmacokinetics-1/exams/dr-issam-final-answerd.pdf`,
         },
       ],
     },
@@ -7286,7 +7287,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-2/pharmacology-1/chapter-12-drugs-for-epilepsy.pdf",
+            url: `${CDN_URL}/level-3/semester-2/pharmacology-1/chapter-12-drugs-for-epilepsy.pdf`,
             type: "slides",
           },
         ],
@@ -7308,7 +7309,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-2/pharmacology-1/chapter-13-opioids.pdf",
+            url: `${CDN_URL}/level-3/semester-2/pharmacology-1/chapter-13-opioids.pdf`,
             type: "slides",
           },
         ],
@@ -7331,17 +7332,17 @@ export const courses: CourseData[] = [
       summaries: [
         {
           title: "Ahmed J. Skaik - CNS Unit",
-          url: "../../../documents/level-3/semester-2/pharmacology-1/summary/cns-pharmacology-summary-ahmed-skaik.pdf",
+          url: `${CDN_URL}/level-3/semester-2/pharmacology-1/summary/cns-pharmacology-summary-ahmed-skaik.pdf`,
         },
       ],
       exams: [
         {
           title: "Dr. Mahmoud Taleb, Final Exam of 2016",
-          url: "../../../documents/level-3/semester-2/pharmacology-1/exams/dr-mohammed-taleb-final-2016.pdf",
+          url: `${CDN_URL}/level-3/semester-2/pharmacology-1/exams/dr-mohammed-taleb-final-2016.pdf`,
         },
         {
           title: "Dr. Mahmoud Taleb, Final Exam of 2017",
-          url: "../../../documents/level-3/semester-2/pharmacology-1/exams/dr-mohammed-taleb-final-2017.pdf",
+          url: `${CDN_URL}/level-3/semester-2/pharmacology-1/exams/dr-mohammed-taleb-final-2017.pdf`,
         },
       ],
     },
@@ -7507,7 +7508,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Dr. Mazen El-sakka: Manual of Phytochemistry I",
-          url: "../../../documents/level-3/semester-2/phytochemistry-1/phytochemistry-1-book.pdf",
+          url: `${CDN_URL}/level-3/semester-2/phytochemistry-1/phytochemistry-1-book.pdf`,
         },
       ],
       summaries: [
@@ -7519,15 +7520,15 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Mazen El-sakka, Final Exam of 2015",
-          url: "../../../documents/level-3/semester-2/phytochemistry-1/exams/dr-mazen-final-2015.pdf",
+          url: `${CDN_URL}/level-3/semester-2/phytochemistry-1/exams/dr-mazen-final-2015.pdf`,
         },
         {
           title: "Dr. Mazen El-sakka, Midterm Exam of 2016",
-          url: "../../../documents/level-3/semester-2/phytochemistry-1/exams/dr-mazen-final-2022-2016-2013.pdf",
+          url: `${CDN_URL}/level-3/semester-2/phytochemistry-1/exams/dr-mazen-final-2022-2016-2013.pdf`,
         },
         {
           title: "Dr. Mazen El-sakka, Trial Exam of 2014 & 2022",
-          url: "../../../documents/level-3/semester-2/phytochemistry-1/exams/dr-mazen-mid-2014-2022.pdf",
+          url: `${CDN_URL}/level-3/semester-2/phytochemistry-1/exams/dr-mazen-mid-2014-2022.pdf`,
         },
       ],
     },
@@ -7567,7 +7568,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-2/technical-instraments/chapter-1-nmr-spec.pdf",
+            url: `${CDN_URL}/level-3/semester-2/technical-instraments/chapter-1-nmr-spec.pdf`,
             type: "slides",
           },
         ],
@@ -7629,7 +7630,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-2/technical-instraments/chapter-2-ir-spec.pdf",
+            url: `${CDN_URL}/level-3/semester-2/technical-instraments/chapter-2-ir-spec.pdf`,
             type: "slides",
           },
         ],
@@ -7697,7 +7698,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-2/technical-instraments/chapter-3-uv-spec.pdf",
+            url: `${CDN_URL}/level-3/semester-2/technical-instraments/chapter-3-uv-spec.pdf`,
             type: "slides",
           },
         ],
@@ -7749,7 +7750,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-3/semester-2/technical-instraments/chapter-4-mass-spec.pdf",
+            url: `${CDN_URL}/level-3/semester-2/technical-instraments/chapter-4-mass-spec.pdf`,
             type: "slides",
           },
         ],
@@ -7843,15 +7844,15 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Kanan Wahedy, Final Exam of 2017",
-          url: "../../../documents/level-3/semester-2/technical-instraments/exams/final-instramental-2017.pdf",
+          url: `${CDN_URL}/level-3/semester-2/technical-instraments/exams/final-instramental-2017.pdf`,
         },
         {
           title: "Dr. Kanan Wahedy, Final Exam of 2019",
-          url: "../../../documents/level-3/semester-2/technical-instraments/exams/final-instrumental-2019.pdf",
+          url: `${CDN_URL}/level-3/semester-2/technical-instraments/exams/final-instrumental-2019.pdf`,
         },
         {
           title: "Dr. Kanan Wahedy, Trial Exam of 2019",
-          url: "../../../documents/level-3/semester-2/technical-instraments/exams/final-instrumental-trial.pdf",
+          url: `${CDN_URL}/level-3/semester-2/technical-instraments/exams/final-instrumental-trial.pdf`,
         },
       ],
     },
@@ -7994,7 +7995,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "First Aid Made Easy",
-          url: "../../../documents/level-4/semester-1/first-aid/first-aid-book.pdf",
+          url: `${CDN_URL}/level-4/semester-1/first-aid/first-aid-book.pdf`,
         },
       ],
       summaries: [
@@ -8236,27 +8237,27 @@ export const courses: CourseData[] = [
         {
           title:
             "Wilson & Gisvold's Textbook of Organic Medicinal & Pharmaceutical Chemistry - 12th Edition",
-          url: "../../../documents/level-4/semester-1/pharmaceutical-chemistry-1/Wilson_and_Gisvold's_Textbook.pdf",
+          url: `${CDN_URL}/level-4/semester-1/pharmaceutical-chemistry-1/Wilson_and_Gisvold's_Textbook.pdf`,
         },
         {
           title: "V. Alagarsamy, Textbook of Medicinal Chemistry",
-          url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/TEXTBOOK-OF-MEDICINAL-CHEMISTRY.pdf",
+          url: `${CDN_URL}/level-4/semester-2/pharmaceutical-chemistry-2/TEXTBOOK-OF-MEDICINAL-CHEMISTRY.pdf`,
         },
         {
           title: "Foye's Principles of Medicinal Chmeistry - 7th Edition",
-          url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/Foye's_Principles_of_Medicinal_Chemistry,_7th.pdf",
+          url: `${CDN_URL}/level-4/semester-2/pharmaceutical-chemistry-2/Foye's_Principles_of_Medicinal_Chemistry,_7th.pdf`,
         },
       ],
       summaries: [
         {
           title: "Marah Isam Falit",
-          url: "../../../documents/level-4/semester-1/pharmaceutical-chemistry-1/summary/pharm-chem-1-summary.pdf",
+          url: `${CDN_URL}/level-4/semester-1/pharmaceutical-chemistry-1/summary/pharm-chem-1-summary.pdf`,
         },
       ],
       exams: [
         {
           title: "Dr. Ihab Al-masry, Final Exam of 2018",
-          url: "../../../documents/level-4/semester-1/pharmaceutical-chemistry-1/exams/dr-ihab-final-2018.pdf",
+          url: `${CDN_URL}/level-4/semester-1/pharmaceutical-chemistry-1/exams/dr-ihab-final-2018.pdf`,
         },
       ],
     },
@@ -8403,7 +8404,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Reference of Pharmaceutical Law & History",
-          url: "../../../documents/level-4/semester-1/pharmaceutical-law/pharmaceutical-law-history-book.pdf",
+          url: `${CDN_URL}/level-4/semester-1/pharmaceutical-law/pharmaceutical-law-history-book.pdf`,
         },
       ],
       summaries: [
@@ -8415,7 +8416,7 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Issam Abushammala, Final Exam",
-          url: "../../../documents/level-4/semester-1/pharmaceutical-law/exams/dr-issam-final.pdf",
+          url: `${CDN_URL}/level-4/semester-1/pharmaceutical-law/exams/dr-issam-final.pdf`,
         },
       ],
     },
@@ -8453,12 +8454,12 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-4/semester-1/pharmacokinetics-2/chapter-1-introduction-to-pk.pdf",
+            url: `${CDN_URL}/level-4/semester-1/pharmacokinetics-2/chapter-1-introduction-to-pk.pdf`,
             type: "slides",
           },
           {
             title: "Chapter Questions",
-            url: "../../../documents/level-4/semester-1/pharmacokinetics-2/chapter-1-problmes.pdf",
+            url: `${CDN_URL}/level-4/semester-1/pharmacokinetics-2/chapter-1-problmes.pdf`,
             type: "questions",
           },
         ],
@@ -8504,7 +8505,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-4/semester-1/pharmacokinetics-2/chapter-3-compartemental-open-intra.pdf",
+            url: `${CDN_URL}/level-4/semester-1/pharmacokinetics-2/chapter-3-compartemental-open-intra.pdf`,
             type: "slides",
           },
         ],
@@ -8522,12 +8523,12 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-4/semester-1/pharmacokinetics-2/chapter-2-compartmental-open-extra.pdf",
+            url: `${CDN_URL}/level-4/semester-1/pharmacokinetics-2/chapter-2-compartmental-open-extra.pdf`,
             type: "slides",
           },
           {
             title: "Chapter Questions",
-            url: "../../../documents/level-4/semester-1/pharmacokinetics-2/chapter-2-problems.pdf",
+            url: `${CDN_URL}/level-4/semester-1/pharmacokinetics-2/chapter-2-problems.pdf`,
             type: "answers",
           },
         ],
@@ -8555,7 +8556,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-4/semester-1/pharmacokinetics-2/chapter-4-non-linear-pk.pdf",
+            url: `${CDN_URL}/level-4/semester-1/pharmacokinetics-2/chapter-4-non-linear-pk.pdf`,
             type: "slides",
           },
         ],
@@ -8572,7 +8573,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-4/semester-1/pharmacokinetics-2/chapter-5-distribution.pdf",
+            url: `${CDN_URL}/level-4/semester-1/pharmacokinetics-2/chapter-5-distribution.pdf`,
             type: "slides",
           },
         ],
@@ -8605,7 +8606,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-4/semester-1/pharmacokinetics-2/chapter-6-distribution.pdf",
+            url: `${CDN_URL}/level-4/semester-1/pharmacokinetics-2/chapter-6-distribution.pdf`,
             type: "slides",
           },
         ],
@@ -8632,12 +8633,12 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-4/semester-1/pharmacokinetics-2/chapter-7-excretion.pdf",
+            url: `${CDN_URL}/level-4/semester-1/pharmacokinetics-2/chapter-7-excretion.pdf`,
             type: "slides",
           },
           {
             title: "Chapter Questions",
-            url: "../../../documents/level-4/semester-1/pharmacokinetics-2/chapter-7-problems.pdf",
+            url: `${CDN_URL}/level-4/semester-1/pharmacokinetics-2/chapter-7-problems.pdf`,
             type: "answers",
           },
         ],
@@ -8664,7 +8665,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-4/semester-1/pharmacokinetics-2/chapter-8-bioavailability.pdf",
+            url: `${CDN_URL}/level-4/semester-1/pharmacokinetics-2/chapter-8-bioavailability.pdf`,
             type: "slides",
           },
         ],
@@ -8681,23 +8682,23 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Shargel & Yu's : Applied Biopharmaceutics & PK 7th Edition",
-          url: "../../../documents/level-3/semester-2/pharmacokinetics-1/book/Leon_Shargel,_Andrew_B_C_Yu_Applied_Biopharmaceutics_&_Pharmacokinetics.pdf",
+          url: `${CDN_URL}/level-3/semester-2/pharmacokinetics-1/book/Leon_Shargel,_Andrew_B_C_Yu_Applied_Biopharmaceutics_&_Pharmacokinetics.pdf`,
         },
       ],
       summaries: [
         {
           title: "Mohammed El-Farra",
-          url: "../../../documents/level-4/semester-1/pharmacokinetics-2/summary/pharmacokinetics-2-course-summary.pdf",
+          url: `${CDN_URL}/level-4/semester-1/pharmacokinetics-2/summary/pharmacokinetics-2-course-summary.pdf`,
         },
       ],
       exams: [
         {
           title: "Dr. Issam Abushammala, Final Exam of 2018",
-          url: "../../../documents/level-4/semester-1/pharmacokinetics-2/exams/dr-issam-final-2018.pdf",
+          url: `${CDN_URL}/level-4/semester-1/pharmacokinetics-2/exams/dr-issam-final-2018.pdf`,
         },
         {
           title: "Dr. Issam Abushammala, Final Exam",
-          url: "../../../documents/level-4/semester-1/pharmacokinetics-2/exams/dr-issam-final.pdf",
+          url: `${CDN_URL}/level-4/semester-1/pharmacokinetics-2/exams/dr-issam-final.pdf`,
         },
       ],
     },
@@ -8921,7 +8922,7 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Mohammed Shbair, Final Exam of 2018",
-          url: "../../../documents/level-4/semester-1/pharmacology-2/exams/dr-mohammed-shbair-final-2017.pdf",
+          url: `${CDN_URL}/level-4/semester-1/pharmacology-2/exams/dr-mohammed-shbair-final-2017.pdf`,
         },
       ],
     },
@@ -9140,23 +9141,23 @@ export const courses: CourseData[] = [
       extraResources: [
         {
           title: "Slides of the Course",
-          url: "../../../documents/level-4/semester-1/phytochemistry-2/phytochemistry-2-slides.pdf",
+          url: `${CDN_URL}/level-4/semester-1/phytochemistry-2/phytochemistry-2-slides.pdf`,
           note: "Dr. Mazen",
         },
         {
           title: "Slides of the Course",
-          url: "../../../documents/level-4/semester-1/phytochemistry-2/phytochemistry-2-slides-dr-khaldonue.pdf",
+          url: `${CDN_URL}/level-4/semester-1/phytochemistry-2/phytochemistry-2-slides-dr-khaldonue.pdf`,
           note: "Dr. Khaldoun",
         },
       ],
       exams: [
         {
           title: "Dr. Mazen El-sakka, Final Exam of 2017",
-          url: "../../../documents/level-4/semester-1/phytochemistry-2/exams/dr-mazen-final-2017.pdf",
+          url: `${CDN_URL}/level-4/semester-1/phytochemistry-2/exams/dr-mazen-final-2017.pdf`,
         },
         {
           title: "Dr. Maha El-khateeb, Final Exam",
-          url: "../../../documents/level-4/semester-1/phytochemistry-2/exams/dr-maha-final.pdf",
+          url: `${CDN_URL}/level-4/semester-1/phytochemistry-2/exams/dr-maha-final.pdf`,
         },
       ],
     },
@@ -9197,7 +9198,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-4/semester-2/industrial-pharmacy-1/chapter-1-introductoin.pdf",
+            url: `${CDN_URL}/level-4/semester-2/industrial-pharmacy-1/chapter-1-introductoin.pdf`,
             type: "slides",
           },
         ],
@@ -9214,7 +9215,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-4/semester-2/industrial-pharmacy-1/chapter-2-mixing-process.pdf",
+            url: `${CDN_URL}/level-4/semester-2/industrial-pharmacy-1/chapter-2-mixing-process.pdf`,
             type: "slides",
           },
         ],
@@ -9252,7 +9253,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-4/semester-2/industrial-pharmacy-1/chapter-3-homogenization.pdf",
+            url: `${CDN_URL}/level-4/semester-2/industrial-pharmacy-1/chapter-3-homogenization.pdf`,
             type: "slides",
           },
         ],
@@ -9269,7 +9270,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-4/semester-2/industrial-pharmacy-1/chapter-4-heat-transfer-and-heating-process.pdf",
+            url: `${CDN_URL}/level-4/semester-2/industrial-pharmacy-1/chapter-4-heat-transfer-and-heating-process.pdf`,
             type: "slides",
           },
         ],
@@ -9296,7 +9297,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-4/semester-2/industrial-pharmacy-1/chapter-5-evaporation-process.pdf",
+            url: `${CDN_URL}/level-4/semester-2/industrial-pharmacy-1/chapter-5-evaporation-process.pdf`,
             type: "slides",
           },
         ],
@@ -9323,7 +9324,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-4/semester-2/industrial-pharmacy-1/chapter-6-drying-process.pdf",
+            url: `${CDN_URL}/level-4/semester-2/industrial-pharmacy-1/chapter-6-drying-process.pdf`,
             type: "slides",
           },
         ],
@@ -9355,11 +9356,11 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Ansel's Pharmaceutical Dosage Forms & DDS 10th Edition",
-          url: "../../../documents/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf",
+          url: `${CDN_URL}/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf`,
         },
         {
           title: "The Theory & Practice of Industrial Pharmacy 3rd Edition",
-          url: "../../../documents/level-4/semester-2/industrial-pharmacy-1/book/The-Theory-And-Practice-of-Industrial-Pharmacy.pdf",
+          url: `${CDN_URL}/level-4/semester-2/industrial-pharmacy-1/book/The-Theory-And-Practice-of-Industrial-Pharmacy.pdf`,
         },
       ],
       summaries: [
@@ -9371,7 +9372,7 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Riad Al-qidra, Final Exam of 2012",
-          url: "../../../documents/level-4/semester-2/industrial-pharmacy-1/exams/dr-riad-final-2012.pdf",
+          url: `${CDN_URL}/level-4/semester-2/industrial-pharmacy-1/exams/dr-riad-final-2012.pdf`,
         },
       ],
     },
@@ -9412,7 +9413,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/chapter-1-antifungal-agents.pdf",
+            url: `${CDN_URL}/level-4/semester-2/pharmaceutical-chemistry-2/chapter-1-antifungal-agents.pdf`,
             type: "slides",
           },
         ],
@@ -9444,7 +9445,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/chapter-2-antiviral-agents.pdf",
+            url: `${CDN_URL}/level-4/semester-2/pharmaceutical-chemistry-2/chapter-2-antiviral-agents.pdf`,
             type: "slides",
           },
         ],
@@ -9471,7 +9472,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/chapter-3-opioid-analgesics.pdf",
+            url: `${CDN_URL}/level-4/semester-2/pharmaceutical-chemistry-2/chapter-3-opioid-analgesics.pdf`,
             type: "slides",
           },
         ],
@@ -9518,7 +9519,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/chapter-4-nsaids.pdf",
+            url: `${CDN_URL}/level-4/semester-2/pharmaceutical-chemistry-2/chapter-4-nsaids.pdf`,
             type: "slides",
           },
         ],
@@ -9560,7 +9561,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/chapter-5-chemotherapy.pdf",
+            url: `${CDN_URL}/level-4/semester-2/pharmaceutical-chemistry-2/chapter-5-chemotherapy.pdf`,
             type: "slides",
           },
         ],
@@ -9603,21 +9604,21 @@ export const courses: CourseData[] = [
         {
           title:
             "Wilson & Gisvold's Textbook of Organic Medicinal & Pharmaceutical Chemistry - 12th Edition",
-          url: "../../../documents/level-4/semester-1/pharmaceutical-chemistry-1/Wilson_and_Gisvold's_Textbook.pdf",
+          url: `${CDN_URL}/level-4/semester-1/pharmaceutical-chemistry-1/Wilson_and_Gisvold's_Textbook.pdf`,
         },
         {
           title: "V. Alagarsamy, Textbook of Medicinal Chemistry",
-          url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/TEXTBOOK-OF-MEDICINAL-CHEMISTRY.pdf",
+          url: `${CDN_URL}/level-4/semester-2/pharmaceutical-chemistry-2/TEXTBOOK-OF-MEDICINAL-CHEMISTRY.pdf`,
         },
         {
           title: "Foye's Principles of Medicinal Chmeistry - 7th Edition",
-          url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/Foye's_Principles_of_Medicinal_Chemistry,_7th.pdf",
+          url: `${CDN_URL}/level-4/semester-2/pharmaceutical-chemistry-2/Foye's_Principles_of_Medicinal_Chemistry,_7th.pdf`,
         },
       ],
       summaries: [
         {
           title: "Marah Issam Falit",
-          url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/pharm-chem-2-course-summary-marah.pdf",
+          url: `${CDN_URL}/level-4/semester-2/pharmaceutical-chemistry-2/pharm-chem-2-course-summary-marah.pdf`,
         },
       ],
       exams: [
@@ -9820,7 +9821,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Basic & Clinical Pharmacology 14th Edition)",
-          url: "../../../documents/level-4/semester-2/pharmacology-3/Basic_and_Clinical_Pharmacology.pdf",
+          url: `${CDN_URL}/level-4/semester-2/pharmacology-3/Basic_and_Clinical_Pharmacology.pdf`,
         },
       ],
       summaries: [
@@ -9832,19 +9833,19 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Mohammed Shbair, Midterm Exam of 2014",
-          url: "../../../documents/level-4/semester-2/pharmacology-3/exams/dr-mohammed-shbair-final-2014.pdf",
+          url: `${CDN_URL}/level-4/semester-2/pharmacology-3/exams/dr-mohammed-shbair-final-2014.pdf`,
         },
         {
           title: "Dr. Mohammed Shbair, Final Exam of 2015",
-          url: "../../../documents/level-4/semester-2/pharmacology-3/exams/dr-mohammed-shbair-final-2015.pdf",
+          url: `${CDN_URL}/level-4/semester-2/pharmacology-3/exams/dr-mohammed-shbair-final-2015.pdf`,
         },
         {
           title: "Dr. Mahmoud Taleb, Final Exam of 2016",
-          url: "../../../documents/level-4/semester-2/pharmacology-3/exams/dr-mahmoud-taleb-final-2016.pdf",
+          url: `${CDN_URL}/level-4/semester-2/pharmacology-3/exams/dr-mahmoud-taleb-final-2016.pdf`,
         },
         {
           title: "Dr. Mahmoud Taleb, Final Exam of 2017",
-          url: "../../../documents/level-4/semester-2/pharmacology-3/exams/dr-mahmoud-taleb-final-2017.pdf",
+          url: `${CDN_URL}/level-4/semester-2/pharmacology-3/exams/dr-mahmoud-taleb-final-2017.pdf`,
         },
       ],
     },
@@ -9979,7 +9980,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Dr. Mazen El-sakka: Manual of Phytochemistry III",
-          url: "../../../documents/level-4/semester-2/phytochemistry-3/phytochemistry-3-book.pdf",
+          url: `${CDN_URL}/level-4/semester-2/phytochemistry-3/phytochemistry-3-book.pdf`,
         },
       ],
       summaries: [
@@ -9991,18 +9992,18 @@ export const courses: CourseData[] = [
       extraResources: [
         {
           title: "Slides of the Course",
-          url: "../../../documents/level-4/semester-2/phytochemistry-3/phytochemistry-3-slides.pdf",
+          url: `${CDN_URL}/level-4/semester-2/phytochemistry-3/phytochemistry-3-slides.pdf`,
           note: "Dr. Mazen",
         },
       ],
       exams: [
         {
           title: "Dr. Mazen El-sakka, Final Exam of 2016",
-          url: "../../../documents/level-4/semester-2/phytochemistry-3/exams/dr-mazen-final-2016.pdf",
+          url: `${CDN_URL}/level-4/semester-2/phytochemistry-3/exams/dr-mazen-final-2016.pdf`,
         },
         {
           title: "Dr. Mazen El-sakka, Final Exam of 2017",
-          url: "../../../documents/level-4/semester-2/phytochemistry-3/exams/dr-mazen-final-2017.pdf",
+          url: `${CDN_URL}/level-4/semester-2/phytochemistry-3/exams/dr-mazen-final-2017.pdf`,
         },
       ],
     },
@@ -10042,7 +10043,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-4/semester-2/public-health/chapter-1-introduction.pdf",
+            url: `${CDN_URL}/level-4/semester-2/public-health/chapter-1-introduction.pdf`,
             type: "slides",
           },
         ],
@@ -10079,7 +10080,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-4/semester-2/public-health/chapter-2-screening-and-epidemiology.pdf",
+            url: `${CDN_URL}/level-4/semester-2/public-health/chapter-2-screening-and-epidemiology.pdf`,
             type: "slides",
           },
         ],
@@ -10111,7 +10112,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-4/semester-2/public-health/chapter-4-concept-of-disease-occurrence.pdf",
+            url: `${CDN_URL}/level-4/semester-2/public-health/chapter-4-concept-of-disease-occurrence.pdf`,
             type: "slides",
           },
         ],
@@ -10133,7 +10134,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-4/semester-2/public-health/chapter-5-health-education.pdf",
+            url: `${CDN_URL}/level-4/semester-2/public-health/chapter-5-health-education.pdf`,
             type: "slides",
           },
         ],
@@ -10155,7 +10156,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-4/semester-2/public-health/chapter-6-communicable-diseases.pdf",
+            url: `${CDN_URL}/level-4/semester-2/public-health/chapter-6-communicable-diseases.pdf`,
             type: "slides",
           },
         ],
@@ -10172,11 +10173,11 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Reference of Public Health",
-          url: "../../../documents/level-4/semester-2/public-health/public-health-book-pt-1.pdf",
+          url: `${CDN_URL}/level-4/semester-2/public-health/public-health-book-pt-1.pdf`,
         },
         {
           title: "Dr. Ahmed Najem",
-          url: "../../../documents/level-4/semester-2/public-health/public-health-book-ahmed-najem.pdf",
+          url: `${CDN_URL}/level-4/semester-2/public-health/public-health-book-ahmed-najem.pdf`,
         },
       ],
       summaries: [
@@ -10188,7 +10189,7 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Ahmed Najim, Final Exam of 2016",
-          url: "../../../documents/level-4/semester-2/public-health/exams/dr-ahmed-najim-final-2016.pdf",
+          url: `${CDN_URL}/level-4/semester-2/public-health/exams/dr-ahmed-najim-final-2016.pdf`,
         },
       ],
     },
@@ -10260,26 +10261,26 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Training Book -Empty-",
-          url: "../../../documents/level-4/summer/training-book-empty.pdf",
+          url: `${CDN_URL}/level-4/summer/training-book-empty.pdf`,
         },
       ],
       summaries: [
         {
           title: "Training Book -Filled-, By: TA. Eman Ibrahim",
-          url: "../../../documents/level-4/summer/training-book-filled-ta-eman-ibrahem.pdf",
+          url: `${CDN_URL}/level-4/summer/training-book-filled-ta-eman-ibrahem.pdf`,
         },
       ],
       extraResources: [
         {
           title: "Training Form",
-          url: "../../../documents/level-4/summer/training-form.pdf",
+          url: `${CDN_URL}/level-4/summer/training-form.pdf`,
           note: "Pharmacy Training Form",
         },
       ],
       exams: [
         {
           title: "Previous Exams",
-          url: "../../../documents/level-4/summer/training-exams.pdf",
+          url: `${CDN_URL}/level-4/summer/training-exams.pdf`,
         },
       ],
     },
@@ -10538,7 +10539,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Stockley's Drug Interactions 9th Edition",
-          url: "../../../documents/level-5/optional/drug-interactions/referance/stockley's-drug-interactions-9th.pdf",
+          url: `${CDN_URL}/level-5/optional/drug-interactions/referance/stockley's-drug-interactions-9th.pdf`,
         },
       ],
       summaries: [
@@ -10550,7 +10551,7 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Mohammed Shbair, Final Exam of 2016",
-          url: "../../../documents/level-5/optional/drug-interactions/exams/dr-mohammed-shbair-final-2016.pdf",
+          url: `${CDN_URL}/level-5/optional/drug-interactions/exams/dr-mohammed-shbair-final-2016.pdf`,
         },
       ],
     },
@@ -10747,7 +10748,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Dr. Mazen El-sakka: Manual of Food Supplements",
-          url: "../../../documents/level-5/optional/food-supplements/food-supplements-book.pdf",
+          url: `${CDN_URL}/level-5/optional/food-supplements/food-supplements-book.pdf`,
         },
       ],
       summaries: [
@@ -11148,15 +11149,15 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Fundamentals of Pharmacognosy & Phytotherapy",
-          url: "../../../documents/level-5/optional/phytotherapy/Fundamentals_of_Pharmacognosy_and_Phytotherapy,_2nd_Edition.pdf",
+          url: `${CDN_URL}/level-5/optional/phytotherapy/Fundamentals_of_Pharmacognosy_and_Phytotherapy,_2nd_Edition.pdf`,
         },
         {
           title: "Rational Phytotherapy",
-          url: "../../../documents/level-5/optional/phytotherapy/rational-phyto.pdf",
+          url: `${CDN_URL}/level-5/optional/phytotherapy/rational-phyto.pdf`,
         },
         {
           title: "University of Szeged: Textbook of Phytotherapy",
-          url: "../../../documents/level-5/optional/phytotherapy/Szeged.pdf",
+          url: `${CDN_URL}/level-5/optional/phytotherapy/Szeged.pdf`,
         },
       ],
       summaries: [
@@ -11168,19 +11169,19 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Mazen El-sakka, Final Exam of 2011",
-          url: "../../../documents/level-5/optional/phytotherapy/exams/dr-mazen-final-2011.pdf",
+          url: `${CDN_URL}/level-5/optional/phytotherapy/exams/dr-mazen-final-2011.pdf`,
         },
         {
           title: "Dr. Mazen El-sakka, Final Exam of 2013",
-          url: "../../../documents/level-5/optional/phytotherapy/exams/dr-mazen-final-2013.pdf",
+          url: `${CDN_URL}/level-5/optional/phytotherapy/exams/dr-mazen-final-2013.pdf`,
         },
         {
           title: "Dr. Mazen El-sakka, Final Exam of 2015",
-          url: "../../../documents/level-5/optional/phytotherapy/exams/dr-mazen-final-2015.pdf",
+          url: `${CDN_URL}/level-5/optional/phytotherapy/exams/dr-mazen-final-2015.pdf`,
         },
         {
           title: "Dr. Mazen El-sakka, Final Exam of 2016",
-          url: "../../../documents/level-5/optional/phytotherapy/exams/dr-mazen-final-2016.pdf",
+          url: `${CDN_URL}/level-5/optional/phytotherapy/exams/dr-mazen-final-2016.pdf`,
         },
       ],
     },
@@ -11425,23 +11426,23 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Pharmacotherapy Principles & Practice 5th Edition",
-          url: "../../../documents/level-5/semester-1/clinical-pharmacy/Kelly_C_Lee,_Marie_A_Chisholm_Burns,_Patrick_M_Malone,_P_Brandon.pdf",
+          url: `${CDN_URL}/level-5/semester-1/clinical-pharmacy/Kelly_C_Lee,_Marie_A_Chisholm_Burns,_Patrick_M_Malone,_P_Brandon.pdf`,
         },
         {
           title: "Clincial Pharmacy & Therapeutics 6th Edition",
-          url: "../../../documents/level-5/semester-1/clinical-pharmacy/Clinical-Pharmacy.pdf",
+          url: `${CDN_URL}/level-5/semester-1/clinical-pharmacy/Clinical-Pharmacy.pdf`,
         },
       ],
       summaries: [
         {
           title: "Aya Maher Fatooh",
-          url: "../../../documents/level-5/semester-1/clinical-pharmacy/clinical-pharmacy-course-summary-aya.pdf",
+          url: `${CDN_URL}/level-5/semester-1/clinical-pharmacy/clinical-pharmacy-course-summary-aya.pdf`,
         },
       ],
       exams: [
         {
           title: "Final Exam of 2013",
-          url: "../../../documents/level-5/semester-1/clinical-pharmacy/exams/final-2013.pdf",
+          url: `${CDN_URL}/level-5/semester-1/clinical-pharmacy/exams/final-2013.pdf`,
         },
       ],
     },
@@ -11624,11 +11625,11 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Ansel's Pharmaceutical Dosage Forms & DDS 10th Edition",
-          url: "../../../documents/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf",
+          url: `${CDN_URL}/level-2/semester-2/pharmaceutics-1/ansels_pharmaceutical_dosage_forms_and_drug_delivery_systems_10th.pdf`,
         },
         {
           title: "The Theory & Practice of Industrial Pharmacy 3rd Edition",
-          url: "../../../documents/level-4/semester-2/industrial-pharmacy-1/book/The-Theory-And-Practice-of-Industrial-Pharmacy.pdf",
+          url: `${CDN_URL}/level-4/semester-2/industrial-pharmacy-1/book/The-Theory-And-Practice-of-Industrial-Pharmacy.pdf`,
         },
       ],
       summaries: [
@@ -11681,7 +11682,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-5/semester-1/pharmaceutical-chemistry-3/chapter-1-general-anesthetic.pdf",
+            url: `${CDN_URL}/level-5/semester-1/pharmaceutical-chemistry-3/chapter-1-general-anesthetic.pdf`,
             type: "slides",
           },
         ],
@@ -11708,7 +11709,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-5/semester-1/pharmaceutical-chemistry-3/chapter-2-sedatives-and-hypnotics.pdf",
+            url: `${CDN_URL}/level-5/semester-1/pharmaceutical-chemistry-3/chapter-2-sedatives-and-hypnotics.pdf`,
             type: "slides",
           },
         ],
@@ -11740,7 +11741,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-5/semester-1/pharmaceutical-chemistry-3/chapter-3-anti-seizure-drug.pdf",
+            url: `${CDN_URL}/level-5/semester-1/pharmaceutical-chemistry-3/chapter-3-anti-seizure-drug.pdf`,
             type: "slides",
           },
         ],
@@ -11767,7 +11768,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-5/semester-1/pharmaceutical-chemistry-3/chapter-4-Muscle-relaxants.pdf",
+            url: `${CDN_URL}/level-5/semester-1/pharmaceutical-chemistry-3/chapter-4-Muscle-relaxants.pdf`,
             type: "slides",
           },
         ],
@@ -11784,7 +11785,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-5/semester-1/pharmaceutical-chemistry-3/chapter-5-antipsychotics.pdf",
+            url: `${CDN_URL}/level-5/semester-1/pharmaceutical-chemistry-3/chapter-5-antipsychotics.pdf`,
             type: "slides",
           },
         ],
@@ -11811,7 +11812,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-5/semester-1/pharmaceutical-chemistry-3/chapter-6-antidepressants-and-psychomotor-stimulants.pdf",
+            url: `${CDN_URL}/level-5/semester-1/pharmaceutical-chemistry-3/chapter-6-antidepressants-and-psychomotor-stimulants.pdf`,
             type: "slides",
           },
         ],
@@ -11911,21 +11912,21 @@ export const courses: CourseData[] = [
         {
           title:
             "Wilson & Gisvold's Textbook of Organic Medicinal & Pharmaceutical Chemistry - 12th Edition",
-          url: "../../../documents/level-4/semester-1/pharmaceutical-chemistry-1/Wilson_and_Gisvold's_Textbook.pdf",
+          url: `${CDN_URL}/level-4/semester-1/pharmaceutical-chemistry-1/Wilson_and_Gisvold's_Textbook.pdf`,
         },
         {
           title: "V. Alagarsamy, Textbook of Medicinal Chemistry",
-          url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/TEXTBOOK-OF-MEDICINAL-CHEMISTRY.pdf",
+          url: `${CDN_URL}/level-4/semester-2/pharmaceutical-chemistry-2/TEXTBOOK-OF-MEDICINAL-CHEMISTRY.pdf`,
         },
         {
           title: "Foye's Principles of Medicinal Chmeistry - 7th Edition",
-          url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/Foye's_Principles_of_Medicinal_Chemistry,_7th.pdf",
+          url: `${CDN_URL}/level-4/semester-2/pharmaceutical-chemistry-2/Foye's_Principles_of_Medicinal_Chemistry,_7th.pdf`,
         },
       ],
       summaries: [
         {
           title: "Marah Isam Falit",
-          url: "../../../documents/level-5/semester-1/pharmaceutical-chemistry-3/summary/pharm-chem-3-summary.pdf",
+          url: `${CDN_URL}/level-5/semester-1/pharmaceutical-chemistry-3/summary/pharm-chem-3-summary.pdf`,
         },
       ],
       exams: [
@@ -12217,31 +12218,31 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Pharmacotherapy Principles & Practice 5th Edition",
-          url: "../../../documents/level-5/semester-1/clinical-pharmacy/Kelly_C_Lee,_Marie_A_Chisholm_Burns,_Patrick_M_Malone,_P_Brandon.pdf",
+          url: `${CDN_URL}/level-5/semester-1/clinical-pharmacy/Kelly_C_Lee,_Marie_A_Chisholm_Burns,_Patrick_M_Malone,_P_Brandon.pdf`,
         },
         {
           title: "Clincial Pharmacy & Therapeutics 5th Edition",
-          url: "../../../documents/level-5/semester-1/pharmacotherapeutics-1/Clinical-Pharmacy-and-Therapeutics-roger-walker-5th.pdf",
+          url: `${CDN_URL}/level-5/semester-1/pharmacotherapeutics-1/Clinical-Pharmacy-and-Therapeutics-roger-walker-5th.pdf`,
         },
       ],
       summaries: [
         {
           title: "Aya Maher Fatooh",
-          url: "../../../documents/level-5/semester-1/pharmacotherapeutics-1/therapeutics-1-course-summary-aya.pdf",
+          url: `${CDN_URL}/level-5/semester-1/pharmacotherapeutics-1/therapeutics-1-course-summary-aya.pdf`,
         },
       ],
       exams: [
         {
           title: "Dr. Mahmoud Taleb, Final Exam of 2012",
-          url: "../../../documents/level-5/semester-1/pharmacotherapeutics-1/exams/dr-mahmoud-taleb-final-2012.pdf",
+          url: `${CDN_URL}/level-5/semester-1/pharmacotherapeutics-1/exams/dr-mahmoud-taleb-final-2012.pdf`,
         },
         {
           title: "Dr. Mahmoud Taleb, Final Exam of 2014",
-          url: "../../../documents/level-5/semester-1/pharmacotherapeutics-1/exams/dr-mahmoud-taleb-final-2014.pdf",
+          url: `${CDN_URL}/level-5/semester-1/pharmacotherapeutics-1/exams/dr-mahmoud-taleb-final-2014.pdf`,
         },
         {
           title: "Dr. Mahmoud Taleb, Final Exam of 2015",
-          url: "../../../documents/level-5/semester-1/pharmacotherapeutics-1/exams/dr-mahmoud-taleb-final-2015.pdf",
+          url: `${CDN_URL}/level-5/semester-1/pharmacotherapeutics-1/exams/dr-mahmoud-taleb-final-2015.pdf`,
         },
       ],
     },
@@ -12338,7 +12339,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../documents/level-5/semester-1/pharmacotherapeutics-1/chapter-3-cns-infections.pdf",
+            url: `${CDN_URL}/level-5/semester-1/pharmacotherapeutics-1/chapter-3-cns-infections.pdf`,
             type: "slides",
           },
         ],
@@ -12355,7 +12356,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../Files/level-3/semester-1/pathophysiology-1/chapter-03-inflamation.pdf",
+            url: `${CDN_URL}/level-3/semester-1/pathophysiology-1/chapter-03-inflamation.pdf`,
             type: "slides",
           },
         ],
@@ -12399,7 +12400,7 @@ export const courses: CourseData[] = [
         documents: [
           {
             title: "Chapter Slides",
-            url: "../../../Files/level-3/semester-1/pathophysiology-1/chapter-05-git-disorders.pdf",
+            url: `${CDN_URL}/level-3/semester-1/pathophysiology-1/chapter-05-git-disorders.pdf`,
             type: "slides",
           },
         ],
@@ -12492,31 +12493,31 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Pharmacotherapy Principles & Practice 5th Edition",
-          url: "../../../documents/level-5/semester-1/clinical-pharmacy/Kelly_C_Lee,_Marie_A_Chisholm_Burns,_Patrick_M_Malone,_P_Brandon.pdf",
+          url: `${CDN_URL}/level-5/semester-1/clinical-pharmacy/Kelly_C_Lee,_Marie_A_Chisholm_Burns,_Patrick_M_Malone,_P_Brandon.pdf`,
         },
         {
           title: "Clincial Pharmacy & Therapeutics 5th Edition",
-          url: "../../../documents/level-5/semester-1/pharmacotherapeutics-1/Clinical-Pharmacy-and-Therapeutics-roger-walker-5th.pdf",
+          url: `${CDN_URL}/level-5/semester-1/pharmacotherapeutics-1/Clinical-Pharmacy-and-Therapeutics-roger-walker-5th.pdf`,
         },
       ],
       summaries: [
         {
           title: "Aya Maher Fatooh",
-          url: "../../../documents/level-5/semester-1/pharmacotherapeutics-1/therapeutics-1-course-summary-aya.pdf",
+          url: `${CDN_URL}/level-5/semester-1/pharmacotherapeutics-1/therapeutics-1-course-summary-aya.pdf`,
         },
       ],
       exams: [
         {
           title: "Dr. Mahmoud Taleb, Final Exam of 2012",
-          url: "../../../documents/level-5/semester-1/pharmacotherapeutics-1/exams/dr-mahmoud-taleb-final-2012.pdf",
+          url: `${CDN_URL}/level-5/semester-1/pharmacotherapeutics-1/exams/dr-mahmoud-taleb-final-2012.pdf`,
         },
         {
           title: "Dr. Mahmoud Taleb, Final Exam of 2014",
-          url: "../../../documents/level-5/semester-1/pharmacotherapeutics-1/exams/dr-mahmoud-taleb-final-2014.pdf",
+          url: `${CDN_URL}/level-5/semester-1/pharmacotherapeutics-1/exams/dr-mahmoud-taleb-final-2014.pdf`,
         },
         {
           title: "Dr. Mahmoud Taleb, Final Exam of 2015",
-          url: "../../../documents/level-5/semester-1/pharmacotherapeutics-1/exams/dr-mahmoud-taleb-final-2015.pdf",
+          url: `${CDN_URL}/level-5/semester-1/pharmacotherapeutics-1/exams/dr-mahmoud-taleb-final-2015.pdf`,
         },
       ],
     },
@@ -12699,13 +12700,13 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Clinical Biochemistry: An Illustrated Colour Text",
-          url: "../../../documents/level-5/semester-2/clinical-biochemistry/Clinical-Biochemistry-An-Illustrated-Colour-Text-5th-2013.pdf",
+          url: `${CDN_URL}/level-5/semester-2/clinical-biochemistry/Clinical-Biochemistry-An-Illustrated-Colour-Text-5th-2013.pdf`,
         },
       ],
       summaries: [
         {
           title: "Tasneem Al-qeeq",
-          url: "../../../documents/level-5/semester-2/clinical-biochemistry/clinical-biochemistry-course-summary-tasneem.pdf",
+          url: `${CDN_URL}/level-5/semester-2/clinical-biochemistry/clinical-biochemistry-course-summary-tasneem.pdf`,
         },
       ],
       exams: [
@@ -12761,7 +12762,7 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Final Exam of 2016",
-          url: "../../../documents/level-5/semester-2/nutrition/exams/final-2016.pdf",
+          url: `${CDN_URL}/level-5/semester-2/nutrition/exams/final-2016.pdf`,
         },
       ],
     },
@@ -12995,15 +12996,15 @@ export const courses: CourseData[] = [
         {
           title:
             "Wilson & Gisvold's Textbook of Organic Medicinal & Pharmaceutical Chemistry - 12th Edition",
-          url: "../../../documents/level-4/semester-1/pharmaceutical-chemistry-1/Wilson_and_Gisvold's_Textbook.pdf",
+          url: `${CDN_URL}/level-4/semester-1/pharmaceutical-chemistry-1/Wilson_and_Gisvold's_Textbook.pdf`,
         },
         {
           title: "V. Alagarsamy, Textbook of Medicinal Chemistry",
-          url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/TEXTBOOK-OF-MEDICINAL-CHEMISTRY.pdf",
+          url: `${CDN_URL}/level-4/semester-2/pharmaceutical-chemistry-2/TEXTBOOK-OF-MEDICINAL-CHEMISTRY.pdf`,
         },
         {
           title: "Foye's Principles of Medicinal Chmeistry - 7th Edition",
-          url: "../../../documents/level-4/semester-2/pharmaceutical-chemistry-2/Foye's_Principles_of_Medicinal_Chemistry,_7th.pdf",
+          url: `${CDN_URL}/level-4/semester-2/pharmaceutical-chemistry-2/Foye's_Principles_of_Medicinal_Chemistry,_7th.pdf`,
         },
       ],
       summaries: [
@@ -13237,7 +13238,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Pharmacotherapy Principles & Practice 5th Edition",
-          url: "../../../documents/level-5/semester-1/clinical-pharmacy/Kelly_C_Lee,_Marie_A_Chisholm_Burns,_Patrick_M_Malone,_P_Brandon.pdf",
+          url: `${CDN_URL}/level-5/semester-1/clinical-pharmacy/Kelly_C_Lee,_Marie_A_Chisholm_Burns,_Patrick_M_Malone,_P_Brandon.pdf`,
         },
       ],
       summaries: [
@@ -13249,11 +13250,11 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Mahmoud Taleb, Final Exam of 2015",
-          url: "../../../documents/level-5/semester-2/pharmacotherapeutics-2/exams/dr-mahmoud-taleb-final-2015.pdf",
+          url: `${CDN_URL}/level-5/semester-2/pharmacotherapeutics-2/exams/dr-mahmoud-taleb-final-2015.pdf`,
         },
         {
           title: "Dr. Hala Al-agha, Final Exam of 2016",
-          url: "../../../documents/level-5/semester-2/pharmacotherapeutics-2/exams/dr-hala-alagha-final-2016.pdf",
+          url: `${CDN_URL}/level-5/semester-2/pharmacotherapeutics-2/exams/dr-hala-alagha-final-2016.pdf`,
         },
       ],
     },
@@ -13427,7 +13428,7 @@ export const courses: CourseData[] = [
       referenceBooks: [
         {
           title: "Casarett & Duoll's Toxicology - 8th Edition",
-          url: "../../../documents/level-5/semester-2/toxicology/reference/Casarett-&-Doull's-Toxicology_The-Basic-Science-of-Poisons.pdf",
+          url: `${CDN_URL}/level-5/semester-2/toxicology/reference/Casarett-&-Doull's-Toxicology_The-Basic-Science-of-Poisons.pdf`,
         },
       ],
       summaries: [
@@ -13439,15 +13440,15 @@ export const courses: CourseData[] = [
       exams: [
         {
           title: "Dr. Mohammed Shbair, Final Exam of 2013",
-          url: "../../../documents/level-5/semester-2/toxicology/dr-mohammed-shbair-final-2013.pdf",
+          url: `${CDN_URL}/level-5/semester-2/toxicology/dr-mohammed-shbair-final-2013.pdf`,
         },
         {
           title: "Dr. Mohammed Shbair, Final Exam of 2015",
-          url: "../../../documents/level-5/semester-2/toxicology/dr-mohammed-shbair-final-2015.pdf",
+          url: `${CDN_URL}/level-5/semester-2/toxicology/dr-mohammed-shbair-final-2015.pdf`,
         },
         {
           title: "Dr. Mohammed Shbair, Final Exam of 2017",
-          url: "../../../documents/level-5/semester-2/toxicology/dr-mohammed-shbair-final-2017.pdf",
+          url: `${CDN_URL}/level-5/semester-2/toxicology/dr-mohammed-shbair-final-2017.pdf`,
         },
       ],
     },

@@ -1,7 +1,7 @@
 //Plans Data
 
 import { faFile, faFilePen, faFolder } from "@fortawesome/free-solid-svg-icons";
-import type { PlanCard } from "../types";
+import type { PlanCard } from "../types/HomeTypes";
 
 export const plansData: PlanCard[] = [
   {
@@ -26,7 +26,7 @@ export const plansData: PlanCard[] = [
 
 // Cards Data
 
-import type { CardData } from "../types";
+import type { CardData } from "../types/HomeTypes";
 
 export const cardsData: CardData[] = [
   {
@@ -84,7 +84,7 @@ export const cardsData: CardData[] = [
 
 import EventOne from "../assets/images/event-01.jpg";
 import EventTwo from "../assets/images/event-02.jpg";
-import type { EventCard } from "../types";
+import type { EventCard } from "../types/HomeTypes";
 
 export const eventsData: EventCard[] = [
   {

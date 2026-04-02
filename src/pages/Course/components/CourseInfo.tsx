@@ -3,7 +3,7 @@ import {
   faDownload,
   faFileLines,
 } from "@fortawesome/free-solid-svg-icons";
-import type { CourseData } from "../../../types";
+import type { CourseData } from "../../../types/CoursesTypes";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ResourceCard from "./ResourceCard";
 
