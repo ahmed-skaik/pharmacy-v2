@@ -21,7 +21,7 @@ export default class ChunkErrorBoundary extends Component<
         <div className="d-flex flex-column align-items-center justify-content-center p-5">
           <p>Failed to load this page. Please check your connection and</p>
           <button
-            className="btn main-btn"
+            className="btn main-btn btn-dark text-uppercase"
             onClick={() => window.location.reload()}
           >
             Try Again

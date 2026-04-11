@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 export default function LandingSection() {
   return (
@@ -36,9 +37,9 @@ export default function LandingSection() {
                 </span>
               </p>
               <div className="links d-flex gap-3 flex-column flex-sm-row justify-content-center justify-content-lg-start">
-                <a href="#courses" className="btn main-btn">
+                <Link to="#courses" className="btn main-btn">
                   Our Courses
-                </a>
+                </Link>
                 <a
                   href="http://www.alazhar.edu.ps/arabic/fa/Pha.asp"
                   target="_blank"
@@ -62,9 +63,9 @@ export default function LandingSection() {
           </div>
         </div>
       </div>
-      <a href="#courses" aria-label="arrow down">
+      <Link to="#courses" aria-label="arrow down">
         <FontAwesomeIcon icon={faAnglesDown} size="2x" />
-      </a>
+      </Link>
     </div>
   );
 }

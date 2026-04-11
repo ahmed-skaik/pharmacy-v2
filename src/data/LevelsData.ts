@@ -1,6 +1,6 @@
 import type { LevelStructure } from "../types/LevelsTypes";
 
-export const levels: LevelStructure[] = [
+export const LEVELS_DATA: LevelStructure[] = [
   {
     id: 1,
     title: "One",

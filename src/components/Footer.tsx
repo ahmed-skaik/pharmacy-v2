@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 export default function Footer() {
   const currentDate = new Date();
   const currentYear = currentDate.getFullYear();
@@ -15,7 +13,13 @@ export default function Footer() {
         >
           Made with ❤️, by{" "}
           <span>
-            <Link to="/about#founders">Ahmed-Skaîk</Link>
+            <a
+              href="https://www.linkedin.com/in/ahmed-skaik01/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ahmed-Skaîk
+            </a>
           </span>{" "}
           &copy; 2022 - {currentYear}
         </p>

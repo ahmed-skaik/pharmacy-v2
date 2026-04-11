@@ -26,7 +26,7 @@ function ResourceCard({
   return (
     <a
       href={href}
-      className="a-parent d-flex justify-content-between align-items-center flex-column flex-md-row"
+      className={`a-parent ${href === "404" ? "d-none" : "d-flex"} justify-content-between align-items-center flex-column flex-md-row`}
       target="_blank"
       rel="noopener noreferrer"
     >

@@ -1,4 +1,5 @@
 import AboutImg from "../../../assets/images/about-1.jpg";
+import { idColor } from "../../../constants";
 
 export default function DepartmentsSection() {
   return (
@@ -7,7 +8,12 @@ export default function DepartmentsSection() {
         <div className="row align-items-center justify-content-between gap-4 gap-lg-0">
           <div className="col-lg-6 img-flex">
             <div className="img">
-              <img src={AboutImg} alt="about" className="img-fluid" loading="lazy" />
+              <img
+                src={AboutImg}
+                alt="about"
+                className="img-fluid"
+                loading="lazy"
+              />
             </div>
           </div>
           <div className="col-lg-6 txt-flex">
@@ -46,7 +52,7 @@ export default function DepartmentsSection() {
                   Pharmaceutical Botany was Merged with the Department of
                   Chemistry &#38; Pharmaceutical Chemistry to Form the
                   Department of (
-                  <span style={{ color: "#3434ff", fontWeight: "600" }}>
+                  <span style={{ color: idColor, fontWeight: "600" }}>
                     Pharmaceutical Chemistry &#38; Pharmacognosy
                   </span>
                   ).

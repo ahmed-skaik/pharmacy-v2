@@ -121,3 +121,7 @@ $dots_dimentions: 180px;
 abbr {
   text-decoration: underline dotted $id_color !important;
 }
+
+.text-id {
+  color: $id_color;
+}

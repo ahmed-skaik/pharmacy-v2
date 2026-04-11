@@ -79,7 +79,6 @@ export default function Header() {
             <FontAwesomeIcon icon={faBarsStaggered} fixedWidth />
             <FontAwesomeIcon icon={faXmark} fixedWidth />
           </button>
-
           <div
             className={`navbar-collapse collapse ${menuOpen ? "show" : ""}`}
             id="main"
@@ -163,15 +162,6 @@ export default function Header() {
                   UNIV Needs
                 </NavLink>
               </li>
-              {/* <li className="nav-item d-block d-md-none">
-                <a
-                  className="nav-link"
-                  href="/#courses"
-                  onClick={() => setMenuOpen(false)}
-                >
-                  Courses
-                </a>
-              </li> */}
               <li className="nav-item">
                 <NavLink
                   className={({ isActive }) =>

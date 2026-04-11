@@ -3,7 +3,7 @@
 import { faFile, faFilePen, faFolder } from "@fortawesome/free-solid-svg-icons";
 import type { PlanCard } from "../types/HomeTypes";
 
-export const plansData: PlanCard[] = [
+export const PLANS_DATA: PlanCard[] = [
   {
     id: 1,
     title: "Detailed Plan",
@@ -28,7 +28,7 @@ export const plansData: PlanCard[] = [
 
 import type { CardData } from "../types/HomeTypes";
 
-export const cardsData: CardData[] = [
+export const CARDS_DATA: CardData[] = [
   {
     id: 1,
     title: "Level 1",
@@ -86,7 +86,7 @@ import EventOne from "../assets/images/event-01.jpg";
 import EventTwo from "../assets/images/event-02.jpg";
 import type { EventCard } from "../types/HomeTypes";
 
-export const eventsData: EventCard[] = [
+export const EVENTS_DATA: EventCard[] = [
   {
     id: 1,
     title: "Midterm Exams of the First Semester 2023/2024",

@@ -14,13 +14,14 @@ import { Tooltip } from "bootstrap";
 import { lazy, Suspense, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import ChunkErrorBoundary from "./components/ChunkErrorBoundary";
+import { idColor } from "./constants";
 
 const LazyCoursePage = lazy(() => import("./pages/Course"));
 
 const welcomeMsg = `Hello from Console my fellow Pharmacy Students !`;
 console.log(
   `%c${welcomeMsg} %cit's Ahmed-Skaîk typing..`,
-  `color: #3434ff; font-size: 25px; background-color: #fff; text-decoration: underline wavy #08082c;`,
+  `color: ${idColor}; font-size: 25px; background-color: #fff; text-decoration: underline wavy #08082c;`,
   `color: red; font-size: 25px; padding-top: 25px`,
 );
 

@@ -1,6 +1,7 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { plansData } from "../../../data/HomeData";
+import { PLANS_DATA } from "../../../data/HomeData";
 import SectionHeading from "../../../components/SectionHeading";
+import PlanCard from "../components/PlanCard";
+
 export default function PlansSection() {
   return (
     <div className="plans pt-5 pb-5 text-center" id="plans">
@@ -13,16 +14,13 @@ export default function PlansSection() {
           className="main-title mt-5 mb-5"
         />
         <div className="row mt-5 mb-5">
-          {plansData.map((plan) => (
-            <div className="col-md-6 col-lg-4 p-3 plan" key={plan.id}>
-              <a href={plan.pdfPath} target="_blank" rel="noopener noreferrer">
-                <div className="box">
-                  <FontAwesomeIcon icon={plan.icon} size="4x" />
-                  <h3>{plan.title}</h3>
-                  <div className="info">Download</div>
-                </div>
-              </a>
-            </div>
+          {PLANS_DATA.map((plan) => (
+            <PlanCard
+              id={plan.id}
+              pdfPath={plan.pdfPath}
+              icon={plan.icon}
+              title={plan.title}
+            />
           ))}
         </div>
       </div>

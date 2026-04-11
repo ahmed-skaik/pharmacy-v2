@@ -1,7 +1,7 @@
 import type { CourseData } from "../types/CoursesTypes";
 import { CDN_URL } from "../constants";
 
-export const courses: CourseData[] = [
+export const COURSES_DATA: CourseData[] = [
   {
     slug: "cell-biology",
     title: "Cell Biology.",
@@ -1157,12 +1157,6 @@ export const courses: CourseData[] = [
           url: "404",
         },
       ],
-      exams: [
-        {
-          title: "404 - Not Found !",
-          url: "404",
-        },
-      ],
     },
     about: {
       description: "Course Description (404 - Not Found)",
@@ -1350,12 +1344,6 @@ export const courses: CourseData[] = [
       summaries: [
         {
           title: "",
-          url: "404",
-        },
-      ],
-      exams: [
-        {
-          title: "404 - Not Found !",
           url: "404",
         },
       ],
@@ -4585,12 +4573,6 @@ export const courses: CourseData[] = [
           url: "404",
         },
       ],
-      exams: [
-        {
-          title: "(404 - Not Found)",
-          url: "404",
-        },
-      ],
     },
     about: {
       description: "Course Description (404 - Not Found)",
@@ -6251,12 +6233,6 @@ export const courses: CourseData[] = [
           url: "404",
         },
       ],
-      exams: [
-        {
-          title: "(404 - Not Found)",
-          url: "404",
-        },
-      ],
     },
     about: {
       description: "Course Description (404 - Not Found)",
@@ -6314,12 +6290,6 @@ export const courses: CourseData[] = [
       summaries: [
         {
           title: "",
-          url: "404",
-        },
-      ],
-      exams: [
-        {
-          title: "(404 - Not Found)",
           url: "404",
         },
       ],
@@ -6557,12 +6527,6 @@ export const courses: CourseData[] = [
         {
           title: "Tasneem Al-qeeq",
           url: `${CDN_URL}/level-3/semester-2/pathophysiology-2/summary/pathophysiology-2-summary-tasneem.pdf`,
-        },
-      ],
-      exams: [
-        {
-          title: "(404 - Not Found)",
-          url: "404",
         },
       ],
     },
@@ -8001,12 +7965,6 @@ export const courses: CourseData[] = [
       summaries: [
         {
           title: "",
-          url: "404",
-        },
-      ],
-      exams: [
-        {
-          title: "(404 - Not Found)",
           url: "404",
         },
       ],
@@ -9621,12 +9579,6 @@ export const courses: CourseData[] = [
           url: `${CDN_URL}/level-4/semester-2/pharmaceutical-chemistry-2/pharm-chem-2-course-summary-marah.pdf`,
         },
       ],
-      exams: [
-        {
-          title: "(404 - Not Found)",
-          url: "404",
-        },
-      ],
     },
     about: {
       description: "Course Description (404 - Not Found)",
@@ -10501,12 +10453,6 @@ export const courses: CourseData[] = [
           url: "404",
         },
       ],
-      exams: [
-        {
-          title: "(404 - Not Found)",
-          url: "404",
-        },
-      ],
     },
     about: {
       description: "Course Description (404 - Not Found)",
@@ -10757,12 +10703,6 @@ export const courses: CourseData[] = [
           url: "404",
         },
       ],
-      exams: [
-        {
-          title: "(404 - Not Found)",
-          url: "404",
-        },
-      ],
     },
     about: {
       description: "Course Description (404 - Not Found)",
@@ -10934,12 +10874,6 @@ export const courses: CourseData[] = [
       summaries: [
         {
           title: "",
-          url: "404",
-        },
-      ],
-      exams: [
-        {
-          title: "(404 - Not Found)",
           url: "404",
         },
       ],
@@ -11222,12 +11156,6 @@ export const courses: CourseData[] = [
       summaries: [
         {
           title: "",
-          url: "404",
-        },
-      ],
-      exams: [
-        {
-          title: "(404 - Not Found)",
           url: "404",
         },
       ],
@@ -11638,12 +11566,6 @@ export const courses: CourseData[] = [
           url: "404",
         },
       ],
-      exams: [
-        {
-          title: "(404 - Not Found)",
-          url: "404",
-        },
-      ],
     },
     about: {
       description: "Course Description (404 - Not Found)",
@@ -11927,12 +11849,6 @@ export const courses: CourseData[] = [
         {
           title: "Marah Isam Falit",
           url: `${CDN_URL}/level-5/semester-1/pharmaceutical-chemistry-3/summary/pharm-chem-3-summary.pdf`,
-        },
-      ],
-      exams: [
-        {
-          title: "(404 - Not Found)",
-          url: "404",
         },
       ],
     },
@@ -12709,12 +12625,6 @@ export const courses: CourseData[] = [
           url: `${CDN_URL}/level-5/semester-2/clinical-biochemistry/clinical-biochemistry-course-summary-tasneem.pdf`,
         },
       ],
-      exams: [
-        {
-          title: "(404 - Not Found)",
-          url: "404",
-        },
-      ],
     },
     about: {
       description: "Course Description (404 - Not Found)",
@@ -13010,12 +12920,6 @@ export const courses: CourseData[] = [
       summaries: [
         {
           title: "",
-          url: "404",
-        },
-      ],
-      exams: [
-        {
-          title: "(404 - Not Found)",
           url: "404",
         },
       ],
@@ -13472,4 +13376,4 @@ export const courses: CourseData[] = [
       ],
     },
   },
-] as const;
+];

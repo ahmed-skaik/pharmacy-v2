@@ -14,7 +14,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import type { TechItem } from "../types/AboutTypes";
 
-export const techStack: TechItem[] = [
+export const TECH_STACK_DATA: TechItem[] = [
   { type: "fa", icon: faHtml5, color: "#e34c26", label: "HTML 5" },
   { type: "fa", icon: faCss3, color: "#264de4", label: "CSS 3" },
   { type: "fa", icon: faSass, color: "#cc6699", label: "SASS" },

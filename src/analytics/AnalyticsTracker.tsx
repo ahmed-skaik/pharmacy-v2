@@ -13,7 +13,7 @@ declare global {
 
 const GA_ID = import.meta.env.VITE_GA_ID;
 if (!GA_ID) {
-  console.warn("GA Measurement ID is missing");
+  console.warn("Google Analytics Measurement ID (GA_ID) is missing");
 }
 
 export default function AnalyticsTracker() {

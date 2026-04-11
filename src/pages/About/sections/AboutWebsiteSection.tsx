@@ -1,6 +1,6 @@
 import QrCodeImg from "../../../assets/images/qr-code.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { techStack } from "../../../data/AboutData";
+import { TECH_STACK_DATA } from "../../../data/AboutData";
 
 export default function AboutWebsiteSection() {
   return (
@@ -24,7 +24,7 @@ export default function AboutWebsiteSection() {
                   Languages, Skills &#38; Services used:
                   <div className="p-0 m-0">
                     <ul className="list-revert">
-                      {techStack.map((item) => (
+                      {TECH_STACK_DATA.map((item) => (
                         <li key={item.label}>
                           {item.type === "fa" ? (
                             <FontAwesomeIcon

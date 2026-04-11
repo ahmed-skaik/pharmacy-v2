@@ -8,7 +8,7 @@ import OopsMessage from "../../components/OopsMessage";
 import DotsDecoration from "../../components/DotsDecoration";
 
 import { useParams } from "react-router-dom";
-import { levels } from "../../data/LevelsData";
+import { LEVELS_DATA } from "../../data/LevelsData";
 import type { LevelStructure } from "../../types/LevelsTypes";
 import ProgressSection from "./sections/ProgressSection";
 import SpikesSeperator from "../../components/SpikesSeperator";
@@ -22,7 +22,7 @@ export default function LevelDetails() {
   // Convert route param to number
   const myLevelId = Number(levelId);
   // Find matching level
-  const level: LevelStructure | undefined = levels.find(
+  const level: LevelStructure | undefined = LEVELS_DATA.find(
     (lvl) => lvl.id === myLevelId,
   );
   // If no level found

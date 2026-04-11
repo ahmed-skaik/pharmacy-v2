@@ -18,7 +18,6 @@ export default function Seo({ title, description }: SeoProps) {
       defaultTitle="Faculty of Pharmacy - Alazhar University of Gaza"
     >
       <title>{title}</title>
-
       <meta name="description" content={description} />
       <link rel="canonical" href={fullUrl} />
     </Helmet>

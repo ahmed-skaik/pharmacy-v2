@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import ResourceCard from "./ResourceCard";
 import { memo } from "react";
+import OopsMessage from "../../../components/OopsMessage";
 
 type Props = {
   resources: CourseData["resources"];
@@ -92,23 +93,27 @@ function CourseResources({ resources }: Props) {
           </div>
           <div className="table ps-md-3">
             <ul className="list-unstyled m-0 ms-md-5">
-              {resources.exams.map((exam, i) => (
-                <li
-                  className="d-flex justify-content-between align-items-center"
-                  key={i}
-                >
-                  <p className="mb-0">{exam.title}</p>
-                  <a
-                    href={exam.url}
-                    className="d-flex align-items-center justify-content-between"
-                    target="_blank"
-                    rel="noopener noreferrer"
+              {resources.exams ? (
+                resources.exams.map((exam, i) => (
+                  <li
+                    className={`d-flex justify-content-between align-items-center`}
+                    key={i}
                   >
-                    Download
-                    <FontAwesomeIcon icon={faDownload} fixedWidth />
-                  </a>
-                </li>
-              ))}
+                    <p className="mb-0 text-id">{exam.title}</p>
+                    <a
+                      href={exam.url}
+                      className="d-flex align-items-center justify-content-between"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Download
+                      <FontAwesomeIcon icon={faDownload} fixedWidth />
+                    </a>
+                  </li>
+                ))
+              ) : (
+                <OopsMessage/>
+              )}
             </ul>
           </div>
         </span>

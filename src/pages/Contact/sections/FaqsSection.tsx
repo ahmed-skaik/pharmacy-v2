@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import SectionHeading from "../../../components/SectionHeading";
+import { idColor } from "../../../constants";
 
 export default function FaqsSection() {
   return (
@@ -53,7 +55,9 @@ export default function FaqsSection() {
                   <li className="mb-2">
                     2 Credit Hours of{" "}
                     <span>
-                      <a href="/courses/pharmacy-training">Pharmacy Training</a>
+                      <Link to="/courses/pharmacy-training">
+                        Pharmacy Training
+                      </Link>
                     </span>{" "}
                     (4<sup>th</sup> Level Summer Semester)
                   </li>
@@ -112,10 +116,12 @@ export default function FaqsSection() {
                 <p>
                   A Course Code ex: the Code of{" "}
                   <span>
-                    <a href="/courses/pathophysiology-2">Pathophysiology II</a>
+                    <Link to="/courses/pathophysiology-2">
+                      Pathophysiology II
+                    </Link>
                   </span>{" "}
                   Course (<span style={{ color: "#08082c" }}>PHPT</span>
-                  <span style={{ color: "#3434ff" }}>3207</span>) Gives
+                  <span style={{ color: idColor }}>3207</span>) Gives
                   Information About the Course.
                 </p>
                 <ul>
@@ -130,19 +136,17 @@ export default function FaqsSection() {
                     Sciences).
                   </li>
                   <li className="mb-2">
-                    The First Number (
-                    <span style={{ color: "#3434ff" }}>3</span>) Refers to the
-                    Level, which is the 3<sup>rd</sup>
+                    The First Number (<span style={{ color: idColor }}>3</span>)
+                    Refers to the Level, which is the 3<sup>rd</sup>
                     Level.
                   </li>
                   <li className="mb-2">
-                    The Second Number (
-                    <span style={{ color: "#3434ff" }}>2</span>) Refers to the
-                    Course Credit Hours.
+                    The Second Number (<span style={{ color: idColor }}>2</span>
+                    ) Refers to the Course Credit Hours.
                   </li>
                   <li className="mb-2">
                     The Last two Numbers (
-                    <span style={{ color: "#3434ff" }}>07</span>) Refer to the
+                    <span style={{ color: idColor }}>07</span>) Refer to the
                     Course Arrangement in The Department.
                   </li>
                 </ul>
@@ -160,7 +164,7 @@ export default function FaqsSection() {
                 aria-controls="collapseExample-5"
               >
                 <h3>
-                  How can I Graduate with the 1<sup>st</sup> or 2<sup>nd</sup>
+                  How can I Graduate with the 1<sup>st</sup> or 2<sup>nd</sup>{" "}
                   Degree of Honer ?
                 </h3>
                 <FontAwesomeIcon icon={faAngleRight} size="xl" />

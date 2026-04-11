@@ -1,7 +1,7 @@
 import LandingSection from "./sections/LandingSection";
 import StatisticsSection from "./sections/StatisticsSection";
 import PlansSection from "./sections/PlansSection";
-import CoursesSection from "./sections/CoursesSection";
+import LevelsSection from "./sections/LevelsSection";
 import EventsSection from "./sections/EventsSection";
 import SpikesSeperator from "../../components/SpikesSeperator";
 import Seo from "../../meta/Seo";
@@ -18,7 +18,7 @@ export default function Home() {
       <StatisticsSection />
       <PlansSection />
       <SpikesSeperator />
-      <CoursesSection />
+      <LevelsSection />
       <EventsSection />
     </>
   );

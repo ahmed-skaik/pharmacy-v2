@@ -4,7 +4,6 @@ import {
   fa2,
   fa3,
   fa4,
-  fa5,
   faInfo,
   faHeadset,
   faBuildingColumns,
@@ -40,6 +39,7 @@ import {
   faPlateWheat,
   faBiohazard,
   faHandDots,
+  faGraduationCap,
 } from "@fortawesome/free-solid-svg-icons";
 
 export function GetPageIcon(path: string) {
@@ -48,7 +48,7 @@ export function GetPageIcon(path: string) {
   if (path.startsWith("/levels/2")) return fa2;
   if (path.startsWith("/levels/3")) return fa3;
   if (path.startsWith("/levels/4")) return fa4;
-  if (path.startsWith("/levels/5")) return fa5;
+  if (path.startsWith("/levels/5")) return faGraduationCap;
   if (
     path.startsWith("/courses/cell-biology") ||
     path.startsWith("/courses/biochemistry")

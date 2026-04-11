@@ -6,7 +6,7 @@ import {
   faDownload,
   faFile,
 } from "@fortawesome/free-solid-svg-icons";
-import { uniNeeds } from "../data/UniversityNeedsData";
+import { UNI_NEEDS_DATA } from "../data/UniversityNeedsData";
 import DotsDecoration from "../components/DotsDecoration";
 import Seo from "../meta/Seo";
 import LinkCard from "../components/LinkCard";
@@ -29,7 +29,7 @@ export default function UniversityNeeds() {
             description="University Needs for all Levels & Faculties at Alazhar University of Gaza"
           />
           <div className="year mt-5 mb-5">
-            {uniNeeds.map((need, nIndex) => (
+            {UNI_NEEDS_DATA.map((need, nIndex) => (
               <div
                 className={`semester ${need.isOptional ? "optional" : ""}`}
                 key={nIndex}
@@ -116,7 +116,7 @@ export default function UniversityNeeds() {
                             aria-label="Lecturer: Nahed Al-qayed"
                           >
                             <FontAwesomeIcon icon={faAngleRight} />
-                            <span className="name">Lecturer:</span>
+                            <span className="name">Lecturer:</span>{" "}
                             <span>{lecturer.name}</span>
                           </button>
                         </p>

@@ -1,7 +1,7 @@
 import type { UniSubject } from "../types/UniversityNeedsTypes";
 import { CDN_URL } from "../constants";
 
-export const uniNeeds: UniSubject[] = [
+export const UNI_NEEDS_DATA: UniSubject[] = [
   {
     id: "arabic-language-1",
     title: "Arabic Language (1)",

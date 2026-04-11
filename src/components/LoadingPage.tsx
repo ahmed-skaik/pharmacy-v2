@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleNotch } from "@fortawesome/free-solid-svg-icons";
+import { idColor } from "../constants";
 
 export default function LoadingPage() {
   return (
@@ -9,7 +10,7 @@ export default function LoadingPage() {
         icon={faCircleNotch}
         spin
         size="xl"
-        style={{ color: "#3434ff" }}
+        style={{ color: idColor }}
       />
     </div>
   );

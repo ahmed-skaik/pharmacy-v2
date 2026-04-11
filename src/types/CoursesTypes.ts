@@ -32,7 +32,7 @@ export interface CourseData {
     extraResources?: { title: string; url: string; note: string }[] | null;
     summaries?: { title: string; url: string }[];
     personalRecommendations?: { title: string; url: string };
-    exams: { title: string; url: string }[];
+    exams?: { title: string; url: string }[];
   };
 
   about: {
