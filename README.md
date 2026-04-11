@@ -1,26 +1,26 @@
 # Al-Azhar Pharmacy Portal (Version 2)
 
-🚧 **This project is currently under active development.**
+A production-ready, modern frontend application built to centralize academic resources for Pharmacy students at Al-Azhar University of Gaza.
 
-Version 2 is a frontend re-architecture of the original Al-Azhar Pharmacy Academic Portal (V1), transitioning from a static multi-page structure to a component-driven React application.
+🌐 Live Website: https://alazharpharmacy.com  
+💻 Source Code: https://github.com/ahmed-skaik/pharmacy-v2  
 
----
-
-## 🔗 Released Version (Al-Azhar Pharmacy Portal - Version 1)
-
-The original static production release was publicly launched in 2022 and has remained accessible since.
-
-🌐 Live Website (V1): https://alazharpharmacy.com  
-
-💻 Source Code (V1): https://github.com/ahmed-skaik/Pharmacy
+Currently deployed and serving as the active production version of the platform.
 
 ---
 
 ## 🔄 About This Version
 
-This iteration restructures the platform using a modern frontend stack focused on scalability, maintainability, and long-term extensibility.
+Version 2 is a complete frontend re-architecture of the original platform (V1), transitioning from a static multi-page structure to a scalable, component-driven React application.
 
-The application is currently frontend-focused, with academic data abstracted into structured TypeScript modules (`data.ts`) to simulate structured dynamic content while the backend layer is not yet implemented.
+It is designed with a focus on maintainability, modularity, and future backend integration.
+
+---
+
+## 📈 Project Evolution
+
+- **V1 (2022)** – Static multi-page architecture built with HTML, CSS, and JavaScript  
+- **V2 (2026)** – Re-architected as a component-based React application with TypeScript (current production version)
 
 ---
 
@@ -34,9 +34,20 @@ The application is currently frontend-focused, with academic data abstracted int
 
 ---
 
-## 🎯 Objectives
+## 🚀 Key Improvements Over V1
 
-- Transition from static HTML architecture to a component-based system  
-- Improve code modularity and reusability  
-- Prepare the platform for future backend/API integration  
-- Enhance maintainability and long-term scalability  
+- Component-based architecture (React)
+- Improved code organization and scalability
+- Type safety with TypeScript
+- Modern development tooling (Vite)
+- Structured data handling using TypeScript modules
+- Active production deployment replacing the original static version
+
+---
+
+## 🔗 Previous Version (V1 – Legacy)
+
+The original static version of the platform (launched in 2022) is still available:
+
+💻 Repository: https://github.com/ahmed-skaik/Pharmacy
+🌐 Live Website: https://ahmed-skaik.github.io/Pharmacy/  
