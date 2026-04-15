@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import LevelDetails from "./pages/LevelDetails";
 import UniversityNeeds from "./pages/UniversityNeeds";
+import UniNeedsCourse from "./pages/UniNeedsCourse";
 import AnalyticsTracker from "./analytics/AnalyticsTracker";
 import ScrollToHash from "./utils/ScrollToHash";
 import LoadingPage from "./components/LoadingPage";
@@ -60,6 +61,7 @@ export default function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="levels/:levelId" element={<LevelDetails />} />
           <Route path="uni-needs" element={<UniversityNeeds />} />
+          <Route path="uni-needs/:subjectId" element={<UniNeedsCourse />} />
           <Route
             path="courses/:courseName"
             element={

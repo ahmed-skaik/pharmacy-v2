@@ -16,6 +16,7 @@ export default function PlansSection() {
         <div className="row mt-5 mb-5">
           {PLANS_DATA.map((plan) => (
             <PlanCard
+              key={plan.id}
               id={plan.id}
               pdfPath={plan.pdfPath}
               icon={plan.icon}

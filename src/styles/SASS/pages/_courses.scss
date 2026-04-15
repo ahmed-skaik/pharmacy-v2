@@ -624,3 +624,78 @@
   }
 }
 // content section end
+
+// University Needs index styles
+.uni-needs-group-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: $dark_blue;
+  border-bottom: 2px solid $id_color;
+  padding: 8px 0;
+  display: inline-block;
+  background-color: #fff;
+  position: relative;
+
+  span {
+    color: $id_color;
+  }
+}
+
+.uni-needs-card {
+  background-color: white;
+  border-radius: $border-radius;
+  border: 1px solid $border_color;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  z-index: 9;
+  position: relative;
+  h3 {
+    color: $black;
+    z-index: 9;
+    position: relative;
+  }
+  .more {
+    color: $id_color;
+    border-top: 1px solid $border_color;
+  }
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+    transition:
+      transform $main_transition,
+      box-shadow $main_transition;
+    .more {
+      transition: $main_transition;
+      span,
+      svg {
+        color: $hover_blue;
+      }
+      svg {
+        animation: arrow-right calc($main_transition * 2) linear infinite;
+      }
+    }
+  }
+}
+
+.uni-needs-meta {
+  color: $gray;
+  font-size: 14px;
+
+  svg {
+    color: $id_color;
+  }
+}
+
+.uni-needs-back {
+  color: $gray;
+  font-size: 15px;
+  transition: $main_transition;
+  text-decoration: none;
+
+  svg {
+    color: $id_color;
+  }
+
+  &:hover {
+    color: $id_color;
+  }
+}

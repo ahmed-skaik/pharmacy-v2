@@ -19,6 +19,7 @@ export default function LevelsSection() {
         <div className="row mt-5 mb-5">
           {CARDS_DATA.map((card) => (
             <LevelCard
+              key={card.id}
               id={card.id}
               path={card.path}
               title={card.title}
