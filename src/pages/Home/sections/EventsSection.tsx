@@ -15,6 +15,7 @@ export default function EventsSection() {
         />
         {EVENTS_DATA.map((event) => (
           <EventCard
+            key={event.id}
             id={event.id}
             pdfPath={event.pdfPath}
             websiteUrl={event.websiteUrl}
